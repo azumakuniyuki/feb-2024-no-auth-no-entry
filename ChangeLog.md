@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2023-12-11
+---------------------------------------------------------------------------------------------------
+- Update 81126: Email sender guidelines
+  - Description for a TLS connection in Google Workspace added
+  - `Keep spam rates below 0.30%|Oct. 2023|` has been removed from sender requirements table
+
 2023-12-06
 ---------------------------------------------------------------------------------------------------
 - Update 81126: Email sender guidelines
