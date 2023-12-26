@@ -1,6 +1,13 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2023-12-02
+---------------------------------------------------------------------------------------------------
+- Update 81126: Email sender guidelines
+  - Google Workspace account was excluded (@gmail.com and @googlemail.com only)
+  - Spam rate has been changed: 0.3% => 0.10%
+  - Linked to Email sender guidelines FAQ (14229214)
+
 2023-10-30
 ---------------------------------------------------------------------------------------------------
 - Update 81126: Email sender guidelines; Anouncement about One-click unsubscribe updated
