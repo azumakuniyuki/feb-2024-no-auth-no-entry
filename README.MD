@@ -27,9 +27,9 @@ yahoo-senders-best-practices/
 References
 ---------------------------------------------------------------------------------------------------
 - Google
-    - [https://support.google.com/a/answer/3726730?hl=en](Gmail SMTP Errors and Codes)
-    - [https://support.google.com/mail/answer/81126?hl=en](Email Sender Guidelines)
-    - [https://support.google.com/a/answer/14229414?hl=en](Email Sender Guidelines FAQ)
+    - [Gmail SMTP Errors and Codes(3726730)](https://support.google.com/a/answer/3726730?hl=en)
+    - [Email Sender Guidelines(81126)](https://support.google.com/mail/answer/81126?hl=en)
+    - [Email Sender Guidelines FAQ(14229414)](https://support.google.com/a/answer/14229414?hl=en)
 - Yahoo!
-    - [https://senders.yahooinc.com/best-practices/](Sender Hub/Sender Best Practices)
+    - [Sender Hub/Sender Best Practices](https://senders.yahooinc.com/best-practices/)
 
