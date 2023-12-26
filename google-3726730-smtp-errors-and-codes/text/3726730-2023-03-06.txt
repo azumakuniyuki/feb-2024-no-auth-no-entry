@@ -1,0 +1,213 @@
+Skip to main content
+ 
+Google Workspace Admin Help
+[                    ]
+ 
+Sign in
+ 
+Google Help
+
+  • Help Center
+  • Community
+  • Google Workspace Admin
+  • Privacy Policy
+  • Terms of Service
+  • Submit feedback
+
+Send feedback on...
+(*)
+This help content & information
+( )
+General Help Center experience
+Next
+
+  • Help Center
+  • Community
+  • 
+
+Google Workspace Admin
+
+  • Contact support / fix a problem
+  • Fix a problem
+  • Gmail issues
+  • Error messages
+  • Gmail SMTP errors and codes
+
+Gmail SMTP errors and codes
+
+You may see the following error messages and codes when using Gmail with Google
+Workspace . The messages and codes are helpful tools for diagnosing and
+troubleshooting email problems.
+
+Gmail appends one or both of the following identifiers to all error messages to
+show you the source of the error: 
+
+  • gsmtp (Google SMTP) is added to all errors. 
+  • gcdp (Google Custom Domain Policies) is added to errors resulting from
+    customized rules created by the administrator. 
+
+For example, "550 5.7.1 This message violates example.com email policy. - gcdp
+<sessionid> - gsmtp" indicates that the error is a result of a custom rule
+created by the administrator.
+
+For more information, visit About SMTP error messages.
+
+Note: Error #2014 is related to a Chrome browser extension. Disable your Chrome
+extensions one at a time to determine which extension is causing the error. The
+full text of error #2014 is: Oops... the system is experiencing a problem (#
+2014) - Try again.
+
+SMTP error messages
+
+421, "4.3.0", Temporary System Problem. Try again later
+421, "4.4.5", Server busy, try again later.
+421, "4.7.0", IP not in whitelist for RCPT domain, closing connection.
+421, "4.7.0", Our system has detected an unusual rate of unsolicited mail
+originating from your IP address. To protect our users from spam, mail sent
+from your IP address has been temporarily blocked. For more information, visit 
+Prevent mail to Gmail users from being blocked or sent to spam.
+421, "4.7.0", Temporary System Problem. Try again later.
+421, "4.7.0", TLS required for RCPT domain, closing connection.
+421, "4.7.0", Try again later, closing connection. This usually indicates a
+Denial of Service (DoS) for the SMTP relay at the HELO stage.
+450, "4.2.1" The user you are trying to contact is receiving mail too quickly.
+Please resend your message at a later time. If the user is able to receive mail
+at that time, your message will be delivered. For more information, visit 
+Limits for sending & getting mail.
+450, "4.2.1", The user you are trying to contact is receiving mail at a rate
+that prevents additional messages from being delivered. Please resend your
+message at a later time. If the user is able to receive mail at that time, your
+message will be delivered. For more information, visit Limits for sending &
+getting mail.
+450, "4.2.1", Peak SMTP relay limit exceeded for customer. This is a temporary
+error. For more information on SMTP relay limits, please contact your
+administrator or visit SMTP relay service error messages.
+451, "4.3.0", Mail server temporarily rejected message.
+451, "4.3.0", Multiple destination domains per transaction is unsupported.
+Please try again.
+451, "4.4.2", Timeout - closing connection.
+451, "4.5.0", SMTP protocol violation, visit RFC 2821. 
+452, "4.2.2", The email account that you tried to reach is over quota. Please
+direct the recipient to Clear Google Drive space & increase storage.
+452, "4.5.3", Domain policy size per transaction exceeded, please try this
+recipient in a separate transaction.
+This message means the email policy size (size of policies, number of policies,
+or both) for the recipient domain has been exceeded.
+
+452, "4.5.3", Your message has too many recipients. For more information
+regarding Google's sending limits, visit Limits for sending & getting mail.
+454, "4.5.0", SMTP protocol violation, no commands allowed to pipeline after
+STARTTLS, visit RFC 3207.
+454, "4.7.0", Cannot authenticate due to temporary system problem. Try again
+later.
+454, "5.5.1", STARTTLS may not be repeated.
+501, "5.5.2", Cannot Decode response.
+501, "5.5.4", HELO/EHLO argument is invalid. For more information, visit HELO/
+EHLO email error.
+502, "5.5.1", Too many unrecognized commands, goodbye.
+502, "5.5.1", Unimplemented command.
+502, "5.5.1", Unrecognized command.
+503, "5.5.1", "EHLO/HELO first.
+503, "5.5.1", MAIL first.
+503, "5.5.1", RCPT first.
+503, "5.7.0", No identity changes permitted.
+504, "5.7.4", Unrecognized Authentication Type.
+530, "5.5.1", Authentication Required. For more information, visit Can't sign
+in to your Google Account.
+530, "5.7.0", Must issue a STARTTLS command first.
+535, "5.5.4", Optional Argument not permitted for that AUTH mode.
+535, "5.7.1", Application-specific password required. For more information,
+visit Sign in using App Passwords.
+535, "5.7.1", Please log in with your web browser and then try again. For more
+information, visit Check Gmail through other email platforms.
+535, "5.7.1", Username and Password not accepted. For more information, visit 
+Can't sign in to your Google Account.
+550, "5.1.1", The email account that you tried to reach does not exist. Please
+try double-checking the recipient's email address for typos or unnecessary
+spaces. For more information, visit Fix bounced or rejected emails.
+550, "5.2.1", The email account that you tried to reach is disabled.
+550, "5.2.1", The user you are trying to contact is receiving mail at a rate
+that prevents additional messages from being delivered. For more information,
+visit Limits for sending & getting mail.
+550, "5.4.5", Daily sending quota exceeded. For more information, visit Email
+sending limits.
+550, "5.4.5", Daily SMTP relay limit exceeded for user. For more information on
+SMTP relay sending limits please contact your administrator or visit SMTP relay
+service error messages.
+550, "5.7.0", Mail relay denied.
+550, "5.7.0", Mail Sending denied. This error occurs if the sender account is
+disabled or not registered within your Google Workspace domain.
+550, "5.7.1", Email quota exceeded.
+550, "5.7.1", Invalid credentials for relay.
+550, "5.7.1", Our system has detected an unusual rate of unsolicited mail
+originating from your IP address. To protect our users from spam, mail sent
+from your IP address has been blocked. Review Prevent mail to Gmail users from
+being blocked or sent to spam.
+550, "5.7.1", Our system has detected that this message is likely unsolicited
+mail. To reduce the amount of spam sent to Gmail, this message has been
+blocked. For more information, visit Why has Gmail blocked my messages?
+550, "5.7.1", The IP you're using to send mail is not authorized to send email
+directly to our servers. Please use the SMTP relay at your service provider
+instead. For more information, visit 'The IP you're using to send email is not
+authorized...'.
+550, "5.7.1", The user or domain that you are sending to (or from) has a policy
+that prohibited the mail that you sent. Please contact your domain
+administrator for further details. For more information, visit Sorry, a policy
+is in place that prevents your message from being sent.
+550, "5.7.1", Unauthenticated email is not accepted from this domain.
+550, "5.7.1", Daily SMTP relay limit exceeded for customer. For more
+information on SMTP relay sending limits please contact your administrator or
+visit SMTP relay service error messages.
+550, "5.7.26", " Unauthenticated email from domain-name is not accepted due to
+domain's DMARC policy. Please contact the administrator of domain-name domain.
+If this was a legitimate mail please visit Control unauthenticated mail from
+your domain to learn about the DMARC initiative. If the messages are valid and
+aren't spam, contact the administrator of the receiving mail server to
+determine why your outgoing messages don't pass authentication checks.
+550, "5.7.26", "This message does not have authentication information or fails
+to pass authentication checks (SPF or DKIM). To best protect our users from
+spam, the message has been blocked. Please visit Prevent mail to Gmail users
+from being blocked or sent to spam for more information."
+
+550, "5.7.26", "This message fails to pass SPF checks for an SPF record with a
+hard fail policy (-all). To best protect our users from spam and phishing, the
+message has been blocked. Please visit Prevent mail to Gmail users from being
+blocked or sent to spam for more information."
+552, "5.2.2", The email account that you tried to reach is over quota.
+552, "5.2.3", Your message exceeded Google's message size limits. For more
+information, visit Send attachments with your Gmail message.
+553, "5.1.2", We weren't able to find the recipient domain. Please check for
+any spelling errors, and make sure you didn't enter any spaces, periods, or
+other punctuation after the recipient's email address.
+554, "5.6.0", Mail message is malformed. Not accepted.
+554, "5.6.0", Message exceeded 50 hops, this may indicate a mail loop.
+554, "5.7.0", Too Many Unauthenticated commands.
+555, "5.5.2", Syntax error.
+
+Was this helpful?
+How can we improve it?
+YesNo
+[                    ]
+Submit
+Need more help?
+
+Sign in for additional support options to quickly solve your issue
+
+Sign in
+true
+
+Error messages
+
+  • About SMTP error messages
+  • Gmail SMTP errors and codes
+
+' data-mime-type=
+Start your free 14-day trial today
+
+Professional email, online storage, shared calendars, video meetings and more.
+Start your free Google Workspace trial today.
+
+  • ©2023 Google
+  • Privacy Policy
+  • Terms of Service
+
