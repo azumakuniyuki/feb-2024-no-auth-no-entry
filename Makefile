@@ -10,6 +10,7 @@ PERL  ?= perl
 WGET  := wget -c
 W3M   := w3m -M
 CURL  := curl -L
+TEMP  := temp
 MKDIR := mkdir -p
 CP    := cp -p
 MV    := mv
@@ -24,7 +25,12 @@ REPOS_TARGETS = git-status git-push git-commit-amend git-tag-list git-diff git-r
 updates:
 	$(MAKE) 3726730 81126 14229414 senders-best-practices
 
-smtp-errors-and-codes:
+temp-dirs:
+	test -d ./$(TEMP)      || $(MKDIR) ./$(TEMP)
+	test -d ./$(TEMP)/text || $(MKDIR) ./$(TEMP)/text
+	test -d ./$(TEMP)/html || $(MKDIR) ./$(TEMP)/html
+
+smtp-errors-and-codes: temp-dirs
 	@ touch $@
 
 3726730: smtp-errors-and-codes
@@ -37,11 +43,11 @@ smtp-errors-and-codes:
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
 	$(CP) ./$@.txt  ./google-$@-$<.txt
-	$(CP) ./$@.txt  ./google-$@-$</text/$@-`date '+%F'`.txt
-	$(MV) ./$@.html ./google-$@-$</html/$@-`date '+%F'`.html
+	$(MV) ./$@.txt  $(TEMP)/text/google-$@-$<-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/google-$@-$<-`date '+%F'`.html
 	$(RM) $<
 
-email-sender-guidelines:
+email-sender-guidelines: temp-dirs
 	@ touch $@
 
 81126: email-sender-guidelines
@@ -54,11 +60,11 @@ email-sender-guidelines:
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
 	$(CP) ./$@.txt  ./google-$@-$<.txt
-	$(CP) ./$@.txt  ./google-$@-$</text/$@-`date '+%F'`.txt
-	$(MV) ./$@.html ./google-$@-$</html/$@-`date '+%F'`.html
+	$(MV) ./$@.txt  $(TEMP)/text/google-$@-$<-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/google-$@-$<-`date '+%F'`.html
 	$(RM) $<
 
-email-sender-guidelines-faq:
+email-sender-guidelines-faq: temp-dirs
 	@ touch $@
 
 14229414: email-sender-guidelines-faq
@@ -71,11 +77,11 @@ email-sender-guidelines-faq:
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
 	$(CP) ./$@.txt  ./google-$@-$<.txt
-	$(CP) ./$@.txt  ./google-$@-$</text/$@-`date '+%F'`.txt
-	$(MV) ./$@.html ./google-$@-$</html/$@-`date '+%F'`.html
+	$(MV) ./$@.txt  $(TEMP)/text/google-$@-$<-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/google-$@-$<-`date '+%F'`.html
 	$(RM) $<
 
-senders-best-practices:
+senders-best-practices: temp-dirs
 	# Sender Hub/Sender Best Practices
 	# https://senders.yahooinc.com/best-practices/
 	$(WGET) -O $@.html "https://senders.yahooinc.com/best-practices/"
@@ -84,8 +90,8 @@ senders-best-practices:
 	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
 
 	$(CP) ./$@.txt  ./yahoo-$@.txt
-	$(MV) ./$@.txt  ./yahoo-$@/text/yahoo-`date '+%F'`.txt
-	$(MV) ./$@.html ./yahoo-$@/html/yahoo-`date '+%F'`.html
+	$(MV) ./$@.txt  $(TEMP)/text/yahoo-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/yahoo-`date '+%F'`.html
 
 # -------------------------------------------------------------------------------------------------
 git-status:
