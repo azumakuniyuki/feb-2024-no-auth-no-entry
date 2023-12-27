@@ -1,4 +1,2 @@
-temp/
-text/
-html/
+./temp
 ./*.html
