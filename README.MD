@@ -84,12 +84,46 @@ index 2496278..ee32aaa 100644
 ...
 ```
 
-
 ### Check differences(2)
+The `google-81126-email-sender-guidelines/text` directory has files for the days that important
+changes were made. The following command can also be used to check the changes made in October and
+December.
+
+```
+% cd ./google-81126-email-sender-guidelines/text
+% diff -u 81126-2023-10-03.txt 81126-2023-12-02.txt
+--- 81126-2023-10-03.txt	2023-12-26 22:00:49.000000000 +0900
++++ 81126-2023-12-02.txt	2023-12-26 22:42:38.000000000 +0900
+@@ -2,7 +2,7 @@
+
+ Gmail Help
+ [                    ]
+-
++●
+ Sign in
+
+ Google Help
+@@ -39,11 +39,8 @@
+ more emails per day.
+
+ The guidelines in this article can help you successfully send and deliver email
+-to Gmail accounts. A Gmail account is one of these account types:
+-
+-  • A personal account that ends in @gmail.com or @googlemail.com
+-  • A work or school account from Google Workspace. These account types don’t
+-    end in @gmail.com.
++to personal Gmail accounts. A personal Gmail account is an account that ends in
++@gmail.com or @googlemail.com.
+...
+```
+
+### Check differences(3)
 To check for important updates, run `git diff google-81126-email-sender-guidelines.txt` after
 running the make updates command. 
 
 ```
+% make updates (OR make 81126)
+...
 % git diff google-81126-email-sender-guidelines.txt
 diff --git a/google-81126-email-sender-guidelines.txt b/google-81126-email-sender-guidelines.txt
 index ee32aaa..518f70d 100644
