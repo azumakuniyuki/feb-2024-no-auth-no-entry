@@ -1,6 +1,15 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2023-12-20
+---------------------------------------------------------------------------------------------------
+- Update Yahoo! Sender Best Practices
+  - Title changed: "Sender Best Practices" => "Sender Requirements & Recommendations"
+  - Anounced about "No Auth, No Entry" starting from February 2024
+    - Email Sender Requirements
+    - Requirements for Bulk Senders
+    - Additional Recommendations for Senders
+
 2023-12-11
 ---------------------------------------------------------------------------------------------------
 - Update 81126: Email sender guidelines
