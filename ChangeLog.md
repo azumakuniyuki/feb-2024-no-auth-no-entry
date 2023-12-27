@@ -20,6 +20,10 @@ Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
   - Spam rate has been changed: 0.3% => 0.10%
   - Linked to Email sender guidelines FAQ (14229214)
 
+2023-11-18
+---------------------------------------------------------------------------------------------------
+- Register Yahoo! Sender Hub/Sender Best Practices
+
 2023-10-30
 ---------------------------------------------------------------------------------------------------
 - Update 81126: Email sender guidelines; Anouncement about One-click unsubscribe updated
