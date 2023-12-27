@@ -133,4 +133,5 @@ git-rm-cached:
 
 # -------------------------------------------------------------------------------------------------
 clean:
+	$(RM) ./smtp-errors-and-codes ./email-sender-guidelines ./email-sender-guidelines-faq
 
