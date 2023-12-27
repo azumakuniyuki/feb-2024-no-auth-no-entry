@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2023-12-27
+---------------------------------------------------------------------------------------------------
+- Update Yahoo! Sender Best Practices
+  - Update the Note in "Email Sender Requirements"
+  - Update "Requirements for Bulk Senders/1. Authenticate your mail"
+
 2023-12-24
 ---------------------------------------------------------------------------------------------------
 - Register 14229214: Email sender guidelines FAQ
