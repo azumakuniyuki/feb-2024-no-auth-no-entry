@@ -22,6 +22,11 @@ yahoo-senders-best-practices.txt ---------------- The latest "Senders best pract
 yahoo-senders-best-practices/
   text/ ----------------------------------------- Keeping updated text files of text above
   html/ ----------------------------------------- Keeping updated HTML files of text above
+
+google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt
+google-6254652-feedback-loop.txt
+yahoo-senders-faq.txt
+yahoo-senders-smtp-error-codes.txt
 ```
 
 Download the latest announcements
@@ -145,6 +150,10 @@ References
     - [Gmail SMTP Errors and Codes(3726730)](https://support.google.com/a/answer/3726730?hl=en)
     - [Email Sender Guidelines(81126)](https://support.google.com/mail/answer/81126?hl=en)
     - [Email Sender Guidelines FAQ(14229414)](https://support.google.com/a/answer/14229414?hl=en)
+    - [Email sender requirements & Postmaster Tools FAQ](https://support.google.com/mail/answer/14289100?hl=en)
+    - [Feedback Loop](https://support.google.com/mail/answer/6254652?hl=en)
 - Yahoo!
     - [Sender Hub/Sender Best Practices](https://senders.yahooinc.com/best-practices/)
+    - [Yahoo! Sender FAQ](https://senders.yahooinc.com/faqs/)
+    - [Yahoo! Sender SMTP Error Codes](https://senders.yahooinc.com/smtp-error-codes/)
 

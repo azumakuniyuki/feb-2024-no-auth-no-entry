@@ -1,6 +1,22 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2023-12-28
+---------------------------------------------------------------------------------------------------
+- Register the following files:
+  - google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt
+    - Email sender requirements & Postmaster Tools FAQ
+    - https://support.google.com/mail/answer/14289100
+  - google-6254652-feedback-loop.txt
+    - Feedback Loop
+    - https://support.google.com/mail/answer/6254652
+  - yahoo-senders-faq.txt
+    - Yahoo! Sender FAQ
+    - https://senders.yahooinc.com/faqs/
+  - yahoo-senders-smtp-error-codes.txt
+    - Yahoo! Sender SMTP Error Codes
+    - https://senders.yahooinc.com/smtp-error-codes/
+
 2023-12-27
 ---------------------------------------------------------------------------------------------------
 - Update Yahoo! Sender Best Practices
