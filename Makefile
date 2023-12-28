@@ -23,7 +23,12 @@ REPOS_TARGETS = git-status git-push git-commit-amend git-tag-list git-diff git-r
 .PHONY: clean
 
 updates:
-	$(MAKE) 3726730 81126 14229414 senders-best-practices
+	$(MAKE) 3726730		# Google: Gmail SMTP errors and codes
+	$(MAKE) 81126   	# Google: Email Sender Guidelines
+	$(MAKE) 14229414	# Google: Email Sender Guidelines FAQ
+	$(MAKE) 14289100	# Google: Email Sender Requirements & Postmaster Tools FAQ
+	$(MAKE)	6254652		# Google: Feedback Loop
+	$(MAKE) senders-best-practices	# Yahoo! Sender Best Practices
 
 temp-dirs:
 	test -d ./$(TEMP)      || $(MKDIR) ./$(TEMP)
@@ -71,6 +76,40 @@ email-sender-guidelines-faq: temp-dirs
 	# Email Sender Guidelines FAQ
 	# https://support.google.com/a/answer/14229414?hl=en
 	$(WGET) -O $@.html "https://support.google.com/a/answer/14229414?hl=en"
+	$(W3M) ./$@.html > $@.txt
+	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
+	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
+
+	$(CP) ./$@.txt  ./google-$@-$<.txt
+	$(MV) ./$@.txt  $(TEMP)/text/google-$@-$<-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/google-$@-$<-`date '+%F'`.html
+	$(RM) $<
+
+email-sender-requirements-and-postmaster-tools-faq: temp-dirs
+	@ touch $@
+
+14289100: email-sender-requirements-and-postmaster-tools-faq
+	# Email sender requirements & Postmaster Tools FAQ
+	# https://support.google.com/mail/answer/14289100?hl=en
+	$(WGET) -O $@.html "https://support.google.com/mail/answer/14289100?hl=en"
+	$(W3M) ./$@.html > $@.txt
+	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
+	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
+
+	$(CP) ./$@.txt  ./google-$@-$<.txt
+	$(MV) ./$@.txt  $(TEMP)/text/google-$@-$<-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/google-$@-$<-`date '+%F'`.html
+	$(RM) $<
+
+feedback-loop: temp-dirs
+	@ touch $@
+
+6254652: feedback-loop
+	# Feedback Loop
+	# https://support.google.com/mail/answer/6254652
+	$(WGET) -O $@.html "https://support.google.com/mail/answer/6254652?hl=en"
 	$(W3M) ./$@.html > $@.txt
 	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
 	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
