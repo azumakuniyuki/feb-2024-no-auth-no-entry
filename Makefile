@@ -128,8 +128,8 @@ senders-best-practices: temp-dirs
 	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
 
 	$(CP) ./$@.txt  ./yahoo-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/yahoo-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/yahoo-`date '+%F'`.html
+	$(MV) ./$@.txt  $(TEMP)/text/yahoo-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/yahoo-$@-`date '+%F'`.html
 
 senders-faq: temp-dirs
 	# Yahoo! Sender FAQ: https://senders.yahooinc.com/faqs/
@@ -139,8 +139,8 @@ senders-faq: temp-dirs
 	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
 
 	$(CP) ./$@.txt  ./yahoo-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/yahoo-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/yahoo-`date '+%F'`.html
+	$(MV) ./$@.txt  $(TEMP)/text/yahoo-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/yahoo-$@-`date '+%F'`.html
 
 senders-smtp-error-codes: temp-dirs
 	# Yahoo! Sender SMTP Error Codes: https://senders.yahooinc.com/smtp-error-codes/
@@ -150,8 +150,8 @@ senders-smtp-error-codes: temp-dirs
 	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
 
 	$(CP) ./$@.txt  ./yahoo-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/yahoo-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/yahoo-`date '+%F'`.html
+	$(MV) ./$@.txt  $(TEMP)/text/yahoo-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/yahoo-$@-`date '+%F'`.html
 
 # -------------------------------------------------------------------------------------------------
 git-status:
