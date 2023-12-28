@@ -1,0 +1,126 @@
+Skip to main content
+ 
+Gmail Help
+[                    ]
+●
+Sign in
+ 
+Google Help
+
+  • Help Center
+  • Community
+  • Gmail
+  • Privacy Policy
+  • Terms of Service
+  • Submit feedback
+
+Send feedback on...
+(*)
+This help content & information
+( )
+General Help Center experience
+Next
+
+  • Help Center
+  • Community
+  • New to integrated Gmail
+
+Gmail
+
+  • Bulk email sending guidelines & tools
+  • Feedback Loop
+
+Feedback Loop
+
+If you’re a large volume sender, you can use the Feedback Loop (FBL) to
+identify campaigns in your traffic that are getting a high volume of complaints
+from Gmail users. The FBL is particularly useful to email service providers to
+detect abuse of their services.
+
+Note: FBL data will only pertain to @gmail.com recipients.
+
+How to implement the FBL
+
+Senders will need to embed a new header called the Feedback-ID, consisting of
+parameters (called "Identifiers") that uniquely identify their individual
+campaigns. Any Identifiers with an unusual spam rate and that might cause
+deliverability issues will be reported in the Postmaster Tools FBL dashboard.
+
+Header format
+
+Feedback-ID: a:b:c:SenderId
+
+  • Feedback-ID: Name of the Header to be embedded.
+  • a, b, c: Optional fields that can be used by the sender to embed up to 3
+    Identifiers (campaign/customer/other).
+  • SenderId: Mandatory unique Identifier (5–15 characters) chosen by the
+    sender. It should be consistent across the mail stream.
+
+About the data
+
+The aggregate data will be generated for the first 4 fields (as separated by
+‘:’) of the Feedback-ID:, starting from the right side. If the SenderId is
+empty, no data will be generated. If another field is empty, data will be
+generated for the rest of the fields.
+
+In order to prevent spoofing of the Feedback-ID, the traffic being sent to
+Gmail needs to be DKIM signed by a domain owned (or controlled) by the sender,
+after the addition of this header. This domain should be added and verified to
+the Gmail Postmaster Tools, so the sender can access the FBL data.
+
+  • Senders should ensure that their traffic has only one such verified header.
+  • Senders will have to publish the IPs from which they’re sending mail in the
+    SPF records of their signing domains. The sending IPs must have PTR records
+    and resolve to a valid hostname (preferably one of the DKIM domains).
+  • For a given day’s traffic, FBL reports are generated only if a given
+    Identifier is present in a certain volume of mails as well as in distinct
+    user spam reports.
+  • FBL data will be aggregated on each Identifier independently. This also
+    allows for the use of less than 3 Identifiers, if needed.
+  • For a given day's traffic, the sender should ensure that the Identifiers
+    across fields not repeated, so that data is not aggregated across unrelated
+    Identifiers. If there is a concern about the uniqueness of the Identifier
+    namespace, or if the sender prefers for the data to be grouped between two
+    Identifiers, the hash of one Identifier can be appended to the other.
+  • When choosing the Identifiers, the sender should not use a parameter that
+    will be unique across every single mail (for example, a unique Message-ID).
+
+Below is an example for illustration:
+
+Feedback-ID: CampaignIDX:CustomerID2:MailTypeID3:SenderId
+
+  • CampaignIDX: Campaign Identifier specific to Customer2 and is unique across
+    the board (that is, no 2 customers share the same campaign ID).
+  • CustomerID2: Unique customer Identifier.
+  • MailTypeID3: Identifier for the type of mail (for example, a newsletter
+    versus a product update) and can be either unique or common across
+    customers, based on how the sender wants to view the data.
+  • SenderId: Sender's unique Identifier and can be used for overall
+    statistics.
+
+In the above case, we would send the spam percentages for each of the 4
+Identifiers independently, if they had an unusual spam rate.
+
+Need more help?
+
+Try these next steps:
+
+Post to the help community Get answers from community members
+true
+
+Bulk email sending guidelines & tools
+
+  • 1 of 4
+    Email sender guidelines
+  • 2 of 4
+    Email sender guidelines FAQ
+  • 3 of 4
+    Feedback Loop
+  • 4 of 4
+    Postmaster Tools
+
+  • ©2023 Google
+  • Privacy Policy
+  • Terms of Service
+  • Program Policies
+
