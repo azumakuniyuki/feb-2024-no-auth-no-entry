@@ -35,12 +35,14 @@ temp-dirs:
 	test -d ./$(TEMP)/text || $(MKDIR) ./$(TEMP)/text
 	test -d ./$(TEMP)/html || $(MKDIR) ./$(TEMP)/html
 
+url-list:
+	@ grep '^\t# ' Makefile | tr -d '\t' | tr '#' '-'
+
 smtp-errors-and-codes: temp-dirs
 	@ touch $@
 
 3726730: smtp-errors-and-codes
-	# Gmail SMTP Errors and Codes
-	# https://support.google.com/a/answer/3726730?hl=en
+	# Gmail SMTP Errors and Codes: https://support.google.com/a/answer/3726730
 	$(WGET) -O $@.html "https://support.google.com/a/answer/3726730?hl=en"
 	$(W3M) ./$@.html > $@.txt
 	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
@@ -56,8 +58,7 @@ email-sender-guidelines: temp-dirs
 	@ touch $@
 
 81126: email-sender-guidelines
-	# Email Sender Guidelines
-	# https://support.google.com/mail/answer/81126?hl=en
+	# Email Sender Guidelines: https://support.google.com/mail/answer/81126
 	$(WGET) -O $@.html "https://support.google.com/mail/answer/81126?hl=en"
 	$(W3M) ./$@.html > $@.txt
 	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
@@ -73,8 +74,7 @@ email-sender-guidelines-faq: temp-dirs
 	@ touch $@
 
 14229414: email-sender-guidelines-faq
-	# Email Sender Guidelines FAQ
-	# https://support.google.com/a/answer/14229414?hl=en
+	# Email Sender Guidelines FAQ: https://support.google.com/a/answer/14229414
 	$(WGET) -O $@.html "https://support.google.com/a/answer/14229414?hl=en"
 	$(W3M) ./$@.html > $@.txt
 	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
@@ -90,8 +90,7 @@ email-sender-requirements-and-postmaster-tools-faq: temp-dirs
 	@ touch $@
 
 14289100: email-sender-requirements-and-postmaster-tools-faq
-	# Email sender requirements & Postmaster Tools FAQ
-	# https://support.google.com/mail/answer/14289100?hl=en
+	# Email sender requirements & Postmaster Tools FAQ: https://support.google.com/mail/answer/14289100
 	$(WGET) -O $@.html "https://support.google.com/mail/answer/14289100?hl=en"
 	$(W3M) ./$@.html > $@.txt
 	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
@@ -107,8 +106,7 @@ feedback-loop: temp-dirs
 	@ touch $@
 
 6254652: feedback-loop
-	# Feedback Loop
-	# https://support.google.com/mail/answer/6254652
+	# Feedback Loop: https://support.google.com/mail/answer/6254652
 	$(WGET) -O $@.html "https://support.google.com/mail/answer/6254652?hl=en"
 	$(W3M) ./$@.html > $@.txt
 	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
@@ -121,8 +119,7 @@ feedback-loop: temp-dirs
 	$(RM) $<
 
 senders-best-practices: temp-dirs
-	# Sender Hub/Sender Best Practices
-	# https://senders.yahooinc.com/best-practices/
+	# Yahoo! Sender Best Practices: https://senders.yahooinc.com/best-practices/
 	$(WGET) -O $@.html "https://senders.yahooinc.com/best-practices/"
 	$(W3M) ./$@.html > $@.txt
 	test -d ./yahoo-$@/text || $(MKDIR) ./yahoo-$@/text
