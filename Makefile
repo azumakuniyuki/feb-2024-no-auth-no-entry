@@ -29,6 +29,7 @@ updates:
 	$(MAKE) 14289100	# Google: Email Sender Requirements & Postmaster Tools FAQ
 	$(MAKE)	6254652		# Google: Feedback Loop
 	$(MAKE) senders-best-practices	# Yahoo! Sender Best Practices
+	$(MAKE) senders-faq	# Yahoo! Sender FAQ
 
 temp-dirs:
 	test -d ./$(TEMP)      || $(MKDIR) ./$(TEMP)
@@ -121,6 +122,17 @@ feedback-loop: temp-dirs
 senders-best-practices: temp-dirs
 	# Yahoo! Sender Best Practices: https://senders.yahooinc.com/best-practices/
 	$(WGET) -O $@.html "https://senders.yahooinc.com/best-practices/"
+	$(W3M) ./$@.html > $@.txt
+	test -d ./yahoo-$@/text || $(MKDIR) ./yahoo-$@/text
+	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
+
+	$(CP) ./$@.txt  ./yahoo-$@.txt
+	$(MV) ./$@.txt  $(TEMP)/text/yahoo-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/yahoo-`date '+%F'`.html
+
+senders-faq: temp-dirs
+	# Yahoo! Sender FAQ: https://senders.yahooinc.com/faqs/
+	$(WGET) -O $@.html "https://senders.yahooinc.com/faqs/"
 	$(W3M) ./$@.html > $@.txt
 	test -d ./yahoo-$@/text || $(MKDIR) ./yahoo-$@/text
 	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
