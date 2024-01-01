@@ -119,7 +119,7 @@ Bulk email sending guidelines & tools
   • 4 of 4
     Postmaster Tools
 
-  • ©2023 Google
+  • ©2024 Google
   • Privacy Policy
   • Terms of Service
   • Program Policies

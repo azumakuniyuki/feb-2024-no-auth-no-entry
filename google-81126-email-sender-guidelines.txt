@@ -27,7 +27,7 @@ Next
 
 Gmail
 
-  • Send bulk emails
+  • Bulk email sending guidelines & tools
   • Email sender guidelines
 
 Email sender guidelines
@@ -563,16 +563,18 @@ Try these next steps:
 Post to the help community Get answers from community members
 true
 
-Send bulk emails
+Bulk email sending guidelines & tools
 
-  • 1 of 3
+  • 1 of 4
     Email sender guidelines
-  • 2 of 3
+  • 2 of 4
+    Email sender guidelines FAQ
+  • 3 of 4
     Feedback Loop
-  • 3 of 3
+  • 4 of 4
     Postmaster Tools
 
-  • ©2023 Google
+  • ©2024 Google
   • Privacy Policy
   • Terms of Service
   • Program Policies

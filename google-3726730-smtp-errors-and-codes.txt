@@ -2,7 +2,7 @@ Skip to main content
  
 Google Workspace Admin Help
 [                    ]
- 
+●
 Sign in
  
 Google Help
@@ -185,29 +185,33 @@ other punctuation after the recipient's email address.
 555, "5.5.2", Syntax error.
 
 Was this helpful?
+
 How can we improve it?
 YesNo
 [                    ]
 Submit
 Need more help?
 
-Sign in for additional support options to quickly solve your issue
+Try these next steps:
 
-Sign in
+Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
 true
 
 Error messages
 
-  • About SMTP error messages
-  • Gmail SMTP errors and codes
+  • 1 of 2
+    About SMTP error messages
+  • 2 of 2
+    Gmail SMTP errors and codes
 
-' data-mime-type=
+[exxMjxadqE]
 Start your free 14-day trial today
 
 Professional email, online storage, shared calendars, video meetings and more.
 Start your free Google Workspace trial today.
 
-  • ©2023 Google
+  • ©2024 Google
   • Privacy Policy
   • Terms of Service
 

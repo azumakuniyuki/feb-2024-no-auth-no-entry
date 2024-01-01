@@ -130,7 +130,7 @@ Postmaster Tools
   • 3 of 3
     Email sender requirements & Postmaster Tools FAQ
 
-  • ©2023 Google
+  • ©2024 Google
   • Privacy Policy
   • Terms of Service
   • Program Policies
