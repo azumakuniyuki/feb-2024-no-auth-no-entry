@@ -1,4 +1,5 @@
  
+Dashboard
 Sender Features
 Complaint Feedback LoopAMPPromotions & SchemaBIMIVTOSubscription HubPerformance
 Feeds
@@ -208,29 +209,12 @@ Be compliant with RFCs and CAN-SPAM
   • All email must be compliant with RFC 5321 and RFC 5322.
 
 Support
-
-Terms
-and
-Privacy Policy
-Privacy DashboardAbout UsJobsDeveloper PrivacyDeveloper TermsDeveloper Policies
-Site Feedback
-
+About Us
 Brands
-
-AOLYahooYahoo Developer NetworkYahoo Advertising
-     
-© 2023 Yahoo. All rights reserved.
-
+AOLYahoo
+© 2024 Yahoo. All rights reserved.
 Support
-
-Terms
-and
-Privacy Policy
-Privacy DashboardAbout UsJobsDeveloper PrivacyDeveloper TermsDeveloper Policies
-Site Feedback
-
+About Us
 Brands
-
-AOLYahooYahoo Developer NetworkYahoo Advertising
-     
-© 2023 Yahoo. All rights reserved.
+AOLYahoo
+© 2024 Yahoo. All rights reserved.

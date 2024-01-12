@@ -1,4 +1,5 @@
  
+Dashboard
 Sender Features
 Complaint Feedback LoopAMPPromotions & SchemaBIMIVTOSubscription HubPerformance
 Feeds
@@ -9,7 +10,7 @@ Developers
 API AccessDocumentation
 Contact
 [svg]
-[92][FAQ-Hero-B][FAQ-Hero-B]
+[92][hero-bg][hero-bg]
 
 FAQs
 
@@ -370,29 +371,12 @@ I published a BIMI record but my logo is not displayed. Why?
     much details as possible.
 
 Support
-
-Terms
-and
-Privacy Policy
-Privacy DashboardAbout UsJobsDeveloper PrivacyDeveloper TermsDeveloper Policies
-Site Feedback
-
+About Us
 Brands
-
-AOLYahooYahoo Developer NetworkYahoo Advertising
-     
-© 2023 Yahoo. All rights reserved.
-
+AOLYahoo
+© 2024 Yahoo. All rights reserved.
 Support
-
-Terms
-and
-Privacy Policy
-Privacy DashboardAbout UsJobsDeveloper PrivacyDeveloper TermsDeveloper Policies
-Site Feedback
-
+About Us
 Brands
-
-AOLYahooYahoo Developer NetworkYahoo Advertising
-     
-© 2023 Yahoo. All rights reserved.
+AOLYahoo
+© 2024 Yahoo. All rights reserved.

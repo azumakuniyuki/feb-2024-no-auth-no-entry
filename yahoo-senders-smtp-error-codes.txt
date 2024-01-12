@@ -1,4 +1,5 @@
  
+Dashboard
 Sender Features
 Complaint Feedback LoopAMPPromotions & SchemaBIMIVTOSubscription HubPerformance
 Feeds
@@ -9,7 +10,7 @@ Developers
 API AccessDocumentation
 Contact
 [svg]
-[k2oYRlIN1Z][SMTP-Error][SMTP-Error]
+[k2oYRlIN1Z][hero-bg][hero-bg]
 
 SMTP Error Codes
 
@@ -250,29 +251,12 @@ bounced back to you, you might want to verify that the account hasn't been
 closed or moved.
 
 Support
-
-Terms
-and
-Privacy Policy
-Privacy DashboardAbout UsJobsDeveloper PrivacyDeveloper TermsDeveloper Policies
-Site Feedback
-
+About Us
 Brands
-
-AOLYahooYahoo Developer NetworkYahoo Advertising
-     
-© 2023 Yahoo. All rights reserved.
-
+AOLYahoo
+© 2024 Yahoo. All rights reserved.
 Support
-
-Terms
-and
-Privacy Policy
-Privacy DashboardAbout UsJobsDeveloper PrivacyDeveloper TermsDeveloper Policies
-Site Feedback
-
+About Us
 Brands
-
-AOLYahooYahoo Developer NetworkYahoo Advertising
-     
-© 2023 Yahoo. All rights reserved.
+AOLYahoo
+© 2024 Yahoo. All rights reserved.
