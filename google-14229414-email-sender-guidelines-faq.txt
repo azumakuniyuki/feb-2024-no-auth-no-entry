@@ -257,13 +257,15 @@ true
 
 Bulk email sending guidelines & tools
 
-  • 1 of 4
+  • 1 of 5
     Email sender guidelines
-  • 2 of 4
+  • 2 of 5
     Email sender guidelines FAQ
-  • 3 of 4
+  • 3 of 5
     Feedback Loop
-  • 4 of 4
+  • 4 of 5
+    Control unauthenticated mail from your domain
+  • 5 of 5
     Postmaster Tools
 
 [exxMjxadqE]

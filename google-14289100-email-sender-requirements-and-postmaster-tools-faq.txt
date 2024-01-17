@@ -1,6 +1,6 @@
 Skip to main content
  
-Gmail Help
+Google Workspace Admin Help
 [                    ]
 ●
 Sign in
@@ -9,7 +9,7 @@ Google Help
 
   • Help Center
   • Community
-  • Gmail
+  • Google Workspace Admin
   • Privacy Policy
   • Terms of Service
   • Submit feedback
@@ -23,10 +23,12 @@ Next
 
   • Help Center
   • Community
-  • New to integrated Gmail
+  • 
 
-Gmail
+Google Workspace Admin
 
+  • Gmail
+  • Gmail limits and policies
   • Bulk email sending guidelines & tools
   • Postmaster Tools
   • Email sender requirements & Postmaster Tools FAQ
@@ -114,11 +116,18 @@ To monitor your messages or campaigns for a high volume of complaints from
 recipients, add the Feedback-ID: header to your messages, and use Feedback
 Loop. For details, visit Feedback Loop.
 
+Was this helpful?
+
+How can we improve it?
+YesNo
+[                    ]
+Submit
 Need more help?
 
 Try these next steps:
 
 Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
 true
 
 Postmaster Tools
@@ -130,8 +139,13 @@ Postmaster Tools
   • 3 of 3
     Email sender requirements & Postmaster Tools FAQ
 
+[exxMjxadqE]
+Start your free 14-day trial today
+
+Professional email, online storage, shared calendars, video meetings and more.
+Start your free Google Workspace trial today.
+
   • ©2024 Google
   • Privacy Policy
   • Terms of Service
-  • Program Policies
 
