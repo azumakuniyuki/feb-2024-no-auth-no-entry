@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-01-18
+---------------------------------------------------------------------------------------------------
+- Google Email sender guidelines FAQ has been updated
+  - Some questions and answers added in Unsubscribe links section
+
 2023-12-28
 ---------------------------------------------------------------------------------------------------
 - Register the following files:
