@@ -36,9 +36,10 @@ Email sender guidelines FAQ
 
 This FAQ provides additional, detailed information about our Email sender
 guidelines (previously called Bulk sender guidelines), which describe Google's
-requirements for sending email to personal Gmail accounts. Google updates this
-page periodically, so check back regularly to get the latest information and
-requirements for bulk email senders.
+requirements for sending email to personal Gmail accounts.
+
+We update this FAQ periodically, so check back regularly to get the latest
+information and requirements for bulk email senders.
 
 Important: Starting February 2024, Gmail will require the following for senders
 who send 5,000 or more messages a day to Gmail accounts: Authenticate outgoing
@@ -52,7 +53,7 @@ Bulk senders
 
 What is a bulk sender?
 
-A bulk sender is any email sender that sends close to 5,000 or more messages to
+A bulk sender is any email sender that sends close to 5,000 messages or more to
 personal Gmail accounts within a 24-hour period. Messages sent from the same
 primary domain count toward the 5,000 limit.
 
@@ -150,7 +151,7 @@ Spam rate impact is graduated, and spam rates of 0.3% or higher have an even
 greater negative impact on email inbox delivery. Even today, spam rates greater
 than 0.1% have a negative impact on email inbox delivery for bulk senders. When
 we begin enforcing sender guidelines, messages from bulk senders with a spam
-rate higher than 0.3% can be sent to spam or they can be rejected.
+rate higher than 0.3% may be sent to spam.
 
 You can monitor your spam rate with Postmaster Tools.
 
@@ -162,7 +163,7 @@ Unsubscribe links
 
 Do all messages require one-click unsubscribe?
 
-No. One-click unsubscribe is required only for commercial, promotional
+No. One-click unsubscribe is required only for marketing and promotional
 messages. Transactional messages are excluded from this requirement. Some
 examples of transactional messages are password reset messages, reservation
 confirmations, and form submission confirmations.
@@ -171,12 +172,90 @@ Senders that already include an unsubscribe link in their messages have until
 June 1, 2024 to implement one-click unsubscribe in all commercial, promotional
 messages.
 
-If the list header is missing, is the message body checked for a one-click
-unsubscribe link?
+How is the distinction made between promotional and transactional messages
 
-No. One-click unsubscribe should be implemented according to RFC 8058.
-Including a mailto link in the body of your messages doesn’t meet our one-click
-unsubscribe requirement.
+The distinction between promotional and transactional messages can vary
+depending on industry and applicable regulations. Message recipients, not
+Google, determine the nature of the messages they receive. To reduce high spam
+rates, consider giving users an easy way to unsubscribe from marketing and
+promotional messages, and keep the user in mind when designing your emails.
+
+Why do you require one-click unsubscribe for marketing and promotional
+messages?
+
+One-click unsubscribe lets people quickly and easily opt out of your marketing
+or promotional messages. One-click unsubscribe also helps you maintain a low
+spam rate, which improves message delivery. High spam rates negatively affect
+message delivery for any message type that you send.
+
+How do I implement a one-click unsubscribe that meets RFC 8058 requirements?
+
+To meet RFC 8058 requirements, add List-Unsubscribe headers to all outgoing
+marketing and promotional messages, as described in our Email sender guidelines
+. If you use a third-party email provider, check to see if you have the option
+to add these headers to your outgoing messages.
+
+List-Unsubscribe headers unsubscribe users directly by removing them from the
+mailing list. Other types of one-click unsubscribe, such as mail-to and URL
+unsubscribe links, don’t meet our one-click unsubscribe requirement.
+
+What happens to messages that don’t meet the one-click subscribe requirement
+for promotional, marketing, and commercial messages?
+
+We don’t automatically reject messages or mark messages as spam when they don’t
+meet the one-click unsubscribe requirements in our Email sender guidelines.
+However, unwanted messages that don’t use one-click unsubscribe are more likely
+to be reported as spam by recipients. An increase in messages marked as spam
+increases the chances that future messages from the same sender are delivered
+to spam.
+
+We prioritize mitigation support for email delivery issues for senders that
+meet all requirements in our Email sender guidelines.
+
+If the List-unsubscribe: header is missing, do you check the message body for a
+one-click unsubscribe link?
+
+No. One-click unsubscribe should be implemented according to RFC 8058, by
+adding List Unsubscribe headers to outgoing promotional messages, as described
+in our Email sender guidelines. Including a mailto link in the body of your
+messages doesn’t meet our one-click unsubscribe requirement.
+
+If I include an additional unsubscribe link in my message content, does it have
+to be a one-click unsubscribe link?
+
+No. If your messages include a one-click unsubscribe using List Unsubscribe
+headers, as described in our Email sender guidelines, additional unsubscribe
+links in the message body aren’t required to be one-click. Any additional
+unsubscribe links in the message body can link to a preferences web page that
+you specify.
+
+When recipients use one-click unsubscribe, how long do I have to remove them
+from the mailing list?
+
+To reduce spam reports, protect your sending reputation, and keep your email
+lists healthy, we require that you fulfill unsubscribe requests within 48
+hours, a reasonable timeline for removing recipients from a mailing list.
+
+Honoring unsubscribe requests from recipients is especially critical if you
+frequently send marketing messages. This results in improved email delivery and
+higher value for engaged people who want to get messages from you.
+
+How can I prevent people from unsubscribing from all of my promotional
+messages?
+
+One-click unsubscribe doesn’t automatically remove the recipient from all
+messages from the same sender. When you implement one-click unsubscribe
+according to RFC 8058, by using List Unsubscribe headers as described in our
+Email sender guidelines, the recipient can be removed only from the mailing
+list associated with the message. One-click unsubscribe lets you control which
+mailing lists recipients are removed from.
+
+If you meet the one-click unsubscribe requirement, you can also include an
+unsubscribe link in the message body that directs people to a mailing list
+preferences page. Be aware that this type of link doesn’t comply with RFC 8058,
+and so using this type of link alone, without one-click unsubscribe email
+headers, doesn’t meet the one-click unsubscribe requirement as described in our
+Email sender guidelines.
 
 If unsubscribe links are temporarily unavailable due to maintenance or other
 reasons, are messages flagged as spam?
@@ -186,12 +265,23 @@ messages won’t meet our one-click unsubscribe requirement. These messages won�
 be marked as spam, but senders aren’t eligible for mitigation for email
 delivery issues.
 
+Can I continue to use mail-to links?
+
+We’ll continue to support mail-to links but they don’t meet our one-click
+unsubscribe requirement. To meet our one-click unsubscribe requirement, you
+must use List-Unsubscribe email headers in all commercial, promotional
+messages, as described in RFC 8058 and in our Email sender guidelines, and
+include one HTTPS URL in the List-unsubscribe: header.
+
 Can a one-click unsubscribe link to a landing or preferences page?
 
-We recommend senders follow the specifications for one-click unsubscribe that
-are defined in RFC 8058. Email admins should use this specification as the
-reference for implementing one-click unsubscribe. One-click unsubscribe links
-that link to a landing or other type of web page don’t comply with RFC 8058.
+Senders should follow the specifications for one-click unsubscribe that are
+defined in RFC 8058, and add List Unsubscribe headers to all outgoing
+promotional messages, as described in our Email sender guidelines.
+
+Email admins should use RFC 8058 as the reference for implementing one-click
+unsubscribe. One-click unsubscribe links that link to a landing or other type
+of web page don’t comply with RFC 8058.
 
 Email authentication
 
@@ -249,10 +339,9 @@ YesNo
 Submit
 Need more help?
 
-Try these next steps:
+Sign in for additional support options to quickly solve your issue
 
-Post to the help community Get answers from community members
-Contact us Tell us more and we’ll help you get there
+Sign in
 true
 
 Bulk email sending guidelines & tools
