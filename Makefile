@@ -23,14 +23,23 @@ REPOS_TARGETS = git-status git-push git-commit-amend git-tag-list git-diff git-r
 .PHONY: clean
 
 updates:
+	$(MAKE) update-google
+	$(MAKE) update-yahoo
+	$(MAKE) update-microsoft
+
+update-google:
 	$(MAKE) 3726730		# Google: Gmail SMTP errors and codes
 	$(MAKE) 81126   	# Google: Email Sender Guidelines
 	$(MAKE) 14229414	# Google: Email Sender Guidelines FAQ
 	$(MAKE) 14289100	# Google: Email Sender Requirements & Postmaster Tools FAQ
 	$(MAKE)	6254652		# Google: Feedback Loop
+
+update-yahoo:
 	$(MAKE) senders-best-practices		# Yahoo! Sender Best Practices
 	$(MAKE) senders-faq					# Yahoo! Sender FAQ
 	$(MAKE) senders-smtp-error-codes	# Yahoo! Sender SMTP Error Codes
+
+update-microsoft:
 	$(MAKE) outlook-postmaster 					# Microsoft Outlook.com Postmaster
 	$(MAKE) fighting-junk-email					# Microsoft Fighting Junk Email
 	$(MAKE) policies-practices-and-guidelines	# Microsoft Policies, Practices and Guildelines
