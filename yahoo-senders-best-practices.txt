@@ -1,7 +1,7 @@
  
 Dashboard
 Sender Features
-Complaint Feedback LoopAMPPromotions & SchemaBIMIVTOSubscription HubPerformance
+Complaint Feedback LoopAMPPromotions & SchemaBIMISubscription HubPerformance
 Feeds
 Deliverability
 Sender Requirements & RecommendationsFAQsError CodesOutbound Mail ServersMail
