@@ -31,6 +31,12 @@ updates:
 	$(MAKE) senders-best-practices		# Yahoo! Sender Best Practices
 	$(MAKE) senders-faq					# Yahoo! Sender FAQ
 	$(MAKE) senders-smtp-error-codes	# Yahoo! Sender SMTP Error Codes
+	$(MAKE) outlook-postmaster 					# Microsoft Outlook.com Postmaster
+	$(MAKE) fighting-junk-email					# Microsoft Fighting Junk Email
+	$(MAKE) policies-practices-and-guidelines	# Microsoft Policies, Practices and Guildelines
+	$(MAKE) services-for-senders-and-isps		# Microsoft Services for Senders and ISPs
+	$(MAKE) troubleshooting 					# Microsoft Troubleshooting
+	$(MAKE) outlook-outbound-ip-space 			# Microsoft Outlook.com Outbound IP Space
 
 temp-dirs:
 	test -d ./$(TEMP)      || $(MKDIR) ./$(TEMP)
@@ -152,6 +158,72 @@ senders-smtp-error-codes: temp-dirs
 	$(CP) ./$@.txt  ./yahoo-$@.txt
 	$(MV) ./$@.txt  $(TEMP)/text/yahoo-$@-`date '+%F'`.txt
 	$(MV) ./$@.html $(TEMP)/html/yahoo-$@-`date '+%F'`.html
+
+outlook-postmaster: temp-dirs
+	# Microsoft Outlook.com Postmaster: https://postmaster.live.com/pm/postmaster.aspx
+	$(WGET) -O $@.html "https://postmaster.live.com/pm/postmaster.aspx"
+	$(W3M) ./$@.html > $@.txt
+	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
+	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
+
+	$(CP) ./$@.txt  ./microsoft-$@.txt
+	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+
+fighting-junk-email: temp-dirs
+	# Microsoft Fighting Junk Email: https://postmaster.live.com/pm/junkemail.aspx
+	$(WGET) -O $@.html "https://postmaster.live.com/pm/junkemail.aspx"
+	$(W3M) ./$@.html > $@.txt
+	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
+	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
+
+	$(CP) ./$@.txt  ./microsoft-$@.txt
+	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+
+policies-practices-and-guidelines: temp-dirs
+	# Microsoft Policies, Practices and Guildelines: https://postmaster.live.com/pm/policies.aspx
+	$(WGET) -O $@.html "https://postmaster.live.com/pm/policies.aspx"
+	$(W3M) ./$@.html > $@.txt
+	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
+	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
+
+	$(CP) ./$@.txt  ./microsoft-$@.txt
+	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+
+services-for-senders-and-isps: temp-dirs
+	# Microsoft Services for Senders and ISPs: https://postmaster.live.com/pm/services.aspx
+	$(WGET) -O $@.html "https://postmaster.live.com/pm/services.aspx"
+	$(W3M) ./$@.html > $@.txt
+	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
+	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
+
+	$(CP) ./$@.txt  ./microsoft-$@.txt
+	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+
+troubleshooting: temp-dirs
+	# Microsoft Troubleshooting: https://postmaster.live.com/pm/troubleshooting.aspx
+	$(WGET) -O $@.html "https://postmaster.live.com/pm/troubleshooting.aspx"
+	$(W3M) ./$@.html > $@.txt
+	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
+	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
+
+	$(CP) ./$@.txt  ./microsoft-$@.txt
+	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+
+outlook-outbound-ip-space: temp-dirs
+	# Microsoft Outlook.com Outbound IP Space: https://postmaster.live.com/pm/ipspace.aspx
+	$(WGET) -O $@.html "https://postmaster.live.com/pm/ipspace.aspx"
+	$(W3M) ./$@.html > $@.txt
+	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
+	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
+
+	$(CP) ./$@.txt  ./microsoft-$@.txt
+	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
 
 # -------------------------------------------------------------------------------------------------
 git-status:
