@@ -22,6 +22,30 @@ yahoo-senders-best-practices.txt ---------------- The latest "Senders best pract
 yahoo-senders-best-practices/
   text/ ----------------------------------------- Keeping updated text files of text above
   html/ ----------------------------------------- Keeping updated HTML files of text above
+microsoft-fighting-junk-email.txt --------------- The latest "Fighting Junk Email" text
+microsoft-fighting-junk-email/
+  text/ ----------------------------------------- Keeping updated text files of text above
+  html/ ----------------------------------------- Keeping updated HTML files of text above
+microsoft-outlook-outbound-ip-space.txt --------- The latest "Outlook.com Outbound IP Space" text
+microsoft-outlook-outbound-ip-space/
+  text/ ----------------------------------------- Keeping updated text files of text above
+  html/ ----------------------------------------- Keeping updated HTML files of text above
+microsoft-outlook-postmaster.txt ---------------- The latest "Outlook.com Postmaster" text
+microsoft-outlook-postmaster/
+  text/ ----------------------------------------- Keeping updated text files of text above
+  html/ ----------------------------------------- Keeping updated HTML files of text above
+microsoft-policies-practices-and-guidelines.txt - The latest "Policies, Practices and Guidelines" text
+microsoft-policies-practices-and-guidelines/
+  text/ ----------------------------------------- Keeping updated text files of text above
+  html/ ----------------------------------------- Keeping updated HTML files of text above
+microsoft-services-for-senders-and-isps.txt ----- The latest "Services for Senders and ISPs" text
+microsoft-services-for-senders-and-isps/
+  text/ ----------------------------------------- Keeping updated text files of text above
+  html/ ----------------------------------------- Keeping updated HTML files of text above
+microsoft-troubleshooting.txt ------------------- The latest "Troubleshooting" text
+microsoft-troubleshooting/
+  text/ ----------------------------------------- Keeping updated text files of text above
+  html/ ----------------------------------------- Keeping updated HTML files of text above
 
 google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt
 google-6254652-feedback-loop.txt

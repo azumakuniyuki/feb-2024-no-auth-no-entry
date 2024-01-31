@@ -1,6 +1,16 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-01-31
+---------------------------------------------------------------------------------------------------
+- Register the following text downloaded from Microsoft: https://postmaster.live.com/
+  - microsoft-fighting-junk-email.txt
+  - microsoft-outlook-outbound-ip-space.txt
+  - microsoft-outlook-postmaster.txt
+  - microsoft-policies-practices-and-guidelines.txt
+  - microsoft-services-for-senders-and-isps.txt
+  - microsoft-troubleshooting.txt
+
 2024-01-18
 ---------------------------------------------------------------------------------------------------
 - Google Email sender guidelines FAQ has been updated
