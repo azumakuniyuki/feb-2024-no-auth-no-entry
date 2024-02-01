@@ -40,12 +40,12 @@ update-yahoo:
 	$(MAKE) senders-smtp-error-codes	# Yahoo! Sender SMTP Error Codes
 
 update-microsoft:
-	$(MAKE) outlook-postmaster 					# Microsoft Outlook.com Postmaster
-	$(MAKE) fighting-junk-email					# Microsoft Fighting Junk Email
-	$(MAKE) policies-practices-and-guidelines	# Microsoft Policies, Practices and Guildelines
-	$(MAKE) services-for-senders-and-isps		# Microsoft Services for Senders and ISPs
-	$(MAKE) troubleshooting 					# Microsoft Troubleshooting
-	$(MAKE) outlook-outbound-ip-space 			# Microsoft Outlook.com Outbound IP Space
+	$(MAKE) outlook-postmaster;  sleep 5				# Microsoft Outlook.com Postmaster
+	$(MAKE) fighting-junk-email; sleep 5				# Microsoft Fighting Junk Email
+	$(MAKE) policies-practices-and-guidelines; sleep 5	# Microsoft Policies, Practices and Guildelines
+	$(MAKE) services-for-senders-and-isps;     sleep 5	# Microsoft Services for Senders and ISPs
+	$(MAKE) troubleshooting;     sleep 5 				# Microsoft Troubleshooting
+	$(MAKE) outlook-outbound-ip-space 					# Microsoft Outlook.com Outbound IP Space
 
 temp-dirs:
 	test -d ./$(TEMP)      || $(MKDIR) ./$(TEMP)
@@ -138,101 +138,60 @@ feedback-loop: temp-dirs
 senders-best-practices: temp-dirs
 	# Yahoo! Sender Best Practices: https://senders.yahooinc.com/best-practices/
 	$(WGET) -O $@.html "https://senders.yahooinc.com/best-practices/"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./yahoo-$@/text || $(MKDIR) ./yahoo-$@/text
-	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
-
-	$(CP) ./$@.txt  ./yahoo-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/yahoo-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/yahoo-$@-`date '+%F'`.html
+	$(MAKE) plain-text copies FN=$@ ESP=yahoo
 
 senders-faq: temp-dirs
 	# Yahoo! Sender FAQ: https://senders.yahooinc.com/faqs/
 	$(WGET) -O $@.html "https://senders.yahooinc.com/faqs/"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./yahoo-$@/text || $(MKDIR) ./yahoo-$@/text
-	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
-
-	$(CP) ./$@.txt  ./yahoo-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/yahoo-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/yahoo-$@-`date '+%F'`.html
+	$(MAKE) plain-text copies FN=$@ ESP=yahoo
 
 senders-smtp-error-codes: temp-dirs
 	# Yahoo! Sender SMTP Error Codes: https://senders.yahooinc.com/smtp-error-codes/
 	$(WGET) -O $@.html "https://senders.yahooinc.com/smtp-error-codes/"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./yahoo-$@/text || $(MKDIR) ./yahoo-$@/text
-	test -d ./yahoo-$@/html || $(MKDIR) ./yahoo-$@/html
-
-	$(CP) ./$@.txt  ./yahoo-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/yahoo-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/yahoo-$@-`date '+%F'`.html
+	$(MAKE) plain-text copies FN=$@ ESP=yahoo
 
 outlook-postmaster: temp-dirs
 	# Microsoft Outlook.com Postmaster: https://postmaster.live.com/pm/postmaster.aspx
 	$(WGET) -O $@.html "https://postmaster.live.com/pm/postmaster.aspx"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
-	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
-
-	$(CP) ./$@.txt  ./microsoft-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 fighting-junk-email: temp-dirs
 	# Microsoft Fighting Junk Email: https://postmaster.live.com/pm/junkemail.aspx
 	$(WGET) -O $@.html "https://postmaster.live.com/pm/junkemail.aspx"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
-	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
-
-	$(CP) ./$@.txt  ./microsoft-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 policies-practices-and-guidelines: temp-dirs
 	# Microsoft Policies, Practices and Guildelines: https://postmaster.live.com/pm/policies.aspx
 	$(WGET) -O $@.html "https://postmaster.live.com/pm/policies.aspx"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
-	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
-
-	$(CP) ./$@.txt  ./microsoft-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 services-for-senders-and-isps: temp-dirs
 	# Microsoft Services for Senders and ISPs: https://postmaster.live.com/pm/services.aspx
 	$(WGET) -O $@.html "https://postmaster.live.com/pm/services.aspx"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
-	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
-
-	$(CP) ./$@.txt  ./microsoft-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 troubleshooting: temp-dirs
 	# Microsoft Troubleshooting: https://postmaster.live.com/pm/troubleshooting.aspx
 	$(WGET) -O $@.html "https://postmaster.live.com/pm/troubleshooting.aspx"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
-	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
-
-	$(CP) ./$@.txt  ./microsoft-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 outlook-outbound-ip-space: temp-dirs
 	# Microsoft Outlook.com Outbound IP Space: https://postmaster.live.com/pm/ipspace.aspx
 	$(WGET) -O $@.html "https://postmaster.live.com/pm/ipspace.aspx"
-	$(W3M) ./$@.html > $@.txt
-	test -d ./microsoft-$@/text || $(MKDIR) ./microsoft-$@/text
-	test -d ./microsoft-$@/html || $(MKDIR) ./microsoft-$@/html
+	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
-	$(CP) ./$@.txt  ./microsoft-$@.txt
-	$(MV) ./$@.txt  $(TEMP)/text/microsoft-$@-`date '+%F'`.txt
-	$(MV) ./$@.html $(TEMP)/html/microsoft-$@-`date '+%F'`.html
+plain-text:
+	test -s $(FN).html || $(RM) $(FN).html
+	test -f $(FN).html && $(W3M) ./$(FN).html > $(FN).txt
+
+copies:
+	test -s $(FN).txt
+	test -d ./$(ESP)-$(FN)/text || $(MKDIR) ./$(ESP)-$(FN)/text
+	test -d ./$(ESP)-$(FN)/html || $(MKDIR) ./$(ESP)-$(FN)/html
+	$(CP) ./$(FN).txt  ./$(ESP)-$(FN).txt
+	$(MV) ./$(FN).txt  $(TEMP)/text/$(ESP)-$(FN)-`date '+%F'`.txt
+	$(MV) ./$(FN).html $(TEMP)/html/$(ESP)-$(FN)-`date '+%F'`.html
+
 
 # -------------------------------------------------------------------------------------------------
 git-status:
