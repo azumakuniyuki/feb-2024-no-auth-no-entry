@@ -22,6 +22,10 @@ yahoo-senders-best-practices.txt ---------------- The latest "Senders best pract
 yahoo-senders-best-practices/
   text/ ----------------------------------------- Keeping updated text files of text above
   html/ ----------------------------------------- Keeping updated HTML files of text above
+yahoo-senders-faq.txt --------------------------- The latest "Yahoo! Senders FAQ" text
+yahoo-senders-faq/
+  text/ ----------------------------------------- Keeping updated text files of text above
+  html/ ----------------------------------------- Keeping updated HTML files of text above
 microsoft-fighting-junk-email.txt --------------- The latest "Fighting Junk Email" text
 microsoft-fighting-junk-email/
   text/ ----------------------------------------- Keeping updated text files of text above
@@ -49,7 +53,6 @@ microsoft-troubleshooting/
 
 google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt
 google-6254652-feedback-loop.txt
-yahoo-senders-faq.txt
 yahoo-senders-smtp-error-codes.txt
 ```
 

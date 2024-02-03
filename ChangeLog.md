@@ -1,6 +1,13 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-02-02
+---------------------------------------------------------------------------------------------------
+- Updated about One-Click unsubsribe at Yahoo! Senders FAQ: https://senders.yahooinc.com/faqs/
+  - yahoo-senders-faq.txt
+  - yahoo-senders-faq/html/yahoo-senders-faq-2024-02-02.html
+  - yahoo-senders-faq/text/yahoo-senders-faq-2024-02-02.txt
+
 2024-01-31
 ---------------------------------------------------------------------------------------------------
 - Register the following text downloaded from Microsoft: https://postmaster.live.com/
