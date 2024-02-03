@@ -41,7 +41,9 @@ sender?
 
 When will these requirements go into effect?
 
-  • The rollout of enforcement will begin in February 2024.
+  • Enforcement will begin in February 2024, and we will continue to gradually
+    roll out enforcement as we monitor compliance metrics
+  • Note: Enforcement of the List-Unsubscribe policy will begin in June 2024.
 
 What will happen to my mail if I don't meet the requirements?
 
@@ -77,6 +79,13 @@ Is one-click unsubscribe required for all of my mail?
   • No, one-click unsubscribe is only required for promotional/marketing
     messages. The requirement does not apply to transactional messages (e.g.
     order confirmations, password resets).
+  • We will not make the determination of what mail should and should not
+    contain an unsubscribe link. You should rely on local regulations and your
+    best judgment based on user behavior.
+  • If you see high complaint rates for mail that is not legally required to
+    have an unsubscribe link, it may be in your best interest to include a
+    one-click unsubscribe option to reduce the chance of delivery issues, and
+    give users an easy way to stop receiving those messages.
 
 Is an unsubscribe link in the body of the message sufficient?
 
@@ -91,6 +100,15 @@ Is there a grace period for a non-functional unsubscribe link?
 
   • If the unsubscribe is not honored in 2 days, then it would not meet the
     requirement.
+
+When will I see the blue “Unsubscribe” option next to my From address in the
+messages I send?
+
+  • If you have correctly set up the List-Unsubscribe header (according to RFC
+    8058), and we see sufficient reputation and engagement for your sending
+    email address.
+  • When testing your List-Unsubscribe setup, please use Yahoo webmail: https:/
+    /mail.yahoo.com/
 
 Complaint Feedback Loop (CFL)
 
