@@ -144,20 +144,25 @@ guidelines.
 What happens when sender spam rate exceeds the maximum spam rate allowed by the
 guidelines?
 
-To comply with the sender guidelines, keep your spam rate below 0.1% and
-prevent spam rates from ever reaching 0.3% or higher.
+To comply with the sender guidelines, keep your user-reported spam rate below
+0.1% and prevent it from reaching 0.3% or higher.
 
-Spam rate impact is graduated, and spam rates of 0.3% or higher have an even
-greater negative impact on email inbox delivery. Even today, spam rates greater
-than 0.1% have a negative impact on email inbox delivery for bulk senders. When
-we begin enforcing sender guidelines, messages from bulk senders with a spam
-rate higher than 0.3% may be sent to spam.
+The user-reported spam rate’s impact on delivery is graduated, and rates of
+0.3% or higher have an even greater negative impact on email inbox delivery.
+Even today, user-reported spam rates greater than 0.1% have a negative impact
+on email inbox delivery for bulk senders.
+
+Beginning June 2024, bulk senders with a user-reported spam rate greater than
+0.3% will be ineligible for mitigation.
+
+  • Bulk senders remain ineligible for mitigation while user-reported spam rate
+    is greater than 0.3%.
+  • Spam rates and other data points are calculated and updated daily in
+    Postmaster Tools.
+  • Bulk senders will be eligible for mitigation when their spam rates remain
+    below 0.3% for 7 consecutive days.
 
 You can monitor your spam rate with Postmaster Tools.
-
-Starting February 2024, senders with a user-reported spam rate greater than
-0.3% will be ineligible for mitigation. Messages from senders that don’t meet
-sender guidelines aren’t automatically rejected as part of enforcement.
 
 Unsubscribe links
 
@@ -203,14 +208,16 @@ What happens to messages that don’t meet the one-click subscribe requirement
 for promotional, marketing, and commercial messages?
 
 We don’t automatically reject messages or mark messages as spam when they don’t
-meet the one-click unsubscribe requirements in our Email sender guidelines.
+meet the one-click unsubscribe requirements in our Email sender guidelines. 
+
 However, unwanted messages that don’t use one-click unsubscribe are more likely
 to be reported as spam by recipients. An increase in messages marked as spam
 increases the chances that future messages from the same sender are delivered
 to spam.
 
-We prioritize mitigation support for email delivery issues for senders that
-meet all requirements in our Email sender guidelines.
+Additionally, only bulk senders that meet all the requirements in our Email
+sender guidelines, including one-click unsubscribe, are eligible for mitigation
+.
 
 If the List-unsubscribe: header is missing, do you check the message body for a
 one-click unsubscribe link?
@@ -326,6 +333,12 @@ tech support, make sure you’re following all sender guidelines. Starting in
 February 2024, we won’t provide mitigation for email delivery issues to senders
 that don’t meet the guidelines. For details about mitigation requests, visit
 the Sender contact form.
+
+How do you process mitigation requests?
+
+Only bulk senders that meet all the requirements in our Email sender guidelines
+, including authentication requirements, user-reported spam-rate requirements,
+and one-click unsubscribe for relevant traffic, are eligible for mitigation.
 
 Related topics
 
