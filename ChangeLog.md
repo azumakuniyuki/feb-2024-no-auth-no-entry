@@ -1,6 +1,10 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-02-07
+---------------------------------------------------------------------------------------------------
+- Some FAQs about the spam rate in Google Email sender guidelines FAQ have been updated
+
 2024-02-02
 ---------------------------------------------------------------------------------------------------
 - Updated about One-Click unsubsribe at Yahoo! Senders FAQ: https://senders.yahooinc.com/faqs/
