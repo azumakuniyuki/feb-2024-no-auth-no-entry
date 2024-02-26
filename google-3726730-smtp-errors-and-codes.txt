@@ -33,6 +33,10 @@ Google Workspace Admin
   • Error messages
   • Gmail SMTP errors and codes
 
+Notification
+
+Duet AI is now Gemini for Google Workspace. Learn more
+
 Gmail SMTP errors and codes
 
 You may see the following error messages and codes when using Gmail with Google

@@ -32,6 +32,10 @@ Google Workspace Admin
   • Bulk email sending guidelines & tools
   • Email sender guidelines FAQ
 
+Notification
+
+Duet AI is now Gemini for Google Workspace. Learn more
+
 Email sender guidelines FAQ
 
 This FAQ provides additional, detailed information about our Email sender

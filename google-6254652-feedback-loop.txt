@@ -32,6 +32,10 @@ Google Workspace Admin
   • Bulk email sending guidelines & tools
   • Feedback Loop
 
+Notification
+
+Duet AI is now Gemini for Google Workspace. Learn more
+
 Feedback Loop
 
 If you’re a large volume sender, you can use the Feedback Loop (FBL) to

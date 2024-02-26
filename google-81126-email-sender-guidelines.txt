@@ -33,6 +33,10 @@ Google Workspace Admin
   • Problems with sending
   • Email sender guidelines
 
+Notification
+
+Duet AI is now Gemini for Google Workspace. Learn more
+
 Email sender guidelines
 
 Important: Starting February 2024, Gmail will require the following for senders

@@ -33,6 +33,10 @@ Google Workspace Admin
   • Postmaster Tools
   • Email sender requirements & Postmaster Tools FAQ
 
+Notification
+
+Duet AI is now Gemini for Google Workspace. Learn more
+
 Email sender requirements & Postmaster Tools FAQ
 
 Postmaster Tools helps email senders analyze email performance and deliver

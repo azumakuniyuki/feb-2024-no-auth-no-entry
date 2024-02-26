@@ -1,5 +1,4 @@
  
-Dashboard
 Sender Features
 Complaint Feedback LoopAMPPromotions & SchemaBIMISubscription HubPerformance
 Feeds
