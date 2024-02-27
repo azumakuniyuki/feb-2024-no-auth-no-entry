@@ -107,22 +107,59 @@ What is the timeline for enforcement of sender guidelines?
 Enforcement for bulk senders that don’t meet our Email sender guidelines will
 be gradual and progressive.
 
-In February 2024, bulk senders who don’t meet sender requirements will start
-getting temporary errors (with error codes) on a small percentage of their
-non-compliant email traffic. These temporary errors are meant to help senders
-identify email traffic that doesn’t meet our guidelines so that senders can
-resolve issues that result in non-compliance.
+Bulk senders who don’t meet our sender requirements will start getting
+temporary errors with error codes on a small portion of messages that don’t
+meet the requirements. These temporary errors help senders identify email that
+doesn’t meet our guidelines so senders can resolve issues that prevent
+compliance. Email systems will typically attempt to retry sending messages that
+get temporary errors, after a short delay.
 
-In April 2024, we’ll start rejecting a percentage of non-compliant email
-traffic, and we’ll gradually increase the rejection rate. For example, if 75%
-of a sender’s traffic meets our requirements, we’ll start rejecting a
-percentage of the remaining 25% of traffic that isn’t compliant.
+Senders are encouraged to check their email compliance status using Postmaster
+Tools.
 
-Bulk senders have until June 1, 2024 to implement one-click unsubscribe in all
-commercial, promotional messages.
+The table below describes the enforcement timeline and will be updated as
+needed:
 
-We’ll prioritize technical support for email delivery issues for bulk senders
-that meet all the requirements described in our Email sender guidelines.
+         Sender requirement                       Enforcement
+SPF and DKIM authentication
+
+Gmail From: header impersonation
+
+From: header alignment                Temporary failures with error codes
+
+Valid forward and reverse DNS records  
+
+Messages formatted according RFC 5322
+
+Messages sent using TLS
+
+ 
+
+Enforcement for these requirements will begin no earlier than June 2024:
+
+  • DMARC authentication
+  • One-click unsubscribe in marketing messages
+  • Mitigations unavailable when user-reported spam rates exceed 0.3% or if the
+    sender has not met the authentication or one-click
+    unsubscribe requirements.
+
+What is the timeline for enforcement on new domains?
+
+A new domain is defined as any domain that hasn’t sent more than 5,000 emails a
+day to personal Gmail accounts since January 1, 2024.
+
+While all bulk sending domains must comply with the requirements, the
+enforcement progression for new domains will be on an accelerated timetable.
+
+Who does Gmail From: header spoofing enforcement apply to?
+
+Gmail From: header impersonation is when a sender sends a message with a @gmail
+address in the From: header but the message wasn’t sent from a Gmail server.
+This is a common form of email abuse by spammers and is referred to as spoofing
+.
+
+As described in the timeline above, bulk senders that spoof gmail.com will
+start getting notifications about temporary failures.  
 
 What happens if senders don’t meet the requirements in the sender guidelines?
 
@@ -135,6 +172,27 @@ send an error message or other alert?
 
 Yes, when messages are rejected, we send a rejection code and a reason for the
 rejection. You can also see this information in Postmaster Tools.
+
+What error codes will you send?
+
+Temporary failure messages include error codes that indicate which sender
+requirement is causing the failure:
+
+Error  Description
+code
+       SPF isn’t set up for your sending domains or IP addresses. All senders
+4.7.27 must use either SPF or DKIM authentication for outgoing messages. Bulk
+       senders must use both SPF and DKIM authentication for outgoing messages.
+       DKIM isn’t set up for your sending domains or IP addresses. All senders
+4.7.30 must use either SPF or DKIM authentication for outgoing messages. Bulk
+       senders must use both SPF and DKIM authentication for outgoing messages.
+4.7.23 Your domain or IP address doesn’t have valid forward and reverse DNS
+       records. This is a requirement for all senders
+4.7.29 Messages aren’t sent over a secure TLS connection. This is a requirement
+       for all senders.
+       The domain in the From: header of your messages isn’t aligned with
+4.7.32 either the SPF domain or the DKIM domain. This is a requirement for bulk
+       senders.
 
 Spam rate
 
@@ -287,8 +345,8 @@ include one HTTPS URL in the List-unsubscribe: header.
 Can a one-click unsubscribe link to a landing or preferences page?
 
 Senders should follow the specifications for one-click unsubscribe that are
-defined in RFC 8058, and add List Unsubscribe headers to all outgoing
-promotional messages, as described in our Email sender guidelines.
+defined in RFC 8058, and add List Unsubscribe ds to all outgoing promotional
+messages, as described in our Email sender guidelines.
 
 Email admins should use RFC 8058 as the reference for implementing one-click
 unsubscribe. One-click unsubscribe links that link to a landing or other type
