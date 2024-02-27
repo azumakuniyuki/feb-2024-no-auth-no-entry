@@ -1,6 +1,14 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-02-27
+---------------------------------------------------------------------------------------------------
+- Some FAQs in Google Email sender guidelines FAQ have been updated
+  - About getting SMTP Temporary errors
+  - Timeline table
+  - Enforcement on new domains
+  - Error code list such as 4.7.27
+
 2024-02-07
 ---------------------------------------------------------------------------------------------------
 - Some FAQs about the spam rate in Google Email sender guidelines FAQ have been updated
