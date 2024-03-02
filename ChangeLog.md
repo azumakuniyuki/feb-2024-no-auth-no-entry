@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-03-02
+---------------------------------------------------------------------------------------------------
+- Gmail SMTP Errors and Codes page has been significantly updated.
+  - https://support.google.com/a/answer/3726730
+  - Added X.7.24,26,27 and other domain authentication related errors.
+
 2024-02-27
 ---------------------------------------------------------------------------------------------------
 - Some FAQs in Google Email sender guidelines FAQ have been updated

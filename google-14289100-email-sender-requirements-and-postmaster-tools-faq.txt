@@ -128,10 +128,9 @@ YesNo
 Submit
 Need more help?
 
-Try these next steps:
+Sign in for additional support options to quickly solve your issue
 
-Post to the help community Get answers from community members
-Contact us Tell us more and we’ll help you get there
+Sign in
 true
 
 Postmaster Tools
