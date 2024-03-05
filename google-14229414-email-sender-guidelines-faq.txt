@@ -345,8 +345,8 @@ include one HTTPS URL in the List-unsubscribe: header.
 Can a one-click unsubscribe link to a landing or preferences page?
 
 Senders should follow the specifications for one-click unsubscribe that are
-defined in RFC 8058, and add List Unsubscribe ds to all outgoing promotional
-messages, as described in our Email sender guidelines.
+defined in RFC 8058, and add List Unsubscribe headers to all outgoing
+promotional messages, as described in our Email sender guidelines.
 
 Email admins should use RFC 8058 as the reference for implementing one-click
 unsubscribe. One-click unsubscribe links that link to a landing or other type
