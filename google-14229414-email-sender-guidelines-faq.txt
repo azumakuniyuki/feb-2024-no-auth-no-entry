@@ -263,7 +263,7 @@ marketing and promotional messages, as described in our Email sender guidelines
 to add these headers to your outgoing messages.
 
 List-Unsubscribe headers unsubscribe users directly by removing them from the
-mailing list. Other types of one-click unsubscribe, such as mail-to and URL
+mailing list. Other types of one-click unsubscribe, such as mailto and URL
 unsubscribe links, don’t meet our one-click unsubscribe requirement.
 
 What happens to messages that don’t meet the one-click subscribe requirement
@@ -334,9 +334,9 @@ messages won’t meet our one-click unsubscribe requirement. These messages won�
 be marked as spam, but senders aren’t eligible for mitigation for email
 delivery issues.
 
-Can I continue to use mail-to links?
+Can I continue to use mailto links?
 
-We’ll continue to support mail-to links but they don’t meet our one-click
+We’ll continue to support mailto links but they don’t meet our one-click
 unsubscribe requirement. To meet our one-click unsubscribe requirement, you
 must use List-Unsubscribe email headers in all commercial, promotional
 messages, as described in RFC 8058 and in our Email sender guidelines, and
@@ -414,10 +414,9 @@ YesNo
 Submit
 Need more help?
 
-Try these next steps:
+Sign in for additional support options to quickly solve your issue
 
-Post to the help community Get answers from community members
-Contact us Tell us more and we’ll help you get there
+Sign in
 true
 
 Bulk email sending guidelines & tools
