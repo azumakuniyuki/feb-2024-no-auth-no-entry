@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-03-08
+---------------------------------------------------------------------------------------------------
+- The "Sender guidelines enforcement" section in Google Email sender guidelines FAQ updated
+  - https://support.google.com/a/answer/14229414
+  - Added "Starting in April 2024,..."
+
 2024-03-02
 ---------------------------------------------------------------------------------------------------
 - Gmail SMTP Errors and Codes page has been significantly updated.
