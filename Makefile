@@ -33,6 +33,7 @@ check-google:
 	$(MAKE) 14229414	# Google: Email Sender Guidelines FAQ
 	$(MAKE) 14289100	# Google: Email Sender Requirements & Postmaster Tools FAQ
 	$(MAKE)	6254652		# Google: Feedback Loop
+	$(MAKE)	175365		# Google: Best practices for forwarding email to Gmail
 
 check-yahoo:
 	$(MAKE) senders-best-practices		# Yahoo! Sender Best Practices
@@ -125,6 +126,22 @@ feedback-loop: temp-dirs
 6254652: feedback-loop
 	# Feedback Loop: https://support.google.com/mail/answer/6254652
 	$(WGET) -O $@.html "https://support.google.com/mail/answer/6254652?hl=en"
+	$(W3M) ./$@.html > $@.txt
+	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
+	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
+
+	$(CP) ./$@.txt  ./google-$@-$<.txt
+	$(MV) ./$@.txt  $(TEMP)/text/google-$@-$<-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/google-$@-$<-`date '+%F'`.html
+	$(RM) $<
+
+best-practices-for-forwarding-email-to-gmail: temp-dirs
+	@ touch $@
+
+175365: best-practices-for-forwarding-email-to-gmail
+	# Best practices for forwarding email to Gmail: https://support.google.com/mail/answer/175365?hl=en
+	$(WGET) -O $@.html "https://support.google.com/mail/answer/175365?hl=en"
 	$(W3M) ./$@.html > $@.txt
 	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
 	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text

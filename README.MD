@@ -18,6 +18,10 @@ google-81126-email-sender-guidelines.txt -------- The latest "Email sender guide
 google-81126-email-sender-guidelines/
   text/ ----------------------------------------- Keeping updated text files of 81126
   html/ ----------------------------------------- Keeping updated HTML files of 81126
+google-175365-best-practices-for-***.txt -------- Best practices for forwarding email to Gmail 175365
+google-175365-best-practices-for-***/
+  text/ ----------------------------------------- Keeping updated text files of 175365
+  html/ ----------------------------------------- Keeping updated HTML files of 175365
 yahoo-senders-best-practices.txt ---------------- The latest "Senders best practices(Y!)" text
 yahoo-senders-best-practices/
   text/ ----------------------------------------- Keeping updated text files of text above

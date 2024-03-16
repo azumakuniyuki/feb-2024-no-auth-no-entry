@@ -1,0 +1,161 @@
+Skip to main content
+ 
+Gmail Help
+[                    ]
+●
+Sign in
+ 
+Google Help
+
+  • Help Center
+  • Community
+  • Gmail
+  • Privacy Policy
+  • Terms of Service
+  • Submit feedback
+
+Send feedback on...
+(*)
+This help content & information
+( )
+General Help Center experience
+Next
+
+  • Help Center
+  • Community
+  • New to integrated Gmail
+
+Gmail
+
+  • Import & forward emails
+  • Best practices for forwarding email to Gmail
+
+Best practices for forwarding email to Gmail
+
+This article has recommendations for email administrators and Gmail users who
+forward messages from other accounts or services to Gmail. Forwarding email
+messages can affect email authentication. Follow the recommendations in this
+article to increase the likelihood that forwarded messages pass authentication
+and are delivered as expected.
+
+Email administrators: If you’re an email administrator who forwards email to
+Gmail from other servers or services, take steps to ensure Gmail correctly
+marks forwarded messages as legitimate or spam. Follow our recommendations in
+the section Email forwarding for administrators.
+
+Email senders: We always recommend that senders set up SPF and DKIM
+authentication. For forwarded messages, DKIM authentication is especially
+important to help ensure your email is delivered as expected. Learn more
+
+Gmail users: If you forward messages from a non-Gmail account to your Gmail
+account, follow our recommendations in the section Email forwarding for Gmail
+users.
+
+Email forwarding for administrators & senders
+
+If you manage email for your organization and you forward email from other
+servers or services to Gmail, follow the recommendations in this section to
+ensure email is delivered as expected.
+
+Help prevent forwarded messages from being marked as spam
+
+These practices help ensure messages forwarded to Gmail pass SPF
+authentication, reducing the likelihood that Gmail marks messages as spam:
+
+  • Change the envelope sender to reference your forwarding domain.
+  • Make sure your domain's SPF record includes the IP addresses or domains of
+    all servers or services that forward email for your domain.
+  • Use third-party products or services to identify spam messages, and prevent
+    them from being forwarded. If forwarded messages from your domain are
+    marked as spam by recipients, future messages from your domain are more
+    likely to be marked as spam.
+  • Consider using a unique domain or IP address to forward messages. This is
+    one of our recommendations for preventing email to Gmail users from being
+    blocked or sent to spam.
+
+Help forwarded messages pass authentication
+
+  • Set up SPF and DKIM email authentication: We recommend email administrators
+    always set up SPF and DKIM email authentication for their domain. Email
+    forwarding can affect message authentication, and forwarded messages often
+    fail SPF authentication. This is why we recommend you always set up DKIM
+    authentication, along with SPF, to help ensure your messages are
+    authenticated and delivered as expected.
+  • Avoid breaking DKIM authentication: Messages that don't pass DKIM are more
+    likely to be sent to spam. Changes to message contents can cause messages
+    to fail DKIM authentication. Avoid changing the body and message headers
+    protected by DKIM. For messages sent from frequently spoofed domains, Gmail
+    enforces strict authentication requirements. The following actions can
+    cause forwarded messages to fail DKIM: 
+      □ Modifying the MIME boundaries
+      □ Modifying the message Subject
+      □ Third-party software modifying the body of the message (including
+        re-encoding the message)
+      □ Expanding message recipients with LDAP
+      □ Modifying the Subject and other headers protected by the DKIM signing
+        domain (including To, Cc, Date, and Message-ID)
+  • Add ARC headers: To reduce the likelihood that forwarded messages are
+    rejected or marked as spam, we recommend you add ARC headers to forwarded
+    messages. ARC verifies previous authentication checks for forwarded
+    messages, and helps ensure forwarded messages are delivered to the final
+    recipients. Learn more about ARC.
+  • Add forwarding headers: To let email servers know that a message is
+    forwarded, add an X-Forwarded-For: or X-Forwarded-To: message header.
+    Receiving servers manage forwarded messages differently than direct,
+    incoming messages.
+
+Email forwarding for Gmail users
+
+If you forward messages from other email accounts to your personal Gmail
+account, follow the recommendations in this section to help ensure messages are
+delivered correctly:
+
+  • Set up IMAP or POP in your Gmail account: IMAP lets you read messages on
+    multiple devices, and messages are synced in real time. POP lets you get
+    messages on a single device, and messages aren't synced in real time.
+    Instead, they're downloaded and you decide how often you want to download
+    new emails. For detailed steps to set up IMAP or POP with your Gmail
+    account, visit Check emails from other accounts.
+  • Mark or unmark spam messages: When Gmail incorrectly marks a message as
+    spam or phishing, fix the mistake by following the steps in mark or unmark
+    messages as spam. This helps Gmail correctly identify spam and legitimate
+    messages in the future. 
+  • Update your Gmail settings: If you forward messages from another email
+    account to your Gmail account, Gmail might incorrectly mark some messages
+    as spam or phishing. To help prevent this, add your non-Gmail address to
+    Gmail’s Send mail as setting. For detailed steps, visit Send emails from a
+    different address or alias.
+
+Related topics
+
+Prevent mail to Gmail users from being blocked or sent to spam
+
+Prevent spam, spoofing & phishing with Gmail authentication
+
+Forwarding, redirecting, and routing email with Google Workspace
+
+Need more help?
+
+Try these next steps:
+
+Post to the help community Get answers from community members
+true
+
+Import & forward emails
+
+  • 1 of 5
+    Email clients (POP/IMAP)
+  • 2 of 5
+    Check emails from other accounts
+  • 3 of 5
+    Automatically forward Gmail messages to another account
+  • 4 of 5
+    Best practices for forwarding email to Gmail
+  • 5 of 5
+    Download emails to your computer
+
+  • ©2024 Google
+  • Privacy Policy
+  • Terms of Service
+  • Program Policies
+

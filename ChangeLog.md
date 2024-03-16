@@ -4,6 +4,7 @@ Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 2024-03-16
 ---------------------------------------------------------------------------------------------------
 - The changes in Google Email sender guidelines (81126) seem to be only in the wording.
+- #2 Follow "Best practices for forwarding email to Gmail (175365)"
 
 2024-03-08
 ---------------------------------------------------------------------------------------------------
