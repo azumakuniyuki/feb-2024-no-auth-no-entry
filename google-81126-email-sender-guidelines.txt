@@ -39,8 +39,8 @@ Duet AI is now Gemini for Google Workspace. Learn more
 
 Email sender guidelines
 
-Important: Starting February 2024, Gmail will require the following for senders
-who send 5,000 or more messages a day to Gmail accounts: Authenticate outgoing
+Important: Starting February 2024, Gmail requires the following for senders who
+send 5,000 or more messages a day to Gmail accounts: Authenticate outgoing
 email, avoid sending unwanted or unsolicited email, and make it easy for
 recipients to unsubscribe. Learn more about requirements for sending 5,000 or
 more emails per day.
@@ -49,47 +49,47 @@ The guidelines in this article can help you successfully send and deliver email
 to personal Gmail accounts. A personal Gmail account is an account that ends in
 @gmail.com or @googlemail.com.
 
+For the latest information on how to meet the requirements on this page, visit
+the Email sender guidelines FAQ.
+
 Google Workspace senders: If you use Google Workspace to send large volumes of
 email, review the Spam and abuse policy in Gmail. The policy is part of the
 Google Workspace Acceptable Use Policy.
 
 Sender requirements updates
 
-This table lists our updates to the sender guidelines:
+This table lists our updates to the sender guidelines and requirements:
 
             Sender requirement              Date added
 Use a TLS connection for transmitting email Dec. 2023
 
-Sender guidelines
+Sender requirements and guidelines
 
 Follow these guidelines to help ensure messages are delivered to Gmail accounts
 as expected, and to help prevent Gmail from limiting sending rates, blocking
 messages, or marking messages as spam.
 
-For more information about meeting these requirements, visit our Email sender
-guidelines FAQ.
-
 Requirements for all senders
 
-Starting February 1, 2024, all senders who send email to Gmail accounts must
-meet the requirements in this section.
+Starting February 1, 2024, all email senders who send email to Gmail accounts
+must meet the requirements in this section.
 
 Important: If you send more than 5,000 messages per day to Gmail accounts,
 follow the Requirements for sending 5,000 or more messages per day.
 
-  • Set up SPF or DKIM email authentication for your domain.
+  • Set up SPF or DKIM email authentication for your sending domains.
   • Ensure that sending domains or IPs have valid forward and reverse DNS
     records, also referred to as PTR records. Learn more
   • Use a TLS connection for transmitting email. For steps to set up TLS in
     Google Workspace, visit Require a secure connection for email.
-  • Keep spam rates reported in Postmaster Tools below 0.10% and avoid ever
-    reaching a spam rate of 0.30% or higher. Learn more about spam rates.
-  • Format messages according to the Internet Message Format standard (RFC 5322
-    ).
+  • Keep spam rates reported in Postmaster Tools below 0.3%. Learn more about
+    spam rates
+  • Format messages according to the Internet Message Format standard, RFC 5322
+    .
   • Don’t impersonate Gmail From: headers. Gmail will begin using a DMARC 
     quarantine enforcement policy, and impersonating Gmail From: headers might
     impact your email delivery.
-  • If you regularly forward email, including using mailing lists or inbound
+  • If you manage a forwarding service, including mailing lists or inbound
     gateways, add ARC headers to outgoing email. ARC headers indicate the
     message was forwarded and identify you as the forwarder. Mailing list
     senders should also add a List-id: header, which specifies the mailing
@@ -97,22 +97,22 @@ follow the Requirements for sending 5,000 or more messages per day.
 
 Requirements for sending 5,000 or more messages per day
 
-Starting February 1, 2024, senders who send more than 5,000 messages per day to
-Gmail accounts must meet the requirements in this section.
+Starting February 1, 2024, email senders who send more than 5,000 messages per
+day to Gmail accounts must meet the requirements in this section.
 
   • Set up SPF and DKIM email authentication for your domain.
   • Ensure that sending domains or IPs have valid forward and reverse DNS
     records, also referred to as PTR records. Learn more
   • Use a TLS connection for transmitting email. For steps to set up TLS in
     Google Workspace, visit Require a secure connection for email.
-  • Keep spam rates reported in Postmaster Tools below 0.10% and avoid ever
-    reaching a spam rate of 0.30% or higher. Learn more about spam rates.
-  • Format messages according to the Internet Message Format standard (RFC 5322
-    ).
+  • Keep spam rates reported in Postmaster Tools below 0.30%. Learn more about
+    spam rates
+  • Format messages according to the Internet Message Format standard, RFC 5322
+    .
   • Don’t impersonate Gmail From: headers. Gmail will begin using a DMARC
     quarantine enforcement policy, and impersonating Gmail From: headers might
     impact your email delivery.
-  • If you regularly forward email, including using mailing lists or inbound
+  • If you manage a forwarding service, including mailing lists or inbound
     gateways, add ARC headers to outgoing email. ARC headers indicate the
     message was forwarded and identify you as the forwarder. Mailing list
     senders should also add a List-id: header, which specifies the mailing
@@ -133,9 +133,6 @@ requirements described in this article, your email might not be delivered as
 expected, or might be marked as spam. To get help with email delivery issues,
 go to Troubleshooting.
 
-To learn more about setting up SPF, DKIM, and DMARC, visit Prevent spam,
-spoofing & phishing with Gmail authentication.
-
 Email authentication requirements & recommendations
 
 We require that you set up these email authentication methods for your domain.
@@ -147,36 +144,43 @@ Authenticated messages:
   • Are less likely to be rejected or marked as spam by Gmail.
 
 Set up email authentication for each of your sending domains at your domain
-provider. In addition to following the instructions we provide, you should also
-refer to your domain provider's email authentication instructions.
+provider. You can use instructions Google provides and our domain provider's
+email authentication support information.
 
 To verify messages are authenticated, Google performs checks on messages sent
 to Gmail accounts. To improve email delivery, we recommend that you always set
 up SPF, DKIM, and DMARC for your domains. Make sure you're meeting the minimum
-authentication requirements described in Sender Guidelines. Messages that
-aren’t authenticated with these methods might be marked as spam or rejected
-with a 5.7.26 error. 
+authentication requirements described on this page. Messages that aren’t
+authenticated with these methods might be marked as spam or rejected with a
+5.7.26 error. 
 
 If you use an email service provider, verify that they authenticate your
 domain’s email with SPF and DKIM.
 
-We recommend you always use the same domain for email authentication and
-hosting your public website.
+If you regularly forward email or manage a forwarding service, help ensure
+forwarded messages are authenticated by following our Best practices for
+forwarding email to Gmail.
+
+We recommend you always set up email authentication for the domain that hosts
+your public website
 
 SPF
 
 SPF prevents spammers from sending unauthorized messages that appear to be from
 your domain. Set up SPF by publishing an SPF record at your domain. The SPF
-record for your domain should reference all email senders for your domain. If
-third-party senders aren't included in your SPF record, messages from these
-senders are more likely to be marked as spam. Learn how to define your SPF
-record and add it to your domain.
+record for your domain should include all email senders for your domain. If
+your third-party senders aren't included in your SPF record, messages from
+these senders are more likely to be marked as spam. Learn how to define your
+SPF record and add it to your domain.
 
 DKIM
 
 Turn on DKIM for the domain that sends your email. Receiving servers use DKIM
-to verify that the domain owner actually sent the message. Learn how to turn on
-DKIM for your domain.
+to verify that the domain owner actually sent the message. If you use Google
+Workspace to send email, learn how to turn on DKIM for your domain. If you
+don’t use Google Workspace to send email, you can use one of many available
+internet tools to create your DKIM keys, or check with your domain provider for
+help.
 
 Important: Sending to personal Gmail accounts requires a DKIM key of 1024 bits
 or longer. For security reasons, we recommend using a 2048-bit key if your
@@ -184,20 +188,16 @@ domain provider supports this. Learn more about DKIM key length.
 
 DMARC
 
-DMARC lets you tell receiving servers what to do with messages from your domain
-that don’t pass SPF or DKIM. Set up DMARC by publishing a DMARC record for your
-domain. To pass DMARC authentication, messages must be authenticated by SPF and
-/or DKIM. The authenticating domain must be the same domain that's in the
-message From: header. Learn how to add a DMARC record at your domain.
+DMARC tells receiving servers what to do with your messages that don’t pass SPF
+or DKIM. Set up DMARC by publishing a DMARC record for your domain. To pass
+DMARC authentication, messages must be authenticated by SPF or DKIM, or both.
+The authenticating domain must be the same domain that appears in the message
+From: header. Learn how to add a DMARC record at your domain.
 
 We recommend you set up DMARC reports so you can monitor email sent from your
 domain, or appears to have been sent from your domain. DMARC reports help you
 identify senders that may be impersonating your domain. Learn more about DMARC
 reports.
-
-When you set up DMARC, you can then optionally set up BIMI to add your brand
-logo to messages sent from your domain. Learn how to add your brand logo with
-BIMI.
 
 ARC
 
@@ -205,17 +205,21 @@ ARC checks the previous authentication status of forwarded messages. If a
 forwarded message passes SPF or DKIM authentication, but ARC shows it
 previously failed authentication, Gmail treats the message as unauthenticated.
 
-We recommend that senders use ARC authentication, especially if they forward
-email regularly. Learn more about ARC authentication.
+We recommend that senders use ARC authentication, especially if they regularly
+forward email. Learn more about ARC authentication.
 
 Infrastructure configuration
 
 IP addresses
 
-Your sending IP address must have a PTR record. PTR records verify that the
-sending hostname is associated with the sending IP address. Every IP address
-must map to a hostname in the PTR record. The hostname specified in the PTR
-record must have a forward DNS that refers to the sending IP address.
+Important: The sending IP address must match the IP address of the hostname
+specified in the Pointer (PTR) record. 
+
+The public IP address of a sending SMTP server must have a corresponding PTR
+record that resolves to a hostname. This is called a reverse DNS lookup. The
+same hostname must also have an A (for IPv4) or AAAA (for IPv6) record that
+resolves to the same public IP address used by the sending server. This is
+called a forward DNS lookup.
 
 Set up valid reverse DNS records of your sending server IP addresses that point
 to your domain. Check for a PTR record with the Google Admin Toolbox Dig tool.
@@ -225,28 +229,27 @@ specified in the Pointer (PTR) record.
 
 Shared IP addresses
 
-A shared IP address (shared IP) is an IP address used by more than one email
-sender. The activity of any senders using a shared IP address affects the
-reputation of all senders for that shared IP.
+A shared IP address is an IP address used by more than one email sender. The
+activity of any senders using a shared IP address affects the reputation of all
+senders for that shared IP address. A negative reputation can impact your
+delivery rate.
 
-A negative reputation can impact your delivery rate.
-
-If you use a shared IP for sending email:
+If you use a shared IP address for sending email:
 
   • Make sure the shared IP address isn’t on any internet blocklist. Messages
     sent from IP addresses on a blocklist are more likely to be marked as spam.
-  • If you use an email service provider for your shared IP, use Postmaster
-    Tools to monitor the reputation of the shared IP address.
+  • If you use an email service provider for your shared IP,  use Postmaster
+    Tools to check the reputation of the shared IP address.
 
 Subscriptions
 
-Only send email to people who want to get messages from you so they’re less
-likely to report messages from your domain as spam.
+Send email only to people who want to get messages from you. These recipients
+are less likely to report your messages as spam.
 
 If messages from your domain are frequently reported as spam, future messages
-from you are more likely to be marked as spam. Over time, spam reports can
-lower your domain’s reputation. You can monitor your domain’s reputation with
-Postmaster Tools.
+from you are more likely to be marked as spam. Over time, user spam reports can
+lower your domain’s reputation. Check your domain’s reputation with Postmaster
+Tools.
 
 Make it easy to subscribe
 
@@ -260,14 +263,15 @@ To help ensure your recipients are engaged:
 
 Make it easy to unsubscribe
 
-Always give your recipients an easy way to unsubscribe from your messages.
-Letting people opt out of your messages can improve open rates, click-through
-rates, and sending efficiency. One-click unsubscribe makes it easy for people
-to opt out. If you send more than 5,000 message per day, your marketing and
+Always give recipients an easy way to unsubscribe from your messages. Letting
+people opt out of your messages can improve open rates, click-through rates,
+and sending efficiency. 
+
+Important: If you send more than 5,000 message per day, your marketing and
 subscribed messages must support one-click unsubscribe.
 
-To set up one-click unsubscribe, include both of these headers in outgoing
-messages:
+To set up one-click unsubscribe for Gmail messages, include both of these
+headers in outgoing messages:
 
   • List-Unsubscribe-Post: List-Unsubscribe=One-Click
   • List-Unsubscribe: <https://solarmora.com/unsubscribe/example>
@@ -282,7 +286,8 @@ List-Unsubscribe=One-Click"
 
 Learn more about List-Unsubscribe: headers in RFC 2369 and RFC 8058.
 
-More unsubscribe methods we recommend:
+These unsubscribe options can also be used but they should not replace
+one-click unsubscribe:
 
   • Let recipients review the individual mailing lists they’re subscribed to.
     Let them unsubscribe from lists individually, or all lists at once.
@@ -320,14 +325,13 @@ Gmail delivers your messages to the inbox instead of the spam folder:
 Sending guidelines
 
 To reduce the chances that messages from your domain are sent to spam or
-blocked by Gmail, follow these general best practices:
+blocked by Gmail, follow the best practices in this section.
 
-Recommended sending practices
-
-  • Authenticate email with SPF and DKIM that are aligned. If you use an email
-    provider, verify that your provider supports this.
+  • Authenticate email with SPF and DKIM that are aligned with each other at
+    the organizational level. If you use an email provider, verify that your
+    provider supports this.
   • Ideally, send all messages from the same IP address. If you must send from
-    multiple IP addresses, use a different IP address for each type of message.
+    multiple IP addresses, use a different IP address for each message type.
     For example, use one IP address for sending account notifications and a
     different IP address for sending promotional messages.
   • Messages of the same category should have the same From: email address. For
@@ -344,7 +348,7 @@ Sending practices to avoid
   • Don't mix different types of content in the same message. For example,
     don't include promotions in sales receipt messages.
   • Don't impersonate other domains or senders without permission. This
-    practice is called spoofing, and Gmail may mark these messages as spam.
+    practice is called spoofing, and Gmail might mark these messages as spam.
   • Don't mark internal messages as spam. This can negatively affect your
     domain's reputation, and future messages might be marked as spam.
   • Don't purchase email addresses from other companies.
@@ -353,7 +357,8 @@ Sending practices to avoid
     these recipients will be marked as spam.
   • Avoid opt-in forms that are checked by default and that automatically
     subscribe users. Some countries and regions restrict automatic opt-in.
-    Before you opt-in users automatically, check the laws in your region.
+    Before you opt-in users automatically, check the regulations in your
+    region.
 
 Some legitimate messages may be marked as spam. Recipients can mark valid
 messages as not spam, so future messages from the sender should be delivered to
@@ -365,33 +370,34 @@ When increasing sending volume, keep in mind:
 
   • Increasing the sending volume too quickly can result in delivery problems.
     As you gradually increase your sending mail volume, use Postmaster Tools to
-    monitor mail performance.
-  • For work and school accounts, sending limits apply even when recipients are
-    in different Google Workspace domains. For example, you might send email to
-    users with email addresses that have the domains your-company.net and
-    solarmora.com. Although the domains are different, if both domains have
-    google.com as their MX record, messages sent to these domains count toward
-    your limit.
+    monitor email delivery.
+  • For Google Workspace work and school accounts, sending limits apply even
+    when recipients are in different Google Workspace domains. For example, you
+    might send email to users with email addresses that have the domains
+    your-company.net and solarmora.com. Although the domains are different, if
+    both domains have google.com as their MX record, messages sent to these
+    domains count toward your limit.
   • If you use Google Workspace or Gmail for sending: When you reach the
-    sending limit, Google Workspace limits the message sending rate for the
-    sending IP address.
+    sending limit, the sending rate is limited for the sending IP address.
 
 If you send large amounts of email, we recommend you:
 
   • Send email at a consistent rate. Avoid sending email in bursts.
   • Start with a low sending volume to engaged users, and slowly increase the
     volume over time.
-  • As you increase the sending volume, regularly monitor server responses, the
-    spam rate, and the sending domain's reputation. Regular monitoring will
-    allow you to quickly adapt if your sending is rate limited, if the spam
-    rate is increased, or when the sending domain's reputation drops.
+  • As you increase the sending volume, regularly monitor server
+    responses, spam rate, and the sending domain's reputation. Regular
+    monitoring will allow you to quickly adapt if your sending is rate limited,
+    if the spam rate is increased, or when the sending domain's reputation
+    drops.
   • Avoid introducing sudden volume spikes if you do not have a history of
     sending large volumes. For example, immediately doubling previously sent
     volumes suddenly could result in rate limiting or reputation drops.
-  • If you change the format of bulk emails, increase the traffic segment with
-    the new format gradually.
-  • When making significant changes to sending infrastructure or email or email
-    header structure, increase the modified segment of traffic separately.
+  • If you change the format of your bulk emails, gradually increase the
+    sending volume of messages with the new format.
+  • After making any significant changes to your sending infrastructure or
+    email header structure, increase the modified segment of traffic
+    separately.
   • If messages start bouncing or start being deferred, reduce the sending
     volume until the SMTP error rate decreases. Then, increase slowly again. If
     bounces and deferrals continue at a low volume, review individual messages
@@ -414,35 +420,34 @@ These factors affect how quickly you can increase sending volume:
   • Recipient feedback about your messages: Make sure you send only to people
     who subscribe to your emails, and give recipients an option to unsubscribe.
 
-In the event of a recent spike in email activity, adhering to best practices
-outlined above will likely resolve any deliverability issues automatically
-during subsequent sends.
+In the event of a recent spike in email activity, we recommend following the
+requirements and guidelines on this page to resolve deliverability issues
+automatically during following sends.
 
 Special considerations
 
-Using email service providers
+If you use an email service provider
 
 Google and Gmail don’t accept allowlist requests from email providers. We can't
 guarantee messages sent by email providers will pass Gmail’s spam filters.
 
 If you use a third-party email provider to send email for your domain:
 
-  • Verify that the provider follows the guidelines in this article. Large
+  • Verify that the provider follows the guidelines on this page. Large
     providers, such as Google, AOL, and Yahoo, typically follow these
     guidelines.
-  • Make sure the SPF record for your domain includes references to all email
-    senders for your domain. If third-party senders aren't included in your SPF
-    record, messages sent from these providers are more likely to be marked as
-    spam. Learn how to set up your SPF record.
+  • Make sure the SPF record for your domain includes all email senders for
+    your domain. If third-party senders aren't included in your SPF record,
+    messages sent from these providers are more likely to be marked as spam.
+    Learn how to set up your SPF record.
 
 If you use a domain provider but you manage your own email, we recommend you:
 
-  • Review and follow the best practices in this article for sending email to
-    Gmail accounts.
+  • Review and follow the requirements and guidelines on this page.
   • Use Postmaster Tools to monitor information about messages sent from your
     domain to Gmail accounts.
 
-Third-party email providers
+If you are a third-party email provider
 
 When clients use your service to send email, you’re responsible for their
 sending practices. We recommend taking these steps to help manage your clients’
@@ -450,8 +455,8 @@ sending activity:
 
   • Offer an email address for reporting email abuse, for example:
     abuse@mail-provider.com.
-  • Make sure your contact information in your WHOIS record and on abuse.net
-    are current.
+  • Make sure your contact information in your WHOIS record and on abuse.net is
+    current.
   • Immediately remove any client who uses your service to send spam.
 
 Affiliate marketing
@@ -477,21 +482,22 @@ Postmaster Tools
 Use Postmaster Tools to get information about the email you send to Gmail
 users, for example:
 
-  • When recipients mark your messages as spam.
-  • Why your messages might not be delivered.
-  • If your messages are authenticated.
-  • Your domain or IP reputation and its impact on message delivery rates.
+  • When recipients mark your messages as spam
+  • Why your messages might not be delivered
+  • If your messages are authenticated
+  • Your domain or IP reputation and its impact on message delivery rates
 
 Spam rate
 
   • Regularly monitor your domain's spam rate in Postmaster Tools.
+
   • Keep spam rates reported in Postmaster Tools below 0.10% and avoid ever
     reaching a spam rate of 0.30% or higher. Learn more 
-  • Maintaining a low spam rate makes senders more resilient to occasional
+  • Maintaining a low spam rate helps senders be more resilient to occasional
     spikes in user feedback.
-  • Similarly, maintaining a high spam rate will lead to increased spam
-    classification. It can take time for improvements in spam rate to reflect
-    positively on spam classification.
+  • Maintaining a high spam rate leads to increased spam classification. It can
+    take time for improvements in spam rate to reflect positively on spam
+    classification.
 
 Open rate
 
@@ -509,7 +515,7 @@ Warning banners
     Browsing.
   • To check your domain status, enter your domain in the Safe Browsing site
     status page.
-  • Check any other domains that are linked to yours.
+  • Regularly check the status of any domains that are linked to yours.
 
 Delivery issues when sending through email service providers
 
