@@ -1,6 +1,10 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-03-16
+---------------------------------------------------------------------------------------------------
+- The changes in Google Email sender guidelines (81126) seem to be only in the wording.
+
 2024-03-08
 ---------------------------------------------------------------------------------------------------
 - The "Sender guidelines enforcement" section in Google Email sender guidelines FAQ updated
