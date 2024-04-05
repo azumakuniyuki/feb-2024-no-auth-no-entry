@@ -39,18 +39,14 @@ Duet AI is now Gemini for Google Workspace. Learn more
 
 Email sender guidelines
 
-Important: Starting February 2024, Gmail requires the following for senders who
-send 5,000 or more messages a day to Gmail accounts: Authenticate outgoing
-email, avoid sending unwanted or unsolicited email, and make it easy for
-recipients to unsubscribe. Learn more about requirements for sending 5,000 or
-more emails per day.
-
 The guidelines in this article can help you successfully send and deliver email
-to personal Gmail accounts. A personal Gmail account is an account that ends in
-@gmail.com or @googlemail.com.
+to personal Gmail accounts. Starting in 2024, email senders must meet the
+requirements described here to send email to Gmail personal accounts. A
+personal Gmail account is an account that ends in @gmail.com or
+@googlemail.com.
 
-For the latest information on how to meet the requirements on this page, visit
-the Email sender guidelines FAQ.
+For the latest updates about sender requirements, visit the Email sender
+guidelines FAQ.
 
 Google Workspace senders: If you use Google Workspace to send large volumes of
 email, review the Spam and abuse policy in Gmail. The policy is part of the
