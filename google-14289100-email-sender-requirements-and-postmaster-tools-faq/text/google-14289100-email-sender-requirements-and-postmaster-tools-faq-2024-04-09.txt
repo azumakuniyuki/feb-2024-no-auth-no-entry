@@ -1,0 +1,154 @@
+Skip to main content
+ 
+Google Workspace Admin Help
+[                    ]
+●
+Sign in
+ 
+Google Help
+
+  • Help Center
+  • Community
+  • Google Workspace Admin
+  • Privacy Policy
+  • Terms of Service
+  • Submit feedback
+
+Send feedback on...
+(*)
+This help content & information
+( )
+General Help Center experience
+Next
+
+  • Help Center
+  • Community
+  • 
+
+Google Workspace Admin
+
+  • Gmail
+  • Gmail limits and policies
+  • Bulk email sending guidelines & tools
+  • Postmaster Tools
+  • Sender requirements & Postmaster Tools FAQ
+
+Notification
+
+Duet AI is now Gemini for Google Workspace. Learn more
+
+Sender requirements & Postmaster Tools FAQ
+
+Postmaster Tools helps email senders analyze email performance and deliver
+messages to the right place. With Postmaster Tools, you have access to data and
+diagnostics about your email, including delivery errors, spam reports, and
+feedback loops. 
+
+To help bulk email senders meet the requirements in our Email sender guidelines
+, we've added a new Compliance status dashboard to Postmaster Tools. This
+dashboard is available only to bulk senders.
+
+Email sender guidelines & Postmaster Tools
+
+We recommend email senders use Postmaster Tools to make sure they’re meeting
+the requirements in Gmail’s Email sender guidelines. 
+
+To learn more about Postmaster Tools, visit Get Started with Postmaster Tools.
+You can also sign in to Postmaster Tools.
+
+Postmaster Tools dashboards for email senders
+
+These Postmaster Tools dashboards provide detailed information about your email
+delivery and message format:
+
+SPF and DKIM authentication
+
+The Postmaster Tools Authentication dashboard provides detailed information
+about SPF and DKIM authentication. If your organization uses more than one
+domain and uses more than one DKIM key or SPF record, this dashboard might show
+no authentication for your domains that don’t send email.
+
+For example, you might have 2 domains, solarmora.com and support.solarmora.com,
+and have email authentication (DKIM and SPF) set up for both. However, if you
+only use solarmora.com to send email, Postmaster Tools might show no
+authentication results for support.solarmora.com.
+
+To learn more about SPF and DKIM, visit Prevent spam, spoofing & phishing with
+Gmail authentication.
+
+DMARC authentication
+
+To check the details of your DMARC authentication, use a third-party DMARC
+authentication tool from the internet. We recommend you always set up DMARC
+authentication for your domain. Your DMARC policy can be set to minimal
+enforcement, using a policy that’s set to none (p=none) and applied to 0% of
+your messages (pct=0). 
+
+To learn more about setting up DMARC, visit Help prevent spoofing and spam with
+DMARC.
+
+Message format
+
+To review information and errors about email message format, check the
+"Delivery errors" dashboard in Postmaster Tools. To correct message formatting
+issues, check message rejection errors that mention bad format, for example 550
+5.7.1 errors. For more information about error codes, visit Gmail SMTP errors
+and codes.
+
+DNS records
+
+To verify your domain's DNS A and PTR records, use a third-party DNS record
+tool from the internet. To learn more about DNS records, visit Resource record
+types.
+
+Encryption
+
+To review how much of your email traffic is encrypted, check the "Encryption"
+dashboard in Postmaster Tools. Percentage values for Inbound and Outbound TLS
+are displayed at the bottom of the dashboard.
+
+User-reported spam rate
+
+To monitor your email spam rate, check the "Spam Rate" dashboard in Postmaster
+Tools. Values for user-reported spam are displayed at the bottom of the
+dashboard.
+
+Unsubscribe issues
+
+To monitor your messages or campaigns for a high volume of complaints from
+recipients, add the Feedback-ID: header to your messages, and use Feedback
+Loop. For details, visit Feedback Loop.
+
+Was this helpful?
+
+How can we improve it?
+YesNo
+[                    ]
+Submit
+Need more help?
+
+Try these next steps:
+
+Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
+true
+
+Postmaster Tools
+
+  • 1 of 3
+    Get started with Postmaster Tools
+  • 2 of 3
+    Postmaster Tools FAQs
+  • 3 of 3
+    Sender requirements & Postmaster Tools FAQ
+
+[exxMjxadqE]
+Start your free 14-day trial today
+
+Professional email, online storage, shared calendars, video meetings and more.
+Start your free Google Workspace trial today.
+
+  • ©2024 Google
+  • Privacy Policy
+  • Terms of Service
+
