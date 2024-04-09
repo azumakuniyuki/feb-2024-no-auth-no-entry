@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-04-09
+---------------------------------------------------------------------------------------------------
+- The opening sentence of the following pages updated
+  - https://support.google.com/a/answer/14229414 - Email sender guidelines FAQ
+  - https://support.google.com/mail/answer/14289100 - Sender requirements & Postmaster Tools FAQ
+
 2024-04-05
 ---------------------------------------------------------------------------------------------------
 - The opening sentence of Google Email sender guidelines (81126) has been updated
