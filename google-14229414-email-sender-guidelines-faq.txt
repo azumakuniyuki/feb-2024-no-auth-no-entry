@@ -38,18 +38,16 @@ Duet AI is now Gemini for Google Workspace. Learn more
 
 Email sender guidelines FAQ
 
-This FAQ provides additional, detailed information about our Email sender
-guidelines (previously called Bulk sender guidelines), which describe Google's
+This FAQ provides the latest updates about our Email sender guidelines
+(previously called Bulk sender guidelines), which describe Google's
 requirements for sending email to personal Gmail accounts.
 
 We update this FAQ periodically, so check back regularly to get the latest
 information and requirements for bulk email senders.
 
-Important: Starting February 2024, Gmail will require the following for senders
-who send 5,000 or more messages a day to Gmail accounts: Authenticate outgoing
-email, avoid sending unwanted or unsolicited email, and make it easy for
-recipients to unsubscribe. Get the detailed requirements for sending 5,000 or
-more emails per day.
+To help bulk email senders meet the requirements in our Email sender guidelines
+, we've added a new Compliance status dashboard to Postmaster Tools. This
+dashboard is available only to bulk senders.
 
 Expand all  |  Collapse all
 
