@@ -1,6 +1,17 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-04-30
+--------------------------------------------------------------------------------------------------0
+- SMTP error codes in Google updated
+  - https://support.google.com/a/answer/14229414 - Email sender guidelines FAQ
+    - The list sorted by the code
+    - `4.7.31` has been added
+    - Description of each error code have been updated
+  - https://support.google.com/a/answer/3726730 - Gmail SMTP errors and codes
+    - Tiny updates of `Reply Text` field in `4.7.23`, `4.7.28`, `4.7.29`, `4.7.30`, and `4.7.32`
+    - There is no description yet about `4.7.31`
+
 2024-04-09
 ---------------------------------------------------------------------------------------------------
 - The opening sentence of the following pages updated
