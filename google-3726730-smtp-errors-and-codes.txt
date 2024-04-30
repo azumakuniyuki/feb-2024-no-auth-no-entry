@@ -39,7 +39,7 @@ Duet AI is now Gemini for Google Workspace. Learn more
 
 Gmail SMTP errors and codes
 
-[S06LAjaJ9U]
+[WsX4ccDBb5]
 
 You might see the following error messages and codes when using Gmail
 with Google Workspace . The messages and codes are helpful tools for diagnosing
@@ -148,6 +148,16 @@ Code  Code
              been blocked. For more information, go to Why has Gmail blocked my
              messages?.
 
+             ip-address The sending IP address for this message doesn’t have a
+             PTR record, or the PTR record’s forward DNS entry doesn’t match
+             the sending IP address. To protect users from spam, your email has
+             been temporarily rate limited.
+451   4.7.23
+             To learn more about IP address requirements for sending to Gmail,
+             visit the IP addresses section of our sender guidelines. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
+
              The SPF record of the sending domain has one or more suspicious
 451   4.7.24 entries. To protect our users from spam, mail sent from your IP
              address has been temporarily rate limited. For more information,
@@ -165,17 +175,14 @@ Code  Code
              with ip: ip-address = did not pass. To resolve this issue, go to
              Email sender guidelines. 
 
-             This mail has been rate limited because SPF does not pass. Gmail
-             requires all large senders to authenticate with SPF.
-421   4.7.27 Authentication results: SPF domain-name with ip: ip-address = did
-             not pass. To resolve this issue, go to Define your SPF
-             record—Basic setup. 
+             Your email has been rate limited because SPF authentication didn't
+             pass for this message. Gmail requires all bulk email senders to
+             authenticate their email with SPF. Authentication results: SPF
+421   4.7.27 domain-name with IP address: ip-address = Did not pass.
 
-             This mail has been rate limited because DKIM does not pass. Gmail
-             requires all large senders to authenticate with DKIM.
-421   4.7.28 Authentication results: DKIM = did not pass. For instructions on
-             setting up DKIM authentication, go to Turn on DKIM for your domain
-             . 
+             To set up SPF for your sending domains, visit Define your SPF
+             record. To learn more about Gmail requirements for bulk email
+             senders, visit Email sender guidelines.
 
              Gmail has detected an unusual rate of unsolicited mail. To protect
 421   4.7.28 our users from spam, mail has been temporarily rate limited. To
@@ -217,14 +224,35 @@ Code  Code
              review our bulk email senders guidelines, go to Email sender
              guidelines.
 
-             GMail has detected this message exceeded its quota for sending
+             Gmail has detected this message exceeded its quota for sending
 421   4.7.28 messages with the same Message-ID:. To best protect our users, the
              message has been temporarily rejected. For more information, go to
              Why has Gmail blocked my messages?.
 
-             This mail has been rate limited because TLS wasn't used. Gmail
-421   4.7.29 requires all large senders to use TLS/SSL during SMTP. For
-             instructions on using TLS, go to TLS & SSL connections. 
+             Your email has been rate limited because this message wasn’t sent
+             over a TLS connection. Gmail requires all bulk email senders to
+             use TLS/SSL for SMTP connections.
+421   4.7.29
+             To set up TLS for email, visit TLS & SSL connections. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
+
+             Your email has been rate limited because DKIM authentication
+             didn't pass for this message. Gmail requires all email bulk
+             senders to authenticate their email with DKIM. Authentication
+             results: DKIM = Did not pass.
+421   4.7.30
+             To set up DKIM for your sending domains, visit Turn on DKIM for
+             your domain. To learn more about Gmail requirements for bulk email
+             senders, visit Email sender guidelines.
+
+             Your email has been rate limited because the From: header
+             (RFC5322) in this message isn’t aligned with either the
+             authenticated SPF or DKIM organizational domain.
+421   4.7.32
+             To learn more about DMARC alignment, visit Define your DMARC
+             record. To learn more about Gmail requirements for bulk email
+             senders, visit Email sender guidelines.
 
              The email account that you tried to reach does not exist. Please
 550   5.1.1  double-check the recipient's email address for typos or
