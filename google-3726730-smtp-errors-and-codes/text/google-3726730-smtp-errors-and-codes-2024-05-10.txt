@@ -1,0 +1,618 @@
+Skip to main content
+ 
+Google Workspace Admin Help
+[                    ]
+●
+Sign in
+ 
+Google Help
+
+  • Help Center
+  • Community
+  • Google Workspace Admin
+  • Privacy Policy
+  • Terms of Service
+  • Submit feedback
+
+Send feedback on...
+(*)
+This help content & information
+( )
+General Help Center experience
+Next
+
+  • Help Center
+  • Community
+  • 
+
+Google Workspace Admin
+
+  • Contact support / fix a problem
+  • Fix a problem
+  • Gmail issues
+  • Error messages
+  • Gmail SMTP errors and codes
+
+Notification
+
+Duet AI is now Gemini for Google Workspace. Learn more
+
+Gmail SMTP errors and codes
+
+[WsX4ccDBb5]
+
+You might see the following error messages and codes when using Gmail
+with Google Workspace . The messages and codes are helpful tools for diagnosing
+and troubleshooting email problems.
+
+Gmail appends one or both of the following identifiers to all error messages to
+show you the source of the error: 
+
+  • gsmtp (Google SMTP) is added to all errors. 
+  • gcdp (Google Custom Domain Policies) is added to errors resulting from
+    customized rules created by the administrator. 
+
+For example, "550 5.7.1 This message violates example.com email policy. - gcdp
+<sessionid> - gsmtp" indicates that the error is a result of a custom rule
+created by the administrator.
+
+For more information, visit About SMTP error messages.
+
+SMTP error messages
+
+Reply Status Reply Text
+Code  Code
+
+             The user you are trying to contact is receiving mail too quickly.
+450   4.2.1  Please resend your message at a later time. If the user is able to
+             receive mail at that time, your message will be delivered. For
+             more information, go to Limits for sending & getting mail.
+
+             The user you are trying to contact is receiving mail at a rate
+             that prevents additional messages from being delivered. Please
+450   4.2.1  resend your message at a later time. If the user is able to
+             receive mail at that time, your message will be delivered. For
+             more information, go to Limits for sending & getting mail. 
+
+             Peak SMTP relay limit exceeded for this customer. This is a
+450   4.2.1  temporary error. For more information on SMTP relay limits,
+             contact your administrator or go to SMTP relay service error
+             messages.
+
+452   4.2.2  The recipient's inbox is out of storage space. Please direct the
+             recipient to Manage files in your Google Drive storage. 
+
+451   4.3.0  Mail server has temporarily rejected this message. Go to About
+             SMTP error messages for more information.
+
+             Multiple destination domains per transaction is unsupported.
+451   4.3.0  Please try again. For more information, go to About SMTP error
+             messages and review RFC 5321 specifications.
+
+421   4.3.0  Temporary System Problem. Try again later. For more information,
+             go to About SMTP error messages.
+
+451   4.4.2  Timeout - closing connection. For more information, go to About
+             SMTP error messages. 
+
+421   4.4.5  Server busy, try again later. For more information, go to About
+             SMTP error messages. 
+
+451   4.5.0  SMTP protocol violation. For more information, go to About SMTP
+             error messages and review RFC 5321 specifications.
+
+             Domain policy size per transaction exceeded, please try this
+452   4.5.3  recipient in a separate transaction. For more information, go to
+             Message bounced due to a policy rule.
+
+             Your message has too many recipients. For more information
+452   4.5.3  regarding Google's sending limits, go to Limits for sending &
+             getting mail. 
+
+421   4.7.0  Connection expired, try reconnecting. For more information, go to
+             About SMTP error messages.
+
+421   4.7.0  IP not in whitelist for RCPT domain, closing connection. For more
+             information, go to Allowlists, denylists, and approved senders.
+
+421   4.7.0  Try again later, closing connection. (command) For more
+             information, go to About SMTP error messages. 
+
+             The IP address sending this message does not have a PTR record, or
+             the corresponding forward DNS entry does not point to the sending
+421   4.7.0  IP. To protect our users from spam, mail sent from your IP address
+             has been temporarily rate limited. For more information, go to
+             Email sender guidelines.
+
+454   4.7.0  Too many login attempts, please try again later. For more
+             information, go to Add Gmail to another email client. 
+
+454   4.7.0  Cannot authenticate due to a temporary system problem. Try again
+             later. For more information, go to About SMTP error messages.
+
+421   4.7.0  TLS required for RCPT domain, closing connection. For more
+             information, go to Email encryption in transit.
+
+             This message is suspicious due to the very low reputation of the
+421   4.7.0  sending IP address. To protect our users from spam, mail sent from
+             your IP address has been temporarily rate limited. For more
+             information, go to Why has Gmail blocked my messages?.
+
+             This message is suspicious due to the very low reputation of the
+421   4.7.0  sending domain. To best protect our users from spam, the message
+             has been blocked. For more information, go to Why has Gmail
+             blocked my messages?.
+
+             This message is suspicious due to the nature of the content or the
+421   4.7.0  links within. To best protect our users from spam, the message has
+             been blocked. For more information, go to Why has Gmail blocked my
+             messages?.
+
+             ip-address The sending IP address for this message doesn’t have a
+             PTR record, or the PTR record’s forward DNS entry doesn’t match
+             the sending IP address. To protect users from spam, your email has
+             been temporarily rate limited.
+451   4.7.23
+             To learn more about IP address requirements for sending to Gmail,
+             visit the IP addresses section of our sender guidelines. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
+
+             The SPF record of the sending domain has one or more suspicious
+451   4.7.24 entries. To protect our users from spam, mail sent from your IP
+             address has been temporarily rate limited. For more information,
+             go to Email sender guidelines.
+
+             Unauthenticated email from domain-name is not accepted due to
+             domain's DMARC policy, but temporary DNS failures prevent
+451   4.7.26 authentication. Please contact the administrator of domain-name
+             domain if this was a legitimate mail. To learn about the DMARC
+             initiative, go to Gmail Help.
+
+             This mail has been rate limited because it is unauthenticated.
+             Gmail requires all senders to authenticate with either SPF or
+421   4.7.26 DKIM. Authentication results: DKIM = did not pass SPF domain-name
+             with ip: ip-address = did not pass. To resolve this issue, go to
+             Email sender guidelines. 
+
+             Your email has been rate limited because SPF authentication didn't
+             pass for this message. Gmail requires all bulk email senders to
+             authenticate their email with SPF. Authentication results: SPF
+421   4.7.27 domain-name with IP address: ip-address = Did not pass.
+
+             To set up SPF for your sending domains, visit Define your SPF
+             record. To learn more about Gmail requirements for bulk email
+             senders, visit Email sender guidelines.
+
+             Gmail has detected an unusual rate of mail. To protect our users
+421   4.7.28 from spam, mail has been temporarily rate limited. To review our
+             bulk email senders guidelines, go to Email sender guidelines.
+
+             Gmail has detected an unusual rate of mail originating from your
+421   4.7.28 IP address ip-address. To protect our users from spam, mail sent
+             from your IP address has been temporarily rate limited. To review
+             our bulk email senders guidelines, go to Email sender guidelines.
+
+             Gmail has detected an unusual rate of unsolicited mail originating
+             from your IP Netblock ip-address. To protect our users from spam,
+421   4.7.28 mail sent from your IP Netblock has been temporarily rate limited.
+             To review our bulk email senders guidelines, go to Email sender
+             guidelines.
+
+             Gmail has detected an unusual rate of unsolicited mail originating
+             from your DKIM domain domain-name. To protect our users from spam,
+421   4.7.28 mail sent from your domain has been temporarily rate limited. To
+             review our bulk email senders guidelines, go to Email sender
+             guidelines.
+
+             Gmail has detected an unusual rate of unsolicited mail originating
+             from your SPF domain domain-name. To protect our users from spam,
+421   4.7.28 mail sent from your domain has been temporarily rate limited. To
+             review our bulk email senders guidelines, go to Email sender
+             guidelines.
+
+             Gmail has detected an unusual rate of unsolicited mail containing
+421   4.7.28 one of your URL domains. To protect our users from spam, mail with
+             the URL has been temporarily rate limited. To review our bulk
+             email senders guidelines, go to Email sender guidelines.
+
+             Gmail has detected an unusual amount of unsolicited mail
+             originating from your IP address. To protect our users from spam,
+421   4.7.28 mail sent from your IP address has been temporarily blocked. To
+             review our bulk email senders guidelines, go to Email sender
+             guidelines.
+
+             Gmail has detected this message exceeded its quota for sending
+421   4.7.28 messages with the same Message-ID:. To best protect our users, the
+             message has been temporarily rejected. For more information, go to
+             Why has Gmail blocked my messages?.
+
+             Your email has been rate limited because this message wasn’t sent
+             over a TLS connection. Gmail requires all bulk email senders to
+             use TLS/SSL for SMTP connections.
+421   4.7.29
+             To set up TLS for email, visit TLS & SSL connections. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
+
+             Your email has been rate limited because DKIM authentication
+             didn't pass for this message. Gmail requires all email bulk
+             senders to authenticate their email with DKIM. Authentication
+             results: DKIM = Did not pass.
+421   4.7.30
+             To set up DKIM for your sending domains, visit Turn on DKIM for
+             your domain. To learn more about Gmail requirements for bulk email
+             senders, visit Email sender guidelines.
+
+             Your email has been rate limited because the From: header
+             (RFC5322) in this message isn’t aligned with either the
+             authenticated SPF or DKIM organizational domain.
+421   4.7.32
+             To learn more about DMARC alignment, visit Define your DMARC
+             record. To learn more about Gmail requirements for bulk email
+             senders, visit Email sender guidelines.
+
+             The email account that you tried to reach does not exist. Please
+550   5.1.1  double-check the recipient's email address for typos or
+             unnecessary spaces. For more information, go to Fix bounced or
+             rejected emails. 
+
+             We weren't able to find the recipient domain. Please check for any
+553   5.1.2  spelling errors and make sure you didn't enter any spaces,
+             periods, or other punctuation after the recipient's email address.
+             For more information, go to Fix bounced or rejected emails. 
+
+             The recipient address address is not a valid RFC 5321 address. For
+553   5.1.3  more information, go to About SMTP error messages and review RFC
+             5321 specifications.
+
+             The sender address address is not a valid RFC 5321 address. For
+553   5.1.7  more information, go to About SMTP error messages and review RFC
+             5321 specifications.
+
+550   5.2.1  The email account that you tried to reach is inactive. For more
+             information, go to https://support.google.com/mail/?p=DisabledUser
+
+             The user you are trying to contact is receiving mail at a rate
+550   5.2.1  that prevents additional messages from being delivered. For more
+             information, go to Limits for sending & getting mail. 
+
+             The recipient's inbox is out of storage space  and inactive.
+552   5.2.2  Please direct the recipient to Manage files in your Google Drive
+             storage. 
+
+             Your message exceeded Google's message size limits. To view our
+552   5.3.4  message size guidelines, go to Send attachments with your Gmail
+             message.
+
+             The number of attachments (num-attachments) exceeds Google's limit
+552   5.3.4  of limit attachments. To view our attachment size guidelines, go
+             to Gmail receiving limits in Google Workspace.
+
+             The size of your message (size bytes) exceeded Google's message
+552   5.3.4  size limits of limit bytes. To view our message size guidelines,
+             go to Gmail receiving limits in Google Workspace.
+
+552   5.3.4  Your message exceeded Google's message header size limits. To view
+             our header size guidelines, go to Gmail message header limits.
+
+             Your message exceeded Google's message header size limits.
+552   5.3.4  Messages must not exceed limit total header bytes or limit header
+             fields. To view our header size guidelines, go to Gmail message
+             header limits.
+
+             The size of the header name header value (size bytes) exceeds
+552   5.3.4  Google's limit of limit bytes per individual header size. To view
+             our header size guidelines, go to Gmail message header limits.
+
+             The size of one of the header values (size bytes) exceeds Google's
+552   5.3.4  limit of limit bytes per individual header size. To view our
+             header size guidelines, go to Gmail message header limits.
+
+             The size of a header name (size bytes) exceeds Google’s header
+552   5.3.4  name limit of limit bytes. To view our header size guidelines, go
+             to Gmail message header limits.
+
+             Your message has a Subject: header that exceeds Google's message
+552   5.3.4  header size limits. To view our header size guidelines, go to
+             Gmail message header limits.
+
+550   5.4.5  Daily user sending limit exceeded. For more information on Gmail
+             sending limits, go to Gmail sending limits.
+
+             Daily SMTP relay limit exceeded for user. For more information on
+550   5.4.5  SMTP relay sending limits, contact your administrator or go to
+             SMTP relay service error messages. 
+
+554   5.4.6  Message exceeded 50 hops, this may indicate a mail loop. For more
+             information, go to Gmail Help. 
+
+503   5.5.1  Bad sequence of commands. For more information, go to About SMTP
+             error messages and review RFC 5321 specifications.
+
+502   5.5.1  Unimplemented command. For more information, go to About SMTP
+             error messages.
+
+502   5.5.1  Unrecognized command. For more information, go to About SMTP error
+             messages.
+
+502   5.5.1  Too many unrecognized commands, goodbye. For more information, go
+             to About SMTP error messages.
+
+             No DATA after BDAT. A mail transaction protocol command was issued
+503   5.5.1  out of sequence. For more information, go to About SMTP error
+             messages and review RFC 3030 specifications.
+
+             EHLO/HELO first. A mail transaction protocol command was issued
+503   5.5.1  out of sequence. For more information, go to HELO/EHLO email error
+             .
+
+             MAIL first. A mail transaction protocol command was issued out of
+503   5.5.1  sequence. For more information, go to About SMTP error messages
+             and review RFC 5321 specifications.
+
+             RCPT first. A mail transaction protocol command was issued out of
+503   5.5.1  sequence. For more information, go to About SMTP error messages
+             and review RFC 5321 specifications.
+
+501   5.5.2  Syntax error, cannot decode response. For more information, go to
+             About SMTP error messages.
+
+555   5.5.2  Syntax error. For more information, go to About SMTP error
+             messages and review RFC 5321 specifications.
+
+555   5.5.2  Syntax error, goodbye. For more information, go to About SMTP
+             error messages and review RFC 5321 specifications.
+
+550   5.5.3  Too many recipients for this sender. For more information, go to
+             About SMTP error messages and review RFC 5321 specifications.
+
+501   5.5.4  HELO/EHLO argument argument invalid closing connection. For more
+             information, go to HELO/EHLO email error.
+
+501   5.5.4  Empty HELO/EHLO argument not allowed, closing connection. For more
+             information, go to HELO/EHLO email error.
+
+554   5.6.0  Mail message is malformed. Not accepted. For more information, go
+             to Email sender guidelines and review RFC 5322 specifications.
+
+             This message was blocked because its content presents a potential
+552   5.7.0  security issue. To review our message content and attachment
+             content guidelines, go to File types blocked in Gmail.
+
+503   5.7.0  No identity changes permitted. For more information, go to About
+             SMTP error messages.
+
+             Mail relay denied ip-address. Invalid credentials for relay for
+             one of the domains in: domain-name (as obtained from HELO and MAIL
+             FROM). Email is being sent from a domain or IP address which isn't
+550   5.7.0  registered in your Workspace account. Please login to your
+             Workspace account and verify that your sending device IP address
+             has been registered within the Workspace SMTP Relay Settings. For
+             more information, go to SMTP relay service error messages. 
+
+             Mail relay denied ip-address. The sending mail account has been
+550   5.7.0  temporarily suspended due to abuse. For more information, go to
+             SMTP relay spam policy in Gmail.
+
+550   5.7.0  Mail sending denied. For more information, go to SMTP relay
+             service error messages. 
+
+554   5.7.0  Too many unauthenticated commands. For more information, go to
+             About SMTP error messages.
+
+530   5.7.0  Authentication required. For more information, go to Can't sign in
+             to your Google Account. 
+
+530   5.7.0  Must issue a STARTTLS command first. For more information, go to
+             About SMTP error messages and review RFC 3207 specifications.
+
+             This message was blocked because its content presents a potential
+552   5.7.0  security issue. To review our message and attachment content
+             guidelines, go to File types blocked in Gmail.
+
+             The user or domain that you are sending to (or from) has a policy
+550   5.7.1  that prohibits the mail that you sent. Contact your domain
+             administrator for assistance. For more information, go to Sorry, a
+             policy is in place that prevents your message from being sent. 
+
+             Invalid credentials for relay ip-address. The IP address you've
+             registered in your Workspace SMTP Relay service doesn't match the
+             domain of the account this email is being sent from. If you are
+             trying to relay mail from a domain that isn't registered under
+550   5.7.1  your Workspace account or has empty envelope-from:, you must
+             configure your mail server either to use SMTP AUTH to identify the
+             sending domain or to present one of your domain names in the HELO
+             or EHLO command. For more information, go to SMTP relay service
+             error messages. 
+
+             This message is likely unsolicited mail. To reduce the amount of
+550   5.7.1  spam sent to Gmail, this message has been blocked. For more
+             information, go to Why has Gmail blocked my messages?.
+
+             This message does not meet IPv6 sending guidelines regarding PTR
+550   5.7.1  records and authentication. For more information, go to Email
+             sender guidelines.
+
+             This message is likely suspicious due to the very low reputation
+550   5.7.1  of the sending IP address. To best protect our users from spam,
+             the message has been blocked. For more information, go to Why has
+             Gmail blocked my messages?.
+
+             This message is likely suspicious due to the very low reputation
+550   5.7.1  of the sending domain. To best protect our users from spam, the
+             message has been blocked. For more information, go to Why has
+             Gmail blocked my messages?.
+
+             Messages missing a valid address in the From: header, or having no
+550   5.7.1  From: header, are not accepted. For more information, go to Email
+             sender guidelines and review RFC 5322 specifications.
+
+             Messages missing a valid Message-ID: header are not accepted. For
+550   5.7.1  more information, go to Email sender guidelines and review RFC
+             5322 specifications.
+
+             Messages with multiple addresses in the From: header are not
+550   5.7.1  accepted. For more information, go to Email sender guidelines and
+             review RFC 5322 specifications.
+
+             The message contains a unicode character in a disallowed header.
+550   5.7.1  To review our message and header content guidelines, go to File
+             types blocked in Gmail.
+
+             This message is not RFC 5322 compliant because it has duplicate
+550   5.7.1  headers. To reduce the amount of spam sent to Gmail, this message
+             has been blocked. For more information, go to Email sender
+             guidelines and review RFC 5322 specifications.
+
+             This message is not RFC 5322 compliant because the From: header is
+550   5.7.1  missing. To reduce the amount of spam sent to Gmail, this message
+             has been blocked. For more information, go to Email sender
+             guidelines and review RFC 5322 specifications.
+
+             This message is not RFC 5322 compliant because it has multiple
+550   5.7.1  From: headers. To reduce the amount of spam sent to Gmail, this
+             message has been blocked. For more information, go to Email sender
+             guidelines and review RFC 5322 specifications.
+
+             This message is not RFC 5322 compliant because the From: header
+550   5.7.1  has a non-compliant domain name. To reduce the amount of spam sent
+             to Gmail, this message has been blocked. For more information, go
+             to Email sender guidelines and review RFC 5322 specifications.
+
+550   5.7.1  This mail has been rate limited  . For more information, go to
+             Limits for sending & getting mail. 
+
+             The IP you're using to send mail is not authorized to send email
+550   5.7.1  directly to our servers. Use the SMTP relay at your service
+             provider instead. For more information, go to 'The IP you're using
+             to send email is not authorized...'. 
+
+             Daily SMTP relay sending limit exceeded for this customer. For
+550   5.7.1  more information on SMTP relay sending limits, contact your
+             administrator or visit SMTP relay service error messages. 
+
+             Encoded-word syntax is not permitted in message header header-name
+550   5.7.1  . To reduce the amount of spam sent to Gmail, this message has
+             been blocked. For more information, go to Email sender guidelines
+             and review RFC 5322 specifications.
+
+             This message is not RFC 5322 compliant. There are multiple
+550   5.7.1  header-name headers. To reduce the amount of spam sent to Gmail,
+             this message has been blocked. For more information, go to Email
+             sender guidelines and review RFC 5322 specifications.
+
+             This message is not RFC 5322 compliant. There is a malformed
+550   5.7.1  header- name header. To reduce the amount of spam sent to Gmail,
+             this message has been blocked. For more information, go to Email
+             sender guidelines and review RFC 5322 specifications.
+
+             SMTP protocol violation, no commands allowed to pipeline after
+523   5.7.10 STARTTLS. For more information, go to About SMTP error messages
+             and review RFC 3207 specifications.
+
+501   5.7.11 Syntax error (no parameters allowed). For more information, go to
+             About SMTP error messages and review RFC 3207 specifications.
+
+534   5.7.14 Please log in through your web browser and then try again. For
+             more information, go to Can't sign in to your Google Account. 
+
+550   5.7.24 The SPF record of the sending domain has one or more suspicious
+             entries. For more information, go to Email sender guidelines.
+
+             The IP address sending this message does not have a PTR record
+             setup, or the corresponding forward DNS entry does not point to
+550   5.7.25 the sending IP. As a policy, Gmail does not accept messages from
+             IPs with missing PTR records. For more information, go to Email
+             sender guidelines.
+
+             The sending IP does not match the IP address of the hostname
+550   5.7.25 specified in the pointer (PTR) record. For more information, go to
+             Email sender guidelines.
+
+             This mail has been blocked because the sender is unauthenticated.
+             Gmail requires all senders to authenticate with either SPF or
+550   5.7.26 DKIM. Authentication results: DKIM = did not pass SPF [domain-name
+             ] with ip: [ip-address] = did not pass. For instructions on
+             setting up authentication, go to Email sender guidelines. 
+
+             The MAIL FROM domain [domain-name] has an SPF record with a hard
+             fail policy (-all) but it fails to pass SPF checks with the ip: [
+550   5.7.26 ip-address]. To best protect our users from spam and phishing, the
+             message has been blocked. For more information, go to Email sender
+             guidelines.
+
+             Unauthenticated email from domain-name is not accepted due to
+550   5.7.26 domain's DMARC policy. Contact the administrator of domain-name
+             domain if this was legitimate mail. To learn about the DMARC
+             initiative, go to Control unauthenticated mail from your domain.
+
+             This mail has been blocked because SPF does not pass. Gmail
+             requires all large senders to authenticate with SPF.
+550   5.7.27 Authentication results: SPF domain-name with ip: ip-address = did
+             not pass. For instructions on setting up SPF authentication, go to
+             Define your SPF record—Basic setup. 
+
+             There is an unusual rate of unsolicited mail originating from your
+550   5.7.28 IP address. To protect our users from spam, mail sent from your IP
+             address has been blocked. To review our bulk email senders
+             guidelines, go to Email sender guidelines.
+
+             Your email has been blocked because this message wasn’t sent over
+             a TLS connection. Gmail requires all bulk email senders to use TLS
+             /SSL for SMTP connections.
+550   5.7.29
+             To set up TLS for email, visit TLS & SSL connections. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
+             This mail has been blocked because DKIM does not pass. Gmail
+             requires all large senders to authenticate with DKIM.
+550   5.7.30 Authentication results: DKIM = did not pass. For instructions on
+             setting up DKIM authentication, go to Turn on DKIM for your
+             domain.   
+504   5.7.4  Unrecognized authentication type. For more information, go to
+             About SMTP error messages.
+
+504   5.7.4  XOAUTH is no longer supported. For more information, go to XOAUTH
+             Migration | Gmail | Google for Developers. 
+
+535   5.7.8  Username and Password not accepted. For more information, go to
+             Can't sign in to your Google Account. 
+
+534   5.7.9  Application-specific password required. For more information, go
+             to Sign in with app passwords. 
+
+534   5.7.9  Please log in with your web browser and then try again. For more
+             information, go to Can't sign in to your Google Account. 
+
+Was this helpful?
+
+How can we improve it?
+YesNo
+[                    ]
+Submit
+Need more help?
+
+Try these next steps:
+
+Post to the help community Get answers from community members
+Contact us Tell us more and we’ll help you get there
+true
+
+Error messages
+
+  • 1 of 2
+    About SMTP error messages
+  • 2 of 2
+    Gmail SMTP errors and codes
+
+[exxMjxadqE]
+Start your free 14-day trial today
+
+Professional email, online storage, shared calendars, video meetings and more.
+Start your free Google Workspace trial today.
+
+  • ©2024 Google
+  • Privacy Policy
+  • Terms of Service
+
