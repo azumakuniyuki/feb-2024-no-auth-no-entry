@@ -184,16 +184,14 @@ Code  Code
              record. To learn more about Gmail requirements for bulk email
              senders, visit Email sender guidelines.
 
-             Gmail has detected an unusual rate of unsolicited mail. To protect
-421   4.7.28 our users from spam, mail has been temporarily rate limited. To
-             review our bulk email senders guidelines, go to Email sender
-             guidelines.
+             Gmail has detected an unusual rate of mail. To protect our users
+421   4.7.28 from spam, mail has been temporarily rate limited. To review our
+             bulk email senders guidelines, go to Email sender guidelines.
 
-             Gmail has detected an unusual rate of unsolicited mail originating
-             from your IP address ip-address. To protect our users from spam,
-421   4.7.28 mail sent from your IP address has been temporarily rate limited.
-             To review our bulk email senders guidelines, go to Email sender
-             guidelines.
+             Gmail has detected an unusual rate of mail originating from your
+421   4.7.28 IP address ip-address. To protect our users from spam, mail sent
+             from your IP address has been temporarily rate limited. To review
+             our bulk email senders guidelines, go to Email sender guidelines.
 
              Gmail has detected an unusual rate of unsolicited mail originating
              from your IP Netblock ip-address. To protect our users from spam,
@@ -555,17 +553,23 @@ Code  Code
              not pass. For instructions on setting up SPF authentication, go to
              Define your SPF record—Basic setup. 
 
-             This mail has been blocked because DKIM does not pass. Gmail
-             requires all large senders to authenticate with DKIM.
-550   5.7.28 Authentication results: DKIM = did not pass. For instructions on
-             setting up DKIM authentication, go to Turn on DKIM for your
-             domain.   
-
              There is an unusual rate of unsolicited mail originating from your
 550   5.7.28 IP address. To protect our users from spam, mail sent from your IP
              address has been blocked. To review our bulk email senders
              guidelines, go to Email sender guidelines.
 
+             Your email has been blocked because this message wasn’t sent over
+             a TLS connection. Gmail requires all bulk email senders to use TLS
+             /SSL for SMTP connections.
+550   5.7.29
+             To set up TLS for email, visit TLS & SSL connections. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
+             This mail has been blocked because DKIM does not pass. Gmail
+             requires all large senders to authenticate with DKIM.
+550   5.7.30 Authentication results: DKIM = did not pass. For instructions on
+             setting up DKIM authentication, go to Turn on DKIM for your
+             domain.   
 504   5.7.4  Unrecognized authentication type. For more information, go to
              About SMTP error messages.
 
