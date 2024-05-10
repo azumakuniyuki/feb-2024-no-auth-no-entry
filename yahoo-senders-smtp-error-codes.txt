@@ -131,6 +131,10 @@ Authentication failures
 
   • Your email failed one or more authentication checks that Yahoo uses to
     verify emails are truly sent from the domains they claim to originate from.
+  • All senders need to authenticate their emails with either SPF or DKIM. Bulk
+    senders must authenticate with SPF and DKIM, and have a DMARC policy in
+    place (see our Sender Requirements & Recommendations section for more
+    information).
   • Yahoo rejects emails for failing DKIM authentication when all of following
     conditions apply:
       □ The signing domain publishes a policy which states that all emails from
@@ -142,6 +146,9 @@ Authentication failures
   • If you're not the system administrator for the mail servers affected, we
     encourage you to contact the administrator, so they can look into the
     situation further.
+  • If you are sending your email via Microsoft365 or Google Workspace, please
+    follow these guidelines to properly authenticate your emails via DKIM:
+    Google help article, Microsoft help article.
   • For mailing lists, also known as “listservs,” you should change your
     sending behavior by adding the mailing lists' address to the “From:” line,
     rather than the sender's address. Also, enter the actual user/sender
