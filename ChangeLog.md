@@ -1,6 +1,17 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-05-10
+--------------------------------------------------------------------------------------------------0
+- The following pages updated
+  - Gmail SMTP Errors and Codes: https://support.google.com/a/answer/3726730
+    - The changes in `4.7.28` seems to be only in the wordking: `"unsolicited"` was removed
+    - `5.7.28` related to DKIM errors have been removed and added as `5.7.30`
+    - `5.7.29` has been added (Require TLS/SSL)
+    - `5.7.30` has been added (It may be the same as the `5.7.28`(DKIM) in the last update
+  - Yahoo! Sender SMTP Error Codes: https://senders.yahooinc.com/smtp-error-codes/
+    - "Authentication failures" section explicitly told to authenticate SPF, DKIM, and DMARC
+
 2024-04-30
 --------------------------------------------------------------------------------------------------0
 - SMTP error codes in Google updated
