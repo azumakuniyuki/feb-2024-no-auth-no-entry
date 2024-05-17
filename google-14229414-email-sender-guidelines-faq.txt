@@ -281,6 +281,17 @@ Senders that already include an unsubscribe link in their messages have until
 June 1, 2024 to implement one-click unsubscribe in all commercial, promotional
 messages.
 
+Why is the unsubscribe link not appearing at the top of my messages, even after
+adding one-click unsubscribe headers?
+
+To protect Gmail users, unsubscribe buttons or links are displayed at the top
+of messages (next to the sender name) only for messages that pass Google’s
+automated eligibility checks. Messages must comply with sender requirements and
+implement correct one-click unsubscribe headers, as described in our Email
+sender guidelines, including increasing sending volumes gradually and
+monitoring recipients' spam reports. This is true even when senders add their
+own unsubscribe link to the message body.
+
 How is the distinction made between promotional and transactional messages
 
 The distinction between promotional and transactional messages can vary
@@ -473,7 +484,7 @@ Bulk email sending guidelines & tools
   • 4 of 5
     Control unauthenticated mail from your domain
   • 5 of 5
-    Postmaster Tools
+    Monitor outgoing email with Postmaster Tools
 
 [exxMjxadqE]
 Start your free 14-day trial today
