@@ -1,6 +1,13 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-05-24
+--------------------------------------------------------------------------------------------------0
+- `This dashboard is available only to bulk senders` has been removed from the following URLs:
+  - Email Sender Guidelines FAQ: https://support.google.com/a/answer/14229414
+  - Email sender requirements & Postmaster Tools FAQ: https://support.google.com/mail/answer/14289100
+- "This dashborad" means Postmaster Tools (Google)
+
 2024-05-17
 --------------------------------------------------------------------------------------------------0
 - https://support.google.com/a/answer/14229414 - Email sender guidelines FAQ
