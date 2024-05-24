@@ -30,7 +30,7 @@ Google Workspace Admin
   • Gmail
   • Gmail limits and policies
   • Bulk email sending guidelines & tools
-  • Postmaster Tools
+  • Monitor outgoing email with Postmaster Tools
   • Sender requirements & Postmaster Tools FAQ
 
 Notification
@@ -44,9 +44,8 @@ messages to the right place. With Postmaster Tools, you have access to data and
 diagnostics about your email, including delivery errors, spam reports, and
 feedback loops. 
 
-To help bulk email senders meet the requirements in our Email sender guidelines
-, we've added a new Compliance status dashboard to Postmaster Tools. This
-dashboard is available only to bulk senders.
+To help email senders meet the requirements in our Email sender guidelines,
+we've added a new Compliance status dashboard to Postmaster Tools. 
 
 Email sender guidelines & Postmaster Tools
 
@@ -133,13 +132,15 @@ Post to the help community Get answers from community members
 Contact us Tell us more and we’ll help you get there
 true
 
-Postmaster Tools
+Monitor outgoing email with Postmaster Tools
 
-  • 1 of 3
-    Get started with Postmaster Tools
-  • 2 of 3
+  • 1 of 4
+    Set up Postmaster Tools
+  • 2 of 4
+    Postmaster Tools dashboards
+  • 3 of 4
     Postmaster Tools FAQs
-  • 3 of 3
+  • 4 of 4
     Sender requirements & Postmaster Tools FAQ
 
 [exxMjxadqE]

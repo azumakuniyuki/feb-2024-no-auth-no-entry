@@ -45,9 +45,8 @@ requirements for sending email to personal Gmail accounts.
 We update this FAQ periodically, so check back regularly to get the latest
 information and requirements for bulk email senders.
 
-To help bulk email senders meet the requirements in our Email sender guidelines
-, we've added a new Compliance status dashboard to Postmaster Tools. This
-dashboard is available only to bulk senders.
+To help email senders meet the requirements in our Email sender guidelines,
+we've added a new Compliance status dashboard to Postmaster Tools. 
 
 Expand all  |  Collapse all
 
