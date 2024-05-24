@@ -132,7 +132,7 @@ Bulk email sending guidelines & tools
   • 4 of 5
     Control unauthenticated mail from your domain
   • 5 of 5
-    Postmaster Tools
+    Monitor outgoing email with Postmaster Tools
 
 [exxMjxadqE]
 Start your free 14-day trial today

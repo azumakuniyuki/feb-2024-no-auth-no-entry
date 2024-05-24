@@ -143,15 +143,17 @@ true
 
 Import & forward emails
 
-  • 1 of 5
+  • 1 of 6
     Email clients (POP/IMAP)
-  • 2 of 5
+  • 2 of 6
     Check emails from other accounts
-  • 3 of 5
+  • 3 of 6
     Automatically forward Gmail messages to another account
-  • 4 of 5
+  • 4 of 6
     Best practices for forwarding email to Gmail
-  • 5 of 5
+  • 5 of 6
+    Verify forwarding addresses
+  • 6 of 6
     Download emails to your computer
 
   • ©2024 Google
