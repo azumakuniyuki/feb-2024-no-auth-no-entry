@@ -1,6 +1,10 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-05-27
+--------------------------------------------------------------------------------------------------0
+- Some sections in Email Sender Guidelines: https://support.google.com/mail/answer/81126 updated
+
 2024-05-24
 --------------------------------------------------------------------------------------------------0
 - `This dashboard is available only to bulk senders` has been removed from the following URLs:
