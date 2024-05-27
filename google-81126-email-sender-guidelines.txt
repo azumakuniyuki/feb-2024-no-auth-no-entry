@@ -82,9 +82,9 @@ follow the Requirements for sending 5,000 or more messages per day.
     spam rates
   • Format messages according to the Internet Message Format standard, RFC 5322
     .
-  • Don’t impersonate Gmail From: headers. Gmail will begin using a DMARC 
-    quarantine enforcement policy, and impersonating Gmail From: headers might
-    impact your email delivery.
+  • Don’t impersonate Gmail From: headers. Gmail will begin using a
+    DMARC quarantine enforcement policy, and impersonating Gmail From: headers
+    might impact your email delivery.
   • If you manage a forwarding service, including mailing lists or inbound
     gateways, add ARC headers to outgoing email. ARC headers indicate the
     message was forwarded and identify you as the forwarder. Mailing list
@@ -97,6 +97,8 @@ Starting February 1, 2024, email senders who send more than 5,000 messages per
 day to Gmail accounts must meet the requirements in this section.
 
   • Set up SPF and DKIM email authentication for your domain.
+  • Set up DMARC email authentication for your sending domain. Your DMARC
+    enforcement policy can be set to none. Learn more
   • Ensure that sending domains or IPs have valid forward and reverse DNS
     records, also referred to as PTR records. Learn more
   • Use a TLS connection for transmitting email. For steps to set up TLS in
@@ -113,8 +115,6 @@ day to Gmail accounts must meet the requirements in this section.
     message was forwarded and identify you as the forwarder. Mailing list
     senders should also add a List-id: header, which specifies the mailing
     list, to outgoing messages.
-  • Set up DMARC email authentication for your sending domain. Your DMARC
-    enforcement policy can be set to none. Learn more
   • For direct mail, the domain in the sender's From: header must be aligned
     with either the SPF domain or the DKIM domain. This is required to pass
     DMARC alignment.
@@ -129,9 +129,13 @@ requirements described in this article, your email might not be delivered as
 expected, or might be marked as spam. To get help with email delivery issues,
 go to Troubleshooting.
 
-Email authentication requirements & recommendations
+Email authentication requirements & guidelines
 
-We require that you set up these email authentication methods for your domain.
+We require that you set up these email authentication methods for your domain:
+
+  • All senders: SPF or DKIM
+  • Bulk senders: SPF, DKIM, and DMARC
+
 Authenticated messages:
 
   • Help protect recipients from malicious messages, such as spoofing and
@@ -204,7 +208,7 @@ previously failed authentication, Gmail treats the message as unauthenticated.
 We recommend that senders use ARC authentication, especially if they regularly
 forward email. Learn more about ARC authentication.
 
-Infrastructure configuration
+Infrastructure configuration requirements and guidelines
 
 IP addresses
 
@@ -237,19 +241,18 @@ If you use a shared IP address for sending email:
   • If you use an email service provider for your shared IP,  use Postmaster
     Tools to check the reputation of the shared IP address.
 
-Subscriptions
+Subscription requirements and guidelines
 
-Send email only to people who want to get messages from you. These recipients
-are less likely to report your messages as spam.
-
-If messages from your domain are frequently reported as spam, future messages
-from you are more likely to be marked as spam. Over time, user spam reports can
-lower your domain’s reputation. Check your domain’s reputation with Postmaster
-Tools.
+If you manage mailing lists or other email subscriptions, you should send email
+only to people who want to get messages from you. These recipients are less
+likely to report your messages as spam. If messages from your domain are
+frequently reported as spam, future messages from you are more likely to be
+marked as spam. Over time, user spam reports can lower your domain’s
+reputation. Check your spam rate and your reputation with Postmaster Tools.
 
 Make it easy to subscribe
 
-To help ensure your recipients are engaged:
+To help ensure recipients are engaged:
 
   • Make sure recipients opt in to get messages from you.
   • Confirm each recipient's email address before subscribing them.
@@ -270,6 +273,7 @@ To set up one-click unsubscribe for Gmail messages, include both of these
 headers in outgoing messages:
 
   • List-Unsubscribe-Post: List-Unsubscribe=One-Click
+
   • List-Unsubscribe: <https://solarmora.com/unsubscribe/example>
 
 When a recipient unsubscribes using one-click, you receive this POST request:
@@ -289,36 +293,51 @@ one-click unsubscribe:
     Let them unsubscribe from lists individually, or all lists at once.
   • Automatically unsubscribe recipients who have multiple bounced messages.
 
-Message formatting
+Message formatting requirements and guidelines
 
-Follow these message formatting guidelines to increase the likelihood that
-Gmail delivers your messages to the inbox instead of the spam folder:
+Follow these message formatting guidelines to help ensure messages are
+delivered as expected:
 
-  • Format messages according to the Internet Format Standard (RFC 5322).
   • If your messages are in HTML, format them according to HTML standards.
-  • Don’t use HTML and CSS to hide content in your messages. Hiding content
-    might cause messages to be marked as spam.
-  • Message From: headers should include only one email address. For example:
-    From: notifications@solarmora.com
-  • Make sure every message includes a valid Message-ID (RFC 5322).
-  • Make sure single-instance message headers are included only once in a
-    message. Examples of single-instance headers include From, To, Subject, and
-    Date (RFC 5322).
-  • Avoid excessively large message headers. To learn more, visit Gmail message
-    header limits.
-  • Web links in the message body should be visible and easy to understand.
-    Recipients should know what to expect when they click a link.
-  • Sender information should be clear and visible.
-  • Message subjects should be accurate and not misleading.
-  • Format these international domains according to the Highly Restrictive
-    guidelines in section 5.2 of Unicode Technical Standard #39:
+  • Follow these message header guidelines:
+      □ From: headers should include only one email address. For example:
+        From: notifications@solarmora.com
+      □ Avoid excessively large message headers. To learn more, visit Gmail
+        message header limits.
+  • Format messages according to the Internet Format Standard (RFC 5322).
+      □ Make sure every message includes a valid Message-ID.
+      □ Make sure single-instance message headers are included only once in a
+        message. Examples of single-instance headers include From:, To:,
+        Subject:, and Date:.
+  • Message headers and message content should be accurate, and not misleading
+    or deceptive.
+      □ Email message subject, headers, display names, and other message
+        elements should accurately represent the sender identity and message
+        content, and shouldn’t be misleading. For example, don’t send messages
+        with subject lines starting with Re: or Fwd: unless the messages are
+        actual replies or forwards, and include only actual senders and
+        recipients in From: and To: headers.
+      □ Don't use emojis or other non-standard characters to imitate graphic
+        elements in messages, with the intent to deceive or influence
+        recipients. For example, don’t use emojis or images next to display or
+        brand names to imply the name has been verified in some way.
+      □ Don’t use HTML and CSS to hide content in your messages. Hiding content
+        might cause messages to be marked as spam.
+      □ Web links in the message body should be visible and easy to understand.
+        Recipients should know what to expect when they click a link.
+      □ Sender information should be clear and visible.
+  • 
+  • Format the following international domains according to Section 5.2 of
+    Unicode Technical Standard #39. An international domain is also called an 
+    internationalized domain name (IDN), and is a URL that is specific to a
+    region or country.
       □ Authenticating domain
       □ Envelope from domain
       □ Payload domain
       □ Reply-to domain
       □ Sender domain
 
-Sending guidelines
+Sending practices requirements and guidelines
 
 To reduce the chances that messages from your domain are sent to spam or
 blocked by Gmail, follow the best practices in this section.
@@ -420,9 +439,9 @@ In the event of a recent spike in email activity, we recommend following the
 requirements and guidelines on this page to resolve deliverability issues
 automatically during following sends.
 
-Special considerations
+Additional guidelines
 
-If you use an email service provider
+Guidelines for using email service providers
 
 Google and Gmail don’t accept allowlist requests from email providers. We can't
 guarantee messages sent by email providers will pass Gmail’s spam filters.
@@ -443,7 +462,7 @@ If you use a domain provider but you manage your own email, we recommend you:
   • Use Postmaster Tools to monitor information about messages sent from your
     domain to Gmail accounts.
 
-If you are a third-party email provider
+Guidelines for email service providers
 
 When clients use your service to send email, you’re responsible for their
 sending practices. We recommend taking these steps to help manage your clients’
@@ -479,9 +498,9 @@ Use Postmaster Tools to get information about the email you send to Gmail
 users, for example:
 
   • When recipients mark your messages as spam
-  • Why your messages might not be delivered
-  • If your messages are authenticated
-  • Your domain or IP reputation and its impact on message delivery rates
+  • Why messages might not be delivered as expected
+  • If messages are authenticated
+  • Your domain or IP reputation and the impact on message delivery rates
 
 Spam rate
 
@@ -497,15 +516,14 @@ Spam rate
 
 Open rate
 
-  • Google does not explicitly track open rates.
-  • Google isn’t able to verify the accuracy of open rates reported by third
-    parties.
-  • Low open rates may not be an accurate indicator of deliverability or spam
-    classification issues.
+  • Google doesn't track open rates.
+  • Google can't verify the accuracy of open rates reported by third parties.
+  • Low open rates aren't necessarily an accurate indicator of deliverability
+    or spam classification issues.
 
-Troubleshooting
+Troubleshooting email delivery
 
-Warning banners
+If messages aren't being delivered as expected:
 
   • Check regularly that your domain isn’t listed as unsafe with Google Safe
     Browsing.
@@ -513,10 +531,10 @@ Warning banners
     status page.
   • Regularly check the status of any domains that are linked to yours.
 
-Delivery issues when sending through email service providers
+Sending with email service providers
 
 If you’re having delivery issues with email sent by a service provider, verify
-that they use the recommended practices in this article.
+the provider follows the requirements and guidelines on this page.
 
 Use the Google Admin Toolbox to review domain settings
 
@@ -554,16 +572,16 @@ Use the troubleshooting tool
 If you’re still having mail delivery problems after following the guidelines in
 this article, try Troubleshooting for senders with email delivery issues.
 
-Translations of our policies are provided for your convenience. If there is a
-conflict between the text of this policy and the text of the English language
-version of the policy, the text of the English language version of the policy
-takes precedence.
-
 Related topics
 
   • Email sender guidelines FAQ
   • Fixed bounced emails
   • Fix messages rejected by Google Groups
+
+Translations of our policies are provided for your convenience. If there is a
+conflict between the text of this policy in language other than English and the
+text of the English language version of the policy, the text of the English
+language version of the policy takes precedence.
 
 Was this helpful?
 
