@@ -71,16 +71,16 @@ RFC compliance failures
       □ Incorrect mime types
       □ …and more
 
-Unresolvable RFC.5321 from domain
+Unresolvable RFC.5321 or RFC.5322 from domain
 
   • These errors indicate that the domain used to the right of the @ in the
-    MAIL FROM does not appear to be a real domain.
+    MAIL FROM or HEADER FROM does not appear to be valid.
   • We determine if the domain name exists by using an SOA query; therefore, if
-    multiple subdomains are used in MAIL FROM commands, then besides setting up
-    a DNS A or MX record (perhaps using a wildcard), then SOA records must be
-    set up as well.
-  • This error can be returned as either a timeout/servfail (451) or a permfail
-    (554)
+    multiple subdomains are used in MAIL FROM or HEADER FROM commands, then
+    besides setting up a DNS A or MX record (perhaps using a wildcard), then
+    SOA records must be set up as well.
+  • These errors can be returned as either a timeout/servfail (451) or a
+    permfail (554)
 
 Excessive user complaints
 
