@@ -1,25 +1,30 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-05-29
+---------------------------------------------------------------------------------------------------
+- "Unresolvable RFC.5321 from domain" section in Yahoo! Sender Hub/SMTP Error Codes updated
+  - https://senders.yahooinc.com/smtp-error-codes/
+
 2024-05-27
---------------------------------------------------------------------------------------------------0
+---------------------------------------------------------------------------------------------------
 - Some sections in Email Sender Guidelines: https://support.google.com/mail/answer/81126 updated
 
 2024-05-24
---------------------------------------------------------------------------------------------------0
+---------------------------------------------------------------------------------------------------
 - `This dashboard is available only to bulk senders` has been removed from the following URLs:
   - Email Sender Guidelines FAQ: https://support.google.com/a/answer/14229414
   - Email sender requirements & Postmaster Tools FAQ: https://support.google.com/mail/answer/14289100
 - "This dashborad" means Postmaster Tools (Google)
 
 2024-05-17
---------------------------------------------------------------------------------------------------0
+---------------------------------------------------------------------------------------------------
 - https://support.google.com/a/answer/14229414 - Email sender guidelines FAQ
   - Add "Why is the unsubscribe link not appearing" question
 
 
 2024-05-10
---------------------------------------------------------------------------------------------------0
+---------------------------------------------------------------------------------------------------
 - The following pages updated
   - Gmail SMTP Errors and Codes: https://support.google.com/a/answer/3726730
     - The changes in `4.7.28` seems to be only in the wordking: `"unsolicited"` was removed
@@ -30,7 +35,7 @@ Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
     - "Authentication failures" section explicitly told to authenticate SPF, DKIM, and DMARC
 
 2024-04-30
---------------------------------------------------------------------------------------------------0
+---------------------------------------------------------------------------------------------------
 - SMTP error codes in Google updated
   - https://support.google.com/a/answer/14229414 - Email sender guidelines FAQ
     - The list sorted by the code
