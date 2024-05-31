@@ -3,73 +3,93 @@ NO AUTH, NO ENTRY STARTING FROM FEBRUARY 2024
 A tracking of the differences between official announcements related to "No Auth, No Entry" at 
 Google and Yahoo! starting from February 2024.
 
-Files and directories
+Google
 ---------------------------------------------------------------------------------------------------
-```
-google-14229414-email-sender-guidelines-faq.txt - The latest "Email sender guidelines FAQ" text
-google-14229414-email-sender-guidelines-faq/
-  text/ ----------------------------------------- Keeping updated text files of 14229414
-  html/ ----------------------------------------- Keeping updated HTML files of 14229414
-google-3726730-smtp-errors-and-codes.txt -------- The latest "Gmail SMTP errors and codes" text
-google-3726730-smtp-errors-and-codes/
-  text/ ----------------------------------------- Keeping updated text files of 3726730
-  html/ ----------------------------------------- Keeping updated HTML files of 3726730
-google-81126-email-sender-guidelines.txt -------- The latest "Email sender guidelines" text
-google-81126-email-sender-guidelines/
-  text/ ----------------------------------------- Keeping updated text files of 81126
-  html/ ----------------------------------------- Keeping updated HTML files of 81126
-google-175365-best-practices-for-***.txt -------- Best practices for forwarding email to Gmail 175365
-google-175365-best-practices-for-***/
-  text/ ----------------------------------------- Keeping updated text files of 175365
-  html/ ----------------------------------------- Keeping updated HTML files of 175365
-yahoo-senders-best-practices.txt ---------------- The latest "Senders best practices(Y!)" text
-yahoo-senders-best-practices/
-  text/ ----------------------------------------- Keeping updated text files of text above
-  html/ ----------------------------------------- Keeping updated HTML files of text above
-yahoo-senders-faq.txt --------------------------- The latest "Yahoo! Senders FAQ" text
-yahoo-senders-faq/
-  text/ ----------------------------------------- Keeping updated text files of text above
-  html/ ----------------------------------------- Keeping updated HTML files of text above
-microsoft-fighting-junk-email.txt --------------- The latest "Fighting Junk Email" text
-microsoft-fighting-junk-email/
-  text/ ----------------------------------------- Keeping updated text files of text above
-  html/ ----------------------------------------- Keeping updated HTML files of text above
-microsoft-outlook-outbound-ip-space.txt --------- The latest "Outlook.com Outbound IP Space" text
-microsoft-outlook-outbound-ip-space/
-  text/ ----------------------------------------- Keeping updated text files of text above
-  html/ ----------------------------------------- Keeping updated HTML files of text above
-microsoft-outlook-postmaster.txt ---------------- The latest "Outlook.com Postmaster" text
-microsoft-outlook-postmaster/
-  text/ ----------------------------------------- Keeping updated text files of text above
-  html/ ----------------------------------------- Keeping updated HTML files of text above
-microsoft-policies-practices-and-guidelines.txt - The latest "Policies, Practices and Guidelines" text
-microsoft-policies-practices-and-guidelines/
-  text/ ----------------------------------------- Keeping updated text files of text above
-  html/ ----------------------------------------- Keeping updated HTML files of text above
-microsoft-services-for-senders-and-isps.txt ----- The latest "Services for Senders and ISPs" text
-microsoft-services-for-senders-and-isps/
-  text/ ----------------------------------------- Keeping updated text files of text above
-  html/ ----------------------------------------- Keeping updated HTML files of text above
-microsoft-troubleshooting.txt ------------------- The latest "Troubleshooting" text
-microsoft-troubleshooting/
-  text/ ----------------------------------------- Keeping updated text files of text above
-  html/ ----------------------------------------- Keeping updated HTML files of text above
+- [**Email Sender Guidelines (81126)**](https://support.google.com/mail/answer/81126)
+  - 📜 [./google-81126-email-sender-guidelines.txt](./google-81126-email-sender-guidelines.txt)
+    - 📅 Last updated at [2024-05-29](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7d65928daecc0d7cb06d85aa130143a03c4427fd)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-81126-email-sender-guidelines.txt)
+  - 📂 [./google-81126-email-sender-guidelines/](./google-81126-email-sender-guidelines/)
+- [**Email Sender Guidelines FAQ (14229414)**](https://support.google.com/a/answer/14229414)
+  - 📜 [./google-14229414-email-sender-guidelines-faq.txt](./google-14229414-email-sender-guidelines-faq.txt)
+    - 📅 Last updated at [2024-05-24](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7405111a9336ae58e3c64777272c4e26278bae50P\)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-14229414-email-sender-guidelines-faq.txt)
+  - 📂 [./google-14229414-email-sender-guidelines-faq/](./google-14229414-email-sender-guidelines-faq/)
+- [**Gmail SMTP Errors and Codes (3726730)**](https://support.google.com/a/answer/3726730)
+  - 📜 [./google-3726730-smtp-errors-and-codes.txt](./google-3726730-smtp-errors-and-codes.txt)
+    - 📅 Last updated at [2024-05-10](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/d477b178e12fc6d929a23ca781f132d9cd09500a)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-3726730-smtp-errors-and-codes.txt)
+  - 📂 [./google-3726730-smtp-errors-and-codes/](./google-3726730-smtp-errors-and-codes/)
+- [**Email sender requirements & Postmaster Tools FAQ (14289100)**](https://support.google.com/mail/answer/14289100)
+  - 📜 [./google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt](./google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt)
+    - 📅 Last updated at [2024-05-24](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7405111a9336ae58e3c64777272c4e26278bae50)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt)
+  - 📂 [./google-14289100-email-sender-requirements-and-postmaster-tools-faq/](./google-14289100-email-sender-requirements-and-postmaster-tools-faq/)
+- [**Best practices for forwarding email to Gmail (175365)**](https://support.google.com/mail/answer/175365)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./google-175365-best-practices-for-forwarding-email-to-gmail.txt](google-175365-best-practices-for-forwarding-email-to-gmail.txt)
+  - 📂 [./google-175365-best-practices-for-forwarding-email-to-gmail/](google-175365-best-practices-for-forwarding-email-to-gmail/)
+- [**Feedback Loop (6254652)**](https://support.google.com/mail/answer/6254652)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./google-6254652-feedback-loop.txt](./google-6254652-feedback-loop.txt)
+  - 📂 [./google-6254652-feedback-loop/](./google-6254652-feedback-loop/)
 
-google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt
-google-6254652-feedback-loop.txt
-yahoo-senders-smtp-error-codes.txt
-```
+Yahoo Inc.
+---------------------------------------------------------------------------------------------------
+- [**Yahoo! Sender Best Practices**](https://senders.yahooinc.com/best-practices/)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./yahoo-senders-best-practices.txt](yahoo-senders-best-practices.txt)
+  - 📂 [./yahoo-senders-best-practices/](./yahoo-senders-best-practices/)
+- [**Yahoo! Sender FAQ**](https://senders.yahooinc.com/faqs/)
+  - 📜 [./yahoo-senders-faq.txt](yahoo-senders-faq.txt)
+    - 📅 Last updated at [2024-02-03](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7aedca5d7525f6d5c88ad4e7fc58b82525f2153f)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/yahoo-senders-faq.txt)
+  - 📂 [./yahoo-senders-faq](./yahoo-senders-faq/)
+- [**Yahoo! Sender SMTP Error Codes**](https://senders.yahooinc.com/smtp-error-codes/)
+  - 📜 [./yahoo-senders-smtp-error-codes.txt](./yahoo-senders-smtp-error-codes.txt)
+    - 📅 Last updated at [2024-05-29](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/b4807ce6c4a74afac073645a3f86a95f9c348be8)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/yahoo-senders-smtp-error-codes.txt)
+  - 📂 [./yahoo-senders-smtp-error-codes/](./yahoo-senders-smtp-error-codes/)
+
+Microsoft
+---------------------------------------------------------------------------------------------------
+- [**Microsoft Outlook.com Postmaster**](https://postmaster.live.com/pm/postmaster.aspx)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./microsoft-outlook-postmaster.txt](./microsoft-outlook-postmaster.txt)
+- [**Microsoft Fighting Junk Email**](https://postmaster.live.com/pm/junkemail.aspx)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./microsoft-fighting-junk-email.txt](./microsoft-fighting-junk-email.txt)
+- [**Microsoft Policies, Practices and Guildelines**](https://postmaster.live.com/pm/policies.aspx)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./microsoft-policies-practices-and-guidelines.txt](./microsoft-policies-practices-and-guidelines.txt)
+- [**Microsoft Services for Senders and ISPs**](https://postmaster.live.com/pm/services.aspx)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./microsoft-services-for-senders-and-isps.txt](./microsoft-services-for-senders-and-isps.txt)
+- [**Microsoft Troubleshooting**](https://postmaster.live.com/pm/troubleshooting.aspx)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./microsoft-troubleshooting.txt](./microsoft-troubleshooting.txt)
+- [**Microsoft Outlook.com Outbound IP Space**](https://postmaster.live.com/pm/ipspace.aspx)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./microsoft-outlook-outbound-ip-space.txt](./microsoft-outlook-outbound-ip-space.txt)
+
+Apple 
+---------------------------------------------------------------------------------------------------
+- [**Postmaster information for iCloud Mail - Apple Support**](https://support.apple.com/en-us/102322)
+  - ⏰ No significant changes since the file was uploaded
+  - 📜 [./apple-102322-icloud-postmaster.txt](./apple-102322-icloud-postmaster.txt)
 
 Download the latest announcements
 ---------------------------------------------------------------------------------------------------
 ### Requirements for downloading
-`Makefile` require the following commands to download HTML file from Google and Yahoo!:
+`Makefile` require the following commands to download the original HTML file, to convert the TEXT
+file.
 - `perl`
 - `wget`
 - `w3m`
 
 ```
-% make updates (download 3 HTML files from Google, 1 HTML file from Yahoo!)
+% make updates (download all the HTML file from all the ESPs)
+% make check-google (download all the HTML file from Google)
 % make 81126 (download https://support.google.com/mail/answer/81126 only)
 ...
 ```
@@ -174,17 +194,4 @@ index ee32aaa..518f70d 100644
    • Email sender guidelines
 ...
 ```
-
-References
----------------------------------------------------------------------------------------------------
-- Google
-    - [Gmail SMTP Errors and Codes(3726730)](https://support.google.com/a/answer/3726730?hl=en)
-    - [Email Sender Guidelines(81126)](https://support.google.com/mail/answer/81126?hl=en)
-    - [Email Sender Guidelines FAQ(14229414)](https://support.google.com/a/answer/14229414?hl=en)
-    - [Email sender requirements & Postmaster Tools FAQ](https://support.google.com/mail/answer/14289100?hl=en)
-    - [Feedback Loop](https://support.google.com/mail/answer/6254652?hl=en)
-- Yahoo!
-    - [Sender Hub/Sender Best Practices](https://senders.yahooinc.com/best-practices/)
-    - [Yahoo! Sender FAQ](https://senders.yahooinc.com/faqs/)
-    - [Yahoo! Sender SMTP Error Codes](https://senders.yahooinc.com/smtp-error-codes/)
 
