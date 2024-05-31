@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-05-30
+---------------------------------------------------------------------------------------------------
+- Register `apple-102322-icloud-postmaster.txt`; converted from the HTML file downloaded from Apple
+  - Postmaster information for iCloud Mail - Apple Support https://support.apple.com/en-us/102322
+- More readable README.MD
+
 2024-05-29
 ---------------------------------------------------------------------------------------------------
 - "Unresolvable RFC.5321 from domain" section in Yahoo! Sender Hub/SMTP Error Codes updated
