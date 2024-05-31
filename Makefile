@@ -25,6 +25,7 @@ REPOS_TARGETS = git-status git-push git-commit-amend git-tag-list git-diff git-r
 updates:
 	$(MAKE) check-google
 	$(MAKE) check-yahoo
+	$(MAKE) check-apple
 	$(MAKE) check-microsoft
 
 check-google:
@@ -47,6 +48,9 @@ check-microsoft:
 	$(MAKE) services-for-senders-and-isps;     sleep 5	# Microsoft Services for Senders and ISPs
 	$(MAKE) troubleshooting;     sleep 5 				# Microsoft Troubleshooting
 	$(MAKE) outlook-outbound-ip-space 					# Microsoft Outlook.com Outbound IP Space
+
+check-apple:
+	$(MAKE) 102322;		# Apple: Postmaster information for iCloud Mail 
 
 temp-dirs:
 	test -d ./$(TEMP)      || $(MKDIR) ./$(TEMP)
@@ -197,6 +201,24 @@ outlook-outbound-ip-space: temp-dirs
 	$(WGET) -O $@.html "https://postmaster.live.com/pm/ipspace.aspx"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
+
+icloud-postmaster: temp-dirs
+	@ touch $@
+
+102322: icloud-postmaster
+	# Postmaster information for iCloud Mail - Apple Support https://support.apple.com/en-us/102322
+	$(WGET) -O $@.html "https://support.apple.com/en-us/102322"
+	$(W3M) ./$@.html > $@.txt
+#$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	test -d ./apple-$@-$</text || $(MKDIR) ./apple-$@-$</text
+	test -d ./apple-$@-$</html || $(MKDIR) ./apple-$@-$</html
+
+	$(CP) ./$@.txt  ./apple-$@-$<.txt
+	$(MV) ./$@.txt  $(TEMP)/text/apple-$@-$<-`date '+%F'`.txt
+	$(MV) ./$@.html $(TEMP)/html/apple-$@-$<-`date '+%F'`.html
+	$(RM) $<
+
+# -------------------------------------------------------------------------------------------------
 plain-text:
 	test -s $(FN).html || $(RM) $(FN).html
 	test -f $(FN).html && $(W3M) ./$(FN).html > $(FN).txt
