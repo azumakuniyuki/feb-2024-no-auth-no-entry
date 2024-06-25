@@ -1,6 +1,10 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-06-25
+---------------------------------------------------------------------------------------------------
+- Added some questions and answers in Complaint Feedback Loop (CFL) in Yahoo Sender FAQ
+
 2024-05-30
 ---------------------------------------------------------------------------------------------------
 - Register `apple-102322-icloud-postmaster.txt`; converted from the HTML file downloaded from Apple
