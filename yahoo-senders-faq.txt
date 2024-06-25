@@ -111,10 +111,57 @@ messages I send?
 
 Complaint Feedback Loop (CFL)
 
+What is the Complaint Feedback Loop?
+
+  • The Complaint Feedback Loop (CFL) is a service that provides a report (in
+    ARF format) back to the sender of an email message once a user marks it as
+    spam.
+  • In order to receive these reports, your DKIM domain(s) (d= part of the DKIM
+    signature) must be enrolled in the service. More information can be found
+    at: https://senders.yahooinc.com/complaint-feedback-loop/
+
+How do I know if I need to enroll in the Complaint Feedback Loop (CFL)?
+
+  • If you are a bulk email sender, your domain should be enrolled in the CFL
+    to manage and monitor complaints for your emails.
+  • If you use an email service provider (ESP) to send your email, they will
+    generally enroll your domain on your behalf and process complaints. Please
+    check with them to ensure you are enrolled.
+
+If I already enrolled in the Complaint Feedback Loop (CFL) via the previous
+form, do I need to enroll again?
+
+  • Yes, in order to continue receiving complaint reports (ARFs), you will need
+    to sign up for a Sender Hub account, and
+
+Will there be a grace period if we cannot complete the Complaint Feedback Loop
+enrollment in the new Sender Hub Dashboard system by the deadline?
+
+  • No, you will stop receiving ARF reports if you are not set up in the new
+    database by August 1, 2024.
+
 How do I know if my CFL enrollment was successful?
 
-  • After submitting an application and completing the verification process,
-    you will start receiving ARF reports
+  • In your Sender Hub profile, under the Manage Services → Complaint Feedback
+    Loop section, it will show the enrollment status of domains that have been
+    added to your account and verified. If you do not see the domain you are
+    looking for, you must first add it under the Domains section of your
+    account, and verify it.
+
+Can I use any reporting email address for the CFL?
+
+  • Yes, it can be any address that you control for the enrollment. It does not
+    need to match the From/DKIM signed domain.
+  • Note: You will need to verify control of this address during the enrollment
+    process by receiving a code and entering it. After this one-time
+    verification process, you will be able to use the same address to enroll
+    additional domains in the CFL.
+
+If I enroll my organizational domain, will my sub-domains be automatically
+enrolled?
+
+  • ARF reports are sent if the DKIM domain is enrolled and emails matching the
+    DKIM domain (d= in the signature) are marked as spam.
 
 Does Yahoo offer an IP-based feedback loop?
 
@@ -122,13 +169,16 @@ Does Yahoo offer an IP-based feedback loop?
 
 How do I update or delete my CFL record?
 
-  • If you forget the CFL address or lose access to that email, fill out a CFL
-    application, but select Update from the “Request type” drop-down menu.
-  • If you'd like to stop receiving reports, fill out a CFL application and
-    select Delete under “Request type.” Once we process your submission, you'll
-    stop receiving CFL reports for the given domain.
+  • Simply log in to your Sender Hub account, click on Manage Services →
+    Complaint Feedback Loop and edit the enrollment delete the enrollment for
+    your domain(s).
 
-What is the format of a CFL?
+Will I also receive ARFs for AOL?
+
+  • Yes, we will send ARF reports for any of the thousands of domains we host
+    and support.
+
+What is the format of a CFL report?
 
   • All reports are provided in the Abuse Reporting Format (ARF). They include
     the full email headers, the original message body and some additional
@@ -383,9 +433,12 @@ I published a BIMI record but my logo is not displayed. Why?
       □ A DMARC policy of quarantine or reject is in place
       □ The mailing is sent to large number of recipients (bulk mail)
       □ And we see sufficient reputation and engagement for the email address
-  • If you think all of those requirements are met but still no logo is
-    displayed, please reach out to mail-questions@yahooinc.com and provide as
-    much details as possible.
+  • If you just updated your BIMI record, it can take time for the change to
+    propagate across our systems. The best place to check is on the web, with a
+    clear cache, at https://mail.yahoo.com/.
+  • If you think all of the requirements are met and you have checked via a new
+    web session, but still no logo is displayed, please reach out to
+    mail-questions@yahooinc.com and provide as much details as possible.
 
 Support
 About Us
