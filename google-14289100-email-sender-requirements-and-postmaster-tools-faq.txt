@@ -33,10 +33,6 @@ Google Workspace Admin
   • Monitor outgoing email with Postmaster Tools
   • Sender requirements & Postmaster Tools FAQ
 
-Notification
-
-Duet AI is now Gemini for Google Workspace. Learn more
-
 Sender requirements & Postmaster Tools FAQ
 
 Postmaster Tools helps email senders analyze email performance and deliver
@@ -129,18 +125,15 @@ Need more help?
 Try these next steps:
 
 Post to the help community Get answers from community members
-Contact us Tell us more and we’ll help you get there
 true
 
 Monitor outgoing email with Postmaster Tools
 
-  • 1 of 4
+  • 1 of 3
     Set up Postmaster Tools
-  • 2 of 4
+  • 2 of 3
     Postmaster Tools dashboards
-  • 3 of 4
-    Postmaster Tools FAQs
-  • 4 of 4
+  • 3 of 3
     Sender requirements & Postmaster Tools FAQ
 
 [exxMjxadqE]

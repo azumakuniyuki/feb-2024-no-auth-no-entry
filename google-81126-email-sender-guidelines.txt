@@ -33,10 +33,6 @@ Google Workspace Admin
   • Problems with sending
   • Email sender guidelines
 
-Notification
-
-Duet AI is now Gemini for Google Workspace. Learn more
-
 Email sender guidelines
 
 The guidelines in this article can help you successfully send and deliver email

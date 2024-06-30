@@ -132,7 +132,8 @@ If I already enrolled in the Complaint Feedback Loop (CFL) via the previous
 form, do I need to enroll again?
 
   • Yes, in order to continue receiving complaint reports (ARFs), you will need
-    to sign up for a Sender Hub account, and
+    to sign up for a Sender Hub account, add and verify your domains, and
+    enroll them in the CFL via the new system.
 
 Will there be a grace period if we cannot complete the Complaint Feedback Loop
 enrollment in the new Sender Hub Dashboard system by the deadline?
