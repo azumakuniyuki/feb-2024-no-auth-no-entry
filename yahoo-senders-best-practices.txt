@@ -97,9 +97,10 @@ Authenticate using SPF, DKIM, and DMARC
     policy allows a sender to indicate that their messages are protected by
     DKIM and/or SPF, and tells a receiver what to do if neither of those
     authentication methods passes.
-  • Authenticate every email with DKIM (Domain Keys Identified Mail), which
-    creates a signature of the content of the message.
-  • DKIM signatures allow Yahoo to associate email with the sender and verify
+  • Authenticate every email with DKIM (Domain Keys Identified Mail) with a
+    minimum 1024-bit key length, which creates a signature of the content of
+    the message.
+  • DKIM signatures allow Yahoo to associate email with the signer and verify
     that the content of the email has not been changed during transmission.
   • Publish valid SPF (Sender Policy Framework) records, which allow a sender
     to specify the list of IPs which are allowed to send mail for that domain.

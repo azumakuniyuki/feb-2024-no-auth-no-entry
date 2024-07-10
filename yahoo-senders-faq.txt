@@ -293,6 +293,11 @@ What is DKIM?
     added.
   • For more information, please refer to the DKIM site.
 
+What DKIM key length does Yahoo require?
+
+  • We require a DKIM key length of 1024 bits or greater
+  • We recommend a 2048-bit key length for improved security, if possible
+
 How are multiple DKIM signatures evaluated?
 
   • Yahoo evaluates all DKIM signatures and uses the results to determine DMARC
