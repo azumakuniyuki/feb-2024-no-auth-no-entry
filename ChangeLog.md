@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-07-10
+---------------------------------------------------------------------------------------------------
+- (Yahoo!) Update the description about DKIM key length (1024-bit or longer) at the followings:
+  - Yahoo! Sender Best Practices: https://senders.yahooinc.com/best-practices/
+  - Yahoo! Sender FAQ: https://senders.yahooinc.com/faqs/
+
 2024-06-25
 ---------------------------------------------------------------------------------------------------
 - Added some questions and answers in Complaint Feedback Loop (CFL) in Yahoo Sender FAQ
