@@ -1,6 +1,15 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-07-19
+---------------------------------------------------------------------------------------------------
+- (Microsoft) The following documents have been updated only document styles
+  - Microsoft Fighting Junk Email: https://postmaster.live.com/pm/junkemail.aspx
+  - Microsoft Outlook.com Outbound IP Space: https://postmaster.live.com/pm/ipspace.aspx
+  - Microsoft Outlook.com Postmaster: https://postmaster.live.com/pm/postmaster.aspx
+  - Microsoft Policies, Practices and Guildelines: https://postmaster.live.com/pm/policies.aspx
+  - Microsoft Troubleshooting: https://postmaster.live.com/pm/troubleshooting.aspx
+
 2024-07-10
 ---------------------------------------------------------------------------------------------------
 - (Yahoo!) Update the description about DKIM key length (1024-bit or longer) at the followings:
