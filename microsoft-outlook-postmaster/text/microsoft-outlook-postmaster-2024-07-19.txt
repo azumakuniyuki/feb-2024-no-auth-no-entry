@@ -1,0 +1,34 @@
+[microsoft] |
+
+Outlook.com Postmaster
+
+Postmaster
+
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
+
+Related places
+
+About Outlook.com End-User Support
+This site provides information to information technology professionals who
+administer systems that send email to and receive email from Outlook.com. It
+also provides some information about how users with Outlook.com accounts can
+report junk email and phishing attempts. However, it is not intended to provide
+extensive support to Outlook.com users. If you are an Outlook.com user in need
+of support, please visit Microsoft Support.
+
+To navigate this site please use the navigation links to the left, or to jump
+right to the most requested information please click on one of the links below.
+
+  • I am an Outlook.com user in need of support.
+  • Email I send is being blocked or junked by Outlook.com.
+  • I want information about SMTP error codes returned by Outlook.com servers.
+
+Announcements
+
+New Postmaster Site
+
+Welcome to the new Outlook.com Postmaster site. We've introduced this new site
+in order to help senders improve their reputations and increase deliverability
+into Outlook.com inboxes.
+© 2018 |  |  | Developers | English (United States)

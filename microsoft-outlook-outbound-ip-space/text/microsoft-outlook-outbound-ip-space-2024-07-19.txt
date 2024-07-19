@@ -1,0 +1,20 @@
+[microsoft] |
+
+Outlook.com Postmaster
+
+Postmaster
+
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
+
+Related places
+
+About Outlook.com End-User Support
+
+Outlook.com Outbound IP Space
+
+Outlook.com sends e-mail from the following IP addresses:
+
+  • 40.92.0.0/14
+
+© 2018 |  |  | Developers | English (United States)
