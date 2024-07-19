@@ -1,265 +1,209 @@
-                    Fighting Junk Email
+[microsoft] |
 
-                    Microsoft's email safety roadmap involves an unmatched
-                    cross-product approach. SmartScreen® anti-spam and
-                    anti-phishing filtering technology is being applied across
-                    Microsoft's email platforms to provide customers with the
-                    latest anti-spam and anti-phishing tools and innovations
-                    throughout the network. These products include Outlook.com,
-                    Exchange, Office 365, and more.
-                    The goal for Outlook.com is to offer a comprehensive and
-                    usable email service that helps detect and protect users
-                    from junk email, fraudulent email threats (phishing) and
-                    viruses.
+Outlook.com Postmaster
 
-                    The Challenge
+Postmaster
 
-                    Email has become an important communication tool not only
-                    for consumers but also for marketers, support staff, sales
-                    organizations, and businesses of all sizes. As email use
-                    has grown, so has email abuse. Unmonitored junk email can
-                    clog inboxes and networks, impact consumer satisfaction,
-                    and hamper the effectiveness of legitimate email
-                    communications. While technology alone cannot solve the
-                    problem, it is a critical component in our comprehensive
-                    anti-spam approach. That's why Microsoft continues to
-                    invest in research and development to advance anti-spam
-                    technologies. Simply put, it starts by containing and
-                    filtering junk email.
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
 
-                    Our Efforts
+Related places
 
-                    We offer a number of steps to minimize the negative impact
-                    junk email has on our users' email experience. For example,
-                    we've implemented a number of mechanisms to reduce the
-                    burden of junk email which currently prevents nearly 4.5
-                    billion email messages from reaching Outlook.com users
-                    every day!
+About Outlook.com End-User Support
 
-                    Junk Email Filters
+Fighting Junk Email
 
-                    Microsoft SmartScreen®
+Microsoft's email safety roadmap involves an unmatched cross-product approach.
+SmartScreen® anti-spam and anti-phishing filtering technology is being applied
+across Microsoft's email platforms to provide customers with the latest
+anti-spam and anti-phishing tools and innovations throughout the network. These
+products include Outlook.com, Exchange, Office 365, and more.
 
-                    To help reduce the consequences of junk email, Outlook.com
-                    includes junk email protection using patented SmartScreen®
-                    technology which screens email to identify and separate
-                    junk email from legitimate email. Based on Microsoft
-                    Research's patented machine-learning technology, the
-                    SmartScreen® content filter learns from known spam and
-                    phishing threats, user feedback, as well as from
-                    Outlook.com users who have opted to be part of our junk
-                    email classification program. These types of data help
-                    train SmartScreen® how to recognize legitimate email and
-                    junk email and are key inputs into sender reputation.
-                    Machine learning refers to the probability-based algorithms
-                    that are used to distinguish between the different
-                    characteristics of legitimate and junk email. Ongoing
-                    feedback from Outlook.com customers in the junk email
-                    classification program helps ensure that the SmartScreen®
-                    technology is continually trained and improved.
+The goal for Outlook.com is to offer a comprehensive and usable email service
+that helps detect and protect users from junk email, fraudulent email threats
+(phishing) and viruses.
 
-                    How does it work?
+The Challenge
 
-                    When an external user sends email messages to an
-                    Outlook.com account, SmartScreen® filter technology
-                    evaluates the content of the messages and assigns the
-                    message a rating based on the probability that the message
-                    is junk email. This rating is stored as a message property
-                    called a spam confidence level (SCL) within the message
-                    itself. The SCL rating stays with the message as it is sent
-                    to other anti-spam protection layers within Outlook.com.
-                    Rules inside Outlook.com are set to handle email messages
-                    with various SCL ratings. If a message has an SCL rating
-                    lower than a certain threshold, it is considered spam and a
-                    rule then deletes the message rather than send the message
-                    to the users' junk email folders. If the message has a
-                    higher SCL rating than the threshold, the email is
-                    delivered to the user's junk email folder rather than to
-                    the inbox.
+Email has become an important communication tool not only for consumers but
+also for marketers, support staff, sales organizations, and businesses of all
+sizes. As email use has grown, so has email abuse. Unmonitored junk email can
+clog inboxes and networks, impact consumer satisfaction, and hamper the
+effectiveness of legitimate email communications. While technology alone cannot
+solve the problem, it is a critical component in our comprehensive anti-spam
+approach. That's why Microsoft continues to invest in research and development
+to advance anti-spam technologies. Simply put, it starts by containing and
+filtering junk email.
 
-                    Outlook.com Filters
+Our Efforts
 
-                    In addition to the anti-spam filtering technologies,
-                    Outlook.com also gives each user the ability to set filter
-                    levels to further improve the delivery of email to their
-                    account. Users can easily add a sender or domain name to
-                    the Safe Senders and Domains List so that the email from
-                    that sender or domain is never treated as junk regardless
-                    of the content of the message. Conversely, users can enable
-                    "exclusive" mode to accept only messages from the Contacts
-                    and Safe Senders List.
-                    Email messages from a certain email address or domain name
-                    can also be blocked by adding the sender to your Blocked
-                    Senders List, or by clicking "Mark as junk" in the
-                    Outlook.com client. In addition, when a message is reported
-                    as junk email using the "Junk" reporting button in
-                    Outlook.com, we use this feedback from our users to help
-                    determine if future messages from that sender should be
-                    blocked or filtered automatically.
+We offer a number of steps to minimize the negative impact junk email has on
+our users' email experience. For example, we've implemented a number of
+mechanisms to reduce the burden of junk email which currently prevents nearly
+4.5 billion email messages from reaching Outlook.com users every day!
 
-                    Phishing Protection
+Junk Email Filters
 
-                    Phishing (pronounced "fishing") is a form of identity theft
-                    and one of the fastest growing threats on the Internet. You
-                    can often identify a phishing message by the fact that it
-                    requests personal or financial information or includes a
-                    link to a website that requests such information.
-Postmaster          Outlook.com offer phishing protection as part of the
-                    patented SmartScreen® filter technology. SmartScreen®
-  • Announcements   analyzes emails to help detect fraudulent links or spoofed
-  • Fighting Junk   domains to help protect users from these types of online
-    Email           scams.
-  • Policies
-  • Services        How does it work?
-  • Troubleshooting
-  • Outbound IP     Often a phishing email will be sent containing a link, once
-    Space           clicked it will redirect users to a fraudulent web site
-                    appearing to be valid (like your financial institution or
-Related places      online service).  This phishing site usually prompts users
-                    to enter personal information like user names, passwords
-  • About           and/or social security numbers. Any information entered on
-    Outlook.com     the phishing site helps the phisher steal your identity. By
-  • End-User        using well-known trusted brand names and logos, phishers
-    Support         are able to appear legitimate. Microsoft's SmartScreen®
-                    phishing filter technology offered in Outlook.com checks
-                    for potential phishing characteristics in email.  If found,
-                    the email is either deleted or a warning is given via the
-                    Safety Information Bar.
-                    Microsoft is focusing its anti-phishing technology efforts
-                    on two fronts: first by helping to prevent phishing email
-                    messages from reaching our customers and secondly helping
-                    to eliminate the possibility of customers being deceived by
-                    spoofed emails and web sites. Internet Explorer version 7
-                    and above will block or warn users when they visit known or
-                    potential phishing sites so that they aren't tricked into
-                    providing personal information.
+Microsoft SmartScreen®
 
-                    Authentication
+To help reduce the consequences of junk email, Outlook.com includes junk email
+protection using patented SmartScreen® technology which screens email to
+identify and separate junk email from legitimate email. Based on Microsoft
+Research's patented machine-learning technology, the SmartScreen® content
+filter learns from known spam and phishing threats, user feedback, as well as
+from Outlook.com users who have opted to be part of our junk email
+classification program. These types of data help train SmartScreen® how to
+recognize legitimate email and junk email and are key inputs into sender
+reputation. Machine learning refers to the probability-based algorithms that
+are used to distinguish between the different characteristics of legitimate and
+junk email. Ongoing feedback from Outlook.com customers in the junk email
+classification program helps ensure that the SmartScreen® technology is
+continually trained and improved.
 
-                    Domain spoofing is a way of imitating a legitimate email
-                    address to make fraudulent email look legitimate. Spoofing
-                    is used by malicious individuals and organizations in
-                    phishing scams to lure people into divulging sensitive
-                    personal information. Disclosure of such information can
-                    lead to identify theft and other types of fraud.
-                    Outlook.com uses the Sender Protection Framework (SPF),
-                    DomainKeys Identified Mail (DKIM), and Domain-based Message
-                    Authentication, Reporting, and Conformance (DMARC) to
-                    verify that messages came from the domain they claim to
-                    come from. We recommend that all senders use SPF and DKIM
-                    to protect their recipients from junk email and phishing
-                    scams. Beyond that we recommend senders consider publishing
-                    a DMARC to reject or quarantine mail sent from unauthorized
-                    senders.
-                    To learn more about SPF, please read RFC 4408
-                    To learn more about DKIM, please read RFC 4871
-                    To learn more about DMARC, please visit dmarc.org
+How does it work?
 
-                    How does it work?
+When an external user sends email messages to an Outlook.com account,
+SmartScreen® filter technology evaluates the content of the messages and
+assigns the message a rating based on the probability that the message is junk
+email. This rating is stored as a message property called a spam confidence
+level (SCL) within the message itself. The SCL rating stays with the message as
+it is sent to other anti-spam protection layers within Outlook.com.
 
-                    Outlook.com uses domain, IP, and authentication results as
-                    part of our SmartScreen® junk email filters. Once the
-                    sender has been authenticated, the results may then be
-                    cross-referenced to past traffic patterns and sender
-                    reputation. This makes it possible to block not only junk
-                    but phishing scams as well.
+Rules inside Outlook.com are set to handle email messages with various SCL
+ratings. If a message has an SCL rating lower than a certain threshold, it is
+considered spam and a rule then deletes the message rather than send the
+message to the users' junk email folders. If the message has a higher SCL
+rating than the threshold, the email is delivered to the user's junk email
+folder rather than to the inbox.
 
-                    Trusted Sender
+Outlook.com Filters
 
-                    In order to further protect users from phishing attacks,
-                    Outlook.com marks messages from some authenticated senders
-                    as "trusted" in the Outlook.com interface. This is neither
-                    an endorsement of any particular sender, nor is it
-                    guarantee of delivery. Rather, it simply tells our users
-                    that the message in question actually came from the
-                    purported sender. The list of domains in this program is
-                    determined solely by the Outlook.com team. We will continue
-                    to expand the list as appropriate to protect our users, but
-                    we are not accepting applications from individual senders
-                    to join. We use the following criteria when considering
-                    which domains to add:
+In addition to the anti-spam filtering technologies, Outlook.com also gives
+each user the ability to set filter levels to further improve the delivery of
+email to their account. Users can easily add a sender or domain name to the
+Safe Senders and Domains List so that the email from that sender or domain is
+never treated as junk regardless of the content of the message. Conversely,
+users can enable "exclusive" mode to accept only messages from the Contacts and
+Safe Senders List.
 
-                      • The domain must already be spoofed in phishing attacks
-                        against Outlook.com users
-                      • The domain must send messages with sensitive
-                        transactional contents
-                      • The domain must send large volumes of mail to
-                        Outlook.com
-                      • The domain must use SPF or DKIM to authenticate
-                        messages
+Email messages from a certain email address or domain name can also be blocked
+by adding the sender to your Blocked Senders List, or by clicking "Mark as
+junk" in the Outlook.com client. In addition, when a message is reported as
+junk email using the "Junk" reporting button in Outlook.com, we use this
+feedback from our users to help determine if future messages from that sender
+should be blocked or filtered automatically.
 
-                    Unsubscribe
+Phishing Protection
 
-                    Outlook.com provides an "unsubscribe" option in our
-                    interface, which allows users to stop getting mail from a
-                    particular sender. Clicking unsubscribe adds the sender to
-                    the user's block list, to ensure no more email will be
-                    received. If we recognize the sender, and know they have a
-                    history of good sending practices, we'll also ask them to
-                    remove the user from their mailing list, so the senders
-                    know not to keep trying to send to that user.
-                    In order to receive unsubscribe feedback, senders must
-                    include an RFC2369-compliant List-Unsubscribe header
-                    containing a mailto: address. Please note that we only
-                    enable this feedback via email, so URIs for other protocols
-                    such as http will be ignored. The sender must also have a
-                    good reputation, and must act promptly in removing users
-                    from their lists. We do not provide unsubscribe feedback to
-                    senders when a user unsubscribes from an untrusted message.
-                    To learn more about List-Unsubscribe please read RFC2369
+Phishing (pronounced "fishing") is a form of identity theft and one of the
+fastest growing threats on the Internet. You can often identify a phishing
+message by the fact that it requests personal or financial information or
+includes a link to a website that requests such information. Outlook.com offer
+phishing protection as part of the patented SmartScreen® filter technology.
+SmartScreen® analyzes emails to help detect fraudulent links or spoofed domains
+to help protect users from these types of online scams.
 
-                    Legislation
+How does it work?
 
-                    At Microsoft, we believe that the development of new
-                    technologies and self-regulation requires the support of
-                    effective government policy and legal frameworks. The
-                    worldwide spam proliferation has spurred numerous
-                    legislative bodies to regulate commercial email. Many
-                    countries/regions now have spam-fighting laws in place. The
-                    United States has both federal and state laws governing
-                    spam, and this complementary approach is helping to curtail
-                    spam while enabling legitimate e-commerce to prosper. The
-                    CAN-SPAM Act expands the tools available for curbing
-                    fraudulent and deceptive email messages.
-                    While legislation is important, it is only one part of a
-                    strategy to fight spam. Other means to fight spam include
-                    developing improved spam-fighting technology, implementing
-                    industry best practices and junk email reporting methods,
-                    educating email users, and prosecuting spammers.
-                    To learn more, please visit http://www.microsoft.com/mscorp
-                    /safety/legislation/default.mspx.
+Often a phishing email will be sent containing a link, once clicked it will
+redirect users to a fraudulent web site appearing to be valid (like your
+financial institution or online service). This phishing site usually prompts
+users to enter personal information like user names, passwords and/or social
+security numbers. Any information entered on the phishing site helps the
+phisher steal your identity. By using well-known trusted brand names and logos,
+phishers are able to appear legitimate. Microsoft's SmartScreen® phishing
+filter technology offered in Outlook.com checks for potential phishing
+characteristics in email. If found, the email is either deleted or a warning is
+given via the Safety Information Bar.
 
-  • © 2018 Microsoft
-  • Terms
-  • Privacy & cookies
-  • Developers
-  • English (United States)
+Microsoft is focusing its anti-phishing technology efforts on two fronts: first
+by helping to prevent phishing email messages from reaching our customers and
+secondly helping to eliminate the possibility of customers being deceived by
+spoofed emails and web sites. Internet Explorer version 7 and above will block
+or warn users when they visit known or potential phishing sites so that they
+aren't tricked into providing personal information.
 
+Authentication
 
-  • [invis] Outlook.com
-  • [invis] People
-  • [invis] Calendar
-  • [invis] OneDrive
-  • [invis] Word Online
-  • [invis] Excel Online
-  • [invis] PowerPoint Online
-  • [invis] OneNote Online
-  • [invis] Sway
-  • [invis] Office Online
+Domain spoofing is a way of imitating a legitimate email address to make
+fraudulent email look legitimate. Spoofing is used by malicious individuals and
+organizations in phishing scams to lure people into divulging sensitive
+personal information. Disclosure of such information can lead to identify theft
+and other types of fraud. Outlook.com uses the Sender Protection Framework
+(SPF), DomainKeys Identified Mail (DKIM), and Domain-based Message
+Authentication, Reporting, and Conformance (DMARC) to verify that messages came
+from the domain they claim to come from. We recommend that all senders use SPF
+and DKIM to protect their recipients from junk email and phishing scams. Beyond
+that we recommend senders consider publishing a DMARC to reject or quarantine
+mail sent from unauthorized senders.
 
-  • Inbox
-  • Calendar
-  • Contacts
-  • Send email
+To learn more about SPF, please read RFC 4408
 
-  • Documents
-  • Photos
-  • Recent docs
-  • Shared
-  • Groups
-  • Photos of you
-  • [invis] New Word document
-  • [invis] New Excel workbook
-  • [invis] New PowerPoint presentation
-  • [invis] New OneNote notebook
+To learn more about DKIM, please read RFC 4871
 
+To learn more about DMARC, please visit dmarc.org
+
+How does it work?
+
+Outlook.com uses domain, IP, and authentication results as part of our
+SmartScreen® junk email filters. Once the sender has been authenticated, the
+results may then be cross-referenced to past traffic patterns and sender
+reputation. This makes it possible to block not only junk but phishing scams as
+well.
+
+Trusted Sender
+
+In order to further protect users from phishing attacks, Outlook.com marks
+messages from some authenticated senders as "trusted" in the Outlook.com
+interface. This is neither an endorsement of any particular sender, nor is it
+guarantee of delivery. Rather, it simply tells our users that the message in
+question actually came from the purported sender. The list of domains in this
+program is determined solely by the Outlook.com team. We will continue to
+expand the list as appropriate to protect our users, but we are not accepting
+applications from individual senders to join. We use the following criteria
+when considering which domains to add:
+
+  • The domain must already be spoofed in phishing attacks against Outlook.com
+    users
+  • The domain must send messages with sensitive transactional contents
+  • The domain must send large volumes of mail to Outlook.com
+  • The domain must use SPF or DKIM to authenticate messages
+
+Unsubscribe
+
+Outlook.com provides an "unsubscribe" option in our interface, which allows
+users to stop getting mail from a particular sender. Clicking unsubscribe adds
+the sender to the user's block list, to ensure no more email will be received.
+If we recognize the sender, and know they have a history of good sending
+practices, we'll also ask them to remove the user from their mailing list, so
+the senders know not to keep trying to send to that user.
+
+In order to receive unsubscribe feedback, senders must include an
+RFC2369-compliant List-Unsubscribe header containing a mailto: address. Please
+note that we only enable this feedback via email, so URIs for other protocols
+such as http will be ignored. The sender must also have a good reputation, and
+must act promptly in removing users from their lists. We do not provide
+unsubscribe feedback to senders when a user unsubscribes from an untrusted
+message.
+
+To learn more about List-Unsubscribe please read RFC2369
+
+Legislation
+
+At Microsoft, we believe that the development of new technologies and
+self-regulation requires the support of effective government policy and legal
+frameworks. The worldwide spam proliferation has spurred numerous legislative
+bodies to regulate commercial email. Many countries/regions now have
+spam-fighting laws in place. The United States has both federal and state laws
+governing spam, and this complementary approach is helping to curtail spam
+while enabling legitimate e-commerce to prosper. The CAN-SPAM Act expands the
+tools available for curbing fraudulent and deceptive email messages.
+
+While legislation is important, it is only one part of a strategy to fight
+spam. Other means to fight spam include developing improved spam-fighting
+technology, implementing industry best practices and junk email reporting
+methods, educating email users, and prosecuting spammers.
+
+To learn more, please visit http://www.microsoft.com/mscorp/safety/legislation/
+default.mspx.
+© 2018 |  |  | Developers | English (United States)

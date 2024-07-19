@@ -1,334 +1,260 @@
-                    Troubleshooting
+[microsoft] |
 
-                    This section provides troubleshooting information for
-                    senders who are having trouble reaching Outlook.com users
-                    by email. If you are an Outlook.com user looking for
-                    support with your account, please visit our end user
-                    support page.
-                    If you are experiencing problems delivering email to
-                    Outlook.com please first ensure that you are following all
-                    of the requirements found on our Policies and Guidelines
-                    page.
+Outlook.com Postmaster
 
-                    Common Problems
-
-                    Are you managing your IP and domain's sending reputation?
-
-                    Microsoft's SmartScreen® technology is designed to provide
-                    anti-spam filtering innovations for Outlook.com as well as
-                    other Microsoft products like Exchange Server, Microsoft
-                    Office Outlook and Windows Live Mail. We also leverage SPF
-                    , an email authentication technology protocol that helps
-                    address the problem of spoofing and phishing by verifying
-                    that the domain sending the email is authorized to do so.
-                    SmartScreen® email filters are influenced by a number of
-                    factors related to the sending IP, domain, authentication,
-                    list accuracy, complaint rates, content and more. Of these,
-                    one of the principal factors in driving down a sender's
-                    reputation and deliverability is their junk email complaint
-                    rate.
-
-                    Are you sending email from new IPs?
-
-                    IPs not previously used to send email typically don't have
-                    any reputation built up in our systems. As a result, emails
-                    from new IPs are more likely to experience deliverability
-                    issues. Once the IP has built a reputation for not sending
-                    spam, Outlook.com will typically allow for a better email
-                    delivery experience.
-                    New IPs that are added for domains that are authenticated
-                    under existing SPF records typically experience the added
-                    benefit of inheriting some of the domain's sending
-                    reputation. If the domain has a good sending reputation new
-                    IPs may experience a faster ramp up time. A new IP can
-                    expect to be fully ramped within a couple of weeks or
-                    sooner depending on volume, list accuracy and as long as
-                    their junk email complaint rates are kept at a minimum.
-                    Note: don't forget to update your Junk Email Reporting
-                    Program (JMRP) account with the new IPs. To update or set
-                    up a JMRP account, click here.
-
-                    Are you running Anti-Virus software?
-
-                    Some of the deliverability issues are the result of
-                    sender-based software configurations. If you are running
-                    anti-virus software on your firewall or SMTP server, check
-                    for the setting "Internet Email Auto Protect" or "Internet
-                    Email Protection." If this setting is enabled, disable it
-                    and try sending a test message to our servers again.
-                    If you are currently running Symantec AntiVirus Corporate
-                    Edition 9.x or 10.x on your server, please review this
-                    article from Symantec Support.
-
-                    Confirm that your DNS is set-up correctly
-
-                    Try connecting to mail.hotmail.com via port 25. If you are
-                    unable to connect, then attempt to telnet over port 25
-                    directly to our email servers (MTAs). You can find the
-                    current list of our MTAs by querying "nslookup –q=mx
-                    hotmail.com" from a command prompt (this should work in a
-                    variety of Operating Systems). Currently, the addresses for
-                    these servers are mx1.hotmail.com, mx2.hotmail.com,
-                    mx3.hotmail.com and mx4.hotmail.com. If that doesn't work,
-                    try connecting directly to the IPs. If you are able to
-                    connect directly to the IP and not mail.hotmail.com, then
-                    it is likely there is an issue with your DNS server.
-                    Occasionally, some of the IPs in our MX record may be out
-                    of service. If you are connecting to one of these IPs your
-                    connection may timeout. Make sure you test all of our
-                    published IPs. You may also configure your outbound email
-                    server to do a round-robin DNS lookup for Outlook.com.
-
-                    Are you advertising yourself as a non-routable IP?
-
-                    We may not accept email from senders who fail a reverse-DNS
-                    lookup. In some cases legitimate senders advertise
-                    themselves incorrectly as a non-internet routable IP when
-                    attempting to open a connection to Outlook.com. IP
-                    addresses that are reserved for private (non-routable)
-                    networking are 192.168.0.0/16, 10.0.0.0/8, and 172.16.0.0/
-                    11 (or 192.168.0.0 - 192.168.255.255, 10.0.0.0 -
-                    10.255.255.255, 172.16.0.0 - 172.31.255.255).
-
-                    Sender services, tools, and issue submission
-
-                    We have developed some tools and services which will give
-                    you more information about how our users are rating your
-                    email. These services have been tailored for senders and
-                    for ISPs. To learn more about the Sender and ISP Services,
-                    go here.
-                    If your email complies with our policies and guidelines and
-                    you are still experiencing email delivery problems that are
-                    not addressed in the FAQ below, click here to contact
-                    support.
-                    Note: Deliverability issues submitted using this form
-                    should only be related to the Outlook.com system, including
-                    any address @msn.com, @Outlook.com, @hotmail.com, or
-                    @live.com. We will do our best to help you troubleshoot
-                    your issue. However, submitting this information does not
-                    guarantee that any message you send to users of the
-                    Outlook.com services will be delivered.
-
-                    Are you blocked for namespace mining?
-
-                    Senders must not use namespace mining techniques against
-                    Outlook.com inbound email servers. This is the practice of
-                    verifying email addresses without sending (or attempting to
-                    send) emails to those addresses. This method is commonly
-                    used by malicious senders to generate lists of valid e-mail
-                    addresses that they can send spam, phishing emails or
-                    malware. Microsoft does not allow this behavior and takes
-                    action on IPs that engage in it. If any of your sending IPs
-                    is blocked for namespace mining, please check that your
-                    machines or email sending accounts are not compromised by
-                    an attacker who may be using your servers to harvest email
-                    addresses, and ensure that any method you use to validate
-                    email addresses does not use namespace mining techniques.
-
-                    Frequently Asked Questions
-
-                    Why does the email that I send to Outlook.com users
-                    sometimes look different from what they receive?
-
-                    Avoid using scripting languages as they may be removed from
-                    your message. Many email messages now contain HTML code
-                    similar to that found in a Web page. This often helps with
-                    formatting and design. Outlook.com now analyzes and
-                    processes HTML content to remove HTML code that may be
-                    unsafe for your computer. This change is part of
-                    Microsoft's overall Trustworthy Computing Initiative and
-                    was made to further reduce the risk of malicious HTML
-                    content reaching our users.
 Postmaster
-                    How can I prevent my messages from being marked as from an
-  • Announcements   "unknown sender" in the Outlook.com interface?
-  • Fighting Junk
-    Email           One way to ensure that your messages aren't marked as being
-  • Policies        from an "unknown sender" is to join Return Path's
-  • Services        Certification program, a third-party accreditation and
-  • Troubleshooting reputation service that provides Outlook.com with a list of
-  • Outbound IP     responsible senders. Alternatively, if an Outlook.com user
-    Space           adds your domain or email address to their "contacts" or
-                    their "safe-senders list" they will no longer see this
-Related places      notification. In addition, senders who are on the Return
-                    Path Certification list or on a user's "safe sender's" list
-  • About           typically experience links and images within their messages
-    Outlook.com     enabled by default.
-  • End-User
-    Support         Does Outlook.com operate an "allow list" that I can get on?
 
-                    No. An "allow list" is essentially a "free pass" which
-                    allows emails from certain senders to bypass junk email
-                    filters and other precautions. Outlook.com evaluates all
-                    inbound email for malicious content. You can find out more
-                    about our filtering processes here. We do, however, partner
-                    with Return Path, Inc. who helps ensure the legitimacy of
-                    certain senders via their Return Path Certification
-                    program. This program allows Outlook.com to exercise
-                    greater assurance about mail from certified senders in good
-                    standing. You can learn more about the Return Path
-                    Certification program here.
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
 
-                    How do I avoid having my messages marked as potentially
-                    dangerous?
+Related places
 
-                    To help prevent your messages from being identified as
-                    possibly fraudulent:
+About Outlook.com End-User Support
 
-                      • Always use valid, reputable URLs. Make sure it's clear
-                        where the recipient will be taken and whether the
-                        destination is a valid website.
-                      • Use the standard URL format. Avoid using IP addresses
-                        in the URL.
-                      • Whenever possible, publish your Sender Policy Framework
-                        (SPF) records.
-                      • Do not link to known phishing sites.
+Troubleshooting
 
-                    Why did I receive a "550 command rejected due to Sender ID
-                    validation failure." SMTP Non-Delivery Report (NDR) when I
-                    attempt to send mail to Outlook.com users?
+This section provides troubleshooting information for senders who are having
+trouble reaching Outlook.com users by email. If you are an Outlook.com user
+looking for support with your account, please visit our end user support page.
 
-                    Outlook.com will not allow delivery of email sent from a
-                    domain where the Sender ID record was configured by the
-                    domain owner to NOT allow ANY IP to send mail from that
-                    domain. Sender ID allows a domain owner to protect domains
-                    that aren't intended for sending email in order to help
-                    protect their domain from being spoofed. This can be done
-                    by publishing a simple TXT record in DNS like the following
-                    example (note: the organization would replace example.com
-                    with their own domain and or sub-domain name):
-                    example.com IN TXT "v=spf1 -all"
-                    If the domain is repurposed to send mail, the administrator
-                    of the DNS record should update the Sender ID record to
-                    include the IP address(s) that are authorized to send mail
-                    from that domain. Note that updates to your Sender ID
-                    record can take up to 48 hours to propagate through the
-                    Internet, so it's a good idea to wait 48 hours after making
-                    a change to your record before you initiate any new email
-                    activities. In addition, Microsoft strongly recommends that
-                    you conduct email testing prior to sending live
-                    communications to your users/customers.
-                    
-                    SMTP Error Codes
+If you are experiencing problems delivering email to Outlook.com please first
+ensure that you are following all of the requirements found on our Policies and
+Guidelines page.
 
-                    ┌──────┬──────────────────────────────────────────────────┐
-                    │SMTP  │                                                  │
-                    │Error │Explanation                                       │
-                    │Code  │                                                  │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │The mail server IP connecting to Outlook.com      │
-                    │      │server has exceeded the rate limit allowed. Reason│
-                    │421   │for rate limitation is related to IP/domain       │
-                    │RP-001│reputation. If you are not an email/network admin │
-                    │      │please contact your Email/Internet Service        │
-                    │      │Provider for help.                                │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │The mail server IP connecting to Outlook.com      │
-                    │      │server has exceeded the rate limit allowed on this│
-                    │421   │connection. Reason for rate limitation is related │
-                    │RP-002│to IP/domain reputation. If you are not an email/ │
-                    │      │network admin please contact your Email/Internet  │
-                    │      │Service Provider for help.                        │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │The mail server IP connecting to Outlook.com      │
-                    │      │server has exceeded the connection limit allowed. │
-                    │421   │Reason for limitation is related to IP/domain     │
-                    │RP-003│reputation. If you are not an email/network admin │
-                    │      │please contact your Email/Internet Service        │
-                    │      │Provider for help.                                │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │Mail rejected by Outlook.com for policy reasons.  │
-                    │      │Reasons for rejection may be related to content   │
-                    │550   │with spam-like characteristics or IP/domain       │
-                    │SC-001│reputation. If you are not an email/network admin │
-                    │      │please contact your Email/Internet Service        │
-                    │      │Provider for help.                                │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │Mail rejected by Outlook.com for policy reasons.  │
-                    │550   │The mail server IP connecting to Outlook.com has  │
-                    │SC-002│exhibited namespace mining behavior. If you are   │
-                    │      │not an email/network admin please contact your    │
-                    │      │Email/Internet Service Provider for help.         │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │Mail rejected by Outlook.com for policy reasons.  │
-                    │550   │Your IP address appears to be an open proxy/relay.│
-                    │SC-003│If you are not an email/network admin please      │
-                    │      │contact your Email/Internet Service Provider for  │
-                    │      │help.                                             │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │Mail rejected by Outlook.com for policy reasons. A│
-                    │      │block has been placed against your IP address     │
-                    │      │because we have received complaints concerning    │
-                    │      │mail coming from that IP address. We recommend    │
-                    │550   │enrolling in our Junk Email Reporting Program     │
-                    │SC-004│(JMRP), a free program intended to help senders   │
-                    │      │remove unwanted recipients from their email list. │
-                    │      │If you are not an email/network admin please      │
-                    │      │contact your Email/Internet Service Provider for  │
-                    │      │help.                                             │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │Mail rejected by Outlook.com for policy reasons.  │
-                    │      │We generally do not accept email from dynamic IP's│
-                    │      │as they are not typically used to deliver         │
-                    │550   │unauthenticated SMTP email to an Internet mail    │
-                    │DY-001│server. If you are not an email/network admin     │
-                    │      │please contact your Email/Internet Service        │
-                    │      │Provider for help. http://www.spamhaus.org        │
-                    │      │maintains lists of dynamic and residential IP     │
-                    │      │addresses.                                        │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │Mail rejected by Outlook.com for policy reasons.  │
-                    │550   │The likely cause is a compromised or virus        │
-                    │DY-002│infected server/personal computer. If you are not │
-                    │      │an email/network admin please contact your Email/ │
-                    │      │Internet Service Provider for help.               │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │Mail rejected by Outlook.com for policy reasons.  │
-                    │      │If you are not an email/network admin please      │
-                    │550   │contact your Email/Internet Service Provider for  │
-                    │OU-001│help. For more information about this block and to│
-                    │      │request removal please go to: http://             │
-                    │      │www.spamhaus.org.                                 │
-                    ├──────┼──────────────────────────────────────────────────┤
-                    │      │Mail rejected by Outlook.com for policy reasons.  │
-                    │      │Reasons for rejection may be related to content   │
-                    │550   │with spam-like characteristics or IP/domain       │
-                    │OU-002│reputation. If you are not an email/network admin │
-                    │      │please contact your Email/Internet Service        │
-                    │      │Provider for help.                                │
-                    └──────┴──────────────────────────────────────────────────┘
-
-  • © 2018 Microsoft
-  • Terms
-  • Privacy & cookies
-  • Developers
-  • English (United States)
+Common Problems
 
 
-  • [invis] Outlook.com
-  • [invis] People
-  • [invis] Calendar
-  • [invis] OneDrive
-  • [invis] Word Online
-  • [invis] Excel Online
-  • [invis] PowerPoint Online
-  • [invis] OneNote Online
-  • [invis] Sway
-  • [invis] Office Online
+Are you managing your IP and domain's sending reputation?
 
-  • Inbox
-  • Calendar
-  • Contacts
-  • Send email
+Microsoft's SmartScreen® technology is designed to provide anti-spam filtering
+innovations for Outlook.com as well as other Microsoft products like Exchange
+Server, Microsoft Office Outlook and Windows Live Mail. We also leverage SPF,
+an email authentication technology protocol that helps address the problem of
+spoofing and phishing by verifying that the domain sending the email is
+authorized to do so. SmartScreen® email filters are influenced by a number of
+factors related to the sending IP, domain, authentication, list accuracy,
+complaint rates, content and more. Of these, one of the principal factors in
+driving down a sender's reputation and deliverability is their junk email
+complaint rate.
 
-  • Documents
-  • Photos
-  • Recent docs
-  • Shared
-  • Groups
-  • Photos of you
-  • [invis] New Word document
-  • [invis] New Excel workbook
-  • [invis] New PowerPoint presentation
-  • [invis] New OneNote notebook
+Are you sending email from new IPs?
 
+IPs not previously used to send email typically don't have any reputation built
+up in our systems. As a result, emails from new IPs are more likely to
+experience deliverability issues. Once the IP has built a reputation for not
+sending spam, Outlook.com will typically allow for a better email delivery
+experience.
+
+New IPs that are added for domains that are authenticated under existing SPF
+records typically experience the added benefit of inheriting some of the
+domain's sending reputation. If the domain has a good sending reputation new
+IPs may experience a faster ramp up time. A new IP can expect to be fully
+ramped within a couple of weeks or sooner depending on volume, list accuracy
+and as long as their junk email complaint rates are kept at a minimum.
+
+Note: don't forget to update your Junk Email Reporting Program (JMRP) account
+with the new IPs. To update or set up a JMRP account, click here.
+
+Are you running Anti-Virus software?
+
+Some of the deliverability issues are the result of sender-based software
+configurations. If you are running anti-virus software on your firewall or SMTP
+server, check for the setting "Internet Email Auto Protect" or "Internet Email
+Protection." If this setting is enabled, disable it and try sending a test
+message to our servers again.
+
+If you are currently running Symantec AntiVirus Corporate Edition 9.x or 10.x
+on your server, please review this article from Symantec Support.
+
+Confirm that your DNS is set-up correctly
+
+Try connecting to mail.hotmail.com via port 25. If you are unable to connect,
+then attempt to telnet over port 25 directly to our email servers (MTAs). You
+can find the current list of our MTAs by querying "nslookup –q=mx hotmail.com"
+from a command prompt (this should work in a variety of Operating Systems).
+Currently, the addresses for these servers are mx1.hotmail.com,
+mx2.hotmail.com, mx3.hotmail.com and mx4.hotmail.com. If that doesn't work, try
+connecting directly to the IPs. If you are able to connect directly to the IP
+and not mail.hotmail.com, then it is likely there is an issue with your DNS
+server.
+
+Occasionally, some of the IPs in our MX record may be out of service. If you
+are connecting to one of these IPs your connection may timeout. Make sure you
+test all of our published IPs. You may also configure your outbound email
+server to do a round-robin DNS lookup for Outlook.com.
+
+Are you advertising yourself as a non-routable IP?
+
+We may not accept email from senders who fail a reverse-DNS lookup. In some
+cases legitimate senders advertise themselves incorrectly as a non-internet
+routable IP when attempting to open a connection to Outlook.com. IP addresses
+that are reserved for private (non-routable) networking are 192.168.0.0/16,
+10.0.0.0/8, and 172.16.0.0/11 (or 192.168.0.0 - 192.168.255.255, 10.0.0.0 -
+10.255.255.255, 172.16.0.0 - 172.31.255.255).
+
+Sender services, tools, and issue submission
+
+We have developed some tools and services which will give you more information
+about how our users are rating your email. These services have been tailored
+for senders and for ISPs. To learn more about the Sender and ISP Services, go
+here.
+
+If your email complies with our policies and guidelines and you are still
+experiencing email delivery problems that are not addressed in the FAQ below,
+click here to contact support.
+
+Note: Deliverability issues submitted using this form should only be related to
+the Outlook.com system, including any address @msn.com, @Outlook.com,
+@hotmail.com, or @live.com. We will do our best to help you troubleshoot your
+issue. However, submitting this information does not guarantee that any message
+you send to users of the Outlook.com services will be delivered.
+
+Are you blocked for namespace mining?
+
+Senders must not use namespace mining techniques against Outlook.com inbound
+email servers. This is the practice of verifying email addresses without
+sending (or attempting to send) emails to those addresses. This method is
+commonly used by malicious senders to generate lists of valid e-mail addresses
+that they can send spam, phishing emails or malware. Microsoft does not allow
+this behavior and takes action on IPs that engage in it. If any of your sending
+IPs is blocked for namespace mining, please check that your machines or email
+sending accounts are not compromised by an attacker who may be using your
+servers to harvest email addresses, and ensure that any method you use to
+validate email addresses does not use namespace mining techniques.
+
+Frequently Asked Questions
+
+
+Why does the email that I send to Outlook.com users sometimes look different
+from what they receive?
+
+Avoid using scripting languages as they may be removed from your message. Many
+email messages now contain HTML code similar to that found in a Web page. This
+often helps with formatting and design. Outlook.com now analyzes and processes
+HTML content to remove HTML code that may be unsafe for your computer. This
+change is part of Microsoft's overall Trustworthy Computing Initiative and was
+made to further reduce the risk of malicious HTML content reaching our users.
+
+How can I prevent my messages from being marked as from an "unknown sender" in
+the Outlook.com interface?
+
+One way to ensure that your messages aren't marked as being from an "unknown
+sender" is to join Return Path's Certification program, a third-party
+accreditation and reputation service that provides Outlook.com with a list of
+responsible senders. Alternatively, if an Outlook.com user adds your domain or
+email address to their " contacts" or their "safe-senders list" they will no
+longer see this notification. In addition, senders who are on the Return Path
+Certification list or on a user's "safe sender's" list typically experience
+links and images within their messages enabled by default.
+
+Does Outlook.com operate an "allow list" that I can get on?
+
+No. An "allow list" is essentially a "free pass" which allows emails from
+certain senders to bypass junk email filters and other precautions. Outlook.com
+evaluates all inbound email for malicious content. You can find out more about
+our filtering processes here. We do, however, partner with Return Path, Inc.
+who helps ensure the legitimacy of certain senders via their Return Path
+Certification program. This program allows Outlook.com to exercise greater
+assurance about mail from certified senders in good standing. You can learn
+more about the Return Path Certification program here.
+
+How do I avoid having my messages marked as potentially dangerous?
+
+To help prevent your messages from being identified as possibly fraudulent:
+
+  • Always use valid, reputable URLs. Make sure it's clear where the recipient
+    will be taken and whether the destination is a valid website.
+  • Use the standard URL format. Avoid using IP addresses in the URL.
+  • Whenever possible, publish your Sender Policy Framework (SPF) records.
+  • Do not link to known phishing sites.
+
+Why did I receive a "550 command rejected due to Sender ID validation failure."
+SMTP Non-Delivery Report (NDR) when I attempt to send mail to Outlook.com
+users?
+
+Outlook.com will not allow delivery of email sent from a domain where the
+Sender ID record was configured by the domain owner to NOT allow ANY IP to send
+mail from that domain. Sender ID allows a domain owner to protect domains that
+aren't intended for sending email in order to help protect their domain from
+being spoofed. This can be done by publishing a simple TXT record in DNS like
+the following example (note: the organization would replace example.com with
+their own domain and or sub-domain name):
+
+example.com IN TXT "v=spf1 -all"
+
+If the domain is repurposed to send mail, the administrator of the DNS record
+should update the Sender ID record to include the IP address(s) that are
+authorized to send mail from that domain. Note that updates to your Sender ID
+record can take up to 48 hours to propagate through the Internet, so it's a
+good idea to wait 48 hours after making a change to your record before you
+initiate any new email activities. In addition, Microsoft strongly recommends
+that you conduct email testing prior to sending live communications to your
+users/customers.
+
+SMTP Error Codes
+
+SMTP Error Code           Explanation
+                          The mail server IP connecting to Outlook.com server
+                          has exceeded the rate limit allowed. Reason for rate
+421 RP-001                limitation is related to IP/domain reputation. If you
+                          are not an email/network admin please contact your
+                          Email/Internet Service Provider for help.
+                          The mail server IP connecting to Outlook.com server
+                          has exceeded the rate limit allowed on this
+421 RP-002                connection. Reason for rate limitation is related to
+                          IP/domain reputation. If you are not an email/network
+                          admin please contact your Email/Internet Service
+                          Provider for help.
+                          The mail server IP connecting to Outlook.com server
+                          has exceeded the connection limit allowed. Reason for
+421 RP-003                limitation is related to IP/domain reputation. If you
+                          are not an email/network admin please contact your
+                          Email/Internet Service Provider for help.
+                          Mail rejected by Outlook.com for policy reasons.
+                          Reasons for rejection may be related to content with
+550 SC-001                spam-like characteristics or IP/domain reputation. If
+                          you are not an email/network admin please contact
+                          your Email/Internet Service Provider for help.
+                          Mail rejected by Outlook.com for policy reasons. The
+                          mail server IP connecting to Outlook.com has
+550 SC-002                exhibited namespace mining behavior. If you are not
+                          an email/network admin please contact your Email/
+                          Internet Service Provider for help.
+                          Mail rejected by Outlook.com for policy reasons. Your
+550 SC-003                IP address appears to be an open proxy/relay. If you
+                          are not an email/network admin please contact your
+                          Email/Internet Service Provider for help.
+                          Mail rejected by Outlook.com for policy reasons. A
+                          block has been placed against your IP address because
+                          we have received complaints concerning mail coming
+                          from that IP address. We recommend enrolling in our
+550 SC-004                Junk Email Reporting Program (JMRP), a free program
+                          intended to help senders remove unwanted recipients
+                          from their email list. If you are not an email/
+                          network admin please contact your Email/Internet
+                          Service Provider for help.
+                          Mail rejected by Outlook.com for policy reasons. We
+                          generally do not accept email from dynamic IP's as
+                          they are not typically used to deliver
+550 DY-001                unauthenticated SMTP email to an Internet mail
+                          server. If you are not an email/network admin please
+                          contact your Email/Internet Service Provider for
+                          help. http://www.spamhaus.org maintains lists of
+                          dynamic and residential IP addresses.
+                          Mail rejected by Outlook.com for policy reasons. The
+                          likely cause is a compromised or virus infected
+550 DY-002                server/personal computer. If you are not an email/
+                          network admin please contact your Email/Internet
+                          Service Provider for help.
+                          Mail rejected by Outlook.com for policy reasons. If
+                          you are not an email/network admin please contact
+550 OU-001                your Email/Internet Service Provider for help. For
+                          more information about this block and to request
+                          removal please go to: http://www.spamhaus.org.
+                          Mail rejected by Outlook.com for policy reasons.
+                          Reasons for rejection may be related to content with
+550 OU-002                spam-like characteristics or IP/domain reputation. If
+                          you are not an email/network admin please contact
+                          your Email/Internet Service Provider for help.
+
+© 2018 |  |  | Developers | English (United States)

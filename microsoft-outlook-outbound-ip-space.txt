@@ -1,62 +1,20 @@
-                       Outlook.com Outbound IP Space
+[microsoft] |
 
-                       Outlook.com sends e-mail from the following IP
-                       addresses:
+Outlook.com Postmaster
 
-                         • 40.92.0.0/14
 Postmaster
 
-  • Announcements
-  • Fighting Junk
-    Email
-  • Policies
-  • Services
-  • Troubleshooting
-  • Outbound IP Space
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
 
 Related places
 
-  • About Outlook.com
-  • End-User Support
+About Outlook.com End-User Support
 
+Outlook.com Outbound IP Space
 
+Outlook.com sends e-mail from the following IP addresses:
 
+  • 40.92.0.0/14
 
-
-
-
-
-  • © 2018 Microsoft
-  • Terms
-  • Privacy & cookies
-  • Developers
-  • English (United States)
-
-
-  • [invis] Outlook.com
-  • [invis] People
-  • [invis] Calendar
-  • [invis] OneDrive
-  • [invis] Word Online
-  • [invis] Excel Online
-  • [invis] PowerPoint Online
-  • [invis] OneNote Online
-  • [invis] Sway
-  • [invis] Office Online
-
-  • Inbox
-  • Calendar
-  • Contacts
-  • Send email
-
-  • Documents
-  • Photos
-  • Recent docs
-  • Shared
-  • Groups
-  • Photos of you
-  • [invis] New Word document
-  • [invis] New Excel workbook
-  • [invis] New PowerPoint presentation
-  • [invis] New OneNote notebook
-
+© 2018 |  |  | Developers | English (United States)
