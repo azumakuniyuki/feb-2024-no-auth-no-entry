@@ -606,7 +606,7 @@ Problems with sending
   • 5 of 10
     Email bounces with error message
   • 6 of 10
-    Avoid email bouncing from new MX records
+    Avoid issues when changing MX records
   • 7 of 10
     Best practices for forwarding email to Gmail
   • 8 of 10

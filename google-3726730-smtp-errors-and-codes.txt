@@ -35,7 +35,7 @@ Google Workspace Admin
 
 Gmail SMTP errors and codes
 
-[WsX4ccDBb5]
+[ZVRPQAc5O4]
 
 You might see the following error messages and codes when using Gmail
 with Google Workspace . The messages and codes are helpful tools for diagnosing
