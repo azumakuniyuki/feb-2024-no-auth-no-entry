@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-08-12
+---------------------------------------------------------------------------------------------------
+- (Google) Most of "mail" have been replaced with "email" in Gmail SMTP errors and codes page
+  - https://support.google.com/a/answer/3726730
+
 2024-07-19
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) The following documents have been updated only document styles
