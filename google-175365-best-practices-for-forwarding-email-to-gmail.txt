@@ -126,38 +126,3 @@ delivered correctly:
     Gmail’s Send mail as setting. For detailed steps, visit Send emails from a
     different address or alias.
 
-Related topics
-
-Prevent mail to Gmail users from being blocked or sent to spam
-
-Prevent spam, spoofing & phishing with Gmail authentication
-
-Forwarding, redirecting, and routing email with Google Workspace
-
-Need more help?
-
-Try these next steps:
-
-Post to the help community Get answers from community members
-true
-
-Import & forward emails
-
-  • 1 of 6
-    Email clients (POP/IMAP)
-  • 2 of 6
-    Check emails from other accounts
-  • 3 of 6
-    Automatically forward Gmail messages to another account
-  • 4 of 6
-    Best practices for forwarding email to Gmail
-  • 5 of 6
-    Verify forwarding addresses
-  • 6 of 6
-    Download emails to your computer
-
-  • ©2024 Google
-  • Privacy Policy
-  • Terms of Service
-  • Program Policies
-

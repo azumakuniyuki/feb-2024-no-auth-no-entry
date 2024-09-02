@@ -119,19 +119,21 @@ true
 
 Bulk email sending guidelines & tools
 
-  • 1 of 7
+  • 1 of 8
     Email sender guidelines
-  • 2 of 7
+  • 2 of 8
     Email sender guidelines FAQ
-  • 3 of 7
+  • 3 of 8
     Top 10 Gmail sender issues
-  • 4 of 7
+  • 4 of 8
+    Email subscription guidelines for senders
+  • 5 of 8
     Feedback Loop
-  • 5 of 7
+  • 6 of 8
     Control unauthenticated mail from your domain
-  • 6 of 7
+  • 7 of 8
     Monitor outgoing email with Postmaster Tools
-  • 7 of 7
+  • 8 of 8
     Gmail SMTP errors and codes
 
 [exxMjxadqE]
