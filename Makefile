@@ -67,7 +67,7 @@ smtp-errors-and-codes: temp-dirs
 	# Gmail SMTP Errors and Codes: https://support.google.com/a/answer/3726730
 	$(WGET) -O $@.html "https://support.google.com/a/answer/3726730?hl=en"
 	$(W3M) ./$@.html > $@.txt
-	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	$(PERL) -i -0pE 's/^Language \[English.+$$//ms' $@.txt
 	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
@@ -83,7 +83,7 @@ email-sender-guidelines: temp-dirs
 	# Email Sender Guidelines: https://support.google.com/mail/answer/81126
 	$(WGET) -O $@.html "https://support.google.com/mail/answer/81126?hl=en"
 	$(W3M) ./$@.html > $@.txt
-	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	$(PERL) -i -0pE 's/^Related topics.+$$//ms' $@.txt
 	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
@@ -99,7 +99,7 @@ email-sender-guidelines-faq: temp-dirs
 	# Email Sender Guidelines FAQ: https://support.google.com/a/answer/14229414
 	$(WGET) -O $@.html "https://support.google.com/a/answer/14229414?hl=en"
 	$(W3M) ./$@.html > $@.txt
-	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	$(PERL) -i -0pE 's/^Related topics.+$$//ms' $@.txt
 	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
@@ -115,7 +115,7 @@ email-sender-requirements-and-postmaster-tools-faq: temp-dirs
 	# Email sender requirements & Postmaster Tools FAQ: https://support.google.com/mail/answer/14289100
 	$(WGET) -O $@.html "https://support.google.com/mail/answer/14289100?hl=en"
 	$(W3M) ./$@.html > $@.txt
-	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	$(PERL) -i -0pE 's/^Language \[English.+$$//ms' $@.txt
 	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
@@ -131,7 +131,7 @@ feedback-loop: temp-dirs
 	# Feedback Loop: https://support.google.com/mail/answer/6254652
 	$(WGET) -O $@.html "https://support.google.com/mail/answer/6254652?hl=en"
 	$(W3M) ./$@.html > $@.txt
-	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	$(PERL) -i -0pE 's/^Language \[English.+$$//ms' $@.txt
 	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
@@ -147,7 +147,7 @@ best-practices-for-forwarding-email-to-gmail: temp-dirs
 	# Best practices for forwarding email to Gmail: https://support.google.com/mail/answer/175365?hl=en
 	$(WGET) -O $@.html "https://support.google.com/mail/answer/175365?hl=en"
 	$(W3M) ./$@.html > $@.txt
-	$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
+	$(PERL) -i -0pE 's/^Related topics.+$$//ms' $@.txt
 	test -d ./google-$@-$</text || $(MKDIR) ./google-$@-$</text
 	test -d ./google-$@-$</html || $(MKDIR) ./google-$@-$</html
 
@@ -209,7 +209,6 @@ icloud-postmaster: temp-dirs
 	# Postmaster information for iCloud Mail - Apple Support https://support.apple.com/en-us/102322
 	$(WGET) -O $@.html "https://support.apple.com/en-us/102322"
 	$(W3M) ./$@.html > $@.txt
-#$(PERL) -i -0pE 's/^\[English.+$$//ms' $@.txt
 	test -d ./apple-$@-$</text || $(MKDIR) ./apple-$@-$</text
 	test -d ./apple-$@-$</html || $(MKDIR) ./apple-$@-$</html
 
