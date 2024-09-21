@@ -111,7 +111,7 @@ day to Gmail accounts must meet the requirements in this section.
     message was forwarded and identify you as the forwarder. Mailing list
     senders should also add a List-id: header, which specifies the mailing
     list, to outgoing messages.
-  • For direct mail, the domain in the sender's From: header must be aligned
+  • For direct email, the domain in the sender's From: header must be aligned
     with either the SPF domain or the DKIM domain. This is required to pass
     DMARC alignment.
   • Marketing messages and subscribed messages must support one-click
@@ -188,7 +188,7 @@ DMARC tells receiving servers what to do with your messages that don’t pass SP
 or DKIM. Set up DMARC by publishing a DMARC record for your domain. To pass
 DMARC authentication, messages must be authenticated by SPF or DKIM, or both.
 The authenticating domain must be the same domain that appears in the message
-From: header. Learn how to add a DMARC record at your domain.
+From: header. Learn how to set up DMARC.
 
 We recommend you set up DMARC reports so you can monitor email sent from your
 domain, or appears to have been sent from your domain. DMARC reports help you
@@ -244,7 +244,8 @@ only to people who want to get messages from you. These recipients are less
 likely to report your messages as spam. If messages from your domain are
 frequently reported as spam, future messages from you are more likely to be
 marked as spam. Over time, user spam reports can lower your domain’s
-reputation. Check your spam rate and your reputation with Postmaster Tools.
+reputation. Check your spam rate and your domain and IP address reputation with
+Postmaster Tools.
 
 Make it easy to subscribe
 
@@ -315,8 +316,8 @@ delivered as expected:
         recipients in From: and To: headers.
       □ Don't use emojis or other non-standard characters to imitate graphic
         elements in messages, with the intent to deceive or influence
-        recipients. For example, don’t use emojis or images next to display or
-        brand names to imply the name has been verified in some way.
+        recipients. For example, don’t use emojis or images next to display
+        names or brand names to imply the name has been verified in some way.
       □ Don’t use HTML and CSS to hide content in your messages. Hiding content
         might cause messages to be marked as spam.
       □ Web links in the message body should be visible and easy to understand.
@@ -346,11 +347,12 @@ blocked by Gmail, follow the best practices in this section.
     For example, use one IP address for sending account notifications and a
     different IP address for sending promotional messages.
   • Messages of the same category should have the same From: email address. For
-    example, messages from a domain called solarmora.com might have From:
+    example, messages from a domain called example.com might have From:
     addresses like:
-      □ Sales receipt messages: sales@solarmora.com
-      □ Promotional messages: deals@solarmora.com
-      □ Account notification messages: alert@solarmora.com
+
+      □ Sales receipt messages: sales@example.com
+      □ Promotional messages: deals@example.com
+      □ Account notification messages: alert@example.com
   • Messages sent from an address in the recipient’s contacts are less likely
     to be marked as spam.
 
@@ -380,12 +382,12 @@ Increase sending volume slowly
 When increasing sending volume, keep in mind:
 
   • Increasing the sending volume too quickly can result in delivery problems.
-    As you gradually increase your sending mail volume, use Postmaster Tools to
-    monitor email delivery.
+    As you gradually increase your sending email volume, use Postmaster Tools
+    to monitor email delivery.
   • For Google Workspace work and school accounts, sending limits apply even
     when recipients are in different Google Workspace domains. For example, you
     might send email to users with email addresses that have the domains
-    your-company.net and solarmora.com. Although the domains are different, if
+    your-company.net and example.com. Although the domains are different, if
     both domains have google.com as their MX record, messages sent to these
     domains count toward your limit.
   • If you use Google Workspace or Gmail for sending: When you reach the
@@ -465,7 +467,7 @@ sending practices. We recommend taking these steps to help manage your clients�
 sending activity:
 
   • Offer an email address for reporting email abuse, for example:
-    abuse@mail-provider.com.
+    abuse@email-provider.com.
   • Make sure your contact information in your WHOIS record and on abuse.net is
     current.
   • Immediately remove any client who uses your service to send spam.
@@ -544,8 +546,8 @@ the error so you can fix the problem. Common error messages are:
   • 421, "4.7.0": Messages are rejected because the sending server’s IP address
     is not on the allowed list for the recipient’s domain.
   • 550, "5.7.1": Messages are rejected because the sending server’s IP address
-    is on an IP suspended list. You might get this error if you’re sending mail
-    using a shared IP with a poor reputation.
+    is on an IP suspended list. You might get this error if you’re sending
+    email using a shared IP with a poor reputation.
 
 Learn more about email and SMTP error messages:
 
@@ -565,6 +567,6 @@ and authentication.
 
 Use the troubleshooting tool
 
-If you’re still having mail delivery problems after following the guidelines in
-this article, try Troubleshooting for senders with email delivery issues.
+If you’re still having email delivery problems after following the guidelines
+in this article, try Troubleshooting for senders with email delivery issues.
 

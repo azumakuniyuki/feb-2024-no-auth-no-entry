@@ -194,9 +194,9 @@ code
        their email with SPF. Authentication results: SPF domain-name with IP
        address: ip-address = Did not pass.
 4.7.27
-       To set up SPF for your sending domains, visit Define your SPF record. To
-       learn more about Gmail requirements for bulk email senders, visit Email
-       sender guidelines.
+       To set up SPF for your sending domains, visit Set up SPF. To learn more
+       about Gmail requirements for bulk email senders, visit Email sender
+       guidelines.
 
        Your email has been rate limited because this message wasn’t sent over a
        TLS connection. Gmail requires all bulk email senders to use TLS/SSL for
@@ -217,19 +217,17 @@ code
        Your email has been rate limited because the sending domain doesn’t have
        a DMARC record, or the DMARC record doesn’t specify a DMARC policy.
        Gmail requires all bulk email senders to add a DMARC record to their
-       sending domain.
-4.7.31
-       To set up DMARC, visit Help prevent spoofing and spam with DMARC. To
-       learn more about Gmail requirements for bulk email senders, visit Email
-       sender guidelines.
+4.7.31 sending domain.
+
+       See Set up DMARC. To learn more about Gmail requirements for bulk email
+       senders, visit Email sender guidelines.
 
        Your email has been rate limited because the From: header (RFC5322) in
        this message isn’t aligned with either the authenticated SPF or DKIM
-       organizational domain.
-4.7.32
-       To learn more about DMARC alignment, visit Define your DMARC record. To
-       learn more about Gmail requirements for bulk email senders, visit Email
-       sender guidelines.
+4.7.32 organizational domain.
+
+       See DMARC alignment. To learn more about Gmail requirements for bulk
+       email senders, visit Email sender guidelines.
 
 Spam rate
 

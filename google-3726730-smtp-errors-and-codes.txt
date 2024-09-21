@@ -176,9 +176,9 @@ Code  Code
              authenticate their email with SPF. Authentication results: SPF
 421   4.7.27 domain-name with IP address: ip-address = Did not pass.
 
-             To set up SPF for your sending domains, visit Define your SPF
-             record. To learn more about Gmail requirements for bulk email
-             senders, visit Email sender guidelines.
+             To set up SPF for your sending domains, visit Set up SPF. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
 
              Gmail has detected an unusual rate of email. To protect our users
 421   4.7.28 from spam, email has been temporarily rate limited. To review our
@@ -236,17 +236,17 @@ Code  Code
              senders to authenticate their email with DKIM. Authentication
              results: DKIM = Did not pass.
 421   4.7.30
-             To set up DKIM for your sending domains, visit Turn on DKIM for
-             your domain. To learn more about Gmail requirements for bulk email
-             senders, visit Email sender guidelines.
+             To set up DKIM for your sending domains, visit Set up DKIM. To
+             learn more about Gmail requirements for bulk email senders, visit
+             Email sender guidelines.
 
              Your email has been rate limited because the From: header
              (RFC5322) in this message isn’t aligned with either the
              authenticated SPF or DKIM organizational domain.
 421   4.7.32
-             To learn more about DMARC alignment, visit Define your DMARC
-             record. To learn more about Gmail requirements for bulk email
-             senders, visit Email sender guidelines.
+             Learn more about DMARC alignment. To learn more about Gmail
+             requirements for bulk email senders, visit Email sender guidelines
+             .
 
              The email account that you tried to reach does not exist. Please
 550   5.1.1  double-check the recipient's email address for typos or
@@ -547,7 +547,7 @@ Code  Code
              requires all large senders to authenticate with SPF.
 550   5.7.27 Authentication results: SPF domain-name with ip: ip-address = did
              not pass. For instructions on setting up SPF authentication, go to
-             Define your SPF record—Basic setup. 
+             Set up SPF. 
 
              There is an unusual rate of unsolicited email originating from
 550   5.7.28 your IP address. To protect our users from spam, email sent from
@@ -562,10 +562,9 @@ Code  Code
              more about Gmail requirements for bulk email senders, visit Email
              sender guidelines.
              This email has been blocked because DKIM does not pass. Gmail
-             requires all large senders to authenticate with DKIM.
-550   5.7.30 Authentication results: DKIM = did not pass. For instructions on
-             setting up DKIM authentication, go to Turn on DKIM for your
-             domain.   
+550   5.7.30 requires all large senders to authenticate with DKIM.
+             Authentication results: DKIM = did not pass. For instructions on
+             setting up DKIM authentication, go to Set up DKIM.  
 504   5.7.4  Unrecognized authentication type. For more information, go to
              About SMTP error messages.
 
