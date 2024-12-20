@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-12-20
+---------------------------------------------------------------------------------------------------
+- (Yahoo!) Added `If your mail is forwarded, consider adding ARC` in SMTP Error Codes page
+  - https://senders.yahooinc.com/smtp-error-codes/
+
 2024-08-12
 ---------------------------------------------------------------------------------------------------
 - (Google) Most of "mail" have been replaced with "email" in Gmail SMTP errors and codes page
