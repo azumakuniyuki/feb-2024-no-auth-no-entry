@@ -1,6 +1,14 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2024-12-28
+---------------------------------------------------------------------------------------------------
+- (Google) Add the following sentence at Best practices for forwarding email to Gmail
+  - https://support.google.com/mail/answer/175365?hl=en
+  - Check for previous authentication: When ARC shows that a forwarded message previously passed
+    authentication, Gmail doesn't automatically authenticate the message. Instead, it does its own
+    authentication check on the message.
+
 2024-12-20
 ---------------------------------------------------------------------------------------------------
 - (Yahoo!) Added `If your mail is forwarded, consider adding ARC` in SMTP Error Codes page
