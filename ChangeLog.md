@@ -1,6 +1,16 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-01-24
+---------------------------------------------------------------------------------------------------
+- (Google) Updates in Email sender guidelines FAQ
+  - https://support.google.com/a/answer/14229414?hl=en
+  - The preamble and the following sections have been updated
+    - Sender guidelines enforcement
+      - Added "5.7.**" error codes in "What error codes will you send?"
+    - Support & escalation (tiny updates)
+    - Related resource (added at this updates)
+
 2024-12-28
 ---------------------------------------------------------------------------------------------------
 - (Google) Add the following sentences at
