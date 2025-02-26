@@ -1,6 +1,16 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-02-26
+---------------------------------------------------------------------------------------------------
+- (Google) Email Sender guidelines FAQ: https://support.google.com/a/answer/14229414
+    - Tables in the following sections updated
+      - "What happens if senders donÅft meet the requirements in the sender guidelines?"
+      - "What error codes will you send?"
+- (Apple) Postmaster information for iCloud Mail: https://support.apple.com/en-us/102322
+    - Update "best practices" to "requirements" for sending bulk emails
+    - ARC required for the forwarding email, DMARC record required for bulk senders
+
 2025-01-24
 ---------------------------------------------------------------------------------------------------
 - (Google) Updates in Email sender guidelines FAQ
