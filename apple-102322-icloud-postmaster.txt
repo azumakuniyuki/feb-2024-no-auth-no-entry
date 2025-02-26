@@ -18,14 +18,16 @@
 
 Postmaster information for iCloud Mail
 
-If you are a system administrator who manages mail servers that send email to
+If you're a system administrator who manages mail servers that send email to
 iCloud Mail, learn about sending bulk email, email authentication, delivery
 issues, and more.
 
-What are the best practices for sending bulk email?
+What are the requirements for sending bulk email?
 
-You should use these best practices when you send bulk mail to iCloud Mail
-customers:
+Here's what's required in order to send bulk mail to iCloud Mail customers:
+
+All requirements must be met in order to send a bulk email. If not, the email
+will be rejected.
 
   • Send only to recipients who explicitly subscribed to your emails (not list
     purchases, list rentals, or email appends).
@@ -33,7 +35,9 @@ customers:
   • Offer an unsubscribe link, so that the recipient can unsubscribe
     immediately.
 
-  • Ensure emails are compliant with RFC 5322.
+  • Add ARC headers to forwarded emails.
+
+  • Ensure compliance with RFC 5321 and RFC 5322.
 
   • Publish reverse DNS with your domain to help identify your IP addresses.
 
@@ -44,6 +48,9 @@ customers:
 
   • Make use of Sender Policy Framework (SPF) and DomainKeys Identified Mail
     (DKIM) to authenticate your emails.
+
+  • The sending domain must publish their Domain-based Message Authentication,
+    Reporting, and Conformance (DMARC) policy.
 
   • Track the temporary and permanent SMTP errors from our mail servers and act
     on them accordingly.
@@ -142,7 +149,7 @@ all of the following information:
 If you're not a system administrator and need help with iCloud Mail, contact
 Apple Support instead.
 
-Published Date: May 23, 2024
+Published Date: February 25, 2025
 Helpful?
 Yes No
 [                    ]
@@ -154,14 +161,6 @@ Thanks for your feedback.
 
 Related topics
 
-[Icon_commu]
-
-Explore Apple Support Community
-
-Find what’s been asked and answered by Apple customers.
-
-[                    ] Search the Community
-Submit
 [get-suppor]
 
 Contact Apple Support
@@ -179,5 +178,5 @@ Apple Footer
  2. Postmaster information for iCloud Mail
 
 United States
-Copyright © 2024 Apple Inc. All rights reserved.
+Copyright © 2025 Apple Inc. All rights reserved.
 Privacy Policy Terms of Use Sales and Refunds Site Map
