@@ -1,0 +1,182 @@
+
+  • Apple
+  • 
+      □ Store
+      □ Mac
+      □ iPad
+      □ iPhone
+      □ Watch
+      □ Vision
+      □ AirPods
+      □ TV & Home
+      □ Entertainment
+      □ Accessories
+      □ Support
+  •  
+    [                    ]
+  •  0+
+
+Postmaster information for iCloud Mail
+
+If you're a system administrator who manages mail servers that send email to
+iCloud Mail, learn about sending bulk email, email authentication, delivery
+issues, and more.
+
+What are the requirements for sending bulk email?
+
+Here's what's required in order to send bulk mail to iCloud Mail customers:
+
+All requirements must be met in order to send a bulk email. If not, the email
+will be rejected.
+
+  • Send only to recipients who explicitly subscribed to your emails (not list
+    purchases, list rentals, or email appends).
+
+  • Offer an unsubscribe link, so that the recipient can unsubscribe
+    immediately.
+
+  • Add ARC headers to forwarded emails.
+
+  • Ensure compliance with RFC 5321 and RFC 5322.
+
+  • Publish reverse DNS with your domain to help identify your IP addresses.
+
+  • Use consistent sending IP addresses and domains for your bulk email, but do
+    segment marketing and transactional email streams.
+
+  • Use a consistent From: name and address to clearly identify your brand.
+
+  • Make use of Sender Policy Framework (SPF) and DomainKeys Identified Mail
+    (DKIM) to authenticate your emails.
+
+  • The sending domain must publish their Domain-based Message Authentication,
+    Reporting, and Conformance (DMARC) policy.
+
+  • Track the temporary and permanent SMTP errors from our mail servers and act
+    on them accordingly.
+
+  • Have a standard policy for handling bouncing addresses.
+
+  • Periodically remove inactive subscribers from your list.
+
+  • Don't reactivate email addresses that are already on your unsubscribe or
+    suppression list.
+
+You can also go to the Messaging, Malware and Mobile Anti-Abuse Working Group
+(M^3AAWG) website and check their best communication practices.
+
+Does iCloud Mail offer an allow list for bulk senders?
+
+We don't. We track a sender’s reputation using various mechanisms, such as IP
+and domain reputations, content checks, and user feedback. Then we make our
+filtering decisions.
+
+Does iCloud Mail offer a feedback loop service?
+
+We don't offer a feedback loop (FBL). We do encourage bulk email senders to
+manage the subscribers list, so that only engaged subscribers keep receiving
+your emails. Here are a few ways to maintain your subscribers list:
+
+  • Periodically suppress inactive or disengaged subscribers from your mailing
+    list.
+
+  • Remove addresses that bounce consistently.
+
+  • Honor unsubscribe requests as soon as possible.
+
+Email authentication
+
+Learn more about email authentication in iCloud Mail.
+
+What are the IP addresses that send for iCloud Mail?
+
+All iCloud Mail domains (mac.com, me.com, and icloud.com) have a published SPF
+record. Check our SPF record to see the current IP ranges we use for outbound
+mail.
+
+Does iCloud Mail use email authentication?
+
+iCloud Mail authenticates all inbound emails using SPF and DKIM. We also
+publish SPF records for our domains and sign all of our outbound emails with
+DKIM.
+
+Does iCloud Mail support DMARC?
+
+If a sending domain publishes a Domain-based Message Authentication, Reporting,
+and Conformance (DMARC) policy, iCloud Mail honors the domain's policy. All
+iCloud Mail domains also have a DMARC ("p=quarantine") policy*, which indicates
+to a mail provider that an email from an iCloud email address that fails SPF
+and DKIM email authentication should go to the recipient's Junk folder.
+
+*The policy took effect on July 2, 2018.
+
+Delivery issues
+
+Use the recommendations below to make sure that your recipients get your email.
+
+Why don't our messages go to the recipient's inbox?
+
+Please follow the best practices for sending bulk email, so that your emails
+won't be considered junk mail. iCloud Mail automatically detects and blocks
+junk mail before it reaches the inbox. We do our best to ensure that all
+legitimate and wanted emails get to our users, but occasionally those emails
+might be filtered as junk.
+
+How can I resolve delivery issues to iCloud Mail?
+
+When refusing SMTP transactions, our mail servers generate SMTP errors with
+information about why your connection or message was rejected. To find the
+error message, check your mail logs. Most of the errors will also include a URL
+that provides more information.
+
+If you still need help
+
+If you followed our best practices and reviewed your mail logs for more
+information but still can't diagnose and address delivery issues, you may
+contact our postmaster team by sending an email to icloudadmin@apple.com with
+all of the following information:
+
+  • Your company name
+
+  • Your email domain
+
+  • The IP addresses of the affected mail servers
+
+  • The SMTP errors that you're getting from iCloud mail servers
+
+  • A detailed description of the issue, including when it started
+
+If you're not a system administrator and need help with iCloud Mail, contact
+Apple Support instead.
+
+Published Date: February 25, 2025
+Helpful?
+Yes No
+[                    ]
+Character limit: 250
+Maximum character limit is 250.
+Please don’t include any personal information in your comment. Submit
+Thanks for your feedback.
+[related_to]
+
+Related topics
+
+[get-suppor]
+
+Contact Apple Support
+
+Need more help? Save time by starting your support request online and we'll
+connect you to an expert.
+
+Get started
+
+Apple Footer
+
+ Apple
+
+ 1. Support
+ 2. Postmaster information for iCloud Mail
+
+United States
+Copyright © 2025 Apple Inc. All rights reserved.
+Privacy Policy Terms of Use Sales and Refunds Site Map
