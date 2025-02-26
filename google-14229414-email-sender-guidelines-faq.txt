@@ -101,37 +101,17 @@ messages.
 
 Sender guidelines enforcement
 
-What is the timeline for enforcement of sender guidelines?
+What is the timeline for enforcement of the sender guidelines?
 
 Enforcement for bulk senders that don’t meet our Email sender guidelines will
 be gradual and progressive.
 
 Bulk senders will receive error codes on messages that don’t meet our sender
 guidelines. These errors help senders identify the reason for message failures
-and what can be done to resolve them. 
+and what can be done to resolve them.
 
 Senders are encouraged to check their email compliance status using Postmaster
 Tools.
-
-The table below describes the requirements and will be updated as needed:
-
-         Sender requirement                          Enforcement
-From: header alignment                Temporary or Permanent Failure codes, or
-                                      spam foldering.
-SPF and DKIM authentication           Temporary or Permanent Failure codes, or
-                                      spam foldering.
-Valid forward and reverse DNS records Temporary or Permanent Failure codes, or
-                                      spam foldering.
-Messages sent using TLS               Temporary or Permanent Failure codes, or
-                                      spam foldering.
-Messages formatted according RFC 5322 Temporary or Permanent Failure codes, or
-                                      spam foldering.
-Spam below above 0.3%                 Delivery support or mitigations
-                                      unavailable.
-DMARC record with a minimum policy of Delivery support or mitigations
-none (p=none)                         unavailable.
-One-click unsubscribe in marketing    Delivery support or mitigations
-messages                              unavailable.
 
 What is the timeline for enforcement on new domains?
 
@@ -157,6 +137,28 @@ To ensure messages are delivered as expected, bulk senders should comply with
 our Email sender guidelines. If senders don’t meet these requirements, messages
 might be rejected or delivered to recipients’ spam folders.
 
+The table below describes the current requirements:
+
+Sender requirement issue                    Enforcement
+From: header and authentication don't align Temporary or Permanent Failure
+                                            codes, or spam foldering
+Messages aren't authenticated with both SPF Temporary or Permanent Failure
+and DKIM                                    codes, or spam foldering
+Domain doesn't have valid forward and       Temporary or Permanent Failure
+reverse DNS records                         codes, or spam foldering
+Messages aren’t sent with TLS               Temporary or Permanent Failure
+                                            codes, or spam foldering
+Messages don't follow RFC 5322 format       Temporary or Permanent Failure
+                                            codes, or spam foldering
+Spam rate is greater than 0.3%              Delivery support or mitigations
+                                            unavailable
+DMARC record is missing (Minimum policy of  Delivery support or mitigations
+none, p=none)                               unavailable
+Marketing and promotional messages are      Delivery support or mitigations
+missing one-click unsubscribe               unavailable
+Unsubscribe requests aren’t honored within  Delivery support or mitigations
+48 hours                                    unavailable
+
 If messages are rejected because they don’t meet the sender guidelines, do you
 send an error message or other alert?
 
@@ -170,10 +172,10 @@ requirement is causing the failure:
 
 Error  Description
 code
-       ip-address The sending IP address for this message doesn’t have a PTR
-       record, or the PTR record’s forward DNS entry doesn’t match the sending
-       IP address. To protect users from spam, your email has been temporarily
-       rate limited.
+       The sending IP address for this message doesn’t have a PTR record, or
+       the PTR record’s forward DNS entry doesn’t match the sending IP address.
+       To protect users from spam, your email has been temporarily rate
+       limited.
 4.7.23
        To learn more about IP address requirements for sending to Gmail, visit
        the IP addresses section of our sender guidelines. To learn more about
@@ -182,15 +184,16 @@ code
 
        Your email has been rate limited because SPF authentication didn't pass
        for this message. Gmail requires all bulk email senders to authenticate
-       their email with SPF. Authentication results: SPF domain-name with IP
-       address: ip-address = Did not pass.
-4.7.27
+       their email with SPF.
+
+4.7.27 Authentication results: SPF with IP address: = Did not pass.
+
        To set up SPF for your sending domains, visit Set up SPF. To learn more
        about Gmail requirements for bulk email senders, visit Email sender
        guidelines.
 
-       Your email has been rate limited because this message wasn’t sent over a
-       TLS connection. Gmail requires all bulk email senders to use TLS/SSL for
+       Your email has been rate limited because you’re not using a TLS
+       connection. Gmail requires all bulk email senders to use TLS/SSL for
        SMTP connections.
 4.7.29
        To set up TLS for email, visit TLS & SSL connections. To learn more
@@ -199,8 +202,10 @@ code
 
        Your email has been rate limited because DKIM authentication didn't pass
        for this message. Gmail requires all email bulk senders to authenticate
-       their email with DKIM. Authentication results: DKIM = Did not pass.
-4.7.30
+       their email with DKIM.
+
+4.7.30 Authentication results: DKIM = Did not pass.
+
        To set up DKIM for your sending domains, visit Set up DKIM. To learn
        more about Gmail requirements for bulk email senders, visit Email sender
        guidelines.
@@ -220,37 +225,39 @@ code
        See DMARC alignment. To learn more about Gmail requirements for bulk
        email senders, visit Email sender guidelines.
 
-       The IP address sending this message does not have a PTR record setup, or
-       the corresponding forward DNS entry does not point to the sending IP.
+       This message was blocked because the sending IP address doesn’t have a
+       PTR record, or the forwarding DNS entry doesn’t reference the sending IP
+       address. Gmail requires that sending IP addresses have a PTR record.
+5.7.25
+       Learn more about requirements for sending IP addresses. To learn more
+       about Gmail requirements for bulk email senders, visit Email sender
+       guidelines.
 
-       As a policy, Gmail does not accept messages from IPs with missing PTR
-5.7.25 records.
+       This message was blocked because it didn’t pass SPF authentication.
+       Gmail requires bulk email senders to authenticate their email with SPF.
 
-       To learn more about Gmail requirements for bulk email senders, visit
-       Email sender guidelines.
-
-       This message has been blocked because SPF does not pass.
-
-       Gmail requires all large senders to authenticate with SPF.
+       Authentication results: SPF with ip-address = did not pass
 5.7.27
-       Authentication results: SPF with ip-address = did not pass.
+       To set up SPF for your sending domains, visit Set up SPF. To learn more
+       about Gmail requirements for bulk email senders, visit Email sender
+       guidelines.
 
-       Learn how to set up SPF.
-
-       This message has been blocked because TLS wasn't used.
-
-       Gmail requires all senders to use TLS/SSL during SMTP.
+       This message was blocked because it wasn’t sent over a TLS connection.
+       Gmail requires all bulk email senders to use TLS/SSL for SMTP
+       connections.
 5.7.29
-       To learn more about Gmail requirements for bulk email senders, visit
-       Email sender guidelines.
+       To set up TLS for email, visit TLS & SSL connections. To learn more
+       about Gmail requirements for bulk email senders, visit Email sender
+       guidelines.
 
-       This message has been blocked because DKIM does not pass.
+       This message was blocked because it didn’t pass DKIM authentication.
+       Gmail requires bulk email senders to authenticate their email with DKIM.
 
-       Gmail requires all large senders to authenticate with DKIM.
-5.7.30
-       Authentication results: DKIM = did not pass
+5.7.30 Authentication results: DKIM = did not pass
 
-       Learn how to set up DKIM.
+       To set up DKIM for your sending domains, visit Set up DKIM. To learn
+       more about Gmail requirements for bulk email senders, visit Email sender
+       guidelines.
 
 Spam rate
 
@@ -459,11 +466,11 @@ Support & escalation
 Can bulk senders get technical support for email delivery issues?
 
 Bulk senders that meet all requirements described in our Email sender
-guidelines can submit an escalation for email delivery issues. Before
-contacting tech support, make sure you’re following all sender guidelines.
-Starting in February 2024, we won’t provide mitigation for email delivery
-issues to senders that don’t meet the guidelines. For details about mitigation
-requests, visit the Sender contact form.
+guidelinescan submit an escalation for email delivery issues. Before contacting
+tech support, make sure you’re following all sender guidelines. Starting in
+February 2024, we won’t provide mitigation for email delivery issues to senders
+that don’t meet the guidelines. For details about mitigation requests, visit
+the Sender contact form.
 
 How do you process mitigation requests?
 
@@ -471,9 +478,10 @@ Only bulk senders that meet all the requirements in our Email sender guidelines
 , including authentication requirements, user-reported spam-rate requirements,
 and one-click unsubscribe for relevant traffic, are eligible for mitigation.
 
-Related resource
+Related resources
 
-Email sender guidelines
+  • Email sender guidelines
+  • Sender requirements & Postmaster Tools FAQ
 
 Was this helpful?
 
@@ -528,7 +536,7 @@ Close search
 Google apps
 Main menu
 [                    ]
-13236951392082545954
+12405714061249644018
 true
 Search Help Center
 true
@@ -537,5 +545,6 @@ true
 true
 true
 73010
+false
 false
 false
