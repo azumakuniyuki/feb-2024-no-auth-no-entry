@@ -173,8 +173,10 @@ Code  Code
 
              Your email has been rate limited because SPF authentication didn't
              pass for this message. Gmail requires all bulk email senders to
-             authenticate their email with SPF. Authentication results: SPF
-421   4.7.27 domain-name with IP address: ip-address = Did not pass.
+             authenticate their email with SPF.
+
+421   4.7.27 Authentication results: SPF domain-name with IP address:
+             ip-address = Did not pass.
 
              To set up SPF for your sending domains, visit Set up SPF. To learn
              more about Gmail requirements for bulk email senders, visit Email
@@ -223,9 +225,9 @@ Code  Code
              users, the message has been temporarily rejected. For more
              information, go to Why has Gmail blocked my messages?.
 
-             Your email has been rate limited because this message wasn’t sent
-             over a TLS connection. Gmail requires all bulk email senders to
-             use TLS/SSL for SMTP connections.
+             Your email has been rate limited because you’re not using a TLS
+             connection. Gmail requires all bulk email senders to use TLS/SSL
+             for SMTP connections.
 421   4.7.29
              To set up TLS for email, visit TLS & SSL connections. To learn
              more about Gmail requirements for bulk email senders, visit Email
@@ -233,17 +235,34 @@ Code  Code
 
              Your email has been rate limited because DKIM authentication
              didn't pass for this message. Gmail requires all email bulk
-             senders to authenticate their email with DKIM. Authentication
-             results: DKIM = Did not pass.
-421   4.7.30
+             senders to authenticate their email with DKIM.
+
+421   4.7.30 Authentication results: DKIM = Did not pass.
+
              To set up DKIM for your sending domains, visit Set up DKIM. To
              learn more about Gmail requirements for bulk email senders, visit
              Email sender guidelines.
+
+             Your email has been rate limited because the sending domain
+             doesn’t have a DMARC record, or the DMARC record doesn’t specify a
+             DMARC policy. Gmail requires all bulk email senders to add a DMARC
+421   4.7.40 record to their sending domain.
+
+             See Set up DMARC. To learn more about Gmail requirements for bulk
+             email senders, visit Email sender guidelines.
 
              Your email has been rate limited because the From: header
              (RFC5322) in this message isn’t aligned with either the
              authenticated SPF or DKIM organizational domain.
 421   4.7.32
+             Learn more about DMARC alignment. To learn more about Gmail
+             requirements for bulk email senders, visit Email sender guidelines
+             .
+
+             Your email was blocked because the From: header (RFC5322) in this
+             message isn’t aligned with either the authenticated SPF or DKIM
+             organizational domain.
+421   5.7.32
              Learn more about DMARC alignment. To learn more about Gmail
              requirements for bulk email senders, visit Email sender guidelines
              .
@@ -516,15 +535,14 @@ Code  Code
 550   5.7.24 The SPF record of the sending domain has one or more suspicious
              entries. For more information, go to Email sender guidelines.
 
-             The IP address sending this message does not have a PTR record
-             setup, or the corresponding forward DNS entry does not point to
-550   5.7.25 the sending IP. As a policy, Gmail does not accept messages from
-             IPs with missing PTR records. For more information, go to Email
-             sender guidelines.
+             This message was blocked because the sending IP address doesn’t
+             have a PTR record, or the forwarding DNS entry doesn’t reference
+             the sending IP address. Gmail requires that sending IP addresses
+550   5.7.25 have a PTR record.
 
-             The sending IP does not match the IP address of the hostname
-550   5.7.25 specified in the pointer (PTR) record. For more information, go to
-             Email sender guidelines.
+             Learn more about requirements for sending IP addresses. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
 
              This email has been blocked because the sender is unauthenticated.
              Gmail requires all senders to authenticate with either SPF or
@@ -543,28 +561,46 @@ Code  Code
              domain if this was legitimate email. To learn about the DMARC
              initiative, go to Control unauthenticated email from your domain.
 
-             This email has been blocked because SPF does not pass. Gmail
-             requires all large senders to authenticate with SPF.
-550   5.7.27 Authentication results: SPF domain-name with ip: ip-address = did
-             not pass. For instructions on setting up SPF authentication, go to
-             Set up SPF. 
+             This message was blocked because it didn’t pass SPF
+             authentication. Gmail requires bulk email senders to authenticate
+             their email with SPF.
+
+550   5.7.27 Authentication results: SPF with ip-address = did not pass
+
+             To set up SPF for your sending domains, visit Set up SPF. To learn
+             more about Gmail requirements for bulk email senders, visit Email
+             sender guidelines.
 
              There is an unusual rate of unsolicited email originating from
 550   5.7.28 your IP address. To protect our users from spam, email sent from
              your IP address has been blocked. To review our bulk email senders
              guidelines, go to Email sender guidelines.
 
-             Your email has been blocked because this message wasn’t sent over
-             a TLS connection. Gmail requires all bulk email senders to use TLS
-             /SSL for SMTP connections.
+             This message was blocked because it wasn’t sent over a TLS
+             connection. Gmail requires all bulk email senders to use TLS/SSL
+             for SMTP connections.
 550   5.7.29
              To set up TLS for email, visit TLS & SSL connections. To learn
              more about Gmail requirements for bulk email senders, visit Email
              sender guidelines.
-             This email has been blocked because DKIM does not pass. Gmail
-550   5.7.30 requires all large senders to authenticate with DKIM.
-             Authentication results: DKIM = did not pass. For instructions on
-             setting up DKIM authentication, go to Set up DKIM.  
+
+             This message was blocked because it didn’t pass DKIM
+             authentication. Gmail requires bulk email senders to authenticate
+             their email with DKIM. 
+
+550   5.7.30 Authentication results: DKIM = did not pass
+
+             To set up DKIM for your sending domains, visit Set up DKIM. To
+             learn more about Gmail requirements for bulk email senders, visit
+             Email sender guidelines.
+
+             Your message was blocked because the sending domain doesn’t have a
+             DMARC record or the DMARC record doesn’t specify a DMARC policy.
+             Gmail requires all bulk email senders to add a DMARC record to
+             their sending domain. See Set up DMARC. To learn more about Gmail
+             requirements for bulk email senders, visit Email sender guidelines
+             <.
+
 504   5.7.4  Unrecognized authentication type. For more information, go to
              About SMTP error messages.
 
