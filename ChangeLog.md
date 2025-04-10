@@ -1,6 +1,28 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-04-10
+---------------------------------------------------------------------------------------------------
+- (Yahoo!) Updates in - Yahoo! Sender Best Practices: https://senders.yahooinc.com/best-practices/
+  - Added `If you forward emails, implement ARC (Authenticated Received Chain).`
+- (Google) Updates in Gmail SMTP Errors and Codes: https://support.google.com/a/answer/3726730
+  - Added `\n` just before `Authentication results: SPF ...` in the row of 421 4.7.27.
+  - `because this message` has been replaced with `because you're` in the row of 421 4.7.29.
+  - Added `\n` just before `Authentication results: DKIM = Did not pass.` in the row of 421 4.7.30.
+  - New error codes:
+    - **421 4.7.40**: "Your email has been rate limited because the sending domain doesnÅft have a
+      DMARC record, or the DMARC record doesnÅft specify a DMARC policy. Gmail requires all bulk
+      email senders to add a DMARC record to their sending domain." between 4.7.30 and 4.7.32
+    - **421 5.7.32**: "Your email was blocked because the From: header (RFC5322) in this message
+      isnÅft aligned with either the authenticated SPF or DKIM organizational domain."
+    - **Empty Codes**: "Your message was blocked because the sending domain doesnÅft have a DMARC
+      record or the DMARC record doesnÅft specify a DMARC policy." just after the row of 550 5.7.30.
+  - Description about a PTR record (550 5.7.25) updated. Previously, error code `5.7.25` had two
+    separate descriptions, which are now combined into one.
+  - Description about SPF record (550 5.7.27) updated.
+  - Description about TLS/SSL (550 5.7.29) updated.
+  - Description about DKIM (550 5.7.30) updated.
+
 2025-02-26
 ---------------------------------------------------------------------------------------------------
 - (Google) Email Sender guidelines FAQ: https://support.google.com/a/answer/14229414
