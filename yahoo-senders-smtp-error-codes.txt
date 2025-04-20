@@ -210,6 +210,14 @@ Resources temporarily unavailable
   • Such issues are generally brief, and normal connectivity is usually
     restored after a short period of time.
 
+Other policy errors (e.g. 550, 554)
+
+  • We may permanently defer or reject mail for policy reasons, such as:
+      □ A null MX record (see RFC 7505)
+      □ Header too big (e.g. From, Subject, To)
+      □ Date outside of range
+      □ Header value can not be decoded (e.g. From, Subject)
+
 Sample Email failed delivery message
 
   • When you get mail from a “MAILER-DAEMON” or a “Mail Delivery Subsystem”
