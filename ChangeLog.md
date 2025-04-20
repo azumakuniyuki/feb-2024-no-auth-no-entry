@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-04-19
+---------------------------------------------------------------------------------------------------
+- (Google) Updates in Email Sender Guidelines: https://support.google.com/mail/answer/81126
+  - Guidelines for email display names
+
 2025-04-11
 ---------------------------------------------------------------------------------------------------
 - (Yahoo!) Updates in Yahoo! Sender SMTP Error Codes: https://senders.yahooinc.com/smtp-error-codes/
