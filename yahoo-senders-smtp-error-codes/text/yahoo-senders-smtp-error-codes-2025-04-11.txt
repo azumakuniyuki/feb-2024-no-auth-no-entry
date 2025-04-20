@@ -1,0 +1,278 @@
+ 
+Sender Features
+Complaint Feedback LoopAMPPromotions & SchemaBIMISubscription HubPerformance
+Feeds
+Deliverability
+Sender Requirements & RecommendationsFAQsError CodesOutbound Mail ServersMail
+Proxy Servers
+Developers
+API AccessDocumentation
+Contact
+[svg]
+[k2oYRlIN1Z][hero-bg][hero-bg]
+
+SMTP Error Codes
+
+
+An SMTP error, or Delivery Status Notification (DSN), indicates that an email
+could not be delivered, either due to a temporary or permanent problem. You can
+review our list of SMTP error messages below for details about each error.
+
+
+What are 4XX (421 and 451) temporary errors?
+
+  • A 421 or 451 SMTP error indicates a temporary problem blocking the delivery
+    of your message. Message delivery can be delayed for multiple reasons
+    including:
+      □ We've observed unusual traffic patterns from your sending server's IP
+        address.
+      □ The message you attempted to send included characteristics of spam.
+      □ Emails from your mail server have been generating complaints from Yahoo
+        users.
+      □ The Yahoo mail servers are busy when attempting a connection.
+      □ Other suspicious behavior which leads Yahoo to enforce a dynamic
+        deprioritization for your sender's server.
+  • Review our Sender Requirements & Recommendations to learn how you can help
+    your emails reach Yahoo.
+  • If you're not the administrator of the mail server in question, we suggest
+    you contact the administrator directly to discuss the error message you're
+    receiving.
+  • If you encounter 4XX errors when trying to send an email to Yahoo, you may
+    retry sending at a later time.
+
+What are 5XX (553 and 554) permanent errors?
+
+  • A 553 or 554 SMTP error indicates an email could not be delivered due to a
+    permanent problem. Message delivery can be permanently deferred because:
+      □ You're trying to send a message to an invalid email address.
+      □ Your message failed authentication checks against your sending domain's
+        DMARC or DKIM policy.
+      □ The message contains characteristics that Yahoo won't accept for policy
+        reasons.
+      □ Other suspicious behavior which leads Yahoo to issue a permanent
+        rejection for your SMTP connection.
+      □ Your IP is listed by Spamhaus. Please check with https://
+        www.spamhaus.org.
+  • If you consistently receive 5xx errors when sending to Yahoo, we encourage
+    you to review our Sender Requirements & Recommendations, since 5xx errors
+    can be a symptom of a more widespread, general problem.
+  • You should not retry sending an email that comes back with with a 5xx
+    error. List managers should have a policy for removing email addresses that
+    generate 5xx errors/bounces.
+
+RFC compliance failures
+
+  • These errors indicate emails from your mail server are not RFC compliant.
+  • See our Sender Requirements & Recommendations for more information about
+    RFC compliance.
+  • These failures can include:
+      □ Duplicate headers
+      □ Incorrectly formatted headers
+      □ Incorrect mime types
+      □ …and more
+
+Unresolvable RFC.5321 or RFC.5322 from domain
+
+  • These errors indicate that the domain used to the right of the @ in the
+    MAIL FROM or HEADER FROM does not appear to be valid.
+  • We determine if the domain name exists by using an SOA query; therefore, if
+    multiple subdomains are used in MAIL FROM or HEADER FROM commands, then
+    besides setting up a DNS A or MX record (perhaps using a wildcard), then
+    SOA records must be set up as well.
+  • These errors can be returned as either a timeout/servfail (451) or a
+    permfail (554)
+
+Excessive user complaints
+
+  • These errors indicate emails from your mail server are generating an
+    excessive amount of complaints from Yahoo users. We suggest you consider
+    the following:
+      □ Monitor your sender reputation - Even if you have a good reputation,
+        users can vote your email as spam and affect your overall reputation.
+      □ If you're an administrator of message content and mailing policy and
+        you've deployed significant changes or you've received this error for
+        more than 48 hours, we ask that you review your outgoing messages for
+        objectionable content or practices.
+      □ Using a shared IP address - Mail traffic from other domains could be
+        negatively affecting your IP sending reputation. If applicable, contact
+        your host provider to request using dedicated IP addresses to send your
+        mail to resolve this problem.
+  • We recommend you review our Sender Requirements & Recommendations to ensure
+    you're following proper opt-in methods of user subscriptions.
+
+Excessive unsolicited messages
+
+  • Excessively high volume of emails from a single IP address is a
+    characteristic of unsolicited, bulk emailing. Don't resend the email until
+    you review our Sender Requirements & Recommendations and make any necessary
+    changes.
+  • You may have setup the IP you are using to send email very recently and did
+    not increase the email traffic slowly.
+  • Check your subscription practices and lists to ensure that messages are
+    sent only to users who've requested it.
+  • If you're an administrator for message content or mailing policy and you've
+    made significant changes, or you've received this error for more than 48
+    hours, we ask that you review your outgoing emails for objectionable
+    content or practices.
+
+Excessive unknown recipients
+
+  • Your mail server is sending to a large number of invalid recipients and may
+    be configured as an “open relay” or “open proxy”.
+  • Open proxies and open relays are a very common source of spam and Yahoo
+    doesn't accept email from them.
+  • We encourage you to follow our Sender Requirements & Recommendations and
+    make appropriate changes to secure your servers.
+  • Review your mailing lists and remove any addresses that generate bounces.
+  • Examine your outbound queues for potentially objectionable content to
+    ensure that spammers aren't abusing your mail server.
+
+Authentication failures
+
+  • Your email failed one or more authentication checks that Yahoo uses to
+    verify emails are truly sent from the domains they claim to originate from.
+  • All senders need to authenticate their emails with either SPF or DKIM. Bulk
+    senders must authenticate with SPF and DKIM, and have a DMARC policy in
+    place (see our Sender Requirements & Recommendations section for more
+    information).
+  • Yahoo rejects emails for failing DKIM authentication when all of following
+    conditions apply:
+      □ The signing domain publishes a policy which states that all emails from
+        the domain must be signed and authenticated with DKIM to prevent
+        forgery.
+      □ The signing domain is identified in the “d=” tag of the DKIM signature.
+      □ The rejected email couldn't be authenticated against the sending
+        domain's policy, for example, due to a missing or bad signature.
+  • If you're not the system administrator for the mail servers affected, we
+    encourage you to contact the administrator, so they can look into the
+    situation further.
+  • If you are sending your email via Microsoft365 or Google Workspace, please
+    follow these guidelines to properly authenticate your emails via DKIM:
+    Google help article, Microsoft help article.
+  • For mailing lists, also known as “listservs,” you should change your
+    sending behavior by adding the mailing lists' address to the “From:” line,
+    rather than the sender's address. Also, enter the actual user/sender
+    address into the “Reply-To:” line.
+  • If your mail is forwarded, consider adding ARC (Authenticated Received
+    Chain).
+  • It's a good idea to review our guide to Sender Requirements &
+    Recommendations and make appropriate changes.
+
+Content based blocks (e.g: PH* Errors)
+
+  • These error messages indicates that your email wasn't accepted because
+    there is something in the content that Yahoo won't accept for policy
+    reasons.
+  • Objectionable content that Yahoo deems unacceptable includes:
+      □ Viruses
+      □ Phishing attempts
+      □ Ransomware
+      □ Other malicious software
+      □ Links or URLs to any of the above
+  • Examine your outbound queues for potentially objectionable content to
+    ensure that spammers aren't abusing your mail server.
+  • Follow our Sender Requirements & Recommendations and make appropriate
+    changes to secure your servers.
+
+Recipient does not exist
+
+  • The Yahoo account that you're trying to send to does not exist. We
+    recommend that you contact the recipient directly to confirm their correct
+    email address.
+  • You should not retry delivery of the message. It will never complete
+    successfully.
+  • You should remove the email address from your mailing list.
+
+Message temporarily deferred (eg: TS* Errors)
+
+  • This is a temporary error and your mail server may automatically re-try
+    sending the email at a later time. Your message may have been deferred due
+    to one or more of the following:
+      □ Emails from your mail server are generating substantial complaints from
+        Yahoo users.
+      □ The message contained objectionable content or exhibited
+        characteristics indicative of spam.
+      □ The IP (x.x.x.x or its subnet, i.e., .255 ) has a poor reputation.
+      □ We are seeing unusual traffic patterns from your mail servers.
+  • We ask that you follow our Sender Requirements & Recommendations and review
+    your outgoing messages for potentially objectionable content.
+  • If your mail server does not primarily send bulk mailings (e.g., you run a
+    personal, corporate, educational, or ISP mail server), examine your
+    outbound queues to ensure that spammers aren't abusing your mail server.
+  • If you're seeing the same error consistently over an extended period of
+    time, we encourage you to submit a Sender Support Request with specific
+    details of the error and diagnostic codes you see in your logs.
+
+Resources temporarily unavailable
+
+  • This error indicates that the Yahoo mail servers were busy and temporarily
+    unable to process your transaction at the time of connection.
+  • Such issues are generally brief, and normal connectivity is usually
+    restored after a short period of time.
+
+Other policy errors (e.g. 550, 554)
+
+  • We may permanently defer or reject mail for policy reasons, such as:
+      □ A null MX record (see RFC 7505)
+      □ Header too big (e.g. From, Subject, To)
+      □ Date outside of range
+      □ Header value can not be decoded (e.g. From, Subject)
+
+Sample Email failed delivery message
+
+  • When you get mail from a “MAILER-DAEMON” or a “Mail Delivery Subsystem”
+    with a subject similar to “Failed Delivery,” this means that a message you
+    sent was undeliverable and has been bounced back to you.
+  • These messages are produced automatically and usually include a reason for
+    the delivery failure.
+  • Failed or “bounced” messages normally consist of two parts:
+      □ The reason for the bounce
+      □ Your original message
+  • Failure notice example:
+
+Hi. This is the qmail-send program at yahoo.com.
+I'm afraid I wasn't able to deliver your message to the following addresses.
+This is a permanent error; I've given up. Sorry it didn't work out.
+
+123.45.67.89 failed after I sent the message.
+Remote host said: 554 delivery error: dd This user doesn't have a yahoo.com
+account (testing123@yahoo.com) [-5] - mta123.mail.mud.yahoo.com
+
+--- Below this line is a copy of the message.
+
+Return-Path:
+Received: (qmail 24519 invoked by uid 60001); 11 Nov 2010 15:37:25 -0000
+...
+...
+X-Mailer: YahooMail/11.4.9 YahooMailWebService/0.8.107.285259
+Date: Thu, 11 Nov 2010 07:37:24 -0800 (PST)
+From: Yahoo Customer Care
+Subject: Test Message
+To: testing123@yahoo.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=“0-162906830-1289489844=:24510”
+
+--0-162906830-1289489844=:24510
+Content-Type: text/plain; charset=us-ascii
+
+[Text of the original message here]
+
+--0-162906830-1289489844=:24510--
+
+The most common reason for a failed delivery is that the email address you
+entered isn't valid. If the Mailer Daemon says that the account doesn't exist,
+double-check the spelling of the address you entered. A single misplaced letter
+can be enough to cause a failed delivery. If the message continues to be
+bounced back to you, you might want to verify that the account hasn't been
+closed or moved.
+
+Support
+About Us
+Brands
+AOLYahoo
+© 2025 Yahoo. All rights reserved.
+Support
+About Us
+Brands
+AOLYahoo
+© 2025 Yahoo. All rights reserved.
