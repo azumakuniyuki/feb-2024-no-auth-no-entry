@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-04-11
+---------------------------------------------------------------------------------------------------
+- (Yahoo!) Updates in Yahoo! Sender SMTP Error Codes: https://senders.yahooinc.com/smtp-error-codes/
+  - Other policy errors (e.g. 550, 554)
+
 2025-04-10
 ---------------------------------------------------------------------------------------------------
 - (Yahoo!) Updates in - Yahoo! Sender Best Practices: https://senders.yahooinc.com/best-practices/
