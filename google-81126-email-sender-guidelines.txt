@@ -327,7 +327,6 @@ delivered as expected:
       □ Web links in the message body should be visible and easy to understand.
         Recipients should know what to expect when they click a link.
       □ Sender information should be clear and visible.
-  • 
   • Format the following international domains according to Section 5.2 of
     Unicode Technical Standard #39. An international domain is also called an ;
     internationalized domain name (IDN), and is a URL that is specific to a
@@ -337,6 +336,62 @@ delivered as expected:
       □ Payload domain
       □ Reply-to domain
       □ Sender domain
+
+Guidelines for email display names
+
+Misuse of display names can impact email deliverability when sending to
+personal Gmail accounts. When you send commercial or bulk email, it’s important
+to follow the Email sender guidelines and to respect recipients’ inboxes.
+Follow the display name guidelines here to help ensure your messages are
+delivered as expected.
+
+Display name guidelines
+
+Sender display names should be used exclusively to identify the sender.
+
+Display names should reflect a consistent, clear, and accurate statement of the
+sender's identity, name and/or organization.
+
+Don’t include subject or message content in display names.
+
+Display names should never be used to attempt to deceive the recipient of the
+email.
+
+Avoid misleading or deceptive display names by following these guidelines:
+
+  • Identify the sender first and don’t include subject or message content in
+    this display name. For example, don’t use display names like these:
+      □ Important Update ---------- From [Company Name]
+      □ TIME IS RUNNING OUT (SALE)
+      □ [Product/News] Alert
+      □ URGENT REQUEST
+      □ Last Chance
+  • The display name should not include the recipient’s name and should not
+    imply a message reply or threaded conversation. For example, don’t use
+    display names like these:
+      □ [recipient’s first name] <info@organization.com>
+      □ User (2)
+  • The display name should clearly identify the sender and shouldn't include
+    emojis or other non-standard characters to imitate graphic elements. For
+    example, don’t use display names like these:
+      □ [v] LATEST UPDATE
+      □ MAIL, ME [2]
+      □ [z]
+      □ [1] New Message
+
+Spoofing and display names
+
+Avoid these types of spoofing, which are deceptive display name practices:
+
+  • Using an @gmail.com domain as the display name for bulk email
+  • Using characters that imply the mail is part of threaded conversation, for
+    example: User (2)
+  • Using the name of the recipient in the display name
+
+To manage an effective email campaign, your messages should connect you and
+your recipients in a meaningful way. Be sure to follow all Email sender
+guidelines to improve your email delivery and effectiveness. Senders who fail
+to follow best practices may not be considered for deliverability mitigations.
 
 Sending practices requirements and guidelines
 
