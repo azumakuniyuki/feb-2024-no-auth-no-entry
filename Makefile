@@ -47,7 +47,8 @@ check-microsoft:
 	$(MAKE) policies-practices-and-guidelines; sleep 5	# Microsoft Policies, Practices and Guildelines
 	$(MAKE) services-for-senders-and-isps;     sleep 5	# Microsoft Services for Senders and ISPs
 	$(MAKE) troubleshooting;     sleep 5 				# Microsoft Troubleshooting
-	$(MAKE) outlook-outbound-ip-space 					# Microsoft Outlook.com Outbound IP Space
+	$(MAKE) outlook-outbound-ip-space; sleep 5			# Microsoft Outlook.com Outbound IP Space
+	$(MAKE) new-requirements-for-high‐volume-senders;	# Strengthening Email Ecosystem: Outlook’s New Requirements for High‐Volume Senders
 
 check-apple:
 	$(MAKE) 102322;		# Apple: Postmaster information for iCloud Mail 
@@ -201,6 +202,11 @@ outlook-outbound-ip-space: temp-dirs
 	$(WGET) -O $@.html "https://postmaster.live.com/pm/ipspace.aspx"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
+new-requirements-for-high-volume-senders: temp-dirs
+	# https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730
+	$(WGET) -O $@.html "https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730"
+	$(MAKE) plain-text copies FN=$@ ESP=microsoft
+	mv ./microsoft-new-requirements-for-high*txt ./microsoft-new-requirements-for-high-volume-senders.txt
 
 icloud-postmaster: temp-dirs
 	@ touch $@
