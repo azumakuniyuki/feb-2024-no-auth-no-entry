@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-05-05
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Register the sender requirements of Micsrosoft
+  - Strengthening Email Ecosystem: OutlookÅfs New Requirements for HighÅ]Volume Senders
+  - https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730
+
 2025-04-19
 ---------------------------------------------------------------------------------------------------
 - (Google) Updates in Email Sender Guidelines: https://support.google.com/mail/answer/81126
