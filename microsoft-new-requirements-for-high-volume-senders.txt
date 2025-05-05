@@ -35,6 +35,9 @@ Apr 02, 2025
 This applies to Outlook.com - our consumer service, which is supporting
 hotmail.com live.com and outlook.com consumer domain addresses.
 
+April 29th Update - Changes have been made to the action take on messages that
+do not meet requirements, please see details below.
+
 Introduction
 
 In an era where email remains one of the most widely used tools for personal
@@ -102,11 +105,19 @@ Starting today, we encourage all senders and particularly those that send at
 high volume to review and update their SPF, DKIM, and DMARC records, in
 preparation for when the enforcement begins, starting in May. 
 
-After May 5th, 2025, Outlook will begin routing messages from high volume
+After careful consideration and to ensure the protection of users and remove
+any confusion on why a message was in the junk folder for both the recipient
+and sender, we have made a decision to reject messages that don't pass the
+required authentication requirements detailed above. The rejected messages will
+be designated as "550; 5.7.515 Access denied, sending domain [SendingDomain]
+does not meet the required authentication level."  This change will state
+taking effect on May 5th as originally stated. 
+
+[DEL:After May 5th, 2025, Outlook will begin routing messages from high volume
 non‐compliant domains to the Junk folder, giving senders an opportunity to
 address any outstanding issues. NOTE: that in the future (date to be
 announced), non-compliant messages will be rejected to further protect users.  
- 
+ :DEL]
 
 Next Steps
 
@@ -189,8 +200,8 @@ Frequently Asked Questions (FAQ)
 
  
 
-Updated Apr 02, 2025
-Version 2.0
+Updated Apr 30, 2025
+Version 4.0
 awareness & training
 email protection basics
 Comment
@@ -204,15 +215,183 @@ View Profile
 Microsoft Defender for Office 365 Blog
 Follow this blog board to get notified when there's new activity
 
-Share
+  • rahulsharmacvent's avatar
+    rahulsharmacvent
+    Copper Contributor
+    May 01, 2025
 
-  • Share to LinkedIn
-  • Share to Facebook
-  • Share to X
-  • Share to Reddit
-  • Share to Email
-  • Subscribe to RSS
+    Please help me understand:
 
+    Is the 5000 email threshold counted per Microsoft domain or combined across
+    hotmail.com, outlook.com, and live.com?
+
+    If a sender crosses the threshold once, are they permanently considered a
+    bulk sender?
+
+    Reply
+  • mackmarchand9's avatar
+    mackmarchand9
+    Copper Contributor
+    Apr 30, 2025
+
+    Does this also apply to Exchange Online business customers? 
+
+    Reply
+  • Rockslice's avatar
+    Rockslice
+    Copper Contributor
+    Apr 30, 2025
+
+    Is SPF alignment required?  eg if contoso.com sends mail via MailChimp, the
+    "From" address may be a contoso.com address, but the envelope sender will
+    still be a MailChimp address, and with DKIM signatures for both domains.  
+
+    Reply
+      □ freddieleeman's avatar
+        freddieleeman
+        Brass Contributor
+        to Rockslice
+        Apr 30, 2025
+
+        No, alignment of either SPF or DKIM is sufficient.
+
+        Reply
+  • freddieleeman's avatar
+    freddieleeman
+    Brass Contributor
+    Apr 30, 2025
+
+    "550; 5.7.15 Access denied, sending domain [SendingDomain] does meet the
+    required authentication level."
+
+    I think you missed a word there Puneeth 
+
+    Reply
+  • vcoronado's avatar
+    vcoronado
+    Copper Contributor
+    Apr 25, 2025
+
+    Good morning. With this information, do you have any official Microsoft
+    announcements you could share with us? Or where this information was
+    officially published? Thank you.
+
+    Reply
+  • FoxAtHome's avatar
+    FoxAtHome
+    Copper Contributor
+    Apr 22, 2025
+
+    How or where do or can I generate a DKIM for "Windows Live Domains"?
+    It is old, but I really need to add a DKIM record I read here...
+
+
+    Reply
+  • freddieleeman's avatar
+    freddieleeman
+    Brass Contributor
+    Apr 21, 2025
+
+    PuneethDMARC defines two types of reports: aggregate reports and failure
+    reports. The term 'forensic reports' is incorrect and should not be used.
+    To encourage adoption and reduce unnecessary confusion, it's important to
+    use accurate terminology.
+
+    [bS00NDA2MT]
+
+     
+
+    Reply
+  • ats310's avatar
+    ats310
+    Copper Contributor
+    Apr 16, 2025
+
+    Hi Puneeth ,
+    I have a question.
+
+     
+
+    The email delivery service I'm currently using doesn't have a Reply-To
+    header set, only a Return-Path header. If the sender sends a "no-reply"
+    email through this service (the address is RFC-compliant, but doesn't
+    exist), how will this guideline be evaluated?
+
+    I would like to know if a correctly set Return-Path header is evaluated
+    equally to the From and Reply-To headers.
+
+    Reply
+  • LadislavZigo's avatar
+    LadislavZigo
+    Copper Contributor
+    Apr 08, 2025
+
+    Is this affecting only free inboxes, or all inboxes behind corporate public
+    domains?
+
+    Reply
+  • ats23's avatar
+    ats23
+    Copper Contributor
+    Apr 07, 2025
+
+    I would love to hear more about this recommendation: 
+
+      □ Compliant P2 (Primary) Sender Addresses: Ensure the “From” or
+        “Reply‐To” address is valid, reflects the true sending domain, and can
+        receive replies.
+
+    Will senders have a more challenging path to the inbox if they use email
+    address removed for privacy reasons as their From: address? When you say
+    "can receive replies," how will this be measured (will you send an email to
+    test, or look for a valid MX record, or ...?)?
+
+    Reply
+      □ rglandorfo's avatar
+        rglandorfo
+        Copper Contributor
+        to ats23
+        Apr 10, 2025
+
+        I would also to better understand this Puneeth. The language "Compliant
+        P2 (Primary) Sender Addresses: Ensure the “From” or “Reply‐To” address
+        is valid, reflects the true sending domain, and can receive replies" is
+        a bit confusing. Does this mean both the From and Reply-To need be
+        valid, or both? We employ a "no-reply" reply-to address, as I'm
+        guessing quite a few other bulk senders do. 
+
+        We also use a marketing sub-domain of a corporate domain. The corporate
+        domain is used for personal email addresses and thus obviously is a
+        valid address. Does that mean we would not have issues?
+
+        Reply
+          ☆ Puneeth's avatar
+            Puneeth
+            Icon for Microsoft rankMicrosoft
+            to rglandorfo
+            Apr 11, 2025
+
+            This is regarding RFC compliance. We have observed that many
+            senders are using non-RFC-compliant P2 sender addresses, either
+            unknowingly or for questionable reasons. Recent developments on
+            this topic are discussed in Our New Approach to Non-RFC Compliant
+            Emails blog. In the future, we may start blocking these emails, so
+            as a general recommendation, we encourage all senders to ensure
+            their P2 sender addresses comply with RFC standards.
+
+            Reply
+      □ ats23's avatar
+        ats23
+        Copper Contributor
+        to ats23
+        Apr 08, 2025
+
+        Hah! It removed my sample email address for privacy reasons. Replying
+        here so it's clear that my example was noreply @ (sender domain).
+
+        Reply
+
+Show More
 What's new
 
   • Surface Pro 9
@@ -290,4 +469,12 @@ Company
   • Safety & eco
   • About our ads
   • © Microsoft 2024
+
+  • Share to LinkedIn Share on LinkedIn
+  • Share to Facebook Share on Facebook
+  • Share to X Share on X
+  • Share to Reddit Share on Reddit
+  • Share to Email Share on Email
+  • Share to Blue Sky Share on Bluesky
+  • Subscribe to RSS Share on RSS
 
