@@ -48,7 +48,7 @@ check-microsoft:
 	$(MAKE) services-for-senders-and-isps;     sleep 5	# Microsoft Services for Senders and ISPs
 	$(MAKE) troubleshooting;     sleep 5 				# Microsoft Troubleshooting
 	$(MAKE) outlook-outbound-ip-space; sleep 5			# Microsoft Outlook.com Outbound IP Space
-	$(MAKE) new-requirements-for-high‐volume-senders;	# Strengthening Email Ecosystem: Outlook’s New Requirements for High‐Volume Senders
+	$(MAKE) new-requirements-for-high-volume-senders;	# Strengthening Email Ecosystem: Outlook’s New Requirements for High‐Volume Senders
 
 check-apple:
 	$(MAKE) 102322;		# Apple: Postmaster information for iCloud Mail 
