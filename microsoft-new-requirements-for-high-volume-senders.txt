@@ -202,8 +202,6 @@ Frequently Asked Questions (FAQ)
 
 Updated Apr 30, 2025
 Version 4.0
-awareness & training
-email protection basics
 Comment
 Puneeth's avatar
 Puneeth
@@ -237,6 +235,18 @@ Follow this blog board to get notified when there's new activity
     Does this also apply to Exchange Online business customers? 
 
     Reply
+      □ Guido007's avatar
+        Guido007
+        Copper Contributor
+        to mackmarchand9
+        May 05, 2025
+
+        He said "We don't plan to expand this to Enterprise yet. Enterprise
+        environments have complex mail flows that can break DMARC. We’ll get
+        there eventually, but not with this release. This is focused only on
+        Microsoft's consumer services."
+
+        Reply
   • Rockslice's avatar
     Rockslice
     Copper Contributor
