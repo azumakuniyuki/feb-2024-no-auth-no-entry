@@ -37,20 +37,19 @@ Gmail SMTP errors and codes
 
 [ZVRPQAc5O4]
 
-You might see the following error messages and codes when using Gmail
-with Google Workspace . The messages and codes are helpful tools for diagnosing
-and troubleshooting email problems.
+You might see the error messages and codes on this page when send email to
+Gmail accounts.The messages and codes can help you troubleshoot and resolve
+email delivery problems.
 
-Gmail appends one or both of the following identifiers to all error messages to
-show you the source of the error: 
+Gmail appends one or both of these identifiers to all error messages: 
 
   • gsmtp (Google SMTP) is added to all errors. 
   • gcdp (Google Custom Domain Policies) is added to errors resulting from
-    customized rules created by the administrator. 
+    customized rules created by a Google Workspace administrator. 
 
 For example, "550 5.7.1 This message violates example.com email policy. - gcdp
-<sessionid> - gsmtp" indicates that the error is a result of a custom rule
-created by the administrator.
+<sessionid> - gsmtp" means that the error is a result of a custom rule created
+by the administrator.
 
 For more information, visit About SMTP error messages.
 
@@ -163,7 +162,7 @@ Code  Code
              domain's DMARC policy, but temporary DNS failures prevent
 451   4.7.26 authentication. Please contact the administrator of domain-name
              domain if this was a legitimate email. To learn about the DMARC
-             initiative, go to Gmail Help.
+             initiative, go to Control unauthenticated mail from your domain.
 
              This email has been rate limited because it is unauthenticated.
              Gmail requires all senders to authenticate with either SPF or
@@ -339,8 +338,7 @@ Code  Code
 550   5.4.5  SMTP relay sending limits, contact your administrator or go to
              SMTP relay service error messages. 
 
-554   5.4.6  Message exceeded 50 hops, this may indicate an email loop. For
-             more information, go to Gmail Help. 
+554   5.4.6  Message exceeded 50 hops, this may indicate an email loop. 
 
 503   5.5.1  Bad sequence of commands. For more information, go to About SMTP
              error messages and review RFC 5321 specifications.
@@ -443,7 +441,7 @@ Code  Code
 
              This message is likely unsolicited email. To reduce the amount of
 550   5.7.1  spam sent to Gmail, this message has been blocked. For more
-             information, go to Why has Gmail blocked my messages?.
+             information, go to Why has Gmail blocked my messages?
 
              This message does not meet IPv6 sending guidelines regarding PTR
 550   5.7.1  records and authentication. For more information, go to Email
@@ -452,12 +450,12 @@ Code  Code
              This message is likely suspicious due to the very low reputation
 550   5.7.1  of the sending IP address. To best protect our users from spam,
              the message has been blocked. For more information, go to Why has
-             Gmail blocked my messages?.
+             Gmail blocked my messages?
 
              This message is likely suspicious due to the very low reputation
 550   5.7.1  of the sending domain. To best protect our users from spam, the
              message has been blocked. For more information, go to Why has
-             Gmail blocked my messages?.
+             Gmail blocked my messages?
 
              Messages missing a valid address in the From: header, or having no
 550   5.7.1  From: header, are not accepted. For more information, go to Email
@@ -599,13 +597,13 @@ Code  Code
              Gmail requires all bulk email senders to add a DMARC record to
              their sending domain. See Set up DMARC. To learn more about Gmail
              requirements for bulk email senders, visit Email sender guidelines
-             <.
+             .
 
 504   5.7.4  Unrecognized authentication type. For more information, go to
              About SMTP error messages.
 
-504   5.7.4  XOAUTH is no longer supported. For more information, go to XOAUTH
-             Migration | Gmail | Google for Developers. 
+504   5.7.4  XOAUTH is no longer supported. For more information, go to OAuth
+             2.0 Mechanism for Google Developers. 
 
 535   5.7.8  Username and Password not accepted. For more information, go to
              Can't sign in to your Google Account. 
