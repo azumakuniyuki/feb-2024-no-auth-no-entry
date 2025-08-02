@@ -595,23 +595,23 @@ Code  Code
              Your message was blocked because the sending domain doesn’t have a
              DMARC record or the DMARC record doesn’t specify a DMARC policy.
              Gmail requires all bulk email senders to add a DMARC record to
-             their sending domain. See Set up DMARC. To learn more about Gmail
+550   5.7.40 their sending domain. See Set up DMARC. To learn more about Gmail
              requirements for bulk email senders, visit Email sender guidelines
              .
 
-504   5.7.4  Unrecognized authentication type. For more information, go to
+504   5.7.40 Unrecognized authentication type. For more information, go to
              About SMTP error messages.
 
-504   5.7.4  XOAUTH is no longer supported. For more information, go to OAuth
+504   5.7.40 XOAUTH is no longer supported. For more information, go to OAuth
              2.0 Mechanism for Google Developers. 
 
-535   5.7.8  Username and Password not accepted. For more information, go to
+535   5.7.80 Username and Password not accepted. For more information, go to
              Can't sign in to your Google Account. 
 
-534   5.7.9  Application-specific password required. For more information, go
+534   5.7.90 Application-specific password required. For more information, go
              to Sign in with app passwords. 
 
-534   5.7.9  Please log in with your web browser and then try again. For more
+534   5.7.90 Please log in with your web browser and then try again. For more
              information, go to Can't sign in to your Google Account. 
 
 Was this helpful?
