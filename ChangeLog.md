@@ -1,6 +1,14 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-08-02
+---------------------------------------------------------------------------------------------------
+- (Google) Some status codes begin with "5.7" have been changed at Gmail SMTP Errors and Codes.
+  - https://support.google.com/a/answer/3726730
+- (Microsoft) Making a commit to handle the increasing volume of user comments at Strengthening
+  Email Ecosystem: OutlookÅfs New Requirements for HighÅ]Volume Senders page.
+- (Yahoo!) Tiny document updated at Yahoo! Sender FAQ: https://senders.yahooinc.com/faqs/ page.
+
 2025-05-05
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Register the sender requirements of Micsrosoft
