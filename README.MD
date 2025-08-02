@@ -7,17 +7,17 @@ Google
 ---------------------------------------------------------------------------------------------------
 - [**Email Sender Guidelines (81126)**](https://support.google.com/mail/answer/81126)
   - 📜 [./google-81126-email-sender-guidelines.txt](./google-81126-email-sender-guidelines.txt)
-    - 📅 Last updated at [2024-05-29](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7d65928daecc0d7cb06d85aa130143a03c4427fd)
+    - 📅 Last updated at [2025-04-21](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7d65928daecc0d7cb06d85aa130143a03c4427fd)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-81126-email-sender-guidelines.txt)
   - 📂 [./google-81126-email-sender-guidelines/](./google-81126-email-sender-guidelines/)
 - [**Email Sender Guidelines FAQ (14229414)**](https://support.google.com/a/answer/14229414)
   - 📜 [./google-14229414-email-sender-guidelines-faq.txt](./google-14229414-email-sender-guidelines-faq.txt)
-    - 📅 Last updated at [2024-05-24](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7405111a9336ae58e3c64777272c4e26278bae50P\)
+    - 📅 Last updated at [2025-02-26](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7405111a9336ae58e3c64777272c4e26278bae50P\)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-14229414-email-sender-guidelines-faq.txt)
   - 📂 [./google-14229414-email-sender-guidelines-faq/](./google-14229414-email-sender-guidelines-faq/)
 - [**Gmail SMTP Errors and Codes (3726730)**](https://support.google.com/a/answer/3726730)
   - 📜 [./google-3726730-smtp-errors-and-codes.txt](./google-3726730-smtp-errors-and-codes.txt)
-    - 📅 Last updated at [2024-05-10](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/d477b178e12fc6d929a23ca781f132d9cd09500a)
+    - 📅 Last updated at [2025-08-02](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/d477b178e12fc6d929a23ca781f132d9cd09500a)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-3726730-smtp-errors-and-codes.txt)
   - 📂 [./google-3726730-smtp-errors-and-codes/](./google-3726730-smtp-errors-and-codes/)
 - [**Email sender requirements & Postmaster Tools FAQ (14289100)**](https://support.google.com/mail/answer/14289100)
@@ -42,12 +42,12 @@ Yahoo Inc.
   - 📂 [./yahoo-senders-best-practices/](./yahoo-senders-best-practices/)
 - [**Yahoo! Sender FAQ**](https://senders.yahooinc.com/faqs/)
   - 📜 [./yahoo-senders-faq.txt](yahoo-senders-faq.txt)
-    - 📅 Last updated at [2024-02-03](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7aedca5d7525f6d5c88ad4e7fc58b82525f2153f)
+    - 📅 Last updated at [2025-08-02](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7aedca5d7525f6d5c88ad4e7fc58b82525f2153f)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/yahoo-senders-faq.txt)
   - 📂 [./yahoo-senders-faq](./yahoo-senders-faq/)
 - [**Yahoo! Sender SMTP Error Codes**](https://senders.yahooinc.com/smtp-error-codes/)
   - 📜 [./yahoo-senders-smtp-error-codes.txt](./yahoo-senders-smtp-error-codes.txt)
-    - 📅 Last updated at [2024-05-29](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/b4807ce6c4a74afac073645a3f86a95f9c348be8)
+    - 📅 Last updated at [2025-04-21](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/b4807ce6c4a74afac073645a3f86a95f9c348be8)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/yahoo-senders-smtp-error-codes.txt)
   - 📂 [./yahoo-senders-smtp-error-codes/](./yahoo-senders-smtp-error-codes/)
 
@@ -71,12 +71,20 @@ Microsoft
 - [**Microsoft Outlook.com Outbound IP Space**](https://postmaster.live.com/pm/ipspace.aspx)
   - ⏰ No significant changes since the file was uploaded
   - 📜 [./microsoft-outlook-outbound-ip-space.txt](./microsoft-outlook-outbound-ip-space.txt)
+- [**Strengthening Email Ecosystem: Outlook’s New Requirements for High‐Volume Senders**](https://techcommunity.microsoft.com/blog/MicrosoftDefenderforOffice365Blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730)
+(./microsoft-new-requirements-for-high-volume-senders.txt)
+  - 📜 [./microsoft-new-requirements-for-high-volume-senders.txt](./microsoft-new-requirements-for-high-volume-senders.txt)
+    - 📅 Last updated at [2025-05-06](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/2ece3019705d2f40fdf5c5b6ecc3449d6f0d1a21)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/microsoft-new-requirements-for-high-volume-senders.txt)
+  - 📂 [./microsoft-new-requirements-for-high-volume-senders/](./microsoft-new-requirements-for-high-volume-senders/)
 
 Apple 
 ---------------------------------------------------------------------------------------------------
 - [**Postmaster information for iCloud Mail - Apple Support**](https://support.apple.com/en-us/102322)
-  - ⏰ No significant changes since the file was uploaded
   - 📜 [./apple-102322-icloud-postmaster.txt](./apple-102322-icloud-postmaster.txt)
+    - 📅 Last updated at [2025-02-26](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/b5e06c527120ace3407ade449e9e1f6ae1cec088)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/blob/master/apple-102322-icloud-postmaster.txt)
+  - 📂 [./apple-102322-icloud-postmaster/](./apple-102322-icloud-postmaster/)
 
 Download the latest announcements
 ---------------------------------------------------------------------------------------------------
