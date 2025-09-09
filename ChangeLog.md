@@ -6,13 +6,13 @@ Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 - (Google) Some status codes begin with "5.7" have been changed at Gmail SMTP Errors and Codes.
   - https://support.google.com/a/answer/3726730
 - (Microsoft) Making a commit to handle the increasing volume of user comments at Strengthening
-  Email Ecosystem: OutlookÅfs New Requirements for HighÅ]Volume Senders page.
+  Email Ecosystem: Outlook?fs New Requirements for High?]Volume Senders page.
 - (Yahoo!) Tiny document updated at Yahoo! Sender FAQ: https://senders.yahooinc.com/faqs/ page.
 
 2025-05-05
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Register the sender requirements of Micsrosoft
-  - Strengthening Email Ecosystem: OutlookÅfs New Requirements for HighÅ]Volume Senders
+  - Strengthening Email Ecosystem: Outlook?fs New Requirements for High?]Volume Senders
   - https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730
 
 2025-04-19
@@ -34,13 +34,13 @@ Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
   - `because this message` has been replaced with `because you're` in the row of 421 4.7.29.
   - Added `\n` just before `Authentication results: DKIM = Did not pass.` in the row of 421 4.7.30.
   - New error codes:
-    - **421 4.7.40**: "Your email has been rate limited because the sending domain doesnÅft have a
-      DMARC record, or the DMARC record doesnÅft specify a DMARC policy. Gmail requires all bulk
+    - **421 4.7.40**: "Your email has been rate limited because the sending domain doesn?ft have a
+      DMARC record, or the DMARC record doesn?ft specify a DMARC policy. Gmail requires all bulk
       email senders to add a DMARC record to their sending domain." between 4.7.30 and 4.7.32
     - **421 5.7.32**: "Your email was blocked because the From: header (RFC5322) in this message
-      isnÅft aligned with either the authenticated SPF or DKIM organizational domain."
-    - **Empty Codes**: "Your message was blocked because the sending domain doesnÅft have a DMARC
-      record or the DMARC record doesnÅft specify a DMARC policy." just after the row of 550 5.7.30.
+      isn?ft aligned with either the authenticated SPF or DKIM organizational domain."
+    - **Empty Codes**: "Your message was blocked because the sending domain doesn?ft have a DMARC
+      record or the DMARC record doesn?ft specify a DMARC policy." just after the row of 550 5.7.30.
   - Description about a PTR record (550 5.7.25) updated. Previously, error code `5.7.25` had two
     separate descriptions, which are now combined into one.
   - Description about SPF record (550 5.7.27) updated.
@@ -51,7 +51,7 @@ Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ---------------------------------------------------------------------------------------------------
 - (Google) Email Sender guidelines FAQ: https://support.google.com/a/answer/14229414
     - Tables in the following sections updated
-      - "What happens if senders donÅft meet the requirements in the sender guidelines?"
+      - "What happens if senders don?ft meet the requirements in the sender guidelines?"
       - "What error codes will you send?"
 - (Apple) Postmaster information for iCloud Mail: https://support.apple.com/en-us/102322
     - Update "best practices" to "requirements" for sending bulk emails
