@@ -1,0 +1,45 @@
+[microsoft] |
+
+Outlook.com Postmaster
+
+Postmaster
+
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
+
+Related places
+
+About Outlook.com End-User Support
+This site provides information to information technology professionals who
+administer systems that send email to and receive email from Outlook.com. It
+also provides some information about how users with Outlook.com accounts can
+report junk email and phishing attempts. However, it is not intended to provide
+extensive support to Outlook.com users. If you are an Outlook.com user in need
+of support, please visit Microsoft Support.
+
+To navigate this site please use the navigation links to the left, or to jump
+right to the most requested information please click on one of the links below.
+
+  • I am an Outlook.com user in need of support.
+  • Email I send is being blocked or junked by Outlook.com.
+  • I want information about SMTP error codes returned by Outlook.com servers.
+
+Announcements
+
+Requirements for High-Volume Senders
+
+Starting May 5th, 2025, Outlook.com is enforcing stricter email authentication
+standards (SPF, DKIM, DMARC) for domains sending over 5,000 emails per day to
+enhance security and reduce spam. Non-compliant messages will be sent to
+messages will be sent to the junk folder. Shortly we will reject the messages
+until the DNS records are corrected.
+
+Learn more about these changes and how to prepare in our recent blog post:
+Strengthening Email Ecosystem: Outlook’s Requirements for High‐Volume Senders.
+
+Postmaster Site
+
+Welcome to the Outlook.com Postmaster site. We've created this site in order to
+help senders improve their reputations and increase deliverability into
+Outlook.com inboxes.
+© 2018 |  |  | Developers | English (United States)

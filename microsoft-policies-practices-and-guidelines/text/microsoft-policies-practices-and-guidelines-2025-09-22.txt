@@ -1,0 +1,149 @@
+[microsoft] |
+
+Outlook.com Postmaster
+
+Postmaster
+
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
+
+Related places
+
+About Outlook.com End-User Support
+
+Policies, Practices, and Guidelines
+
+Microsoft is dedicated to help provide the most trusted and protected consumer
+experience on the web. Therefore, Microsoft has developed various policies,
+procedures, and adopted several industry best practices to help protect our
+consumers from abusive, unwanted or malicious email. Senders attempting to send
+email to Outlook.com users should ensure they fully understand and are
+following the guidance on this page to help in this effort and to help avoid
+potential deliverability issues.
+
+ 1. General Microsoft Policies
+
+    Email sent to Outlook.com users must comply with all Microsoft policies
+    governing email transmission and use of Outlook.com.
+      □ Microsoft Services Agreement
+      □ Microsoft Anti-Spam Policy
+
+ 2. Governmental Regulations
+
+    Email sent to Outlook.com users must adhere to all applicable laws and
+    regulations governing email communications in the applicable jurisdiction.
+      □ CAN-SPAM Act
+      □ Email Marketers Must Honor "Unsubscribe" Claims
+
+ 3. Technical Guidelines
+
+    Email sent to Outlook.com should comply with the applicable recommendations
+    listed in the documents below (some links are only available in English)
+      □ Anti-spam Recommendations for SMTP MTAs (BCP 30), The Internet Society
+      □ SMTP Service Extension for Command Pipelining (STD 60), The Internet
+        Society
+
+    In addition, email servers connecting to Outlook.com must adhere to the
+    following requirements:
+      □ Sender is expected to comply with all technical standards for the
+        transmission of Internet email, as published by The Internet Society's
+        Internet Engineering Task Force (IETF), including RFC 2821, RFC 2822,
+        and others.
+      □ After given a numeric SMTP error response code between 500 and 599
+        (also known as a permanent non-delivery response), the sender must not
+        attempt to retransmit that message to that recipient.
+      □ After multiple non-delivery responses (see #2), the sender must cease
+        further attempts to send email to that recipient.
+      □ Sender must not open more than 500 simultaneous connections to
+        Outlook.com inbound email servers without making prior arrangements.
+      □ Messages must not be transmitted through insecure email relay or proxy
+        servers.
+      □ The mechanism for unsubscribing, either from individual lists or all
+        lists hosted by the sender, must be clearly documented and easy for
+        recipients to find and use.
+      □ Connections from dynamic IP space may not be accepted..
+      □ Email servers must have valid reverse DNS records.
+      □ Senders must not use namespace mining techniques against Outlook.com
+        inbound email servers. This is the practice of verifying email
+        addresses without sending (or attempting to send) emails to those
+        addresses.
+
+ 4. Authentication
+
+    To combat spoofing and phishing and to help ensure that messages are
+    genuinely from the claimed sender, Outlook.com utilizes several email
+    authentication standards. We strongly recommend all senders implement SPF,
+    DKIM, and DMARC to protect their domain's reputation and improve
+    deliverability.
+
+    Effective May 5th, 2025, specific authentication requirements are in place
+    for high-volume senders: Domains sending more than 5,000 emails per day to
+    Outlook.com accounts must fully be compliant with SPF, DKIM, and DMARC.
+    Messages from high-volume senders that do not meet these requirements will
+    be sent to the junk folder. If issues remain unresolved, messages may be
+    rejected with the error:
+    550; 5.7.515 Access denied, sending domain [SendingDomain] does not meet
+    the required authentication level.
+
+    For more details on these requirements and how to prepare, please see our
+    blog post on strengthening the email ecosystem.
+
+    Key authentication mechanisms and their requirements include:
+
+      □ SPF (Sender Policy Framework)
+          ☆ Must pass for the sending domain.
+          ☆ Your domain's DNS records should accurately list authorized IP
+            addresses/hosts.
+      □ DKIM (DomainKeys Identified Mail)
+          ☆ Must pass to validate email integrity and authenticity.
+      □ DMARC (Domain-based Message Authentication, Reporting, and Conformance)
+          ☆ At least p=none (p=reject is recommended) and align with either SPF
+            or DKIM (preferably both)
+
+ 5. Reputation Management
+
+    Senders, ISP's and other third party senders and service providers should
+    actively manage the reputation of your outbound IPs. Outlook.com has
+    developed the following free services to help in this effort.
+      □ Junk Email Reporting Program (JMRP)
+      □ Smart Network Data Services (SNDS)
+
+
+Additional Resources
+
+ 1. Deliverability Support
+
+    If you are adhering to the guidelines, practices and policies presented on
+    this page and are still experiencing deliverability issues, please contact
+    Outlook.com deliverability support. If you are not in compliance with the
+    above policies and guidelines, it may not be possible for our support team
+    to assist you.
+      □ Outlook.com Deliverability Support
+
+ 2. Email Deliverability Resources and Organizations
+
+    Microsoft actively works with industry bodies and service providers in
+    order to improve the internet/email ecosystem. These organizations have
+    published best practice documents that we support and recommend senders
+    adhere to. This improves your deliverability amongst several email service
+    providers around the world.
+      □ Authentication & Online Trust Alliance
+      □ Messaging Anti-Abuse Working Group
+      □ Email Sender and Provider Coalition
+
+ 3. Abuse and Spam Reporting
+
+    To report unlawful, abusive, unwanted or malicious email that you find
+    originating from an Outlook.com, Hotmail, Live, or MSN account, please
+    forward a complete copy of the abusive message (including the full message
+    header) to abuse@outlook.com. Sending these types of communications is a
+    violation of Microsoft policy and appropriate action will be taken on
+    confirmed reports.
+ 4. Law Enforcement
+
+    If you are a member of law enforcement and wish to serve Microsoft
+    Corporation with legal documentation regarding an Outlook.com account, or
+    if you have questions regarding legal documentation you have submitted to
+    Microsoft, please call (1) (425) 722-1299.
+
+© 2018 |  |  | Developers | English (United States)

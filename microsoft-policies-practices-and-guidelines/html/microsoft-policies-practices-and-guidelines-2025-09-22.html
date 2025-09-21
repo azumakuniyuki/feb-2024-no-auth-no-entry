@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+    
+    <title>Policies, Practices, and Guidelines</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 position-fixed w-100">
+            <div class="container nav-container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="/img/microsoft.png" />
+                </a>
+                <span>|</span>
+                <h2>Outlook.com Postmaster</h2>
+            </div>
+        </nav>
+    </header>
+    <div class="container body-container">
+        <div class="menu-container">
+            <h2>Postmaster</h2>
+            <a href="/pm/Postmaster">Announcements</a>
+            <a href="/pm/JunkEmail">Fighting Junk Email</a>
+            <a href="/pm/Policies">Policies</a>
+            <a href="/pm/services">Services</a>
+            <a href="/pm/troubleshooting">Troubleshooting</a>
+            <a href="/pm/ipspace">Outbound IP Space</a>
+            <h2>Related places</h2>
+            <a href="https://g.live.com/9wc9en-us/h_getstarted_nm">About Outlook.com</a>
+            <a href="https://support.office.com/article/40676ad0-c831-45ac-a023-5be633be798d?product=newmail&version=17.5.3327.6000&mkt=en-us&wlexpid=78946cb3-43f8-4634-8bc8-caa9cac0c43d&server=DUB131-W94&accountTier=0&errorCode=noerrors">End-User Support</a>
+        </div>
+        <main role="main" class="pb-3">
+            
+<div class="main-container form">
+    <h2>Policies, Practices, and Guidelines</h2>
+    Microsoft is dedicated to help provide the most trusted and protected consumer experience on the web. Therefore, Microsoft has developed various policies, procedures, and adopted several industry best practices to help protect our consumers from abusive, unwanted or malicious email. Senders attempting to send email to Outlook.com users should ensure they fully understand and are following the guidance on this page to help in this effort and to help avoid potential deliverability issues.
+    <ol>
+        <li>
+            <h2>General Microsoft Policies</h2>
+            Email sent to Outlook.com users must comply with all Microsoft policies governing email transmission and use of Outlook.com.
+            <ul>
+                <li>
+                    <a href="http://go.microsoft.com/fwlink/?LinkID=530144" rel="noreferrer noopener">Microsoft Services Agreement</a>
+                </li>
+                <li>
+                    <a href="https://support.office.com/en-us/article/Microsoft-Anti-Spam-Policy-e4506f97-694f-49bc-8231-cac4369afcb8" rel="noreferrer noopener">Microsoft Anti-Spam Policy</a>
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li>
+            <h2>Governmental Regulations</h2>
+            Email sent to Outlook.com users must adhere to all applicable laws and regulations governing email communications in the applicable jurisdiction.
+            <ul>
+                <li>
+                    <a href="https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business" rel="noreferrer noopener">CAN-SPAM Act</a>
+                </li>
+                <li>
+                    <a href="http://www.lawpublish.com/ftc-emai-marketers-unsubscribe-claims.html" rel="noreferrer noopener">Email Marketers Must Honor "Unsubscribe" Claims</a>
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li>
+            <h2>Technical Guidelines</h2>
+            Email sent to Outlook.com should comply with the applicable recommendations listed in the documents below (some links are only available in English)
+            <ul>
+                <li>
+                    <a href="http://g.live.com/9wc9en-us/antispam" rel="noreferrer noopener">Anti-spam Recommendations for SMTP MTAs (BCP 30), The Internet Society</a>
+                </li>
+                <li>
+                    <a href="http://g.live.com/9wc9en-us/smtp" rel="noreferrer noopener">SMTP Service Extension for Command Pipelining (STD 60), The Internet Society</a>
+                </li>
+            </ul>
+            <br />
+            In addition, email servers connecting to Outlook.com must adhere to the following requirements:
+            <ul>
+                <li>
+                    Sender is expected to comply with all technical standards for the transmission of Internet email, as published by The Internet Society's Internet Engineering Task Force (IETF), including RFC 2821, RFC 2822, and others.
+                </li>
+                <li>
+                    After given a numeric SMTP error response code between 500 and 599 (also known as a permanent non-delivery response), the sender must not attempt to retransmit that message to that recipient.
+                </li>
+                <li>
+                    After multiple non-delivery responses (see #2), the sender must cease further attempts to send email to that recipient.
+                </li>
+                <li>
+                    Sender must not open more than 500 simultaneous connections to Outlook.com inbound email servers without making prior arrangements.
+                </li>
+                <li>
+                    Messages must not be transmitted through insecure email relay or proxy servers.
+                </li>
+                <li>
+                    The mechanism for unsubscribing, either from individual lists or all lists hosted by the sender, must be clearly documented and easy for recipients to find and use.
+                </li>
+                <li>
+                    Connections from dynamic IP space may not be accepted..
+                </li>
+                <li>
+                    Email servers must have valid reverse DNS records.
+                </li>
+                <li>
+                    Senders must not use namespace mining techniques against Outlook.com inbound email servers. This is the practice of verifying email addresses without sending (or attempting to send) emails to those addresses.
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li>
+            <h2>Authentication</h2>
+            <p>
+                To combat spoofing and phishing and to help ensure that messages are genuinely from the claimed sender, Outlook.com utilizes several email authentication standards. We strongly recommend all senders implement SPF, DKIM, and DMARC to protect their domain's reputation and improve deliverability.
+            </p>
+            <p>
+                <strong>Effective May 5th, 2025, specific authentication requirements are in place for high-volume senders:</strong> Domains sending more than 5,000 emails per day to Outlook.com accounts must fully be compliant with SPF, DKIM, and DMARC. Messages from high-volume senders that do not meet these requirements will be sent to the <strong>junk folder</strong>. If issues remain unresolved, messages may be <strong>rejected</strong> with the error:
+                <br />
+                <code>550; 5.7.515 Access denied, sending domain [SendingDomain] does <i>not</i> meet the required authentication level.</code>
+            </p>
+            <p>
+                For more details on these requirements and how to prepare, please see our <a href="https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730" target="_blank">blog post on strengthening the email ecosystem</a>.
+            </p>
+            <p>Key authentication mechanisms and their requirements include:</p>
+            <ul>
+                <li>
+                    <a href="http://tools.ietf.org/html/rfc4408" target="_blank">SPF (Sender Policy Framework)</a>
+                    <ul>
+                        <li>Must pass for the sending domain.</li>
+                        <li>Your domain's DNS records should accurately list authorized IP addresses/hosts.</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://tools.ietf.org/html/rfc4871" target="_blank">DKIM (DomainKeys Identified Mail)</a>
+                    <ul>
+                        <li>Must pass to validate email integrity and authenticity.</li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="http://tools.ietf.org/html/rfc7489" target="_blank">DMARC (Domain-based Message Authentication, Reporting, and Conformance)</a>
+                    <ul>
+                        <li>At least <code>p=none</code> (<code>p=reject</code> is recommended) and align with either SPF or DKIM (preferably both)</li>
+                    </ul>
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li>
+            <h2>Reputation Management</h2>
+            Senders, ISP's and other third party senders and service providers should actively manage the reputation of your outbound IPs. Outlook.com has developed the following free services to help in this effort.
+            <ul>
+                <li>
+                    <a href="https://postmaster.live.com/snds/JMRP.aspx" rel="noreferrer noopener">Junk Email Reporting Program (JMRP)</a>
+                </li>
+                <li>
+                    <a href="https://postmaster.live.com/snds/index.aspx" rel="noreferrer noopener">Smart Network Data Services (SNDS)</a>
+                </li>
+            </ul>
+        </li>
+    </ol>
+    <br />
+    <h2>Additional Resources</h2>
+    <ol>
+        <li>
+            <h2>
+                Deliverability Support
+            </h2>
+            If you are adhering to the guidelines, practices and policies presented on this page and are still experiencing deliverability issues, please contact Outlook.com deliverability support. If you are not in compliance with the above policies and guidelines, it may not be possible for our support team to assist you.
+            <ul>
+                <li>
+                    <a href="http://go.microsoft.com/fwlink/?LinkID=614866" rel="noreferrer noopener">Outlook.com Deliverability Support</a>
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li>
+            <h2>
+                Email Deliverability Resources and Organizations
+            </h2>
+            Microsoft actively works with industry bodies and service providers in order to improve the internet/email ecosystem. These organizations have published best practice documents that we support and recommend senders adhere to. This improves your deliverability amongst several email service providers around the world.
+            <ul>
+                <li>
+                    <a href="http://www.aotalliance.org/" rel="noreferrer noopener">Authentication & Online Trust Alliance</a>
+                </li>
+                <li>
+                    <a href="https://www.m3aawg.org/" rel="noreferrer noopener">Messaging Anti-Abuse Working Group</a>
+                </li>
+                <li>
+                    <a href="http://espcoalition.org/" rel="noreferrer noopener">Email Sender and Provider Coalition</a>
+                </li>
+            </ul>
+            <br />
+        </li>
+        <li>
+            <h2>
+                Abuse and Spam Reporting
+            </h2>
+            To report unlawful, abusive, unwanted or malicious email that you find <u>originating from an Outlook.com, Hotmail, Live, or MSN account</u>, please forward a complete copy of the abusive message (including the full message header) to abuse@outlook.com. Sending these types of communications is a violation of Microsoft policy and appropriate action will be taken on confirmed reports.
+        </li>
+        <li>
+            <h2>
+                Law Enforcement
+            </h2>
+            If you are a member of law enforcement and wish to serve Microsoft Corporation with legal documentation regarding an Outlook.com account, or if you have questions regarding legal documentation you have submitted to Microsoft, please call (1) (425) 722-1299.
+        </li>
+    </ol>
+</div>
+
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <span>&copy; </span>
+            <span>2018</span>
+            <span data-i18n="footer.copyright"></span>
+            <span>|</span>
+            <a target="_blank" class="link-dark footer-link" data-i18n="[href]footer.termsOfUseLink;footer.termsOfUse"
+               href="#"></a>
+            <span>|</span>
+            <a target="_blank" class="link-dark footer-link" data-i18n="[href]footer.privacyLink;footer.privacy"
+               href="#"></a>
+            <span>|</span>
+            <a target="_blank" class="link-dark footer-link" href="http://dev.outlook.com/">Developers</a>
+            <span>|</span>
+            <span>English (United States)</span>
+            <!--
+            <select class="switch-locale form-control input-sm" id="ddlLanguage">
+                <option value="cs_CZ">čeština (Česko)</option>
+                <option value="da_DK">dansk (Danmark)</option>
+                <option value="de_DE">Deutsch (Deutschland)</option>
+                <option value="de_AT">Deutsch (Österreich)</option>
+                <option value="de_CH">Deutsch (Schweiz)</option>
+                <option value="et_EE">eesti (Eesti)</option>
+                <option value="en_AU">English (Australia)</option>
+                <option value="en_CA">English (Canada)</option>
+                <option value="en_HK">English (Hong Kong SAR)</option>
+                <option value="en_IN">English (India)</option>
+                <option value="en_IE">English (Ireland)</option>
+                <option value="en_MY">English (Malaysia)</option>
+                <option value="en_NZ">English (New Zealand)</option>
+                <option value="en_PH">English (Philippines)</option>
+                <option value="en_SG">English (Singapore)</option>
+                <option value="en_ZA">English (South Africa)</option>
+                <option value="en_GB">English (United Kingdom)</option>
+                <option value="en_US">English (United States)</option>
+                <option value="es_AR">español (Argentina)</option>
+                <option value="es_BO">español (Bolivia)</option>
+                <option value="es_CL">español (Chile)</option>
+                <option value="es_CO">español (Colombia)</option>
+                <option value="es_CR">español (Costa Rica)</option>
+                <option value="es_EC">español (Ecuador)</option>
+                <option value="es_SV">español (El Salvador)</option>
+                <option value="es_ES">español (España, alfabetización internacional)</option>
+                <option value="es_US">español (Estados Unidos)</option>
+                <option value="es_GT">español (Guatemala)</option>
+                <option value="es_MX">español (México)</option>
+                <option value="es_PA">español (Panamá)</option>
+                <option value="es_PY">español (Paraguay)</option>
+                <option value="es_PE">español (Perú)</option>
+                <option value="es_PR">español (Puerto Rico)</option>
+                <option value="es_DO">español (República Dominicana)</option>
+                <option value="es_UY">español (Uruguay)</option>
+                <option value="es_VE">español (Venezuela)</option>
+                <option value="fr_DZ">français (Algérie)</option>
+                <option value="fr_BE">français (Belgique)</option>
+                <option value="fr_CA">français (Canada)</option>
+                <option value="fr_FR">français (France)</option>
+                <option value="fr_LU">français (Luxembourg)</option>
+                <option value="fr_MA">français (Maroc)</option>
+                <option value="fr_CH">français (Suisse)</option>
+                <option value="fr_TN">français (Tunisie)</option>
+                <option value="hr_BA">hrvatski (Bosna i Hercegovina)</option>
+                <option value="hr_HR">hrvatski (Hrvatska)</option>
+                <option value="id_ID">Indonesia (Indonesia)</option>
+                <option value="it_IT">italiano (Italia)</option>
+                <option value="lv_LV">latviešu (Latvija)</option>
+                <option value="lt_LT">lietuvių (Lietuva)</option>
+                <option value="hu_HU">magyar (Magyarország)</option>
+                <option value="nl_BE">Nederlands (België)</option>
+                <option value="nl_NL">Nederlands (Nederland)</option>
+                <option value="nb_NO">norsk bokmål (Norge)</option>
+                <option value="pl_PL">polski (Polska)</option>
+                <option value="pt_BR">português (Brasil)</option>
+                <option value="pt_PT">português (Portugal)</option>
+                <option value="ro_RO">română (România)</option>
+                <option value="sk_SK">slovenčina (Slovensko)</option>
+                <option value="sl_SI">slovenščina (Slovenija)</option>
+                <option value="sr_Latn_RS">srpski (Srbija)</option>
+                <option value="fi_FI">suomi (Suomi)</option>
+                <option value="sv_SE">svenska (Sverige)</option>
+                <option value="vi_VN">Tiếng Việt (Việt Nam)</option>
+                <option value="tr_TR">Türkçe (Türkiye)</option>
+                <option value="el_GR">Ελληνικά (Ελλάδα)</option>
+                <option value="bg_BG">български (България)</option>
+                <option value="ru_KZ">русский (Казахстан)</option>
+                <option value="ru_RU">русский (Россия)</option>
+                <option value="uk_UA">українська (Україна)</option>
+                <option value="he_IL">עברית (ישראל)</option>
+                <option value="ar_AE">العربية (الإمارات العربية المتحدة)</option>
+                <option value="ar_SA">العربية (المملكة العربية السعودية)</option>
+                <option value="ar_EG">العربية (مصر)</option>
+                <option value="th_TH">ไทย (ไทย)</option>
+                <option value="ko_KR">한국어(대한민국)</option>
+                <option value="zh_CN">中文(中国)</option>
+                <option value="zh_TW">中文(台灣)</option>
+                <option value="zh_HK">中文(香港特別行政區)</option>
+                <option value="ja_JP">日本語 (日本)</option>
+            </select>
+            -->
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/i18next/i18next.min.js"></script>
+    <script src="/lib/jquery-i18next/jquery-i18next.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/js/site.js" asp-append-version="true"></script>
+    <script src="/js/site.i18n.js" asp-append-version="true"></script>
+</body>
+</html>

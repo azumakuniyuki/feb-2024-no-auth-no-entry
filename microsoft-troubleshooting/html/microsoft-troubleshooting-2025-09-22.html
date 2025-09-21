@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+    
+    <title>Troubleshooting</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 position-fixed w-100">
+            <div class="container nav-container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="/img/microsoft.png" />
+                </a>
+                <span>|</span>
+                <h2>Outlook.com Postmaster</h2>
+            </div>
+        </nav>
+    </header>
+    <div class="container body-container">
+        <div class="menu-container">
+            <h2>Postmaster</h2>
+            <a href="/pm/Postmaster">Announcements</a>
+            <a href="/pm/JunkEmail">Fighting Junk Email</a>
+            <a href="/pm/Policies">Policies</a>
+            <a href="/pm/services">Services</a>
+            <a href="/pm/troubleshooting">Troubleshooting</a>
+            <a href="/pm/ipspace">Outbound IP Space</a>
+            <h2>Related places</h2>
+            <a href="https://g.live.com/9wc9en-us/h_getstarted_nm">About Outlook.com</a>
+            <a href="https://support.office.com/article/40676ad0-c831-45ac-a023-5be633be798d?product=newmail&version=17.5.3327.6000&mkt=en-us&wlexpid=78946cb3-43f8-4634-8bc8-caa9cac0c43d&server=DUB131-W94&accountTier=0&errorCode=noerrors">End-User Support</a>
+        </div>
+        <main role="main" class="pb-3">
+            
+<div class="main-container form">
+    <h2>Troubleshooting</h2>
+    This section provides troubleshooting information for senders who are having trouble reaching Outlook.com users by email. If you are an Outlook.com user looking for support with your account, please visit our <a href="https://support.office.com/article/40676ad0-c831-45ac-a023-5be633be798d?product=newmail&version=17.5.3327.6000&mkt=en-us&wlexpid=fec90ec3-4f1e-4a89-80ba-535d0e024171&server=DUB131-W77&accountTier=0&errorCode=noerrors" rel="noreferrer noopener">end user support page</a>.
+    <br /><br />
+    If you are experiencing problems delivering email to Outlook.com please first ensure that you are following all of the requirements found on our <a href="https://sendersupport.olc.protection.outlook.com/pm/policies.aspx" rel="noreferrer noopener">Policies and Guidelines</a> page.
+    <br />
+    <h2>Common Problems</h2>
+    <br />
+    <h2>Are you managing your IP and domain's sending reputation?</h2>
+    Microsoft's SmartScreen® technology is designed to provide anti-spam filtering innovations for Outlook.com as well as other Microsoft products like Exchange Server, Microsoft Office Outlook and Windows Live Mail. We also leverage <a href="http://tools.ietf.org/html/rfc4408" rel="noreferrer noopener">SPF</a>, an email authentication technology protocol that helps address the problem of spoofing and phishing by verifying that the domain sending the email is authorized to do so. SmartScreen® email filters are influenced by a number of factors related to the sending IP, domain, authentication, list accuracy, complaint rates, content and more. Of these, one of the principal factors in driving down a sender's reputation and deliverability is their junk email complaint rate.
+    <h2>Are you sending email from new IPs?</h2>
+    IPs not previously used to send email typically don't have any reputation built up in our systems. As a result, emails from new IPs are more likely to experience deliverability issues. Once the IP has built a reputation for not sending spam, Outlook.com will typically allow for a better email delivery experience.
+    <br /><br />
+    New IPs that are added for domains that are authenticated under existing SPF records typically experience the added benefit of inheriting some of the domain's sending reputation. If the domain has a good sending reputation new IPs may experience a faster ramp up time. A new IP can expect to be fully ramped within a couple of weeks or sooner depending on volume, list accuracy and as long as their junk email complaint rates are kept at a minimum.
+    <br /><br />
+    Note: don't forget to update your Junk Email Reporting Program (JMRP) account with the new IPs. To update or set up a JMRP account, click <a href="https://sendersupport.olc.protection.outlook.com/snds/JMRP.aspx" rel="noreferrer noopener">here</a>.
+    <h2>Are you running Anti-Virus software?</h2>
+    Some of the deliverability issues are the result of sender-based software configurations. If you are running anti-virus software on your firewall or SMTP server, check for the setting "Internet Email Auto Protect" or "Internet Email Protection." If this setting is enabled, disable it and try sending a test message to our servers again.
+    <br /><br />
+    If you are currently running Symantec AntiVirus Corporate Edition 9.x or 10.x on your server, please review <a href="http://g.live.com/9wc9en-us/symantec" rel="noreferrer noopener">this article</a> from Symantec Support.
+    <h2>Confirm that your DNS is set-up correctly</h2>
+    Try connecting to mail.hotmail.com via port 25. If you are unable to connect, then attempt to telnet over port 25 directly to our email servers (MTAs). You can find the current list of our MTAs by querying "nslookup –q=mx hotmail.com" from a command prompt (this should work in a variety of Operating Systems). Currently, the addresses for these servers are mx1.hotmail.com, mx2.hotmail.com, mx3.hotmail.com and mx4.hotmail.com. If that doesn't work, try connecting directly to the IPs. If you are able to connect directly to the IP and not mail.hotmail.com, then it is likely there is an issue with your DNS server.
+    <br /><br />
+    Occasionally, some of the IPs in our MX record may be out of service. If you are connecting to one of these IPs your connection may timeout. Make sure you test all of our published IPs. You may also configure your outbound email server to do a round-robin DNS lookup for Outlook.com.
+    <h2>Are you advertising yourself as a non-routable IP?</h2>
+    We may not accept email from senders who fail a reverse-DNS lookup. In some cases legitimate senders advertise themselves incorrectly as a non-internet routable IP when attempting to open a connection to Outlook.com. IP addresses that are reserved for private (non-routable) networking are 192.168.0.0/16, 10.0.0.0/8, and 172.16.0.0/11 (or 192.168.0.0 - 192.168.255.255, 10.0.0.0 - 10.255.255.255, 172.16.0.0 - 172.31.255.255).
+    <h2>Sender services, tools, and issue submission</h2>
+    We have developed some tools and services which will give you more information about how our users are rating your email. These services have been tailored for senders and for ISPs. To learn more about the Sender and ISP Services, go <a href="https://sendersupport.olc.protection.outlook.com/pm/services.aspx" rel="noreferrer noopener">here</a>.
+    <br /><br />
+    If your email complies with our <a href="https://sendersupport.olc.protection.outlook.com/pm/policies.aspx" rel="noreferrer noopener">policies and guidelines</a> and you are still experiencing email delivery problems that are not addressed in the FAQ below, click <a href="http://go.microsoft.com/fwlink/?LinkID=614866" rel="noreferrer noopener">here</a> to contact support.
+    <br /><br />
+    Note: Deliverability issues submitted using this form should only be related to the Outlook.com system, including any address @msn.com, @Outlook.com, @hotmail.com, or @live.com. We will do our best to help you troubleshoot your issue. However, submitting this information does not guarantee that any message you send to users of the Outlook.com services will be delivered.
+    <h2>Are you blocked for namespace mining?</h2>
+    Senders must not use namespace mining techniques against Outlook.com inbound email servers. This is the practice of verifying email addresses without sending (or attempting to send) emails to those addresses. This method is commonly used by malicious senders to generate lists of valid e-mail addresses that they can send spam, phishing emails or malware. Microsoft does not allow this behavior and takes action on IPs that engage in it. If any of your sending IPs is blocked for namespace mining, please check that your machines or email sending accounts are not compromised by an attacker who may be using your servers to harvest email addresses, and ensure that any method you use to validate email addresses does not use namespace mining techniques.
+    <br />
+    <h2>Frequently Asked Questions</h2>
+    <br />
+    <h2>Why does the email that I send to Outlook.com users sometimes look different from what they receive?</h2>
+    Avoid using scripting languages as they may be removed from your message. Many email messages now contain HTML code similar to that found in a Web page. This often helps with formatting and design. Outlook.com now analyzes and processes HTML content to remove HTML code that may be unsafe for your computer. This change is part of Microsoft's overall Trustworthy Computing Initiative and was made to further reduce the risk of malicious HTML content reaching our users.
+    <h2>How can I prevent my messages from being marked as from an "unknown sender" in the Outlook.com interface?</h2>
+    One way to ensure that your messages aren't marked as being from an "unknown sender" is to join <a href="http://returnpath.com/solutions/email-deliverability-optimization/ip-certification/" rel="noreferrer noopener">Return Path's Certification program</a>, a third-party accreditation and reputation service that provides Outlook.com with a list of responsible senders. Alternatively, if an Outlook.com user adds your domain or email address to their " contacts" or their "safe-senders list" they will no longer see this notification. In addition, senders who are on the Return Path Certification list or on a user's "safe sender's" list typically experience links and images within their messages enabled by default.
+    <h2>Does Outlook.com operate an "allow list" that I can get on?</h2>
+    No. An "allow list" is essentially a "free pass" which allows emails from certain senders to bypass junk email filters and other precautions. Outlook.com evaluates all inbound email for malicious content. You can find out more about our filtering processes <a href="https://sendersupport.olc.protection.outlook.com/pm/junkemail.aspx" rel="noreferrer noopener">here</a>. We do, however, partner with Return Path, Inc. who helps ensure the legitimacy of certain senders via their Return Path Certification program. This program allows Outlook.com to exercise greater assurance about mail from certified senders in good standing. You can learn more about the Return Path Certification program <a href="http://returnpath.com/solutions/email-deliverability-optimization/ip-certification/" rel="noreferrer noopener">here</a>.
+    <h2>How do I avoid having my messages marked as potentially dangerous?</h2>
+    To help prevent your messages from being identified as possibly fraudulent:
+    <ul>
+        <li>
+            Always use valid, reputable URLs. Make sure it's clear where the recipient will be taken and whether the destination is a valid website.
+        </li>
+        <li>
+            Use the standard URL format. Avoid using IP addresses in the URL.
+        </li>
+        <li>
+            Whenever possible, publish your Sender Policy Framework (SPF) records.
+        </li>
+        <li>
+            Do not link to known phishing sites.
+        </li>
+    </ul>
+    <h2>Why did I receive a "550 command rejected due to Sender ID validation failure." SMTP Non-Delivery Report (NDR) when I attempt to send mail to Outlook.com users?</h2>
+    Outlook.com will not allow delivery of email sent from a domain where the Sender ID record was configured by the domain owner to NOT allow ANY IP to send mail from that domain. Sender ID allows a domain owner to protect domains that aren't intended for sending email in order to help protect their domain from being spoofed. This can be done by publishing a simple TXT record in DNS like the following example (note: the organization would replace example.com with their own domain and or sub-domain name):
+    <br /><br />
+    example.com IN TXT "v=spf1 -all"
+    <br /><br />
+    If the domain is repurposed to send mail, the administrator of the DNS record should update the Sender ID record to include the IP address(s) that are authorized to send mail from that domain. Note that updates to your Sender ID record can take up to 48 hours to propagate through the Internet, so it's a good idea to wait 48 hours after making a change to your record before you initiate any new email activities. In addition, Microsoft strongly recommends that you conduct email testing prior to sending live communications to your users/customers.
+    <h2>SMTP Error Codes</h2>
+    <table>
+        <tr>
+            <td width="200">
+                SMTP Error Code
+            </td>
+            <td>
+                Explanation
+            </td>
+        </tr>
+        <tr>
+            <td>
+                421 RP-001
+            </td>
+            <td>
+                The mail server IP connecting to Outlook.com server has exceeded the rate limit allowed. Reason for rate limitation is related to IP/domain reputation. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                421 RP-002
+            </td>
+            <td>
+                The mail server IP connecting to Outlook.com server has exceeded the rate limit allowed on this connection. Reason for rate limitation is related to IP/domain reputation. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                421 RP-003
+            </td>
+            <td>
+                The mail server IP connecting to Outlook.com server has exceeded the connection limit allowed. Reason for limitation is related to IP/domain reputation. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+        <tr>
+            <td>
+            550 5.7.515
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. Messages from domains sending over 5,000 emails per day to Outlook.com accounts must be authenticated with SPF, DKIM, and DMARC (<code>p=none</code> or <code>p=reject</code>) to be accepted. For more information, please see <a href="https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730" target="_blank">Outlook.com's sender requirements</a>.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                550 SC-001
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. Reasons for rejection may be related to content with spam-like characteristics or IP/domain reputation. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                550 SC-002
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. The mail server IP connecting to Outlook.com has exhibited namespace mining behavior. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                550 SC-003
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. Your IP address appears to be an open proxy/relay. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                550 SC-004
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. A block has been placed against your IP address because we have received complaints concerning mail coming from that IP address. We recommend enrolling in our Junk Email Reporting Program (JMRP), a free program intended to help senders remove unwanted recipients from their email list. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                550 DY-001
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. We generally do not accept email from dynamic IP's as they are not typically used to deliver unauthenticated SMTP email to an Internet mail server. If you are not an email/network admin please contact your Email/Internet Service Provider for help. http://www.spamhaus.org maintains lists of dynamic and residential IP addresses.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                550 DY-002
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. The likely cause is a compromised or virus infected server/personal computer. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                550 OU-001
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. If you are not an email/network admin please contact your Email/Internet Service Provider for help. For more information about this block and to request removal please go to: http://www.spamhaus.org.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                550 OU-002
+            </td>
+            <td>
+                Mail rejected by Outlook.com for policy reasons. Reasons for rejection may be related to content with spam-like characteristics or IP/domain reputation. If you are not an email/network admin please contact your Email/Internet Service Provider for help.
+            </td>
+        </tr>
+    </table>
+</div>
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <span>&copy; </span>
+            <span>2018</span>
+            <span data-i18n="footer.copyright"></span>
+            <span>|</span>
+            <a target="_blank" class="link-dark footer-link" data-i18n="[href]footer.termsOfUseLink;footer.termsOfUse"
+               href="#"></a>
+            <span>|</span>
+            <a target="_blank" class="link-dark footer-link" data-i18n="[href]footer.privacyLink;footer.privacy"
+               href="#"></a>
+            <span>|</span>
+            <a target="_blank" class="link-dark footer-link" href="http://dev.outlook.com/">Developers</a>
+            <span>|</span>
+            <span>English (United States)</span>
+            <!--
+            <select class="switch-locale form-control input-sm" id="ddlLanguage">
+                <option value="cs_CZ">čeština (Česko)</option>
+                <option value="da_DK">dansk (Danmark)</option>
+                <option value="de_DE">Deutsch (Deutschland)</option>
+                <option value="de_AT">Deutsch (Österreich)</option>
+                <option value="de_CH">Deutsch (Schweiz)</option>
+                <option value="et_EE">eesti (Eesti)</option>
+                <option value="en_AU">English (Australia)</option>
+                <option value="en_CA">English (Canada)</option>
+                <option value="en_HK">English (Hong Kong SAR)</option>
+                <option value="en_IN">English (India)</option>
+                <option value="en_IE">English (Ireland)</option>
+                <option value="en_MY">English (Malaysia)</option>
+                <option value="en_NZ">English (New Zealand)</option>
+                <option value="en_PH">English (Philippines)</option>
+                <option value="en_SG">English (Singapore)</option>
+                <option value="en_ZA">English (South Africa)</option>
+                <option value="en_GB">English (United Kingdom)</option>
+                <option value="en_US">English (United States)</option>
+                <option value="es_AR">español (Argentina)</option>
+                <option value="es_BO">español (Bolivia)</option>
+                <option value="es_CL">español (Chile)</option>
+                <option value="es_CO">español (Colombia)</option>
+                <option value="es_CR">español (Costa Rica)</option>
+                <option value="es_EC">español (Ecuador)</option>
+                <option value="es_SV">español (El Salvador)</option>
+                <option value="es_ES">español (España, alfabetización internacional)</option>
+                <option value="es_US">español (Estados Unidos)</option>
+                <option value="es_GT">español (Guatemala)</option>
+                <option value="es_MX">español (México)</option>
+                <option value="es_PA">español (Panamá)</option>
+                <option value="es_PY">español (Paraguay)</option>
+                <option value="es_PE">español (Perú)</option>
+                <option value="es_PR">español (Puerto Rico)</option>
+                <option value="es_DO">español (República Dominicana)</option>
+                <option value="es_UY">español (Uruguay)</option>
+                <option value="es_VE">español (Venezuela)</option>
+                <option value="fr_DZ">français (Algérie)</option>
+                <option value="fr_BE">français (Belgique)</option>
+                <option value="fr_CA">français (Canada)</option>
+                <option value="fr_FR">français (France)</option>
+                <option value="fr_LU">français (Luxembourg)</option>
+                <option value="fr_MA">français (Maroc)</option>
+                <option value="fr_CH">français (Suisse)</option>
+                <option value="fr_TN">français (Tunisie)</option>
+                <option value="hr_BA">hrvatski (Bosna i Hercegovina)</option>
+                <option value="hr_HR">hrvatski (Hrvatska)</option>
+                <option value="id_ID">Indonesia (Indonesia)</option>
+                <option value="it_IT">italiano (Italia)</option>
+                <option value="lv_LV">latviešu (Latvija)</option>
+                <option value="lt_LT">lietuvių (Lietuva)</option>
+                <option value="hu_HU">magyar (Magyarország)</option>
+                <option value="nl_BE">Nederlands (België)</option>
+                <option value="nl_NL">Nederlands (Nederland)</option>
+                <option value="nb_NO">norsk bokmål (Norge)</option>
+                <option value="pl_PL">polski (Polska)</option>
+                <option value="pt_BR">português (Brasil)</option>
+                <option value="pt_PT">português (Portugal)</option>
+                <option value="ro_RO">română (România)</option>
+                <option value="sk_SK">slovenčina (Slovensko)</option>
+                <option value="sl_SI">slovenščina (Slovenija)</option>
+                <option value="sr_Latn_RS">srpski (Srbija)</option>
+                <option value="fi_FI">suomi (Suomi)</option>
+                <option value="sv_SE">svenska (Sverige)</option>
+                <option value="vi_VN">Tiếng Việt (Việt Nam)</option>
+                <option value="tr_TR">Türkçe (Türkiye)</option>
+                <option value="el_GR">Ελληνικά (Ελλάδα)</option>
+                <option value="bg_BG">български (България)</option>
+                <option value="ru_KZ">русский (Казахстан)</option>
+                <option value="ru_RU">русский (Россия)</option>
+                <option value="uk_UA">українська (Україна)</option>
+                <option value="he_IL">עברית (ישראל)</option>
+                <option value="ar_AE">العربية (الإمارات العربية المتحدة)</option>
+                <option value="ar_SA">العربية (المملكة العربية السعودية)</option>
+                <option value="ar_EG">العربية (مصر)</option>
+                <option value="th_TH">ไทย (ไทย)</option>
+                <option value="ko_KR">한국어(대한민국)</option>
+                <option value="zh_CN">中文(中国)</option>
+                <option value="zh_TW">中文(台灣)</option>
+                <option value="zh_HK">中文(香港特別行政區)</option>
+                <option value="ja_JP">日本語 (日本)</option>
+            </select>
+            -->
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/i18next/i18next.min.js"></script>
+    <script src="/lib/jquery-i18next/jquery-i18next.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/js/site.js" asp-append-version="true"></script>
+    <script src="/js/site.i18n.js" asp-append-version="true"></script>
+</body>
+</html>
