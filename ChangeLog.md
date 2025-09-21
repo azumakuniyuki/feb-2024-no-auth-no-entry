@@ -1,6 +1,13 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-09-22
+---------------------------------------------------------------------------------------------------
+- (Microsoft) The following documents have been updated
+  - Microsoft Outlook.com Postmaster: https://postmaster.live.com/pm/postmaster.aspx
+  - Microsoft Policies, Practices and Guildelines: https://postmaster.live.com/pm/policies.aspx
+  - Microsoft Troubleshooting: https://postmaster.live.com/pm/troubleshooting.aspx
+
 2025-08-02
 ---------------------------------------------------------------------------------------------------
 - (Google) Some status codes begin with "5.7" have been changed at Gmail SMTP Errors and Codes.
