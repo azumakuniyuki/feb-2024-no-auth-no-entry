@@ -26,9 +26,20 @@ right to the most requested information please click on one of the links below.
 
 Announcements
 
-New Postmaster Site
+Requirements for High-Volume Senders
 
-Welcome to the new Outlook.com Postmaster site. We've introduced this new site
-in order to help senders improve their reputations and increase deliverability
-into Outlook.com inboxes.
+Starting May 5th, 2025, Outlook.com is enforcing stricter email authentication
+standards (SPF, DKIM, DMARC) for domains sending over 5,000 emails per day to
+enhance security and reduce spam. Non-compliant messages will be sent to
+messages will be sent to the junk folder. Shortly we will reject the messages
+until the DNS records are corrected.
+
+Learn more about these changes and how to prepare in our recent blog post:
+Strengthening Email Ecosystem: Outlook’s Requirements for High‐Volume Senders.
+
+Postmaster Site
+
+Welcome to the Outlook.com Postmaster site. We've created this site in order to
+help senders improve their reputations and increase deliverability into
+Outlook.com inboxes.
 © 2018 |  |  | Developers | English (United States)

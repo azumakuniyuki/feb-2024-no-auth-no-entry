@@ -70,11 +70,35 @@ potential deliverability issues.
 
  4. Authentication
 
-    Email sent to Outlook.com users should include Sender ID authentication.
-    While, other forms of authentication are available, Microsoft currently
-    only validates inbound mail via SPF and Sender ID authentication.
-      □ SPF
-      □ DKIM
+    To combat spoofing and phishing and to help ensure that messages are
+    genuinely from the claimed sender, Outlook.com utilizes several email
+    authentication standards. We strongly recommend all senders implement SPF,
+    DKIM, and DMARC to protect their domain's reputation and improve
+    deliverability.
+
+    Effective May 5th, 2025, specific authentication requirements are in place
+    for high-volume senders: Domains sending more than 5,000 emails per day to
+    Outlook.com accounts must fully be compliant with SPF, DKIM, and DMARC.
+    Messages from high-volume senders that do not meet these requirements will
+    be sent to the junk folder. If issues remain unresolved, messages may be
+    rejected with the error:
+    550; 5.7.515 Access denied, sending domain [SendingDomain] does not meet
+    the required authentication level.
+
+    For more details on these requirements and how to prepare, please see our
+    blog post on strengthening the email ecosystem.
+
+    Key authentication mechanisms and their requirements include:
+
+      □ SPF (Sender Policy Framework)
+          ☆ Must pass for the sending domain.
+          ☆ Your domain's DNS records should accurately list authorized IP
+            addresses/hosts.
+      □ DKIM (DomainKeys Identified Mail)
+          ☆ Must pass to validate email integrity and authenticity.
+      □ DMARC (Domain-based Message Authentication, Reporting, and Conformance)
+          ☆ At least p=none (p=reject is recommended) and align with either SPF
+            or DKIM (preferably both)
 
  5. Reputation Management
 

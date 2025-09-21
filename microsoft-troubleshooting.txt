@@ -211,6 +211,12 @@ SMTP Error Code           Explanation
                           are not an email/network admin please contact your
                           Email/Internet Service Provider for help.
                           Mail rejected by Outlook.com for policy reasons.
+                          Messages from domains sending over 5,000 emails per
+550 5.7.515               day to Outlook.com accounts must be authenticated
+                          with SPF, DKIM, and DMARC (p=none or p=reject) to be
+                          accepted. For more information, please see
+                          Outlook.com's sender requirements.
+                          Mail rejected by Outlook.com for policy reasons.
                           Reasons for rejection may be related to content with
 550 SC-001                spam-like characteristics or IP/domain reputation. If
                           you are not an email/network admin please contact
