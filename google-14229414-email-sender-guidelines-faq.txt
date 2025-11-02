@@ -23,7 +23,6 @@ Next
 
   • Help Center
   • Community
-  • 
 
 Google Workspace Admin
 
@@ -39,6 +38,9 @@ send 5,000 or more messages a day to Gmail accounts: Authenticate outgoing
 email, avoid sending unwanted or unsolicited email, and make it easy for
 recipients to unsubscribe. Learn more about requirements for sending 5,000 or
 more emails per day.
+Starting November 2025, Gmail is ramping up its enforcement on non-compliant
+traffic. Messages that fail to meet the email sender requirements will
+experience disruptions, including temporary and permanent rejections.
 
 This FAQ provides additional, detailed information to support our Email sender
 guidelines (previously called "Bulk sender guidelines"), which describe in
@@ -536,9 +538,10 @@ Close search
 Google apps
 Main menu
 [                    ]
-682958996840267842
+3478125389526820462
 true
 Search Help Center
+false
 true
 true
 true
