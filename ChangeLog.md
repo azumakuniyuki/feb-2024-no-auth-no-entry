@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-10-31
+---------------------------------------------------------------------------------------------------
+- (Google) Starting November 2025, Gmail is ramping up its enforcement on non-compliant traffic.
+  - Email Sender Guidelines FAQ: https://support.google.com/a/answer/14229414
+
 2025-09-22
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) The following documents have been updated
