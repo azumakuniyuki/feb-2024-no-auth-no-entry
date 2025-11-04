@@ -12,7 +12,7 @@ Google
   - 📂 [./google-81126-email-sender-guidelines/](./google-81126-email-sender-guidelines/)
 - [**Email Sender Guidelines FAQ (14229414)**](https://support.google.com/a/answer/14229414)
   - 📜 [./google-14229414-email-sender-guidelines-faq.txt](./google-14229414-email-sender-guidelines-faq.txt)
-    - 📅 Last updated at [2025-02-26](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7405111a9336ae58e3c64777272c4e26278bae50P\)
+    - 📅 Last updated at [2025-10-31](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/77ee66ab6c5d748777b17e7888b94af2b7ac2a1a)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-14229414-email-sender-guidelines-faq.txt)
   - 📂 [./google-14229414-email-sender-guidelines-faq/](./google-14229414-email-sender-guidelines-faq/)
 - [**Gmail SMTP Errors and Codes (3726730)**](https://support.google.com/a/answer/3726730)
