@@ -60,6 +60,7 @@ Microsoft
 - [**Microsoft Fighting Junk Email**](https://postmaster.live.com/pm/junkemail.aspx)
   - ⏰ No significant changes since the file was uploaded
   - 📜 [./microsoft-fighting-junk-email.txt](./microsoft-fighting-junk-email.txt)
+    - 📅 Last updated at [2025-12-03](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/0c574bf798f1f618deff3e854db136c8de851a8c)
 - [**Microsoft Policies, Practices and Guildelines**](https://postmaster.live.com/pm/policies.aspx)
   - 📜 [./microsoft-policies-practices-and-guidelines.txt](./microsoft-policies-practices-and-guidelines.txt)
     - 📅 Last updated at [2025-09-22](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/36edb60ec7e629b7bfe21ab4c09d9d44b5eb5b7d)
@@ -67,6 +68,7 @@ Microsoft
 - [**Microsoft Services for Senders and ISPs**](https://postmaster.live.com/pm/services.aspx)
   - ⏰ No significant changes since the file was uploaded
   - 📜 [./microsoft-services-for-senders-and-isps.txt](./microsoft-services-for-senders-and-isps.txt)
+    - 📅 Last updated at [2025-12-03](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/dcce20f86e2e91483ccb61845ef8d228f9ddfe20)
 - [**Microsoft Troubleshooting**](https://postmaster.live.com/pm/troubleshooting.aspx)
   - 📜 [./microsoft-troubleshooting.txt](./microsoft-troubleshooting.txt)
     - 📅 Last updated at [2025-09-22](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/36edb60ec7e629b7bfe21ab4c09d9d44b5eb5b7d)
