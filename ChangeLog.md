@@ -1,6 +1,17 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2025-12-03
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Microsoft Fighting Junk Email: https://postmaster.live.com/pm/junkemail.aspx
+  - Microsoft SmartScreen has been renamed to Microsoft Anti-Spam technology.
+  - SmartScreen(R) filter technology has been renamed to "filter technology".
+- (Microsoft) "Return Path Certification" has been changed to "Validity's Sender Certification".
+  - The service was qcquired by Validity in 2019.
+  - https://www.validity.com/everest/returnpath/
+  - Microsoft Services for Senders and ISPs: https://postmaster.live.com/pm/services.aspx
+  - Microsoft Troubleshooting: https://postmaster.live.com/pm/troubleshooting.aspx
+
 2025-10-31
 ---------------------------------------------------------------------------------------------------
 - (Google) Starting November 2025, Gmail is ramping up its enforcement on non-compliant traffic.
