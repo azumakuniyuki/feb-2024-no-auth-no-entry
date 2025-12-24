@@ -1,14 +1,11 @@
-[microsoft] |
+Microsoft logo |
 
 Outlook.com Postmaster
 
 Postmaster
-
 Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
 Space
-
 Related places
-
 About Outlook.com End-User Support
 
 Policies, Practices, and Guidelines
@@ -27,14 +24,12 @@ potential deliverability issues.
     governing email transmission and use of Outlook.com.
       □ Microsoft Services Agreement
       □ Microsoft Anti-Spam Policy
-
  2. Governmental Regulations
 
     Email sent to Outlook.com users must adhere to all applicable laws and
     regulations governing email communications in the applicable jurisdiction.
       □ CAN-SPAM Act
       □ Email Marketers Must Honor "Unsubscribe" Claims
-
  3. Technical Guidelines
 
     Email sent to Outlook.com should comply with the applicable recommendations
@@ -42,7 +37,6 @@ potential deliverability issues.
       □ Anti-spam Recommendations for SMTP MTAs (BCP 30), The Internet Society
       □ SMTP Service Extension for Command Pipelining (STD 60), The Internet
         Society
-
     In addition, email servers connecting to Outlook.com must adhere to the
     following requirements:
       □ Sender is expected to comply with all technical standards for the
@@ -61,13 +55,12 @@ potential deliverability issues.
       □ The mechanism for unsubscribing, either from individual lists or all
         lists hosted by the sender, must be clearly documented and easy for
         recipients to find and use.
-      □ Connections from dynamic IP space may not be accepted..
+      □ Connections from dynamic IP space may not be accepted.
       □ Email servers must have valid reverse DNS records.
       □ Senders must not use namespace mining techniques against Outlook.com
         inbound email servers. This is the practice of verifying email
         addresses without sending (or attempting to send) emails to those
         addresses.
-
  4. Authentication
 
     To combat spoofing and phishing and to help ensure that messages are
@@ -99,7 +92,6 @@ potential deliverability issues.
       □ DMARC (Domain-based Message Authentication, Reporting, and Conformance)
           ☆ At least p=none (p=reject is recommended) and align with either SPF
             or DKIM (preferably both)
-
  5. Reputation Management
 
     Senders, ISP's and other third party senders and service providers should
@@ -107,7 +99,6 @@ potential deliverability issues.
     developed the following free services to help in this effort.
       □ Junk Email Reporting Program (JMRP)
       □ Smart Network Data Services (SNDS)
-
 
 Additional Resources
 
@@ -119,7 +110,6 @@ Additional Resources
     above policies and guidelines, it may not be possible for our support team
     to assist you.
       □ Outlook.com Deliverability Support
-
  2. Email Deliverability Resources and Organizations
 
     Microsoft actively works with industry bodies and service providers in
@@ -130,7 +120,6 @@ Additional Resources
       □ Authentication & Online Trust Alliance
       □ Messaging Anti-Abuse Working Group
       □ Email Sender and Provider Coalition
-
  3. Abuse and Spam Reporting
 
     To report unlawful, abusive, unwanted or malicious email that you find
@@ -146,4 +135,4 @@ Additional Resources
     if you have questions regarding legal documentation you have submitted to
     Microsoft, please call (1) (425) 722-1299.
 
-© 2018 |  |  | Developers | English (United States)
+© 2025 |  |  | Developers | English (United States)
