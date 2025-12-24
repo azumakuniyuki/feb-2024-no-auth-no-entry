@@ -23,7 +23,6 @@ Next
 
   • Help Center
   • Community
-  • 
 
 Google Workspace Admin
 
@@ -129,12 +128,16 @@ true
 
 Monitor outgoing email with Postmaster Tools
 
-  • 1 of 3
+  • 1 of 5
+    Learn about the deprecation of the old Postmaster Tools interface
+  • 2 of 5
     Set up Postmaster Tools
-  • 2 of 3
+  • 3 of 5
     Postmaster Tools dashboards
-  • 3 of 3
+  • 4 of 5
     Sender requirements & Postmaster Tools FAQ
+  • 5 of 5
+    Report delivery issues in Postmaster Tools
 
 [exxMjxadqE]
 Start your free 14-day trial today
