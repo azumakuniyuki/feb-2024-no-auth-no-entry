@@ -2,11 +2,16 @@ Microsoft logo |
 
 Outlook.com Postmaster
 
-Postmaster
-Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
-Space
-Related places
-About Outlook.com End-User Support
+Policies
+
+  • Announcements
+  • Fighting Junk Email
+  • Policies
+  • Services
+  • Troubleshooting
+  • Outbound IP Space
+  • About Outlook.com
+  • End-User Support
 
 Policies, Practices, and Guidelines
 
