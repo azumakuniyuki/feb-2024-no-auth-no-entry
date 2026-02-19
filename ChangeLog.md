@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-02-15
+---------------------------------------------------------------------------------------------------
+- (Yahoo!) Yahoo! Sender SMTP Error Codes: https://senders.yahooinc.com/smtp-error-codes/
+  - Add `An email address contains exotic or forbidden characters (e.g. ,$%?{}<>)`.
+
 2025-12-03
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Microsoft Fighting Junk Email: https://postmaster.live.com/pm/junkemail.aspx
