@@ -2,11 +2,16 @@ Microsoft logo |
 
 Outlook.com Postmaster
 
-Postmaster
-Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
-Space
-Related places
-About Outlook.com End-User Support
+Services
+
+  • Announcements
+  • Fighting Junk Email
+  • Policies
+  • Services
+  • Troubleshooting
+  • Outbound IP Space
+  • About Outlook.com
+  • End-User Support
 
 Services for Senders and ISPs
 
@@ -38,13 +43,12 @@ Postmaster         requirements
                  • The industry’s most recognized and valued email
                    certification program. A third-party accreditation and
                    reputation service used to "safe list" senders.
-                 • Topics to learn:
-Validity's           □ Email Deliverability
-Sender               □ Email Sender and Domain Reputation
-Certification        □ Email Security and Authentication
+Validity's       • Topics to learn:
+Sender               □ Email Deliverability
+Certification        □ Email Sender and Domain Reputation
+                     □ Email Security and Authentication
                  • Learn how Validity's Sender Certification helps senders
-                   reach more inboxes, faster: https://www.validity.com/
-                   sender-certification/
+                   reach more inboxes, faster: Validity Sender Certification
 
                  • A free service to provide reports on junk email issues
                    reported by Outlook.com users
@@ -56,7 +60,7 @@ Reporting        • Helps identify potential problems with your marketing
 Program            practices and content
                  • Helps improve sender reputation by removing unwanted
                    subscribers from lists
-                 • Enroll at https://postmaster.live.com/snds/JMRP.aspx and
+                 • Enroll at Junk Mail Reporting Program (JMRP) in SNDS and
                    typically start receiving feedback within as little as 72
                    hours
 
@@ -66,7 +70,7 @@ Program            practices and content
 Smart Network    • Provides easy online registration and access to data
 Data Services    • Improves understanding of how our filters rate your email
                  • Reveals how many users complained about your email
-                 • Learn more at https://postmaster.live.com/snds
+                 • Learn more at Sender Network Data Service (SNDS)
 
                  • Provides escalation support for deliverability issues.
 Support            Support information can be found on the Troubleshooting
@@ -100,7 +104,7 @@ Postmaster        requirements
 Junk Email        "junk" or "phishing"
 Reporting       • Helps identify customer accounts or PCs that are being used
 Program           to send junk email
-                • Enroll at https://postmaster.live.com/snds/JMRP.aspx and
+                • Enroll at Junk Mail Reporting Program (JMRP) in SNDS and
                   typically start receiving feedback within as little as 72
                   hours
 
@@ -112,7 +116,7 @@ Smart Network   • ISPs can realize cost savings by clamping down on spammers
 Data Services     using their network
                 • ISPs can improve their customer satisfaction by improving
                   their deliverability
-                • Learn more at https://postmaster.live.com/snds/index.aspx
+                • Learn more at Sender Network Data Service (SNDS)
 
 Support         • Provides escalation support for deliverability issues.
                   Support information can be found on the Troubleshooting page.
