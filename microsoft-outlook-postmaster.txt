@@ -31,6 +31,10 @@ right to the most requested information please click on one of the links below.
 
 Announcements
 
+We are aware of an issue that may result in certain IP addresses being
+temporarily rejected at higher rates. We are actively investigating the issue.
+Please continue to submit tickets if you are experiencing this problem.
+
 Requirements for High-Volume Senders
 
 Starting May 5th, 2025, Outlook.com is enforcing stricter email authentication
