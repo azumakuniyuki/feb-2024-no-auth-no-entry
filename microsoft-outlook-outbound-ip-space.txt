@@ -1,17 +1,18 @@
-Microsoft logo |
+[microsoft] |
 
 Outlook.com Postmaster
 
-Outbound IP Space
+Postmaster
 
-  • Announcements
-  • Fighting Junk Email
-  • Policies
-  • Services
-  • Troubleshooting
-  • Outbound IP Space
-  • About Outlook.com
-  • End-User Support
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
+
+Related places
+
+About Outlook.com End-User Support
+
+Announcements: Click here to see new updates for SNDS. Updated January 22nd,
+2026
 
 Outlook.com Outbound IP Space
 
@@ -19,4 +20,4 @@ Outlook.com sends e-mail from the following IP addresses:
 
   • 40.92.0.0/14
 
-© 2025 |  |  | Developers | English (United States)
+© 2018 |  |  | Developers | English (United States)
