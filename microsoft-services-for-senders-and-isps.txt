@@ -1,17 +1,17 @@
-Microsoft logo |
+[microsoft] |
 
 Outlook.com Postmaster
 
-Services
+Postmaster
 
-  • Announcements
-  • Fighting Junk Email
-  • Policies
-  • Services
-  • Troubleshooting
-  • Outbound IP Space
-  • About Outlook.com
-  • End-User Support
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
+
+Related places
+
+About Outlook.com End-User Support
+
+Announcements: Click here to see new updates for SNDS. Updated March 3rd, 2026
 
 Services for Senders and ISPs
 
@@ -32,49 +32,55 @@ consumers by proactively managing their sending reputation.
 Below is an overview of services that can benefit your organization including
 links for more information:
 
-   Service                                 Benefits
-                 • A starting point for any questions related to delivering
-                   communications to Outlook.com users
-                 • Includes a simple online guide with our policies and
-Postmaster         requirements
-                 • An overview of the junk email filters and authentication
-                   technologies employed by Microsoft
+Service       Benefits
 
-                 • The industry’s most recognized and valued email
-                   certification program. A third-party accreditation and
-                   reputation service used to "safe list" senders.
-Validity's       • Topics to learn:
-Sender               □ Email Deliverability
-Certification        □ Email Sender and Domain Reputation
-                     □ Email Security and Authentication
-                 • Learn how Validity's Sender Certification helps senders
-                   reach more inboxes, faster: Validity Sender Certification
+                • A starting point for any questions related to delivering
+                  communications to Outlook.com users
+                • Includes a simple online guide with our policies and
+Postmaster        requirements
+                • An overview of the junk email filters and authentication
+                  technologies employed by Microsoft
 
-                 • A free service to provide reports on junk email issues
-                   reported by Outlook.com users
-                 • Returns the full message with headers of any email marked as
-                   "junk" or "phishing"
-                 • Provides senders an opportunity to clean their email lists
-Junk Email         and improve the quality of their content
-Reporting        • Helps identify potential problems with your marketing
-Program            practices and content
-                 • Helps improve sender reputation by removing unwanted
-                   subscribers from lists
-                 • Enroll at Junk Mail Reporting Program (JMRP) in SNDS and
-                   typically start receiving feedback within as little as 72
-                   hours
+                • The industry’s most recognized and valued email certification
+                  program. A third-party accreditation and reputation service
+                  used to "safe list" senders.
+                • Learn more at https://returnpath.com/solutions/
+                  email-deliverability-optimization/ip-certification/
+                • Learn sender best practices from Return Path and avoid the
+                  most common sender reputation pitfalls like complaints and
+Return Path       spam traps: http://pages.returnpath.com/
+Certification     email-sending-best-practices.html
+                • Learn email security best practices from Return Path and keep
+                  your sensitive data safe and your systems secured: http://
+                  pages.returnpath.com/email-security-best-practices.html
+                • Learn how Return Path Certification helps senders get into
+                  more inboxes more quickly: http://pages.returnpath.com/
+                  get-certified.html
 
-                 • A free service that provides high-level insight on how users
-                   are rating the email they receive and the health of your IP
-                   space as viewed by the Outlook.com system
-Smart Network    • Provides easy online registration and access to data
-Data Services    • Improves understanding of how our filters rate your email
-                 • Reveals how many users complained about your email
-                 • Learn more at Sender Network Data Service (SNDS)
+                • A free service to provide reports on junk email issues
+                  reported by Outlook.com users
+                • Returns the full message with headers of any email marked as
+                  "junk" or "phishing"
+                • Provides senders an opportunity to clean their email lists
+Junk Email        and improve the quality of their content
+Reporting       • Helps identify potential problems with your marketing
+Program           practices and content
+                • Helps improve sender reputation by removing unwanted
+                  subscribers from lists
+                • Enroll at https://postmaster.live.com/snds/JMRP.aspx and
+                  typically start receiving feedback within as little as 72
+                  hours
 
-                 • Provides escalation support for deliverability issues.
-Support            Support information can be found on the Troubleshooting
-                   page.
+                • A free service that provides high-level insight on how users
+                  are rating the email they receive and the health of your IP
+                  space as viewed by the Outlook.com system
+Smart Network   • Provides easy online registration and access to data
+Data Services   • Improves understanding of how our filters rate your email
+                • Reveals how many users complained about your email
+                • Learn more at https://postmaster.live.com/snds
+
+Support         • Provides escalation support for deliverability issues.
+                  Support information can be found on the Troubleshooting page.
 
 ISP Solutions
 
@@ -90,7 +96,8 @@ reduce overall costs and proactively manage their reputation.
 Below is an overview of services that can benefit your organization including
 links for more information:
 
-   Service                                Benefits
+Service       Benefits
+
                 • A starting point for any questions related to delivering
                   communications to Outlook.com users
                 • Includes a simple online guide with our policies and
@@ -104,7 +111,7 @@ Postmaster        requirements
 Junk Email        "junk" or "phishing"
 Reporting       • Helps identify customer accounts or PCs that are being used
 Program           to send junk email
-                • Enroll at Junk Mail Reporting Program (JMRP) in SNDS and
+                • Enroll at https://postmaster.live.com/snds/JMRP.aspx and
                   typically start receiving feedback within as little as 72
                   hours
 
@@ -116,7 +123,7 @@ Smart Network   • ISPs can realize cost savings by clamping down on spammers
 Data Services     using their network
                 • ISPs can improve their customer satisfaction by improving
                   their deliverability
-                • Learn more at Sender Network Data Service (SNDS)
+                • Learn more at https://postmaster.live.com/snds
 
 Support         • Provides escalation support for deliverability issues.
                   Support information can be found on the Troubleshooting page.
@@ -127,4 +134,4 @@ Sometimes Outlook.com is used by third parties to send junk email, in violation
 of our terms of use and policy. If you receive any junk email from Outlook.com
 you can report these messages to report_spam@outlook.com. Please attach the
 offending messages in RFC2822 or ARF format.
-© 2025 |  |  | Developers | English (United States)
+© 2018 |  |  | Developers | English (United States)
