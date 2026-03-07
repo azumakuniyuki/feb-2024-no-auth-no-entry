@@ -1,28 +1,27 @@
-Microsoft logo |
+[microsoft] |
 
 Outlook.com Postmaster
 
-Troubleshooting
+Postmaster
 
-  • Announcements
-  • Fighting Junk Email
-  • Policies
-  • Services
-  • Troubleshooting
-  • Outbound IP Space
-  • About Outlook.com
-  • End-User Support
+Announcements Fighting Junk Email Policies Services Troubleshooting Outbound IP
+Space
+
+Related places
+
+About Outlook.com End-User Support
+
+Announcements: Click here to see new updates for SNDS. Updated March 3rd, 2026
 
 Troubleshooting
 
 This section provides troubleshooting information for senders who are having
 trouble reaching Outlook.com users by email. If you are an Outlook.com user
-looking for support with your account, please visit our end user support page
+looking for support with your account, please visit our end user support page.
 
 If you are experiencing problems delivering email to Outlook.com please first
 ensure that you are following all of the requirements found on our Policies and
 Guidelines page.
-
 
 Common Problems
 
@@ -31,7 +30,7 @@ Are you managing your IP and domain's sending reputation?
 
 Microsoft's SmartScreen® technology is designed to provide anti-spam filtering
 innovations for Outlook.com as well as other Microsoft products like Exchange
-Server, Microsoft Office Outlook and Windows Live Mail. We also leverage SPF ,
+Server, Microsoft Office Outlook and Windows Live Mail. We also leverage SPF,
 an email authentication technology protocol that helps address the problem of
 spoofing and phishing by verifying that the domain sending the email is
 authorized to do so. SmartScreen® email filters are influenced by a number of
@@ -39,7 +38,6 @@ factors related to the sending IP, domain, authentication, list accuracy,
 complaint rates, content and more. Of these, one of the principal factors in
 driving down a sender's reputation and deliverability is their junk email
 complaint rate.
-
 
 Are you sending email from new IPs?
 
@@ -57,8 +55,7 @@ ramped within a couple of weeks or sooner depending on volume, list accuracy
 and as long as their junk email complaint rates are kept at a minimum.
 
 Note: don't forget to update your Junk Email Reporting Program (JMRP) account
-with the new IPs. To update or set up a JMRP account, go to JMRP Enrollment.
-
+with the new IPs. To update or set up a JMRP account, click here.
 
 Are you running Anti-Virus software?
 
@@ -69,8 +66,7 @@ Protection." If this setting is enabled, disable it and try sending a test
 message to our servers again.
 
 If you are currently running Symantec AntiVirus Corporate Edition 9.x or 10.x
-on your server, please review antispam recommendations from Symantec Support.
-
+on your server, please review this article from Symantec Support.
 
 Confirm that your DNS is set-up correctly
 
@@ -89,7 +85,6 @@ are connecting to one of these IPs your connection may timeout. Make sure you
 test all of our published IPs. You may also configure your outbound email
 server to do a round-robin DNS lookup for Outlook.com.
 
-
 Are you advertising yourself as a non-routable IP?
 
 We may not accept email from senders who fail a reverse-DNS lookup. In some
@@ -99,24 +94,22 @@ that are reserved for private (non-routable) networking are 192.168.0.0/16,
 10.0.0.0/8, and 172.16.0.0/11 (or 192.168.0.0 - 192.168.255.255, 10.0.0.0 -
 10.255.255.255, 172.16.0.0 - 172.31.255.255).
 
-
 Sender services, tools, and issue submission
 
 We have developed some tools and services which will give you more information
 about how our users are rating your email. These services have been tailored
 for senders and for ISPs. To learn more about the Sender and ISP Services, go
-to Services.
+here.
 
 If your email complies with our policies and guidelines and you are still
 experiencing email delivery problems that are not addressed in the FAQ below,
-go to Support to contact support.
+click here to contact support.
 
 Note: Deliverability issues submitted using this form should only be related to
 the Outlook.com system, including any address @msn.com, @Outlook.com,
 @hotmail.com, or @live.com. We will do our best to help you troubleshoot your
 issue. However, submitting this information does not guarantee that any message
 you send to users of the Outlook.com services will be delivered.
-
 
 Are you blocked for namespace mining?
 
@@ -148,26 +141,24 @@ How can I prevent my messages from being marked as from an "unknown sender" in
 the Outlook.com interface?
 
 One way to ensure that your messages aren't marked as being from an "unknown
-sender" is to join Validity's Sender Certification program, a third-party
+sender" is to join Return Path's Certification program, a third-party
 accreditation and reputation service that provides Outlook.com with a list of
 responsible senders. Alternatively, if an Outlook.com user adds your domain or
 email address to their " contacts" or their "safe-senders list" they will no
-longer see this notification. In addition, senders who are on the Validity's
-Sender Certification list or on a user's "safe sender's" list typically
-experience links and images within their messages enabled by default.
-
+longer see this notification. In addition, senders who are on the Return Path
+Certification list or on a user's "safe sender's" list typically experience
+links and images within their messages enabled by default.
 
 Does Outlook.com operate an "allow list" that I can get on?
 
 No. An "allow list" is essentially a "free pass" which allows emails from
 certain senders to bypass junk email filters and other precautions. Outlook.com
 evaluates all inbound email for malicious content. You can find out more about
-our filtering processes in Fighting Junk Email. We do, however, partner with
-Validity. who helps ensure the legitimacy of certain senders via their Sender
+our filtering processes here. We do, however, partner with Return Path, Inc.
+who helps ensure the legitimacy of certain senders via their Return Path
 Certification program. This program allows Outlook.com to exercise greater
 assurance about mail from certified senders in good standing. You can learn
-more about the Validity's Sender Certification program in Sender Certification.
-
+more about the Return Path Certification program here.
 
 How do I avoid having my messages marked as potentially dangerous?
 
@@ -202,10 +193,9 @@ initiate any new email activities. In addition, Microsoft strongly recommends
 that you conduct email testing prior to sending live communications to your
 users/customers.
 
-
 SMTP Error Codes
 
-     SMTP Error Code                           Explanation
+SMTP Error Code           Explanation
                           The mail server IP connecting to Outlook.com server
                           has exceeded the rate limit allowed. Reason for rate
 421 RP-001                limitation is related to IP/domain reputation. If you
@@ -257,8 +247,8 @@ SMTP Error Codes
 550 DY-001                unauthenticated SMTP email to an Internet mail
                           server. If you are not an email/network admin please
                           contact your Email/Internet Service Provider for
-                          help. For more information, Spamhaus maintains lists
-                          of dynamic and residential IP addresses.
+                          help. http://www.spamhaus.org maintains lists of
+                          dynamic and residential IP addresses.
                           Mail rejected by Outlook.com for policy reasons. The
                           likely cause is a compromised or virus infected
 550 DY-002                server/personal computer. If you are not an email/
@@ -268,11 +258,11 @@ SMTP Error Codes
                           you are not an email/network admin please contact
 550 OU-001                your Email/Internet Service Provider for help. For
                           more information about this block and to request
-                          removal please go to: Spamhaus.
+                          removal please go to: http://www.spamhaus.org.
                           Mail rejected by Outlook.com for policy reasons.
                           Reasons for rejection may be related to content with
 550 OU-002                spam-like characteristics or IP/domain reputation. If
                           you are not an email/network admin please contact
                           your Email/Internet Service Provider for help.
 
-© 2025 |  |  | Developers | English (United States)
+© 2018 |  |  | Developers | English (United States)
