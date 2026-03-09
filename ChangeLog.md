@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-03-09
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Register Outlook.com SNDS: Smart Network Data Service page.
+  - https://sendersupport.olc.protection.outlook.com/snds/Index
+
 2026-02-15
 ---------------------------------------------------------------------------------------------------
 - (Yahoo!) Yahoo! Sender SMTP Error Codes: https://senders.yahooinc.com/smtp-error-codes/
