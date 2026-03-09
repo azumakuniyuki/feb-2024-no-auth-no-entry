@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="/css/snds.css" asp-append-version="true" />
+    
+    <title>Smart Network Data Services</title>
+
+    
+
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary border-bottom box-shadow mb-3 position-fixed w-100">
+            <div class="container nav-container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="/img/OLHdrLogo.png" />
+                </a>
+                <span class="text-white">|</span>
+                <h2 class="text-white">Smart Network Data Service</h2>
+                
+
+
+            </div>
+        </nav>
+    </header>
+    <div class="container body-container">
+        <div class="menu-container">
+            <h2><a href="/snds/index" class="h2-link-looks-like-h2">Smart Network Data Service</a></h2>
+            <a href="/snds/data">View Data</a>
+            <a href="/snds/ipStatus">View IP Status</a>
+            <a href="/snds/addnetwork">Request Access</a>
+            <a href="/snds/whoelse">Access Control</a>
+            <a href="/snds/pref">Edit Profile</a>
+            <a href="/snds/faq">FAQ</a>
+            <a href="/snds/jmrp">Junk Mail Reporting Program</a>
+        </div>
+        <main role="main" class="pb-3">
+            <div class="jumbotron border border-danger rounded p-3 mb-2 pb-0 bg-danger">
+                <p class="lead">
+                    <a href="/snds/Index">Announcements: Click here to see new updates for SNDS. Updated March 3rd, 2026</a>
+                </p>
+            </div>
+            
+
+
+
+<div class="main-container form">
+    <h2>Welcome</h2>
+    <hr />
+    <b>Outlook.com Smart Network Data Services</b>
+    <br />
+    Deliverability to Outlook.com is based on your reputation.
+    The Outlook.com Smart Network Data Services (SNDS) gives you the data you need to understand and improve your reputation at Outlook.com.
+    But just looking at the data isn't enough! Maintaining a good reputation is a lot of work.
+    You should use this data to keep your mailing lists clean and to monitor the IPs you control for unusual behavior.
+    Reputation is always the responsibility of the sender.
+    SNDS gives senders access to detailed data about individual IPs, and it also includes our Junk Email Reporting Program,
+    which lets you receive reports  when users junk your messages.  Now you can view IP data and manage feedback loop settings from one convenient website.
+    <br />
+    <br />
+    <p class='bg-warning'>We are aware of an issue that may result in certain IP addresses being temporarily rejected at higher rates. We are actively investigating the issue. Please continue to submit tickets if you are experiencing this problem.</p><b>Updates</b>
+<br />
+<br />
+<ul>
+<li>SNDS will now require authentication when approving or denying network access, adding an extra layer of protection.</li>
+<li>JMRP Feeds are now standardized on all reports to ARF format for consistency and improved processing.</li>
+<li>SNDS has discontinued complaint sample downloads.</li>
+<li>SNDS is increasing protections around "Automated Data Access".  If you're experiencing issues with an "Automated Data Access" link, please login with the account that created the link to verify it's still listed
+on the <a href="/snds/auto">Automated Data Access</a> page.
+</li>
+</ul><b>Upcoming changes</b>
+<br />
+<br />
+<ul>
+<li>We are updating the ARF feedback format to include only the original message headers from the complaint email, plus selected authentication headers (for example, Authentication‑Results and Received‑SPF). The sender address will be redacted. Previously, the ARF included the full complaint email body, under the new format, that content is no longer appended.</li>
+<li>SNDS will move to a new URL as part of an upcoming service update.</li>
+<li>Automated report links will expire after 30 days.<br /><strong>Feature rollout will continue after a short delay as we incorporate user feedback.</strong></li>
+<li>JMRP feeds that are not linked to SNDS accounts will be removed.  You will be asked to create new ones from your SNDS account and keep the network access up-to-date.</li>
+</ul>
+    <b>Getting started</b>
+    <br />
+    To access SNDS, please <a href="/snds/addnetwork">log in</a> with a Microsoft Account and then <a href="/snds/addnetwork">request access</a> to the IPs for which you are responsible.
+    You'll be taken through a simple authorization process, and then you'll soon have access to a wealth of information about those IPs.
+    <br />
+    <br />
+    <b>Help! I have a problem sending mail to Outlook.com</b>
+    <br />
+    Building & maintaining good reputation is a long-term proposition.
+    The data on this site can help you do that, but if you have an urgent deliverability issue
+    please have the person most familiar with the issue and your email infrastructure <a href="http://go.microsoft.com/fwlink/?LinkID=614866">contact sender support</a>.
+    <br />
+    <br />
+    <b>Other Benefits</b>
+    <br />
+    SNDS is useful for far more than just monitoring email reputation.
+    It can help IP owners to detect compromised servers, malware, viruses, and botnets.
+    We help network administrators detect these problems so that they can clean them up and make the internet a safer place.
+    <br />
+</div>
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <span>&copy; </span>
+            <span>2013</span>
+            <span data-i18n="footer.copyright"></span>
+            <span>|</span>
+            <a target="_blank" class="link-dark footer-link" href="http://go.microsoft.com/fwlink/p/?LinkId=253457">Privacy Statement</a>
+            <span>|</span>
+            <a target="_blank" class="link-dark footer-link" href="https://www.microsoft.com/en-us/servicesagreement">Microsoft Services Agreement</a>
+        </div>
+    </footer>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/i18next/i18next.min.js"></script>
+    <script src="/lib/jquery-i18next/jquery-i18next.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="/js/site.js" asp-append-version="true"></script>
+    <script src="/js/site.i18n.js" asp-append-version="true"></script>
+</body>
+</html>

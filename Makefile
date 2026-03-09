@@ -49,6 +49,7 @@ check-microsoft:
 	$(MAKE) troubleshooting;     sleep 5 				# Microsoft Troubleshooting
 	$(MAKE) outlook-outbound-ip-space; sleep 5			# Microsoft Outlook.com Outbound IP Space
 	$(MAKE) new-requirements-for-high-volume-senders;	# Strengthening Email Ecosystem: Outlook’s New Requirements for High‐Volume Senders
+	$(MAKE) smart-network-data-service;					# Outlook.com SNDS
 
 check-apple:
 	$(MAKE) 102322;		# Apple: Postmaster information for iCloud Mail 
@@ -207,6 +208,11 @@ new-requirements-for-high-volume-senders: temp-dirs
 	$(WGET) -O $@.html "https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 	mv ./microsoft-new-requirements-for-high*txt ./microsoft-new-requirements-for-high-volume-senders.txt
+
+smart-network-data-service: temp-dirs
+	# Outlook.com Smart Network Data Services: https://sendersupport.olc.protection.outlook.com/snds/Index
+	$(WGET) -O $@.html "https://sendersupport.olc.protection.outlook.com/snds/Index"
+	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 icloud-postmaster: temp-dirs
 	@ touch $@
