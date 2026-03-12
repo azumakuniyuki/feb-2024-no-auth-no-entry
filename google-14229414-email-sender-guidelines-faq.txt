@@ -440,10 +440,8 @@ organizational domain or the DKIM organizational domain. Although we require
 bulk senders to set up both SPF and DKIM authentication, only one of these
 needs to be aligned to meet the sender alignment requirements.
 
-DMARC alignment isn’t required for forwarded or mailing list messages
-(sometimes referred to as indirect messages), however we require that these
-types of messages have ARC headers. Learn more about ARC authentication and
-headers.
+DMARC alignment isn’t required for forwarded or mailing list messages, which
+are sometimes referred to as indirect messages.
 
 To ensure reliable authentication, we recommend all senders fully align DMARC
 to both SPF and DKIM. It’s likely that DMARC alignment with both SPF and DKIM
@@ -538,7 +536,7 @@ Close search
 Google apps
 Main menu
 [                    ]
-6059029256696652682
+12411253034691742181
 true
 Search Help Center
 false

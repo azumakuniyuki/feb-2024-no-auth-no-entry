@@ -80,11 +80,6 @@ follow the Requirements for sending 5,000 or more messages per day.
   • Don’t impersonate Gmail From: headers. Gmail will begin using a DMARC
     quarantine enforcement policy, and impersonating Gmail From: headers might
     impact your email delivery.
-  • If you manage a forwarding service, including mailing lists or inbound
-    gateways, add ARC headers to outgoing email. ARC headers indicate the
-    message was forwarded and identify you as the forwarder. Mailing list
-    senders should also add a List-id: header, which specifies the mailing
-    list, to outgoing messages.
 
 Requirements for sending 5,000 or more messages per day
 
@@ -105,11 +100,6 @@ day to Gmail accounts must meet the requirements in this section.
   • Don’t impersonate Gmail From: headers. Gmail will begin using a DMARC
     quarantine enforcement policy, and impersonating Gmail From: headers might
     impact your email delivery.
-  • If you manage a forwarding service, including mailing lists or inbound
-    gateways, add ARC headers to outgoing email. ARC headers indicate the
-    message was forwarded and identify you as the forwarder. Mailing list
-    senders should also add a List-id: header, which specifies the mailing
-    list, to outgoing messages.
   • For direct email, the domain in the sender's From: header must be aligned
     with either the SPF domain or the DKIM domain. This is required to pass
     DMARC alignment.
@@ -193,19 +183,6 @@ We recommend you set up DMARC reports so you can monitor email sent from your
 domain, or appears to have been sent from your domain. DMARC reports help you
 identify senders that may be impersonating your domain. Learn more about DMARC
 reports.
-
-ARC
-
-ARC checks the previous authentication status of forwarded messages. If a
-forwarded message passes SPF or DKIM authentication, but ARC shows it
-previously failed authentication, Gmail treats the message as unauthenticated.
-
-When ARC shows that a forwarded message previously passed authentication, Gmail
-doesn’t automatically authenticate the message. Instead, Gmail does its own
-authentication check on the message.
-
-We recommend that senders use ARC authentication, especially if they regularly
-forward email. Learn more about ARC authentication.
 
 Infrastructure configuration requirements and guidelines
 
