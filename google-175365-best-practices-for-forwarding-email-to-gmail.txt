@@ -93,18 +93,12 @@ Help forwarded messages pass authentication
       □ Expanding message recipients with LDAP
       □ Modifying the Subject and other headers protected by the DKIM signing
         domain (including To, Cc, Date, and Message-ID)
-  • Add ARC headers: To reduce the likelihood that forwarded messages are
-    rejected or marked as spam, we recommend you add ARC headers to forwarded
-    messages. ARC verifies previous authentication checks for forwarded
-    messages, and helps ensure forwarded messages are delivered to the final
-    recipients. Learn more about ARC.
-  • Check for previous authentication: When ARC shows that a forwarded message
-    previously passed authentication, Gmail doesn't automatically authenticate
-    the message. Instead, it does its own authentication check on the message.
   • Add forwarding headers: To let email servers know that a message is
     forwarded, add an X-Forwarded-For: or X-Forwarded-To: message header.
     Receiving servers manage forwarded messages differently than direct,
-    incoming messages.
+    incoming messages. Note: Gmail doesn't automatically authenticate forwarded
+    messages that previously passed authentication. Gmail does its own
+    authentication check on forwarded messages.
 
 Email forwarding for Gmail users
 
