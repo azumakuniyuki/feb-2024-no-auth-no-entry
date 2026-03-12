@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-03-11
+---------------------------------------------------------------------------------------------------
+- (Google) Description about the ARC have been removed from the following pages:
+  - Email Sender Guidelines: https://support.google.com/mail/answer/81126 (Also List-ID: header)
+  - Email Sender Guidelines FAQ: https://support.google.com/a/answer/14229414
+
 2026-03-09
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Register Outlook.com SNDS: Smart Network Data Service page.
