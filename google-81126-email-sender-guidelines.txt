@@ -412,21 +412,38 @@ Some legitimate messages may be marked as spam. Recipients can mark valid
 messages as not spam, so future messages from the sender should be delivered to
 their inbox.
 
-Increase sending volume slowly
+Increase sending volume slowly to avoid delivery problems
 
-When increasing sending volume, keep in mind:
+These factors affect how quickly you can increase sending volume:
 
-  • Increasing the sending volume too quickly can result in delivery problems.
-    As you gradually increase your sending email volume, use Postmaster Tools
-    to monitor email delivery.
+  • Amount of email sent: The more email that you send, the more slowly you
+    should increase sending volume.
+  • Frequency of sending email: You can increase the sending volume more
+    quickly when you send daily instead of weekly.
+  • Recipient feedback about your messages: Make sure you send only to people
+    who subscribe to your emails, and give recipients an option to unsubscribe.
+
+When you increase your sending volume:
+
+  • To protect users from spam, there are limits on the number of messages you
+    can deliver within a certain timeframe. Gmail tracks volume, feedback, and
+    limits per domain and IP address:
+      □ DKIM and SPF quotas are specific to your domain. If you hit the limit,
+        other domains that send from the same IP may not be affected.
+      □ The IP address quota is shared for all senders that use that IP
+        address. When the IP address hits its quota, all domains that send from
+        that IP address stop sending emails.
+  • As you gradually increase your sending email volume, you should monitor
+    your email delivery with Postmaster Tools.
   • For Google Workspace work and school accounts, sending limits apply even
     when recipients are in different Google Workspace domains. For example, you
     might send email to users with email addresses that have the domains
     your-company.net and example.com. Although the domains are different, if
     both domains have google.com as their MX record, messages sent to these
     domains count toward your limit.
-  • If you use Google Workspace or Gmail for sending: When you reach the
-    sending limit, the sending rate is limited for the sending IP address.
+
+  • If you use Google Workspace or Gmail: When you reach the sending limit, the
+    sending rate is limited for the sending IP address.
 
 If you send large amounts of email, we recommend you:
 
@@ -458,18 +475,17 @@ If you send large amounts of email, we recommend you:
       □ Monitor responses so you can change sending rates as needed to stay
         within these limits.
 
-These factors affect how quickly you can increase sending volume:
+Pay attention to the SMTP errors you receive. When you exceed your quota, Gmail
+typically rejects messages with SMTP error code 4.7.28. If you get this error:
 
-  • Amount of email sent: The more email that you send, the more slowly you
-    should increase sending volume.
-  • Frequency of sending email: You can increase the sending volume more
-    quickly when you send daily instead of weekly.
-  • Recipient feedback about your messages: Make sure you send only to people
-    who subscribe to your emails, and give recipients an option to unsubscribe.
-
-In the event of a recent spike in email activity, we recommend following the
-requirements and guidelines on this page to resolve deliverability issues
-automatically during following sends.
+ 1. Do not send email for at least 10 minutes.
+ 2. Identify the cause.
+      □ If the error message does not specify if you exceeded your DKIM, SPF,
+        or IP quota, assume that all three are affected.
+ 3. After 10 minutes, send emails from a single connection.
+      □ If the single connection fails, wait another 10 minutes.
+      □ If successful, increase the number of connections one at a time until
+        your desired number of connections are established.
 
 Additional guidelines
 
