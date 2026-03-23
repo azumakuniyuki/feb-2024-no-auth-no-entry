@@ -1,6 +1,14 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-03-21
+---------------------------------------------------------------------------------------------------
+- (Google) "Increase sending volume slowly" section updated.
+  - Email Sender Guidelines: https://support.google.com/mail/answer/81126
+  - Introduced "Quota" terminology for sending limits.
+  - Clarified that Quotas are managed per IP address AND per Authenticated Domain (SPF/DKIM).
+  - Defined specific recovery steps for SMTP error 4.7.28 (10-minute wait, single connection retry).
+
 2026-03-11
 ---------------------------------------------------------------------------------------------------
 - (Google) Description about the ARC have been removed from the following pages:
