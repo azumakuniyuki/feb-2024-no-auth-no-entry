@@ -7,12 +7,12 @@ Google
 ---------------------------------------------------------------------------------------------------
 - [**Email Sender Guidelines (81126)**](https://support.google.com/mail/answer/81126)
   - 📜 [./google-81126-email-sender-guidelines.txt](./google-81126-email-sender-guidelines.txt)
-    - 📅 Last updated at [2025-04-21](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/7d65928daecc0d7cb06d85aa130143a03c4427fd)
+    - 📅 Last updated at [2026-03-21](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/a3e09cb19eb2f5400583525ad565e9b113d027c6)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-81126-email-sender-guidelines.txt)
   - 📂 [./google-81126-email-sender-guidelines/](./google-81126-email-sender-guidelines/)
 - [**Email Sender Guidelines FAQ (14229414)**](https://support.google.com/a/answer/14229414)
   - 📜 [./google-14229414-email-sender-guidelines-faq.txt](./google-14229414-email-sender-guidelines-faq.txt)
-    - 📅 Last updated at [2025-10-31](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/77ee66ab6c5d748777b17e7888b94af2b7ac2a1a)
+    - 📅 Last updated at [2026-03-11](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/c244389f970e30f09893704b0d82dc75ed24433b)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-14229414-email-sender-guidelines-faq.txt)
   - 📂 [./google-14229414-email-sender-guidelines-faq/](./google-14229414-email-sender-guidelines-faq/)
 - [**Gmail SMTP Errors and Codes (3726730)**](https://support.google.com/a/answer/3726730)
@@ -26,8 +26,9 @@ Google
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-14289100-email-sender-requirements-and-postmaster-tools-faq.txt)
   - 📂 [./google-14289100-email-sender-requirements-and-postmaster-tools-faq/](./google-14289100-email-sender-requirements-and-postmaster-tools-faq/)
 - [**Best practices for forwarding email to Gmail (175365)**](https://support.google.com/mail/answer/175365)
-  - ⏰ No significant changes since the file was uploaded
   - 📜 [./google-175365-best-practices-for-forwarding-email-to-gmail.txt](google-175365-best-practices-for-forwarding-email-to-gmail.txt)
+    - 📅 Last updated at [2026-03-11](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/5938b9673a44c403cec90b3e6a62c8381ee449ba)
+    - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/google-175365-best-practices-for-forwarding-email-to-gmail.txt)
   - 📂 [./google-175365-best-practices-for-forwarding-email-to-gmail/](google-175365-best-practices-for-forwarding-email-to-gmail/)
 - [**Feedback Loop (6254652)**](https://support.google.com/mail/answer/6254652)
   - ⏰ No significant changes since the file was uploaded
@@ -86,7 +87,7 @@ Apple 
 ---------------------------------------------------------------------------------------------------
 - [**Postmaster information for iCloud Mail - Apple Support**](https://support.apple.com/en-us/102322)
   - 📜 [./apple-102322-icloud-postmaster.txt](./apple-102322-icloud-postmaster.txt)
-    - 📅 Last updated at [2025-02-26](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/b5e06c527120ace3407ade449e9e1f6ae1cec088)
+    - 📅 Last updated at [2026-03-09](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/8c99b1390868b6c77b080f19ba80001e7eb20084)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/blob/master/apple-102322-icloud-postmaster.txt)
   - 📂 [./apple-102322-icloud-postmaster/](./apple-102322-icloud-postmaster/)
 
