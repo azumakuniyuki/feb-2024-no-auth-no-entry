@@ -5,10 +5,10 @@ Support & troubleshooting Documentation
   • Administrators
   • Getting started
   • Apps and integrations
-  • Services for your business
-  • Access and sync options
+  • Set up and manage services
   • Billing and subscriptions
   • Data migration
+  • Data synchronization
   • Device management
 
   • 
@@ -202,10 +202,10 @@ Google Workspace Help
   • Administrators
   • Getting started
   • Apps and integrations
-  • Services for your business
-  • Access and sync options
+  • Set up and manage services
   • Billing and subscriptions
   • Data migration
+  • Data synchronization
   • Device management
   • 
   • Domain management
@@ -729,7 +729,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-03-03 UTC.
+Last updated 2026-03-23 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -738,7 +738,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-03-03 UTC."],[],[]]
+["Last updated 2026-03-23 UTC."],[],[]]
 
   • Google Workspace Google Workspace
     Find the right plan for your business
