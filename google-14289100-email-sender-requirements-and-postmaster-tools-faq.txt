@@ -1,51 +1,820 @@
 Skip to main content
- 
-Google Workspace Admin Help
-[                    ]
-●
-Sign in
- 
-Google Help
+Google Workspace Help
+Set up & manage services Documentation
 
-  • Help Center
-  • Community
-  • Google Workspace Admin
-  • Privacy Policy
-  • Terms of Service
-  • Submit feedback
+  • Administrators
+  • Getting started
+  • Apps and integrations
+  • Set up and manage services
+  • Billing and subscriptions
+  • Data migration
+  • Data synchronization
+  • Device management
 
-Send feedback on...
-(*)
-This help content & information
-( )
-General Help Center experience
-Next
+  • 
+  • Domain management
+  • Reports and monitoring
+  • Security and data protection
+  • User management
+  • Legal and compliance
+  • Support and troubleshooting
 
-  • Help Center
-  • Community
-
-Google Workspace Admin
-
+  • Users
+  • Calendar
+  • Chat
+  • Cloud Search
   • Gmail
-  • Gmail limits and policies
-  • Bulk email sending guidelines & tools
-  • Monitor outgoing email with Postmaster Tools
-  • Sender requirements & Postmaster Tools FAQ
+  • Groups
+  • Docs, Forms, Sheets, and Slides
 
-Sender requirements & Postmaster Tools FAQ
+  • 
+  • Drive
+  • Keep
+  • Meet
+  • Meet Hardware
+  • Sites
+  • Vids
+
+  • Developers
+  • Apps Script
+  • Marketplace
+  • Workspace APIs
+
+  • Training & business user guides
+  • Workspace Learning Center
+  • Google Skills
+
+Community
+
+  • Communities
+  • Workspace Admin Community
+  • Workspace Developers Community
+
+Support
+[                    ]
+/
+  • English
+  • Deutsch
+  • Español
+  • Français
+  • Indonesia
+  • Italiano
+  • Nederlands
+  • Polski
+  • Português – Brasil
+  • Svenska
+  • Türkçe
+  • Русский
+  • עברית
+  • العربيّة
+  • ภาษาไทย
+  • 中文 – 简体
+  • 中文 – 繁體
+  • 日本語
+  • 한국어
+
+Sign in
+
+  • Administrators
+  • 
+    Set up & manage services
+
+Admin console Contact us
+Overview Guides
+[                    ]
+Google Workspace Help
+
+  • Set up & manage services
+      □ Overview
+      □ Guides
+  • Documentation
+      □ More
+  • Community
+      □ More
+  • Support
+
+  • Overview
+  • Manage user access to services
+  • Turn a service on or off
+  • Turn an additional service on or off
+  • Service-specific instructions
+      □ Turn Applied Digital Skills on or off
+      □ Turn AppSheet on or off
+      □ Turn Apps Script on or off
+      □ Turn Calendar on or off
+      □ Turn Campaign Manager on or off
+      □ Turn Chrome Web Store on or off
+      □ Turn Classroom on or off
+      □ Turn Cloud Search on or off
+      □ Turn Early Access apps on or off
+      □ Turn Flow on or off
+      □ Turn Forms on or off
+      □ Turn Google Ad Manager on or off
+      □ Turn Google Alerts on or off
+      □ Turn Google Books on or off
+      □ Turn Google Drive and Docs on or off
+      □ Turn Google Home on or off
+      □ Turn Google Voice on or off
+      □ Turn Google Workspace LTI™ on or off
+      □ Turn Groups for Business on or off
+      □ Turn Keep on or off
+      □ Turn Looker Studio on or off
+      □ Turn Merchant Center on or off
+      □ Turn NotebookLM on or off
+      □ Turn Play Books Partner Center on or off
+      □ Turn Programmable Search Engine on or off
+      □ Turn Project Mariner on or off
+      □ Turn Read Along on or off
+      □ Turn Scholar Profiles on or off
+      □ Turn Search Ads 360 on or off
+      □ Turn Sites on or off
+      □ Turn Socratic on or off
+      □ Turn Studio on or off
+      □ Turn Tasks on or off
+      □ Turn Vids on or off
+      □ Turn Workspace Studio on or off
+  • View which apps are turned on
+  • Choose when users get new features
+  • Turn new services on or off by default
+  • Change service settings
+  • Customize service access
+  • Customize service settings
+  • Google Workspace core services
+  • Calendar
+      □ Manage Calendar for your users
+      □ Manage Calendar resources
+          ☆ What is a Calendar resource?
+          ☆ Create buildings, features & Calendar resources
+          ☆ Use Google Calendar structured resources
+          ☆ Bulk upload Google Calendar address formats
+          ☆ Rename Calendar resources
+          ☆ Delete resources
+          ☆ Share room and resource calendars
+          ☆ Set up Google Calendar room booking suggestions
+          ☆ Allow Free/Busy Google Calendar room booking
+          ☆ Approve or deny Calendar room & resource bookings
+          ☆ Autoreplace declined meeting rooms
+          ☆ Release unused Calendar meeting rooms
+          ☆ Get Google Calendar room & resource notifications
+          ☆ Track room & resource use in Google Calendar
+      □ Manage sharing
+          ☆ Set Google Calendar sharing options
+          ☆ Create & share a group calendar
+          ☆ Why are user calendars in 'My Calendars' list?
+      □ Manage events
+          ☆ Set the default duration for events in your organization
+          ☆ Automatically add events to calendars
+          ☆ Allow external invitations in Google Calendar events
+          ☆ Allow paid appointment schedules in Calendar
+      □ Manage user settings & status
+          ☆ Turn working location on or off for users
+          ☆ Invite users to set working location
+          ☆ Set Google Calendar user status display
+          ☆ Turn Time Insights on or off for users
+          ☆ Android users can't see personal and work calendars together
+      □ Manage users
+          ☆ Cancel or transfer events or secondary calendars before deleting a
+            user
+          ☆ Remove deleted users' events from a calendar
+      □ Integrations & add-ons
+          ☆ Control video conferencing for Google Calendar events (for admins)
+          ☆ Allow add-ons for Calendar
+          ☆ Integrate Calendar with a third-party archiving solution
+      □ Support your Calendar users
+      □ Avoid Calendar use limits
+  • Chat
+      □ Overview
+      □ Set up Chat for your organization
+      □ Turn Chat on or off
+      □ History & Retention
+          ☆ History settings for Chat
+          ☆ Turn chat history on or off for an organization
+          ☆ Set a space history option for users
+          ☆ Automatically delete Chat messages
+      □ Spaces
+          ☆ Optimize Spaces for your organization
+          ☆ Set up space access for Chat
+          ☆ About the Space Management Tool
+          ☆ Manage spaces in the Google Admin console
+          ☆ Control who can add Google Groups to Spaces
+          ☆ Google Chat in-line threading upgrade for admins
+          ☆ Managing meeting conversations for Chat
+      □ External access
+          ☆ Chatting with external users
+          ☆ Control external Chat & spaces chat options
+      □ Features & integrations
+          ☆ Control file sharing in Chat
+          ☆ Allow the GIF picker in Google Chat
+          ☆ Manage custom emoji permissions
+          ☆ Automatically accept chat invitations
+          ☆ Allow users to install Chat apps
+          ☆ Set up app authorization for Chat
+          ☆ Integrate Chat with a third-party archiving solution
+          ☆ Import message data to Google Chat from another service
+      □ Security & moderation
+          ☆ Chat content protection
+          ☆ Set up content moderation for Chat
+          ☆ Find reports in the Moderation Tool
+          ☆ Take action on reported Chat content
+      □ Reporting & training
+          ☆ Understand Chat usage with analytics
+          ☆ Announce Chat to new users
+          ☆ Train your Chat users
+      □ More information
+          ☆ Google Chat known limitations
+  • Cloud Search
+      □ Get started with Cloud Search
+      □ What to consider when you turn on Cloud Search
+      □ Index & serve third-party data
+          ☆ Index third-party data
+          ☆ Integrate third-party repositories in Cloud Search
+          ☆ Add a data source in Google Cloud Search
+          ☆ Map user identities in Cloud Search
+          ☆ Create a Cloud Search administrator role for a developer
+      □ Customize search
+          ☆ Customize the search experience in Cloud Search
+          ☆ Update user profiles for Cloud Search
+      □ Reports & billing
+          ☆ View Cloud Search reports
+          ☆ Review Cloud Search usage reports
+          ☆ Cloud Search overage billing FAQ
+      □ Support & legal
+          ☆ Download your data from Cloud Search
+          ☆ Support for Cloud Search
+  • Drive & Docs
+      □ Set up Drive
+      □ Storage and upload limits
+      □ Manage Docs, Sheets & Slides
+          ☆ Manage Docs & other editor apps for your organization
+          ☆ Use the editor apps for business
+      □ Manage sharing
+          ☆ Manage external sharing for your organization
+          ☆ Allow sharing to non-Google users with visitor sharing
+          ☆ Set general access sharing options for your organization
+          ☆ Restrict the access users can give to files
+          ☆ Turn sharing suggestions on or off for users
+          ☆ Moving content from Drive shared folders
+      □ Manage shared drives
+          ☆ Set up shared drives for your organization
+          ☆ Manage shared drives as an admin
+          ☆ Allow users to create shared drives
+          ☆ Manage data policies for specific shared drives
+          ☆ Move your organization's content to shared drives
+          ☆ Delete or restore a shared drive and its files for your users
+          ☆ Troubleshoot shared drives for your users
+      □ Manage Drive for desktop
+          ☆ Set up Drive for desktop for your organization
+          ☆ Manage Drive for desktop updates for your users
+          ☆ Advanced Drive for desktop configuration
+          ☆ Drive and Sites firewall and proxy settings
+          ☆ Drive Sync FAQ for admins
+          ☆ Google Drive for desktop release notes
+      □ Manage features & settings
+          ☆ Turn file creation & upload on or off for users
+          ☆ Set up offline access to Docs, Sheets & Slides
+          ☆ Manage Approvals
+          ☆ Turn eSignature on or off for users
+          ☆ eSignature Beta Terms
+          ☆ Activate organization branding features
+          ☆ What are default templates & themes?
+          ☆ Manage default templates & themes
+          ☆ Turn custom Drive templates on or off for users
+          ☆ Allow Drive file suggestions in Chrome browser
+          ☆ Let users see file activity (Activity dashboard)
+          ☆ Turn Smart Compose on or off for users
+          ☆ Turn off chat in Docs editors
+          ☆ Turn automatically-generated captions for videos in Drive on or off
+      □ Manage apps & integrations
+          ☆ Allow third-party apps for Drive files
+          ☆ Manage third-party data access to Drive
+          ☆ Allow only certain external connections for Apps Script and Sheets
+          ☆ Use Connected Sheets in your organization
+          ☆ Let users access Salesforce from Sheets
+          ☆ Let users export SAP data to Sheets
+          ☆ Edit Drive files on 3rd-party storage systems
+          ☆ Turn Third-party App Backups on or off for users
+      □ Data recovery & security
+          ☆ Transfer Drive files to a new owner as an admin
+          ☆ Recover deleted files and folders for Drive users
+          ☆ Restore a deleted user's Drive files
+          ☆ Detect ransomware and recover files in Drive for desktop
+      □ Drive FAQ for admins
+  • Gmail
+      □ Set up Gmail
+          ☆ Activate Gmail with Google Workspace
+          ☆ Compare Gmail features by edition
+          ☆ Best practices for Gmail accounts
+          ☆ Set up integrated Gmail
+          ☆ Send email from a printer, scanner, or app
+      □ Manage user settings
+          ☆ Manage Gmail settings for users
+          ☆ Control user access to Gmail
+          ☆ Let users delegate mailbox access
+          ☆ Set up user signatures
+          ☆ Let users auto-forward email
+          ☆ Let users request read receipts
+          ☆ Customize user name format
+          ☆ Turn themes on or off
+          ☆ Use Gmail offline
+          ☆ Turn dynamic email on or off
+          ☆ Allow per-user outbound gateways
+      □ Advanced settings
+          ☆ Overview of advanced settings
+          ☆ Content filtering & data protection options
+          ☆ Best practices for faster rules testing
+          ☆ Delegate administrator privileges in Gmail
+      □ Email routing & delivery
+          ☆ Email routing and delivery options
+          ☆ Add Gmail Routing settings
+          ☆ Set up Default routing
+          ☆ Add mail servers for routing
+          ☆ Redirect or forward messages to another user
+          ☆ Get misaddressed email in a catch-all mailbox
+          ☆ Send email to 2 systems with split delivery
+          ☆ Deliver email to multiple inboxes with dual delivery
+          ☆ Configure dual delivery
+          ☆ Set up an inbound mail gateway
+          ☆ Add an outbound gateway
+          ☆ Route outgoing SMTP relay messages through Google
+          ☆ SMTP relay service error messages
+          ☆ Forward email to a third-party CRM
+      □ Spam, phishing & malware
+          ☆ Options for managing spam
+          ☆ Add custom spam filters
+          ☆ Allowlists, denylists, and approved senders
+          ☆ Add IP addresses to allowlists
+          ☆ Block messages from an email address or domain
+          ☆ Advanced phishing and malware protection
+          ☆ Gmail Security Sandbox overview
+          ☆ Set up rules to detect harmful attachments with Security Sandbox
+          ☆ Turn Gmail Enhanced Safe Browsing on or off
+          ☆ Set up an image URL proxy allowlist
+          ☆ Control external recipient warnings
+      □ Content compliance
+          ☆ Set up rules for advanced content filtering
+          ☆ Control message delivery based on message content
+          ☆ Filter messages with attachments
+          ☆ Enhance rules with predefined detectors
+          ☆ How dynamic email works with content filtering
+          ☆ Use optical character recognition (OCR) to read images
+          ☆ Add a standard footer to outgoing emails
+          ☆ Use address lists in Gmail settings
+          ☆ Block emails between specific user groups
+          ☆ Enforce IP lock
+          ☆ Restrict emails to authorized addresses or domains
+          ☆ Set max recipients for outgoing messages
+      □ Email encryption
+          ☆ TLS & SSL connections
+          ☆ Send email over a secure TLS connection
+          ☆ Ciphers for Gmail SMTP TLS connections
+          ☆ Send email over an alternate secure route (TLS)
+          ☆ Use TLS certificates for secure transport
+          ☆ About MTA-STS and TLS reporting
+          ☆ 1. Check your MTA-STS configuration
+          ☆ 2. Create an MTA-STS policy
+          ☆ 3. Publish your MTA-STS policy
+          ☆ 4. Turn on MTA-STS and TLS reporting
+          ☆ Turn off MTA-STS
+          ☆ Turn on hosted S/MIME for message encryption
+          ☆ Require S/MIME encryption for outgoing messages
+          ☆ S/MIME certificate profiles
+          ☆ CA certificates trusted by Gmail for S/MIME
+          ☆ Manage trusted certificates for S/MIME (advanced)
+          ☆ Protect Gmail messages with confidential mode
+      □ Archiving & storage
+          ☆ Manage email storage with auto-delete settings
+          ☆ Set up comprehensive mail storage
+          ☆ Integrate Gmail with a 3rd-party archiving solution
+          ☆ Route journal messages to Google Vault
+      □ Quarantine
+          ☆ Set up email quarantine
+          ☆ Manage quarantined messages
+          ☆ Give your users access to email quarantine
+      □ Reporting & logs
+          ☆ About Gmail reports and BigQuery
+          ☆ Prepare to use Gmail logs in BigQuery
+          ☆ Troubleshoot message delivery with Email Log Search
+          ☆ Understand Email Log Search results
+          ☆ Email Log Search delivery status definitions
+          ☆ Email log search export fields
+      □ Policies & limits
+          ☆ Spam and abuse policy
+          ☆ SMTP relay spam policy
+          ☆ Sending limits
+          ☆ Receiving limits
+          ☆ Bandwidth limits
+          ☆ Sync limits
+          ☆ Server request limits
+          ☆ Message header limits
+          ☆ Settings size limits
+          ☆ Sender requirements FAQ
+          ☆ Gmail firewall settings
+          ☆ Google IP address ranges for outbound mail servers
+          ☆ Troubleshoot RFC 5322 bounce messages
+  • Groups
+      □ Get started managing groups for an organization
+      □ About Groups services & interfaces
+      □ What you get with Groups for Business
+      □ Set organization-wide policies for using groups
+      □ About the new Groups release
+      □ Create & set up groups
+          ☆ Create a group in your organization
+          ☆ Update group details
+          ☆ Give a group an additional "alias" address
+          ☆ Delete a group from your organization
+          ☆ Track group information in the Groups list
+          ☆ Mark user-created groups with a suffix
+          ☆ Words that can't be used in group addresses
+      □ Manage group members
+          ☆ Add or invite users to a group
+          ☆ View a group's members
+          ☆ View a user's group memberships
+          ☆ Remove or ban users from a group
+          ☆ Assign roles to a group's members
+          ☆ Add a group to another group
+          ☆ Add all your organization's users to a group
+      □ Manage group access & activity
+          ☆ Options for limiting group access & activity
+          ☆ Add features and manage conversations in Google Groups
+      □ Set up recommended sharing groups (target audiences)
+          ☆ About target audiences
+          ☆ Create a target audience
+          ☆ Add or remove target audience members
+          ☆ Edit a target audience's details
+          ☆ Set target audiences for a Google service
+          ☆ Best practices for deploying target audiences
+          ☆ Delete a target audience
+      □ Set up specialized groups
+          ☆ Manage membership automatically with dynamic groups
+          ☆ Control access to sensitive data with security groups
+          ☆ Restrict group membership
+          ☆ Lock groups to keep data in sync
+      □ Advanced group management
+          ☆ Create and manage groups using APIs
+          ☆ Sync groups from your LDAP or Active Directory server
+      □ Policies, limits & changes
+          ☆ Understand Groups policies and limits
+          ☆ Changes to managing & viewing members in Google Groups
+          ☆ Changes to internal & external classifications in Google Groups
+      □ Support your Groups users
+      □ Groups administrator FAQ
+  • Google Workspace with Gemini
+  • Keep
+      □ Set Keep sharing options for your users
+  • Meet
+      □ Set up Meet for your organization
+      □ Compare Meet features across Google Workspace editions
+      □ Set up Meet for large organizations
+          ☆ Set up Google Meet for large organizations
+          ☆ Prepare your network for Meet meetings & live streams
+          ☆ Design meeting spaces for Meet
+          ☆ Prepare your support team for Meet
+          ☆ Adoption goals & templates to transition to Meet
+      □ Manage Meet settings
+          ☆ Turn on Meet meetings and calls for your organization
+          ☆ Manage Meet settings
+          ☆ Turn off Meet meetings and calls for your organization
+      □ Manage features
+          ☆ Turn Meet recording on or off for your organization
+          ☆ Set recording quality limits for Google Meet
+          ☆ Turn meeting transcription on or off
+          ☆ Turn live streaming on or off for Meet
+          ☆ Let organizers get reports on meeting attendance & live stream
+            views
+          ☆ Control backgrounds & special effects for Google Meet users
+          ☆ Turn reactions on or off for Meet
+          ☆ Let users show their names in meeting rooms
+          ☆ Prevent people from making Meet mobile calls
+          ☆ Google Meet hybrid meeting best practices for admins
+      □ Gemini in Meet
+          ☆ Let Google Meet AI take notes for my users
+          ☆ Choose automatic meeting artifact settings for your organization
+          ☆ Upcoming changes to automatic note-taking
+          ☆ Turn Ask Gemini on or off for Meet
+          ☆ Turn Speech translation on or off for Meet
+      □ Security & privacy
+          ☆ Google Meet security & privacy for IT admins
+          ☆ Security & privacy for Meet education editions
+          ☆ Manage meeting access settings for your users
+          ☆ Manage waiting room settings for your users
+          ☆ Restrict who can call my organization's users with Google Meet
+          ☆ Control Media API access in Google Meet
+      □ Global dialing
+          ☆ Set up Google Meet global dialing
+          ☆ How Meet global dialing billing works
+          ☆ Cancel your organization's Meet global dialing subscription
+      □ Large live streams (eCDN)
+          ☆ Hosting large live streams
+          ☆ Before you begin hosting large live streams
+          ☆ 1. Enable private IP address discovery
+          ☆ 2. Configure network grouping
+          ☆ 3. Collect test data from a live event
+          ☆ Test Meet eCDN large-scale configurations to optimize bandwidth
+      □ Track meeting quality & statistics
+  • Meet Hardware
+      □ Introduction to Meet hardware
+      □ Get started
+          ☆ Google Meet hardware requirements
+          ☆ Compare Meet hardware on ChromeOS & AOSP
+          ☆ Buy Google Meet hardware
+          ☆ Buy Meet hardware licenses
+          ☆ Google Meet hardware certification program for ChromeOS and AOSP
+          ☆ Google Meet hardware certification program for ChromeOS peripherals
+            & devices
+          ☆ Tell your organization about Meet hardware
+      □ Set up hardware
+          ☆ Introduction to Meet hardware setup
+          ☆ Set up Meet hardware devices
+          ☆ Room size and setup
+          ☆ Space requirements
+          ☆ Display requirements and placement
+          ☆ Network requirements
+          ☆ What's in the box?
+          ☆ Mount your Chromebox
+          ☆ Connectors and accessories
+          ☆ Connect your cables
+          ☆ Place your camera
+          ☆ Speaker/microphone placement
+          ☆ Meet speakermic Quick Start Guide
+          ☆ Series One setup guides
+              ○ Series One Meet compute system
+              ○ Series One smart camera
+              ○ Series One Meet touch controller
+              ○ Series One remote
+              ○ Series One large kit connection diagram
+              ○ Series One medium kit connection diagram
+              ○ Series One small kit connection diagram
+              ○ Series One audio bar
+              ○ Series One add-on audio bar
+              ○ Series One mic pod
+      □ Enroll devices & manage licenses
+          ☆ Enroll and license Meet hardware devices
+          ☆ Enroll devices with video calling on or off
+          ☆ Manage Meet hardware licenses
+          ☆ Migrate Meet hardware licenses to Partner Sales Console
+          ☆ Re-enroll a device
+          ☆ Recover your Google Meet compute system
+          ☆ Wipe a Desk 27 or Board 65 device
+          ☆ Decommission Google Meet hardware
+      □ Manage devices
+          ☆ Manage Google Meet hardware
+          ☆ View & edit device information
+          ☆ Specify and move devices
+          ☆ Bulk update Meet hardware settings
+          ☆ Remotely manage Meet hardware devices
+          ☆ Assign a Google Calendar to Meet hardware
+          ☆ Change or remove the Google Calendar assigned to a Meet hardware
+            device
+          ☆ Edit a resource name, type, or description
+          ☆ Configure time zone and scheduled reboot settings
+          ☆ Manage power-saving settings
+          ☆ Change the automatic updates for your devices
+          ☆ Try features early on your devices
+          ☆ Manage wallpapers & home screen theme
+          ☆ Display custom screen saver images or digital signage content for
+            Google Meet hardware
+          ☆ Set up a static IP on Meet hardware
+          ☆ Set up a hostname allowlist
+          ☆ Turn on occupancy detection
+          ☆ Turn software audio processing on or off
+          ☆ Turn noise cancellation on or off by default
+          ☆ Turn pan tilt zoom home setting on or off
+          ☆ Set default camera framing for meeting rooms
+          ☆ Set third-party peripherals as default for Meet hardware
+          ☆ Integrate third-party control systems
+          ☆ Manage Room settings passwords for Logitech devices
+          ☆ In-room bookings with Google Meet hardware
+          ☆ Turn proximity detection on or off
+          ☆ Allow users to display their names in meeting rooms
+      □ Use Meet hardware
+          ☆ Use the Meet touchscreen to control audio and video
+          ☆ Using the new Google Meet Hardware touchscreen
+          ☆ New dynamic layouts in Meet & on Meet hardware devices
+          ☆ Interoperability
+              ○ Allow 3rd party devices to join Meet video meetings
+              ○ Allow Meet hardware to join third-party video conferencing
+                services
+              ○ Join Microsoft Teams meetings with Google Meet hardware
+              ○ Join Microsoft Teams meetings via Pexip with Google Meet
+                hardware
+              ○ Meet interoperability FAQ
+      □ Monitor, troubleshoot & support
+          ☆ Monitor the health of devices
+          ☆ Check for offline Meet hardware
+          ☆ Check for Meet hardware with peripheral issues
+          ☆ Get connectivity and peripherals alerts
+          ☆ Track room and device usage with Meet hardware
+          ☆ Understand device usage for your organization's devices
+          ☆ Troubleshoot Google Meet hardware
+          ☆ Get support for Google Meet hardware
+          ☆ Known issues with Meet hardware
+      □ Security
+          ☆ Meet hardware security measures
+          ☆ Google Meet hardware secure module
+      □ Release notes & FAQ
+          ☆ What's new in Google Meet hardware?
+          ☆ Google Meet hardware FAQ
+          ☆ Upcoming Meet hardware autoupdate expirations
+  • Sites
+      □ Control Google Sites last updated time settings
+      □ Transfer ownership of Sites files
+      □ Identify all published Google Sites links
+      □ Support your Google Sites users
+  • Vault
+  • Workspace Studio
+      □ Set up Workspace Studio
+      □ Manage access to steps & starters
+      □ Allow people to share flows
+      □ Set up activity alerts
+      □ Stop a flow
+      □ Troubleshoot Studio for your users
+  • Additional services
+  • AppSheet
+      □ Manage AppSheet in your organization
+      □ Add & set up AppSheet for Google Workspace
+      □ Manage AppSheet
+          ☆ Manage AppSheet licenses
+          ☆ Control access to AppSheet features
+          ☆ Manage access to Gemini in AppSheet
+      □ Billing & subscription
+          ☆ How AppSheet billing works
+          ☆ Downgrade your AppSheet subscription
+          ☆ Cancel your AppSheet subscription
+      □ AppSheet technical support
+  • Colab
+      □ Add & set up Colab Pro or Pro+
+      □ Assign Colab licenses to users
+      □ Manage users with individual Colab subscriptions
+      □ Upgrade or downgrade your subscription
+      □ Cancel your Colab subscription
+      □ Get support
+  • Looker Studio
+      □ Enterprise admin features
+      □ Set sharing permissions
+      □ Set scheduling permissions
+      □ Manage how users set data source credentials
+      □ Set access policies for third-party visualizations in reports
+      □ Set downloading restrictions for users with a Viewer role
+      □ Manage Looker Studio Pro
+          ☆ Assign Looker Studio Pro licenses
+          ☆ Set a default Cloud project for Looker Studio Pro
+          ☆ Manage multiple Looker Studio Pro subscriptions
+          ☆ Cancel your Looker Studio Pro subscription
+      □ Get support
+  • Voice
+      □ Manage Voice for your organization
+      □ Set up
+          ☆ Set up Voice for your organization
+          ☆ Add Voice to Google Workspace
+          ☆ Voice connectivity requirements
+          ☆ Optimize your network for Voice
+      □ Users & locations
+          ☆ Add Voice locations
+          ☆ Assign Voice licenses to users
+          ☆ Migrate users to managed accounts
+          ☆ Assign Voice admin role to a team member
+          ☆ Support your Voice users
+          ☆ Export filtered users in bulk to Google Sheets
+      □ Numbers
+          ☆ Assign Voice numbers to users
+          ☆ Unassign or reassign a Voice number
+          ☆ Release and reclaim a Voice number
+          ☆ Verify or change service addresses for Voice users
+          ☆ Receive your requested phone numbers
+          ☆ Manage transfers of Google Voice phone numbers
+      □ Number porting
+          ☆ Number porting requirements for Google Voice
+          ☆ Port business numbers to Google Voice
+          ☆ Port out Voice numbers
+          ☆ Fix errors porting numbers to Voice
+          ☆ Google Voice Porting FAQ
+      □ Features
+          ☆ Set up a Voice automated attendant for your organization
+          ☆ Ring groups
+              ○ Edit ring groups
+              ○ Set up call queuing for a ring group
+              ○ Make a Voice user a ring group manager
+          ☆ Set up call delegation for your organization
+          ☆ Control paid calls by users
+          ☆ Control recorded calls in Voice
+          ☆ Update your Google Voice Hold Audio
+          ☆ Manage emergency call notifications
+          ☆ Let Google Voice take AI notes for my users (Alpha)
+      □ Desk phones
+          ☆ Desk phone requirements for Voice
+          ☆ Set up Google Voice desk phones
+          ☆ Reassign a desk phone in Google Voice
+      □ SIP Link
+          ☆ SIP Link requirements
+          ☆ Manage SIP Link numbers
+      □ Integrations
+          ☆ Integrate CRM with Salesforce (Closing BETA)
+      □ Subscriptions & billing
+          ☆ Compare Voice subscriptions
+          ☆ How Voice billing works
+          ☆ Calling rate changes
+          ☆ Upgrade from Voice Starter (for Gmail accounts)
+          ☆ Upgrade your Voice add-on subscription
+          ☆ Downgrade your Voice subscription
+      □ Requirements & limitations
+          ☆ Google Voice and SIP Link supported countries
+          ☆ Google Voice operating system and browser compatibility
+          ☆ Google Voice known issues and limitations
+      □ Troubleshooting & FAQ
+          ☆ Troubleshoot Google Voice
+          ☆ Troubleshoot desk phones for Google Voice
+          ☆ Troubleshoot Google Voice automated attendant
+          ☆ Troubleshoot Google Voice call quality
+          ☆ Troubleshoot SIP Link
+          ☆ Voice FAQ for administrators
+  • YouTube
+      □ Manage your organization's YouTube settings
+      □ Control access to YouTube
+          ☆ Control YouTube content available to users
+          ☆ Give certain users unrestricted YouTube access
+          ☆ Access to YouTube during your Google Workspace trial
+      □ Approve videos for your organization
+          ☆ Add YouTube video approvers for your organization
+          ☆ Approve YouTube videos for your organization
+          ☆ Review approved videos for your organization
+          ☆ Remove approved YouTube videos for your organization
+  • Manage storage for your organization
+  • Review storage use across your organization
+  • Get ready for pooled storage
+  • Manage storage limits
+      □ Set storage limits for your users
+      □ Set storage limits for shared drives
+  • Increase your storage
+      □ Free up or get more storage for your organization
+      □ Buy more Google Workspace storage for your organization
+  • Google Workspace storage FAQ for admins
+
+  • Administrators
+  • Getting started
+  • Apps and integrations
+  • Set up and manage services
+  • Billing and subscriptions
+  • Data migration
+  • Data synchronization
+  • Device management
+  • 
+  • Domain management
+  • Reports and monitoring
+  • Security and data protection
+  • User management
+  • Legal and compliance
+  • Support and troubleshooting
+  • Users
+  • Calendar
+  • Chat
+  • Cloud Search
+  • Gmail
+  • Groups
+  • Docs, Forms, Sheets, and Slides
+  • 
+  • Drive
+  • Keep
+  • Meet
+  • Meet Hardware
+  • Sites
+  • Vids
+  • Developers
+  • Apps Script
+  • Marketplace
+  • Workspace APIs
+  • Training & business user guides
+  • Workspace Learning Center
+  • Google Skills
+
+  • Communities
+  • Workspace Admin Community
+  • Workspace Developers Community
+
+  • Google Workspace Help
+  • 
+    Administrators
+  • 
+    Set up & manage services
+  • 
+    Guides
+
+Send feedback
+
+Sender requirements & Postmaster Tools FAQ Stay organized with collections Save
+and categorize content based on your preferences.
 
 Postmaster Tools helps email senders analyze email performance and deliver
 messages to the right place. With Postmaster Tools, you have access to data and
 diagnostics about your email, including delivery errors, spam reports, and
-feedback loops. 
+feedback loops.
 
 To help email senders meet the requirements in our Email sender guidelines,
-we've added a new Compliance status dashboard to Postmaster Tools. 
+we've added a new Compliance status dashboard to Postmaster Tools.
 
 Email sender guidelines & Postmaster Tools
 
-We recommend email senders use Postmaster Tools to make sure they’re meeting
-the requirements in Gmail’s Email sender guidelines. 
+We recommend email senders use Postmaster Tools to make sure they're meeting
+the requirements in Gmail's Email sender guidelines.
 
 To learn more about Postmaster Tools, visit Get Started with Postmaster Tools.
 You can also sign in to Postmaster Tools.
@@ -60,7 +829,7 @@ SPF and DKIM authentication
 The Postmaster Tools Authentication dashboard provides detailed information
 about SPF and DKIM authentication. If your organization uses more than one
 domain and uses more than one DKIM key or SPF record, this dashboard might show
-no authentication for your domains that don’t send email.
+no authentication for your domains that don't send email.
 
 For example, you might have 2 domains, solarmora.com and support.solarmora.com,
 and have email authentication (DKIM and SPF) set up for both. However, if you
@@ -75,8 +844,8 @@ DMARC authentication
 To check the details of your DMARC authentication, use a third-party DMARC
 authentication tool from the internet. We recommend you always set up DMARC
 authentication for your domain. Your DMARC policy can be set to minimal
-enforcement, using a policy that’s set to none (p=none) and applied to 0% of
-your messages (pct=0). 
+enforcement, using a policy that's set to none (p=none) and applied to 0% of
+your messages (pct=0).
 
 To learn more about setting up DMARC, visit Help prevent spoofing and spam with
 DMARC.
@@ -113,40 +882,69 @@ To monitor your messages or campaigns for a high volume of complaints from
 recipients, add the Feedback-ID: header to your messages, and use Feedback
 Loop. For details, visit Feedback Loop.
 
-Was this helpful?
+Send feedback
 
-How can we improve it?
-YesNo
-[                    ]
-Submit
-Need more help?
+Except as otherwise noted, the content of this page is licensed under the
+Creative Commons Attribution 4.0 License, and code samples are licensed under
+the Apache 2.0 License. For details, see the Google Developers Site Policies.
+Java is a registered trademark of Oracle and/or its affiliates.
 
-Try these next steps:
+Last updated 2026-04-02 UTC.
 
-Post to the help community Get answers from community members
-true
+Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
+["Solved my problem","solvedMyProblem","thumb-up"],
+["Other","otherUp","thumb-up"]],[["Missing the information I
+need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
+steps","tooComplicatedTooManySteps","thumb-down"],["Out of
+date","outOfDate","thumb-down"],["Samples / code
+issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
+["Last updated 2026-04-02 UTC."],[],[]]
 
-Monitor outgoing email with Postmaster Tools
+  • Google Workspace Google Workspace
+    Find the right plan for your business
+  • Admin Community Admin Community
+    Get answers from industry peers and experts
+  • Customer Care Customer Care
+    Learn about support options and services
 
-  • 1 of 5
-    Learn about the deprecation of the old Postmaster Tools interface
-  • 2 of 5
-    Set up Postmaster Tools
-  • 3 of 5
-    Postmaster Tools dashboards
-  • 4 of 5
-    Sender requirements & Postmaster Tools FAQ
-  • 5 of 5
-    Report delivery issues in Postmaster Tools
+  • Documentation & training
 
-[exxMjxadqE]
-Start your free 14-day trial today
+      □ Help Centers
+      □ Developer guides
+      □ Learning Center
+      □ Google Skills
+  • Tools
 
-Professional email, online storage, shared calendars, video meetings and more.
-Start your free Google Workspace trial today.
+      □ Admin console
+      □ Apps Script Dashboard
+      □ Google Cloud console
+  • Support
 
-©2026 Google
+      □ Admin Community
+      □ Developers Community
+      □ Customer Care
 
-  • Privacy Policy
-  • Terms of Service
+  • Terms
+  • Privacy
+  • Manage cookies
+
+  • English
+  • Deutsch
+  • Español
+  • Français
+  • Indonesia
+  • Italiano
+  • Nederlands
+  • Polski
+  • Português – Brasil
+  • Svenska
+  • Türkçe
+  • Русский
+  • עברית
+  • العربيّة
+  • ภาษาไทย
+  • 中文 – 简体
+  • 中文 – 繁體
+  • 日本語
+  • 한국어
 
