@@ -32,6 +32,7 @@ What are 4XX (421 and 451) temporary errors?
       □ The Yahoo mail servers are busy when attempting a connection.
       □ Other suspicious behavior which leads Yahoo to enforce a dynamic
         deprioritization for your sender's server.
+      □ Your name server was temporarily unavailable.
   • Review our Sender Requirements & Recommendations to learn how you can help
     your emails reach Yahoo.
   • If you're not the administrator of the mail server in question, we suggest
