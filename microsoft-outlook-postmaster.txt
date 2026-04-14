@@ -11,7 +11,8 @@ Related places
 
 About Outlook.com End-User Support
 
-Announcements: Click here to see new updates for SNDS. Updated March 3rd, 2026
+Announcements: Click here to see new updates for SNDS. Updated January 22nd,
+2026
 
 This site provides information to information technology professionals who
 administer systems that send email to and receive email from Outlook.com. It
@@ -28,10 +29,6 @@ right to the most requested information please click on one of the links below.
   • I want information about SMTP error codes returned by Outlook.com servers.
 
 Announcements
-
-We are aware of an issue that may result in certain IP addresses being
-temporarily rejected at higher rates. We are actively investigating the issue.
-Please continue to submit tickets if you are experiencing this problem.
 
 Requirements for High-Volume Senders
 
