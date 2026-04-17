@@ -7,7 +7,8 @@ Smart Network Data Service
 View Data View IP Status Request Access Access Control Edit Profile FAQ Junk
 Mail Reporting Program
 
-Announcements: Click here to see new updates for SNDS. Updated March 3rd, 2026
+Announcements: Click here to see new updates for SNDS. Updated January 22nd,
+2026
 
 Welcome
 
@@ -23,11 +24,6 @@ gives senders access to detailed data about individual IPs, and it also
 includes our Junk Email Reporting Program, which lets you receive reports when
 users junk your messages. Now you can view IP data and manage feedback loop
 settings from one convenient website.
-
-
-We are aware of an issue that may result in certain IP addresses being
-temporarily rejected at higher rates. We are actively investigating the issue.
-Please continue to submit tickets if you are experiencing this problem.
 
 Updates
 
