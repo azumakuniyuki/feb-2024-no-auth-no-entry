@@ -118,7 +118,7 @@ Google Workspace Help
       □ Turn Google Workspace LTI™ on or off
       □ Turn Groups for Business on or off
       □ Turn Keep on or off
-      □ Turn Looker Studio on or off
+      □ Turn Data Studio on or off
       □ Turn Merchant Center on or off
       □ Turn NotebookLM on or off
       □ Turn Play Books Partner Center on or off
@@ -649,18 +649,18 @@ Google Workspace Help
       □ Upgrade or downgrade your subscription
       □ Cancel your Colab subscription
       □ Get support
-  • Looker Studio
+  • Data Studio
       □ Enterprise admin features
       □ Set sharing permissions
       □ Set scheduling permissions
       □ Manage how users set data source credentials
       □ Set access policies for third-party visualizations in reports
       □ Set downloading restrictions for users with a Viewer role
-      □ Manage Looker Studio Pro
-          ☆ Assign Looker Studio Pro licenses
-          ☆ Set a default Cloud project for Looker Studio Pro
-          ☆ Manage multiple Looker Studio Pro subscriptions
-          ☆ Cancel your Looker Studio Pro subscription
+      □ Manage Data Studio Pro
+          ☆ Assign Data Studio Pro licenses
+          ☆ Set a default Cloud project for Data Studio Pro
+          ☆ Manage multiple Data Studio Pro subscriptions
+          ☆ Cancel your Data Studio Pro subscription
       □ Get support
   • Voice
       □ Manage Voice for your organization
@@ -890,7 +890,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-04-10 UTC.
+Last updated 2026-04-16 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -899,7 +899,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-04-10 UTC."],[],[]]
+["Last updated 2026-04-16 UTC."],[],[]]
 
   • Google Workspace Google Workspace
     Find the right plan for your business
