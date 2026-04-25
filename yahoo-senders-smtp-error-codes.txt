@@ -33,6 +33,8 @@ What are 4XX (421 and 451) temporary errors?
       □ Other suspicious behavior which leads Yahoo to enforce a dynamic
         deprioritization for your sender's server.
       □ Your name server was temporarily unavailable.
+      □ Authentication results for your domain could not be determined due to a
+        temporary error.
   • Review our Sender Requirements & Recommendations to learn how you can help
     your emails reach Yahoo.
   • If you're not the administrator of the mail server in question, we suggest
