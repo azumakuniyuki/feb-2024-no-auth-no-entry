@@ -1,6 +1,15 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-05-05
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Many updates in Smart Network Data Service.
+  - https://sendersupport.olc.protection.outlook.com/snds/Index
+  - In May 2026, SNDS will move to a new URL as part of a service update.
+  - IP Status and IP Data reports will be accessible through a new REST api.
+  - Automated report links will expire after 30 days.
+  - Networks will require periodic reattestation.
+
 2026-03-21
 ---------------------------------------------------------------------------------------------------
 - (Google) "Increase sending volume slowly" section updated.
