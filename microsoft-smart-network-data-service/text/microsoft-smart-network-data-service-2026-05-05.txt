@@ -1,0 +1,74 @@
+[OLHdrLogo] |
+
+Smart Network Data Service
+
+Smart Network Data Service
+
+View Data View IP Status Request Access Access Control Edit Profile FAQ Junk
+Mail Reporting Program
+
+Announcements: Click here to see new updates for SNDS. Updated April 30th, 2026
+
+Welcome
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Outlook.com Smart Network Data Services
+Deliverability to Outlook.com is based on your reputation. The Outlook.com
+Smart Network Data Services (SNDS) gives you the data you need to understand
+and improve your reputation at Outlook.com. But just looking at the data isn't
+enough! Maintaining a good reputation is a lot of work. You should use this
+data to keep your mailing lists clean and to monitor the IPs you control for
+unusual behavior. Reputation is always the responsibility of the sender. SNDS
+gives senders access to detailed data about individual IPs, and it also
+includes our Junk Email Reporting Program, which lets you receive reports when
+users junk your messages. Now you can view IP data and manage feedback loop
+settings from one convenient website.
+
+Upcoming changes
+
+  • In May 2026, SNDS will move to a new URL as part of a service update. The
+    current site at https://sendersupport.olc.protection.outlook.com will be
+    deprecated. This will introduce a number of changes listed below. During
+    the migration users can expect downtime to the system, including no JMR
+    feeds or report data
+  • IP Status and IP Data reports will be accessible through a new REST api.
+    Authentication will be provided through the same login users use to access
+    the SNDS portal
+  • Calculation of IP Status and IP Data will be based off updated data
+  • Columns in IP Status and IP Data reports will change to reflect the updated
+    data model.
+  • Automated report links will expire after 30 days. Existing report links
+    will be migrated, but will have to be refreshed 30 days after migration to
+    remain active. After this, a refresh every 30 days will be required to keep
+    the links active.
+  • Networks will require periodic reattestation. Once approved, users have
+    access to the network for 10 months before renewal. Users will receive
+    reminders prior to the expiration of their network access to ensure they
+    have time to reattest and maintain access.
+  • Approving networks will require authentication. Approvers will have a new
+    experience to renew/approve network access
+  • In Edit Profile, Timezones will be based on UTC, not GMT. This means that
+    all time-related settings and displays will now reference Coordinated
+    Universal Time rather than Greenwich Mean Time.
+  • After migration, any JMRP feeds that are not linked to SNDS accounts will
+    be removed. You will be asked to create new ones from your SNDS account and
+    keep the network access up-to-date.
+
+Getting started
+To access SNDS, please log in with a Microsoft Account and then request access
+to the IPs for which you are responsible. You'll be taken through a simple
+authorization process, and then you'll soon have access to a wealth of
+information about those IPs.
+
+Help! I have a problem sending mail to Outlook.com
+Building & maintaining good reputation is a long-term proposition. The data on
+this site can help you do that, but if you have an urgent deliverability issue
+please have the person most familiar with the issue and your email
+infrastructure contact sender support.
+
+Other Benefits
+SNDS is useful for far more than just monitoring email reputation. It can help
+IP owners to detect compromised servers, malware, viruses, and botnets. We help
+network administrators detect these problems so that they can clean them up and
+make the internet a safer place.
+© 2013 | Privacy Statement | Microsoft Services Agreement
