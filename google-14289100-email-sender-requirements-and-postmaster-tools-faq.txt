@@ -109,7 +109,7 @@ Google Workspace Help
       □ Turn Classroom on or off
       □ Turn Cloud Search on or off
       □ Turn Early Access apps on or off
-      □ Turn Flow on or off
+      □ Turn {{ flow_name }} on or off
       □ Turn Forms on or off
       □ Turn Google Ad Manager on or off
       □ Turn Google Alerts on or off
@@ -480,6 +480,7 @@ Google Workspace Help
       □ Manage features
           ☆ Turn Meet recording on or off for your organization
           ☆ Set recording quality limits for Google Meet
+          ☆ Manage participant consent for Meet features
           ☆ Turn meeting transcription on or off
           ☆ Turn live streaming on or off for Meet
           ☆ Let organizers get reports on meeting attendance & live stream
@@ -895,7 +896,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-04-27 UTC.
+Last updated 2026-05-01 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -904,7 +905,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-04-27 UTC."],[],[]]
+["Last updated 2026-05-01 UTC."],[],[]]
 
   • Google Workspace Google Workspace
     Find the right plan for your business
