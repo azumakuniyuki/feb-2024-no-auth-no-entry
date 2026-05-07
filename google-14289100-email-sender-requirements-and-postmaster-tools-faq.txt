@@ -125,7 +125,6 @@ Google Workspace Help
       □ Turn NotebookLM on or off
       □ Turn Play Books Partner Center on or off
       □ Turn Programmable Search Engine on or off
-      □ Turn Project Mariner on or off
       □ Turn Read Along on or off
       □ Turn Scholar Profiles on or off
       □ Turn Search Ads 360 on or off
