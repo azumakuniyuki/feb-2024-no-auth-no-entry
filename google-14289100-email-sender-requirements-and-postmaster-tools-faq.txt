@@ -632,6 +632,7 @@ Google Workspace Help
       □ Set up activity alerts
       □ Stop a flow
       □ Troubleshoot Studio for your users
+      □ Export Workspace Studio data
   • Additional services
   • AppSheet
       □ Manage AppSheet in your organization
@@ -662,6 +663,7 @@ Google Workspace Help
         connectors
       □ Set downloading restrictions for users with a Viewer role
       □ Manage Data Studio Pro
+          ☆ Add & set up Data Studio Pro
           ☆ Assign Data Studio Pro licenses
           ☆ Set a default Cloud project for Data Studio Pro
           ☆ Manage multiple Data Studio Pro subscriptions
@@ -897,7 +899,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-05-08 UTC.
+Last updated 2026-05-11 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -906,7 +908,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-05-08 UTC."],[],[]]
+["Last updated 2026-05-11 UTC."],[],[]]
 
   • Google Workspace Google Workspace
     Find the right plan for your business
