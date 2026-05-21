@@ -59,8 +59,10 @@ Support
   • Français
   • Indonesia
   • Italiano
+  • Nederlands
   • Polski
   • Português – Brasil
+  • Svenska
   • Tiếng Việt
   • Türkçe
   • Русский
@@ -254,7 +256,7 @@ Send feedback
 Gmail SMTP errors and codes Stay organized with collections Save and categorize
 content based on your preferences.
 
-[image-1418]
+[admin-gmai]
 
 You might see the error messages and codes on this page when send email to
 Gmail accounts.The messages and codes can help you troubleshoot and resolve
@@ -730,7 +732,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-05-15 UTC.
+Last updated 2026-05-20 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -739,7 +741,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-05-15 UTC."],[],[]]
+["Last updated 2026-05-20 UTC."],[],[]]
 
   • Google Workspace Google Workspace
     Find the right plan for your business
@@ -775,8 +777,10 @@ issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
   • Français
   • Indonesia
   • Italiano
+  • Nederlands
   • Polski
   • Português – Brasil
+  • Svenska
   • Tiếng Việt
   • Türkçe
   • Русский

@@ -109,7 +109,7 @@ Google Workspace Help
       □ Turn Classroom on or off
       □ Turn Cloud Search on or off
       □ Turn Early Access apps on or off
-      □ Turn Flow on or off
+      □ Turn Google Flow on or off
       □ Turn Forms on or off
       □ Turn Google Ad Manager on or off
       □ Turn Google Alerts on or off
@@ -899,7 +899,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-05-15 UTC.
+Last updated 2026-05-20 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -908,7 +908,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-05-15 UTC."],[],[]]
+["Last updated 2026-05-20 UTC."],[],[]]
 
   • Google Workspace Google Workspace
     Find the right plan for your business
