@@ -405,7 +405,6 @@ Google Workspace Help
           ☆ Sending limits
           ☆ Receiving limits
           ☆ Bandwidth limits
-          ☆ Sync limits
           ☆ Server request limits
           ☆ Message header limits
           ☆ Settings size limits
@@ -509,7 +508,7 @@ Google Workspace Help
       □ Large live streams (eCDN)
           ☆ Hosting large live streams
           ☆ Before you begin hosting large live streams
-          ☆ 1. Enable private IP address discovery
+          ☆ 1. Configure Chrome policies
           ☆ 2. Configure network grouping
           ☆ 3. Collect test data from a live event
           ☆ Test Meet eCDN large-scale configurations to optimize bandwidth
@@ -627,7 +626,8 @@ Google Workspace Help
   • Vault
   • Workspace Studio
       □ Set up Workspace Studio
-      □ Manage access to steps & starters
+      □ Allow or block Workspace service-specific steps
+      □ Allow or block Gemini for Google Workspace steps
       □ Allow people to share flows
       □ Set up activity alerts
       □ Stop a flow
@@ -899,7 +899,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-05-20 UTC.
+Last updated 2026-05-21 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -908,7 +908,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-05-20 UTC."],[],[]]
+["Last updated 2026-05-21 UTC."],[],[]]
 
   • Google Workspace Google Workspace
     Find the right plan for your business
