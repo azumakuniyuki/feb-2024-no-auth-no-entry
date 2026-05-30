@@ -26,10 +26,9 @@ Next
 
 Google Workspace Admin
 
-  • Contact support / fix a problem
-  • Fix a problem
-  • Gmail issues
-  • Problems with sending
+  • Gmail
+  • Gmail limits and policies
+  • Bulk email sending guidelines & tools
   • Email sender guidelines
 
 Email sender guidelines
