@@ -7,7 +7,7 @@
 SHELL := /bin/sh
 TIME  := $(shell date '+%s')
 PERL  ?= perl
-WGET  := wget -c
+WGET  := wget --max-redirect=20
 W3M   := w3m -M
 CURL  := curl -L
 TEMP  := temp
@@ -174,33 +174,33 @@ senders-smtp-error-codes: temp-dirs
 	$(MAKE) plain-text copies FN=$@ ESP=yahoo
 
 outlook-postmaster: temp-dirs
-	# Microsoft Outlook.com Postmaster: https://postmaster.live.com/pm/postmaster.aspx
-	$(WGET) -O $@.html "https://postmaster.live.com/pm/postmaster.aspx"
+	# Microsoft Outlook.com Postmaster: https://substrate.office.com/ip-domain-management-snds/postmaster
+	$(WGET) -O $@.html "https://substrate.office.com/ip-domain-management-snds/postmaster"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 fighting-junk-email: temp-dirs
-	# Microsoft Fighting Junk Email: https://postmaster.live.com/pm/junkemail.aspx
-	$(WGET) -O $@.html "https://postmaster.live.com/pm/junkemail.aspx"
+	# Microsoft Fighting Junk Email: https://substrate.office.com/ip-domain-management-snds/Postmaster/JunkEmail
+	$(WGET) -O $@.html "https://substrate.office.com/ip-domain-management-snds/Postmaster/JunkEmail"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 policies-practices-and-guidelines: temp-dirs
-	# Microsoft Policies, Practices and Guildelines: https://postmaster.live.com/pm/policies.aspx
-	$(WGET) -O $@.html "https://postmaster.live.com/pm/policies.aspx"
+	# Microsoft Policies, Practices and Guildelines: https://substrate.office.com/ip-domain-management-snds/Postmaster/Policies
+	$(WGET) -O $@.html "https://substrate.office.com/ip-domain-management-snds/Postmaster/Policies"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 services-for-senders-and-isps: temp-dirs
-	# Microsoft Services for Senders and ISPs: https://postmaster.live.com/pm/services.aspx
-	$(WGET) -O $@.html "https://postmaster.live.com/pm/services.aspx"
+	# Microsoft Services for Senders and ISPs: https://substrate.office.com/ip-domain-management-snds/Postmaster/Services
+	$(WGET) -O $@.html "https://substrate.office.com/ip-domain-management-snds/Postmaster/Services"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 troubleshooting: temp-dirs
-	# Microsoft Troubleshooting: https://postmaster.live.com/pm/troubleshooting.aspx
-	$(WGET) -O $@.html "https://postmaster.live.com/pm/troubleshooting.aspx"
+	# Microsoft Troubleshooting: https://substrate.office.com/ip-domain-management-snds/Postmaster/Troubleshooting
+	$(WGET) -O $@.html "https://substrate.office.com/ip-domain-management-snds/Postmaster/Troubleshooting"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 outlook-outbound-ip-space: temp-dirs
-	# Microsoft Outlook.com Outbound IP Space: https://postmaster.live.com/pm/ipspace.aspx
-	$(WGET) -O $@.html "https://postmaster.live.com/pm/ipspace.aspx"
+	# Microsoft Outlook.com Outbound IP Space: https://substrate.office.com/ip-domain-management-snds/Postmaster/IpSpace 
+	$(WGET) -O $@.html "https://substrate.office.com/ip-domain-management-snds/Postmaster/IpSpace"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 new-requirements-for-high-volume-senders: temp-dirs
@@ -210,8 +210,8 @@ new-requirements-for-high-volume-senders: temp-dirs
 	mv ./microsoft-new-requirements-for-high*txt ./microsoft-new-requirements-for-high-volume-senders.txt
 
 smart-network-data-service: temp-dirs
-	# Outlook.com Smart Network Data Services: https://sendersupport.olc.protection.outlook.com/snds/Index
-	$(WGET) -O $@.html "https://sendersupport.olc.protection.outlook.com/snds/Index"
+	# Outlook.com Smart Network Data Services: https://substrate.office.com/ip-domain-management-snds/snds
+	$(WGET) -O $@.html "https://substrate.office.com/ip-domain-management-snds/snds"
 	$(MAKE) plain-text copies FN=$@ ESP=microsoft
 
 icloud-postmaster: temp-dirs
