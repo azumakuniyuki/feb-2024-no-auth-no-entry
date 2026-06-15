@@ -1,6 +1,16 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-06-15
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Update all the URLs of Microsoft Outlook.com Postmaster
+  - https://substrate.office.com/ip-domain-management-snds/postmaster
+  - https://substrate.office.com/ip-domain-management-snds/Postmaster/JunkEmail
+  - https://substrate.office.com/ip-domain-management-snds/Postmaster/Policies
+  - https://substrate.office.com/ip-domain-management-snds/Postmaster/Services
+  - https://substrate.office.com/ip-domain-management-snds/Postmaster/IpSpace
+  - https://substrate.office.com/ip-domain-management-snds/snds
+
 2026-05-05
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Many updates in Smart Network Data Service.
