@@ -1,6 +1,6 @@
 Skip to main content
  
-Google Workspace Admin Help
+Gmail Help
 [                    ]
 ●
 Sign in
@@ -9,7 +9,7 @@ Google Help
 
   • Help Center
   • Community
-  • Google Workspace Admin
+  • Gmail
   • Privacy Policy
   • Terms of Service
   • Submit feedback
@@ -24,10 +24,8 @@ Next
   • Help Center
   • Community
 
-Google Workspace Admin
+Gmail
 
-  • Gmail
-  • Gmail limits and policies
   • Bulk email sending guidelines & tools
   • Feedback Loop
 
@@ -102,18 +100,11 @@ Feedback-ID: CampaignIDX:CustomerID2:MailTypeID3:SenderId
 In the above case, we would send the spam percentages for each of the 4
 Identifiers independently, if they had an unusual spam rate.
 
-Was this helpful?
-
-How can we improve it?
-YesNo
-[                    ]
-Submit
 Need more help?
 
 Try these next steps:
 
 Post to the help community Get answers from community members
-Contact us Tell us more and we’ll help you get there
 true
 
 Bulk email sending guidelines & tools
@@ -135,14 +126,9 @@ Bulk email sending guidelines & tools
   • 8 of 8
     Gmail SMTP errors and codes
 
-[exxMjxadqE]
-Start your free 14-day trial today
-
-Professional email, online storage, shared calendars, video meetings and more.
-Start your free Google Workspace trial today.
-
 ©2026 Google
 
   • Privacy Policy
   • Terms of Service
+  • Program Policies
 
