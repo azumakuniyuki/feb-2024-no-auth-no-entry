@@ -1,6 +1,6 @@
 Skip to main content
  
-Google Workspace Admin Help
+Gmail Help
 [                    ]
 ●
 Sign in
@@ -9,7 +9,7 @@ Google Help
 
   • Help Center
   • Community
-  • Google Workspace Admin
+  • Gmail
   • Privacy Policy
   • Terms of Service
   • Submit feedback
@@ -24,10 +24,8 @@ Next
   • Help Center
   • Community
 
-Google Workspace Admin
+Gmail
 
-  • Gmail
-  • Gmail limits and policies
   • Bulk email sending guidelines & tools
   • Email sender guidelines
 
