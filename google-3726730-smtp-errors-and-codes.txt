@@ -147,6 +147,7 @@ Google Workspace Help
       □ Resource calendar shows details of all its events
   • Domain & DNS
       □ Can't add new domain to Google account
+      □ Can't sign up my domain for a Google service
       □ CNAME record values
       □ Domain host disabled your account
       □ Domain registration is incomplete
@@ -732,7 +733,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-05-29 UTC.
+Last updated 2026-06-15 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -741,10 +742,10 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-05-29 UTC."],[],[]]
+["Last updated 2026-06-15 UTC."],[],[]]
 
-  • Google Workspace Google Workspace
-    Find the right plan for your business
+  • Try Google Workspace Try Google Workspace
+    Boost your productivity with AI at no cost
   • Admin Community Admin Community
     Get answers from industry peers and experts
   • Customer Care Customer Care
