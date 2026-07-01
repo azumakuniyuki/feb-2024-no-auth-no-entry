@@ -29,9 +29,6 @@ Gmail
   • Bulk email sending guidelines & tools
   • Feedback Loop
 
-This page may contain content translated using AI technology. AI translations
-may contain errors.
-
 Feedback Loop
 
 If you’re a large volume sender, you can use the Feedback Loop (FBL) to
