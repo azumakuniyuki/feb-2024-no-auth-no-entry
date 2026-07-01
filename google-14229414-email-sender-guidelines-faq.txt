@@ -29,6 +29,9 @@ Gmail
   • Bulk email sending guidelines & tools
   • Email sender guidelines FAQ
 
+This page may contain content translated using AI technology. AI translations
+may contain errors.
+
 Email sender guidelines FAQ
 
 Important: Starting February 2024, Gmail requires the following for senders who
@@ -523,7 +526,7 @@ Close search
 Google apps
 Main menu
 [                    ]
-7447320240432836415
+18070183904524913511
 true
 Search Help Center
 false
