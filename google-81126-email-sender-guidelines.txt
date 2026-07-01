@@ -29,6 +29,9 @@ Gmail
   • Bulk email sending guidelines & tools
   • Email sender guidelines
 
+This page may contain content translated using AI technology. AI translations
+may contain errors.
+
 Email sender guidelines
 
 The guidelines in this article can help you successfully send and deliver email
