@@ -29,9 +29,6 @@ Gmail
   • Import & forward emails
   • Best practices for forwarding email to Gmail
 
-This page may contain content translated using AI technology. AI translations
-may contain errors.
-
 Best practices for forwarding email to Gmail
 
 This article has recommendations for email administrators and Gmail users who
