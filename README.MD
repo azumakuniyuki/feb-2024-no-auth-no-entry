@@ -54,27 +54,27 @@ Yahoo Inc.
 
 Microsoft
 ---------------------------------------------------------------------------------------------------
-- [**Microsoft Outlook.com Postmaster**](https://postmaster.live.com/pm/postmaster.aspx)
+- [**Microsoft Outlook.com Postmaster**](https://substrate.office.com/ip-domain-management-snds/postmaster)
   - 📜 [./microsoft-outlook-postmaster.txt](./microsoft-outlook-postmaster.txt)
     - 📅 Last updated at [2025-09-22](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/36edb60ec7e629b7bfe21ab4c09d9d44b5eb5b7d)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/microsoft-outlook-postmaster.txt)
-- [**Microsoft Fighting Junk Email**](https://postmaster.live.com/pm/junkemail.aspx)
+- [**Microsoft Fighting Junk Email**](https://substrate.office.com/ip-domain-management-snds/Postmaster/JunkEmail)
   - ⏰ No significant changes since the file was uploaded
   - 📜 [./microsoft-fighting-junk-email.txt](./microsoft-fighting-junk-email.txt)
     - 📅 Last updated at [2025-12-03](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/0c574bf798f1f618deff3e854db136c8de851a8c)
-- [**Microsoft Policies, Practices and Guildelines**](https://postmaster.live.com/pm/policies.aspx)
+- [**Microsoft Policies, Practices and Guildelines**](https://substrate.office.com/ip-domain-management-snds/Postmaster/Policies)
   - 📜 [./microsoft-policies-practices-and-guidelines.txt](./microsoft-policies-practices-and-guidelines.txt)
     - 📅 Last updated at [2025-09-22](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/36edb60ec7e629b7bfe21ab4c09d9d44b5eb5b7d)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/microsoft-policies-practices-and-guidelines.txt)
-- [**Microsoft Services for Senders and ISPs**](https://postmaster.live.com/pm/services.aspx)
+- [**Microsoft Services for Senders and ISPs**](https://substrate.office.com/ip-domain-management-snds/Postmaster/Services)
   - ⏰ No significant changes since the file was uploaded
   - 📜 [./microsoft-services-for-senders-and-isps.txt](./microsoft-services-for-senders-and-isps.txt)
-    - 📅 Last updated at [2025-12-03](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/dcce20f86e2e91483ccb61845ef8d228f9ddfe20)
-- [**Microsoft Troubleshooting**](https://postmaster.live.com/pm/troubleshooting.aspx)
+    - 📅 Last updated at [2026-07-06](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/1570c6234113cae4a5277ad97836046fc0cbadb9)
+- [**Microsoft Troubleshooting**](https://substrate.office.com/ip-domain-management-snds/Postmaster/Troubleshooting)
   - 📜 [./microsoft-troubleshooting.txt](./microsoft-troubleshooting.txt)
     - 📅 Last updated at [2025-09-22](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/36edb60ec7e629b7bfe21ab4c09d9d44b5eb5b7d)
     - ⏰ [Commit history](https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commits/master/microsoft-troubleshooting.txt)
-- [**Microsoft Outlook.com Outbound IP Space**](https://postmaster.live.com/pm/ipspace.aspx)
+- [**Microsoft Outlook.com Outbound IP Space**](https://substrate.office.com/ip-domain-management-snds/Postmaster/IpSpace)
   - ⏰ No significant changes since the file was uploaded
   - 📜 [./microsoft-outlook-outbound-ip-space.txt](./microsoft-outlook-outbound-ip-space.txt)
 - [**Strengthening Email Ecosystem: Outlook’s New Requirements for High‐Volume Senders**](https://techcommunity.microsoft.com/blog/MicrosoftDefenderforOffice365Blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730)
