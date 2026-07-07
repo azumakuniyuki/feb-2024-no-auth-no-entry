@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-07-06
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Trap hit counts will no longer be included in the Data Report starting July 22.
+  - https://substrate.office.com/ip-domain-management-snds/snds
+
 2026-06-15
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Update all the URLs of Microsoft Outlook.com Postmaster
