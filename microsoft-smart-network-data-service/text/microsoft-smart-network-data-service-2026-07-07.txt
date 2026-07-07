@@ -1,0 +1,76 @@
+Outlook logo |
+
+Smart Network Data Service
+
+Log in
+Smart Network Data Service
+View Data View IP Status Request Access Access Control Edit Profile FAQ Junk
+Mail Reporting Program
+
+Welcome
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Outlook.com Smart Network Data Services
+
+
+Deliverability to Outlook.com is based on your reputation. The Outlook.com
+Smart Network Data Services (SNDS) gives you the data you need to understand
+and improve your reputation at Outlook.com. But just looking at the data isn't
+enough! Maintaining a good reputation is a lot of work. You should use this
+data to keep your mailing lists clean and to monitor the IPs you control for
+unusual behavior. Reputation is always the responsibility of the sender. SNDS
+gives senders access to detailed data about individual IPs, and it also
+includes our Junk Email Reporting Program, which lets you receive reports when
+users junk your messages. Now you can view IP data and manage feedback loop
+settings from one convenient website.
+
+
+Announcements
+
+Last updated: July 6, 2026
+
+
+  • Welcome to the new SNDS portal. This site is replacing the previous site at
+    https://sendersupport.olc.protection.outlook.com/snds/
+  • Automated access URLs beginning with https://
+    sendersupport.olc.protection.outlook.com/snds/ are to be deprecated by June
+    22nd 2026. Please update your URLs. You can verify your new link at
+    Automated Data Access.
+  • Some users may receive an error when creating a new automated link: 'There
+    was a problem saving your changes. Please try again.' To resolve this, go
+    to the Edit Profile page, make a change, and save. You should then be able
+    to create the link. We are working on a permanent fix.
+  • Trap hit counts will no longer be included in the Data Report starting July
+    22, 2026. This change is part of our ongoing efforts to protect the
+    integrity and effectiveness of our anti-abuse systems. During the
+    transition period, reported trap hit count values may differ from previous
+    reports and should not be interpreted as exact values.
+
+Getting started
+
+
+To access SNDS, please log in with a Microsoft Account and then request access
+to the IPs for which you are responsible. You'll be taken through a simple
+authorization process, and then you'll soon have access to a wealth of
+information about those IPs.
+
+
+Help! I have a problem sending mail to Outlook.com
+
+
+Building & maintaining good reputation is a long-term proposition. The data on
+this site can help you do that, but if you have an urgent deliverability issue
+please have the person most familiar with the issue and your email
+infrastructure contact sender support.
+
+
+Other Benefits
+
+
+SNDS is useful for far more than just monitoring email reputation. It can help
+IP owners to detect compromised servers, malware, viruses, and botnets. We help
+network administrators detect these problems so that they can clean them up and
+make the internet a safer place.
+
+© 2025 | Privacy Statement | Microsoft Services Agreement
