@@ -28,7 +28,7 @@ settings from one convenient website.
 
 Announcements
 
-Last updated: June 19, 2026
+Last updated: July 6, 2026
 
 
   • Welcome to the new SNDS portal. This site is replacing the previous site at
@@ -41,6 +41,11 @@ Last updated: June 19, 2026
     was a problem saving your changes. Please try again.' To resolve this, go
     to the Edit Profile page, make a change, and save. You should then be able
     to create the link. We are working on a permanent fix.
+  • Trap hit counts will no longer be included in the Data Report starting July
+    22, 2026. This change is part of our ongoing efforts to protect the
+    integrity and effectiveness of our anti-abuse systems. During the
+    transition period, reported trap hit count values may differ from previous
+    reports and should not be interpreted as exact values.
 
 Getting started
 
