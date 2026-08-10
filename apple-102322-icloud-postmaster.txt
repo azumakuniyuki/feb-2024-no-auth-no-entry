@@ -1,3 +1,4 @@
+*
 
   • Apple
   • 
@@ -14,7 +15,7 @@
       □ Support
   •  
     [                    ]
-  •  0+
+  • 0+
 
 Postmaster information for iCloud Mail
 
