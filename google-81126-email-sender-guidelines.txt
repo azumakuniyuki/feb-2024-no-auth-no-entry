@@ -347,9 +347,9 @@ Avoid misleading or deceptive display names by following these guidelines:
   • The display name should clearly identify the sender and shouldn't include
     emojis or other non-standard characters to imitate graphic elements. For
     example, don’t use display names like these:
-      □ [v] LATEST UPDATE
-      □ MAIL, ME [2]
-      □ [z]
+      □ [M] LATEST UPDATE
+      □ MAIL, ME [Z]
+      □ [i]
       □ [1] New Message
 
 Spoofing and display names
