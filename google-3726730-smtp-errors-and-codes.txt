@@ -107,8 +107,6 @@ Google Workspace Help
   • File & review support cases
   • Find your phone support PIN
   • Developer support
-  • About the Google Cloud Support Portal
-  • Give Google Workspace users access to the Google Cloud Support Portal
   • Privacy best practices when working with Google Cloud Support
   • Training & feedback
   • Submit ideas for Google Workspace
