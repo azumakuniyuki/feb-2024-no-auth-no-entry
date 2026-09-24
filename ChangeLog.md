@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-09-23
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Announcements on July 6 have been removed.
+  - https://substrate.office.com/ip-domain-management-snds/snds
+  - https://github.com/azumakuniyuki/feb-2024-no-auth-no-entry/commit/1570c6234113cae4a5277ad97836046fc0cbadb9
+
 2026-07-06
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Trap hit counts will no longer be included in the Data Report starting July 22.
