@@ -1,0 +1,70 @@
+Outlook logo |
+
+Smart Network Data Service
+
+Log in
+Smart Network Data Service
+View Data View IP Status Request Access Access Control Edit Profile FAQ Junk
+Mail Reporting Program
+
+Welcome
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Outlook.com Smart Network Data Services
+
+
+Deliverability to Outlook.com is based on your reputation. The Outlook.com
+Smart Network Data Services (SNDS) gives you the data you need to understand
+and improve your reputation at Outlook.com. But just looking at the data isn't
+enough! Maintaining a good reputation is a lot of work. You should use this
+data to keep your mailing lists clean and to monitor the IPs you control for
+unusual behavior. Reputation is always the responsibility of the sender. SNDS
+gives senders access to detailed data about individual IPs, and it also
+includes our Junk Email Reporting Program, which lets you receive reports when
+users junk your messages. Now you can view IP data and manage feedback loop
+settings from one convenient website.
+
+
+Announcements
+
+Last updated: September 22, 2026
+
+
+  • Welcome to the new SNDS portal. This site is replacing the previous site at
+    https://sendersupport.olc.protection.outlook.com/snds/
+  • We're aware that the 'Deadline date' shown in the first network
+    reattestation reminder email is inaccurate. This is the first of three
+    reminders, sent approximately three months after networks were migrated to
+    the new site. As previously announced, network access expires 10 months
+    after approval or migration, a security measure introduced to prevent
+    indefinite access without periodic ownership reattestation. We're working
+    to correct the date shown in future emails and apologize for any confusion.
+
+Getting started
+
+
+To access SNDS, please log in with a Microsoft Account and then request access
+to the IPs for which you are responsible. You'll be taken through a simple
+authorization process, and then you'll soon have access to a wealth of
+information about those IPs.
+
+
+Help! I have a problem sending mail to Outlook.com
+
+
+Building & maintaining good reputation is a long-term proposition. The data on
+this site can help you do that, but if you have an urgent deliverability issue
+please have the person most familiar with the issue and your email
+infrastructure contact sender support.
+
+
+Other Benefits
+
+
+SNDS is useful for far more than just monitoring email reputation. It can help
+IP owners to detect compromised servers, malware, viruses, and botnets. We help
+network administrators detect these problems so that they can clean them up and
+make the internet a safer place.
+
+© 2025 | Privacy Statement | Microsoft Services Agreement
