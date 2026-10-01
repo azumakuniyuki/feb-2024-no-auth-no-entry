@@ -105,7 +105,6 @@ Google Workspace Help
   • Support overview
   • Before you contact support
   • Contact Google Workspace support
-  • File & review support cases
   • Find your phone support PIN
   • Developer support
   • Privacy best practices when working with Google Cloud Support
@@ -739,7 +738,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-09-18 UTC.
+Last updated 2026-09-30 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -748,7 +747,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-09-18 UTC."],[],[]]
+["Last updated 2026-09-30 UTC."],[],[]]
 
   • Try Google Workspace Try Google Workspace
     Boost your productivity with AI at no cost
