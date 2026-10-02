@@ -27,6 +27,7 @@ updates:
 	$(MAKE) check-yahoo
 	$(MAKE) check-apple
 	$(MAKE) check-microsoft
+	$(MAKE) check-cloudflare
 
 check-google:
 	$(MAKE) 3726730		# Google: Gmail SMTP errors and codes
@@ -53,6 +54,9 @@ check-microsoft:
 
 check-apple:
 	$(MAKE) 102322;		# Apple: Postmaster information for iCloud Mail 
+
+check-cloudflare:
+	$(MAKE) cloudflare-postmaster	# Postmaster · Cloudflare Email Service docs
 
 temp-dirs:
 	test -d ./$(TEMP)      || $(MKDIR) ./$(TEMP)
@@ -228,6 +232,13 @@ icloud-postmaster: temp-dirs
 	$(MV) ./$@.txt  $(TEMP)/text/apple-$@-$<-`date '+%F'`.txt
 	$(MV) ./$@.html $(TEMP)/html/apple-$@-$<-`date '+%F'`.html
 	$(RM) $<
+
+cloudflare-postmaster: temp-dirs
+	# Postmaster · Cloudflare Email Service docs - https://developers.cloudflare.com/email-service/reference/postmaster/
+	$(WGET) "https://developers.cloudflare.com/email-service/reference/postmaster/index.md"
+	test -d ./$@/text || $(MKDIR) ./$@/text
+	$(CP) ./index.md ./$@.md
+	$(MV) ./index.md $(TEMP)/text/$@-`date '+%F'`.md
 
 # -------------------------------------------------------------------------------------------------
 plain-text:
