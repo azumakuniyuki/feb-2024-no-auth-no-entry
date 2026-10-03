@@ -1,6 +1,11 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-10-03
+---------------------------------------------------------------------------------------------------
+- (Cloudflare) Track changes in Cloudflare Postmaster page
+  - https://developers.cloudflare.com/email-service/reference/postmaster/
+
 2026-09-23
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Announcements on July 6 have been removed.
