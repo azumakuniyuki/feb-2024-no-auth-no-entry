@@ -1,6 +1,13 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-10-15
+---------------------------------------------------------------------------------------------------
+- (Google) The following SMTP error codes updated.
+  - `454 4.7.0` "Too many sign-in attempts" and "Cannot sign in due to a temporary system problem".
+  - `554 5.4.6` "Message exceeded 50 hops".
+  - Gmail SMTP Errors and Codes: https://support.google.com/a/answer/3726730
+
 2026-10-03
 ---------------------------------------------------------------------------------------------------
 - (Cloudflare) Track changes in Cloudflare Postmaster page
