@@ -120,27 +120,6 @@ Google Workspace Help
       □ Restore a user's permanently deleted email
       □ Troubleshoot login challenges, 2-Step Verification, & sign-in issues
       □ Troubleshoot single sign-on (SSO)
-  • Billing & payments
-      □ Bank information not accepted
-      □ Billing error messages
-      □ Can't pay by credit card (don't have one)
-      □ Can't pay in available currencies
-      □ Contacted by collections agency
-      □ Country not listed for business address
-      □ Didn't complete billing setup
-      □ Estimated payment more than I expected
-      □ Fix payment and billing issues
-      □ I don't recognize a Google charge
-      □ I got charged for too many users
-      □ Indian debit or credit card not accepted
-      □ No option to enter VAT ID or tax status
-      □ Restore a suspended Annual Plan contract
-      □ Selected wrong billing country
-      □ Selected wrong billing currency
-      □ Selected wrong billing plan
-      □ Selected wrong value-added tax
-      □ Test deposit failed
-      □ Troubleshoot problems after making a payment
   • Calendar
       □ Deleted, then recreated users don't receive event notifications
       □ Google Calendar resources rejecting my invitations
@@ -329,10 +308,10 @@ Code   Code
 421   4.7.0  IP. To protect our users from spam, email sent from your IP
              address has been temporarily rate limited. For more information,
              go to Email sender guidelines.
-454   4.7.0  Too many login attempts, please try again later. For more
-             information, go to Add Gmail to another email client.
-454   4.7.0  Cannot authenticate due to a temporary system problem. Try again
-             later. For more information, go to About SMTP error messages.
+454   4.7.0  Too many sign-in attempts, try again later. For details, go to
+             SMTP relay service error messages.
+454   4.7.0  Cannot sign in due to a temporary system problem. Try again later.
+             For details, go to SMTP relay service error messages.
 421   4.7.0  TLS required for RCPT domain, closing connection. For more
              information, go to Email encryption in transit.
              This message is suspicious due to the very low reputation of the
@@ -512,7 +491,8 @@ Code   Code
              Daily SMTP relay limit exceeded for user. For more information on
 550   5.4.5  SMTP relay sending limits, contact your administrator or go to
              SMTP relay service error messages.
-554   5.4.6  Message exceeded 50 hops, this may indicate an email loop.
+554   5.4.6  Message exceeded 50 hops, this may show a mail loop. For details,
+             go to SMTP relay service error messages.
 503   5.5.1  Bad sequence of commands. For more information, go to About SMTP
              error messages and review RFC 5321 specifications.
 502   5.5.1  Unimplemented command. For more information, go to About SMTP
@@ -738,7 +718,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-10-01 UTC.
+Last updated 2026-10-13 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -747,7 +727,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-10-01 UTC."],[],[]]
+["Last updated 2026-10-13 UTC."],[],[]]
 
   • Try Google Workspace Try Google Workspace
     Boost your productivity with AI at no cost
