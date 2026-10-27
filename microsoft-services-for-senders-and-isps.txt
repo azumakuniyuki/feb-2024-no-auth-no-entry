@@ -53,13 +53,12 @@ Certification        □ Email Sender and Domain Reputation
 
                  • A free service to provide reports on junk email issues
                    reported by Outlook.com users
-                 • Returns the full message with headers of any email marked as
-                   "junk" or "phishing"
+                 • Returns select message headers for emails marked as "junk".
                  • Provides senders an opportunity to clean their email lists
-Junk Email         and improve the quality of their content
-Reporting        • Helps identify potential problems with your marketing
-Program            practices and content
-                 • Helps improve sender reputation by removing unwanted
+                   and improve the quality of their content
+Junk Email       • Helps identify potential problems with your marketing
+Reporting          practices and content
+Program          • Helps improve sender reputation by removing unwanted
                    subscribers from lists
                  • Enroll at Junk Mail Reporting Program (JMRP) in SNDS and
                    typically start receiving feedback within as little as 72
@@ -101,11 +100,10 @@ Postmaster        requirements
 
                 • A free service to provide reports on junk email issues
                   reported by Outlook.com users
-                • Returns the full message with headers of any email marked as
-Junk Email        "junk" or "phishing"
-Reporting       • Helps identify customer accounts or PCs that are being used
-Program           to send junk email
-                • Enroll at Junk Mail Reporting Program (JMRP) in SNDS and
+                • Returns select message headers for emails marked as "junk".
+Junk Email      • Helps identify customer accounts or PCs that are being used
+Reporting         to send junk email
+Program         • Enroll at Junk Mail Reporting Program (JMRP) in SNDS and
                   typically start receiving feedback within as little as 72
                   hours
 
