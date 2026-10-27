@@ -1,6 +1,15 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-10-26
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Update JMRP description for Microsoft sender services.
+    - Microsoft Services for Senders and ISPs
+    - https://substrate.office.com/ip-domain-management-snds/Postmaster/Services
+    - Clarify that JMRP now returns select message headers instead of full messages.
+    - Remove reference to phishing report returns
+    - Adjust text alignment and layout for readability
+
 2026-10-15
 ---------------------------------------------------------------------------------------------------
 - (Google) The following SMTP error codes updated.
