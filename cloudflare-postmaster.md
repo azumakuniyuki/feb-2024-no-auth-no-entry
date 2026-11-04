@@ -12,7 +12,7 @@ image: https://developers.cloudflare.com/email-service/reference/postmaster/og.p
 
 # Postmaster
 
-Last updated Jun 9, 2026|Copy as Markdown| [View as Markdown](https://developers.cloudflare.com/email-service/reference/postmaster/index.md)| [Agent setup](https://developers.cloudflare.com/agent-setup/)
+Last updated Oct 30, 2026|Copy as Markdown| [View as Markdown](https://developers.cloudflare.com/email-service/reference/postmaster/index.md)| [Agent setup](https://developers.cloudflare.com/agent-setup/)
 
 This page provides technical information about Email Service to professionals who administer email systems, and other email providers.
 
@@ -56,9 +56,11 @@ dig TXT cf2024-1._domainkey.email.cloudflare.net +short
 
 ### DMARC enforcing
 
-Email Service supports Domain-based Message Authentication, Reporting & Conformance (DMARC). When sending emails, Email Service ensures proper SPF and DKIM alignment to pass DMARC authentication. For Email Routing, incoming emails are rejected if they fail authentication according to the sender's DMARC policy. Refer to [dmarc.org ↗︎](https://dmarc.org/) for more information on this protocol.
+Email Service supports Domain-based Message Authentication, Reporting & Conformance (DMARC). When sending emails, Email Service ensures proper SPF and DKIM alignment to pass DMARC authentication. Email Routing honors the DMARC and SPF policies published by the claimed sender's domain. Incoming emails are rejected if they fail authentication according to that domain's DMARC policy. Refer to [dmarc.org ↗︎](https://dmarc.org/) for more information on this protocol.
 
 It is recommended that all domains implement the DMARC protocol for optimal email deliverability.
+
+For emails routed to Workers, refer to [Authentication results](https://developers.cloudflare.com/email-service/api/route-emails/email-handler/#authentication-results) to access the DMARC result in your Worker.
 
 ### Mail authentication requirement
 
@@ -228,5 +230,5 @@ YesNo
 [![](https://developers.cloudflare.com/_astro/logo.te5VL_aD.svg)Docs](https://developers.cloudflare.com/)
 
 ```json
-{"@context":"https://schema.org","@type":"TechArticle","@id":"https://developers.cloudflare.com/email-service/reference/postmaster/#page","headline":"Postmaster","description":"Reference page with postmaster information for professionals, as well as configuration details for Email Service.","url":"https://developers.cloudflare.com/email-service/reference/postmaster/","inLanguage":"en","image":"https://developers.cloudflare.com/email-service/reference/postmaster/og.png?v=5588004a72f7016d","dateModified":"2026-06-09","publisher":{"@type":"Organization","name":"Cloudflare","description":"One platform for your apps, agents, and workforce. Build, secure, and scale without managing infrastructure","url":"https://www.cloudflare.com/","sameAs":["https://github.com/cloudflare","https://www.linkedin.com/company/cloudflare","https://x.com/cloudflare"],"logo":{"@type":"ImageObject","url":"https://developers.cloudflare.com/logo.svg"},"address":{"@type":"PostalAddress","streetAddress":"101 Townsend St","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94107","addressCountry":"US"},"contactPoint":[{"@type":"ContactPoint","contactType":"Customer Support","url":"https://support.cloudflare.com/","availableLanguage":["English"]},{"@type":"ContactPoint","contactType":"Sales","url":"https://www.cloudflare.com/contact/","availableLanguage":["English"]}]},"isPartOf":{"@type":"WebSite","@id":"https://developers.cloudflare.com/#website","name":"Cloudflare Docs","url":"https://developers.cloudflare.com/"}}
+{"@context":"https://schema.org","@type":"TechArticle","@id":"https://developers.cloudflare.com/email-service/reference/postmaster/#page","headline":"Postmaster","description":"Reference page with postmaster information for professionals, as well as configuration details for Email Service.","url":"https://developers.cloudflare.com/email-service/reference/postmaster/","inLanguage":"en","image":"https://developers.cloudflare.com/email-service/reference/postmaster/og.png?v=5588004a72f7016d","dateModified":"2026-10-30","publisher":{"@type":"Organization","name":"Cloudflare","description":"One platform for your apps, agents, and workforce. Build, secure, and scale without managing infrastructure","url":"https://www.cloudflare.com/","sameAs":["https://github.com/cloudflare","https://www.linkedin.com/company/cloudflare","https://x.com/cloudflare"],"logo":{"@type":"ImageObject","url":"https://developers.cloudflare.com/logo.svg"},"address":{"@type":"PostalAddress","streetAddress":"101 Townsend St","addressLocality":"San Francisco","addressRegion":"CA","postalCode":"94107","addressCountry":"US"},"contactPoint":[{"@type":"ContactPoint","contactType":"Customer Support","url":"https://support.cloudflare.com/","availableLanguage":["English"]},{"@type":"ContactPoint","contactType":"Sales","url":"https://www.cloudflare.com/contact/","availableLanguage":["English"]}]},"isPartOf":{"@type":"WebSite","@id":"https://developers.cloudflare.com/#website","name":"Cloudflare Docs","url":"https://developers.cloudflare.com/"}}
 ```
