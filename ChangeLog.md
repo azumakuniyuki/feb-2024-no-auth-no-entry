@@ -1,6 +1,12 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-10-31
+---------------------------------------------------------------------------------------------------
+- (Cloudflare) Clarify DMARC/SPF policy enforcement and Workers auth results.
+  - https://developers.cloudflare.com/email-service/reference/postmaster/
+  - DMARC/SPF evaluation and Workers context.
+
 2026-10-26
 ---------------------------------------------------------------------------------------------------
 - (Microsoft) Update JMRP description for Microsoft sender services.
