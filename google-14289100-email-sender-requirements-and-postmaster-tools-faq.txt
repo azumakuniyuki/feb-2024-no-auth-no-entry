@@ -120,15 +120,17 @@ true
 
 Monitor outgoing email with Postmaster Tools
 
-  • 1 of 5
+  • 1 of 6
     Learn about the deprecation of the old Postmaster Tools interface
-  • 2 of 5
+  • 2 of 6
     Set up Postmaster Tools
-  • 3 of 5
+  • 3 of 6
+    Remove someone from your domain in Postmaster Tools
+  • 4 of 6
     Postmaster Tools dashboards
-  • 4 of 5
+  • 5 of 6
     Sender requirements & Postmaster Tools FAQ
-  • 5 of 5
+  • 6 of 6
     Report delivery issues in Postmaster Tools
 
 ©2026 Google

@@ -67,14 +67,10 @@ Support
   • Polski
   • Português – Brasil
   • Svenska
-  • Tiếng Việt
   • Türkçe
   • Русский
   • עברית
   • العربيّة
-  • فارسی
-  • हिंदी
-  • বাংলা
   • ภาษาไทย
   • 中文 – 简体
   • 中文 – 繁體
@@ -718,7 +714,7 @@ Creative Commons Attribution 4.0 License, and code samples are licensed under
 the Apache 2.0 License. For details, see the Google Developers Site Policies.
 Java is a registered trademark of Oracle and/or its affiliates.
 
-Last updated 2026-10-13 UTC.
+Last updated 2026-10-26 UTC.
 
 Need to tell us more? [[["Easy to understand","easyToUnderstand","thumb-up"],
 ["Solved my problem","solvedMyProblem","thumb-up"],
@@ -727,7 +723,7 @@ need","missingTheInformationINeed","thumb-down"],["Too complicated / too many
 steps","tooComplicatedTooManySteps","thumb-down"],["Out of
 date","outOfDate","thumb-down"],["Samples / code
 issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
-["Last updated 2026-10-13 UTC."],[],[]]
+["Last updated 2026-10-26 UTC."],[],[]]
 
   • Try Google Workspace Try Google Workspace
     Boost your productivity with AI at no cost
@@ -767,14 +763,10 @@ issue","samplesCodeIssue","thumb-down"],["Other","otherDown","thumb-down"]],
   • Polski
   • Português – Brasil
   • Svenska
-  • Tiếng Việt
   • Türkçe
   • Русский
   • עברית
   • العربيّة
-  • فارسی
-  • हिंदी
-  • বাংলা
   • ภาษาไทย
   • 中文 – 简体
   • 中文 – 繁體
