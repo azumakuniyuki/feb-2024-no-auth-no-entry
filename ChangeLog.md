@@ -1,6 +1,13 @@
 Changes for FEB-2024-NO-AUTH-NO-ENTRY.GIT
 ===================================================================================================
 
+2026-11-15
+---------------------------------------------------------------------------------------------------
+- (Microsoft) Clarify that earlier access-expiration notices in reattestation reminder emails can
+  be disregarded.
+  - Outlook.com Smart Network Data Services
+  - https://substrate.office.com/ip-domain-management-snds/snds
+
 2026-10-31
 ---------------------------------------------------------------------------------------------------
 - (Cloudflare) Clarify DMARC/SPF policy enforcement and Workers auth results.
