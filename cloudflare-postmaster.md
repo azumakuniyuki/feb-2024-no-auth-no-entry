@@ -12,8 +12,6 @@ image: https://developers.cloudflare.com/email-service/reference/postmaster/og.p
 
 # Postmaster
 
-Last updated Oct 30, 2026|Copy as Markdown| [View as Markdown](https://developers.cloudflare.com/email-service/reference/postmaster/index.md)| [Agent setup](https://developers.cloudflare.com/agent-setup/)
-
 This page provides technical information about Email Service to professionals who administer email systems, and other email providers.
 
 Here you will find information regarding Email Service, along with best practices, rules, guidelines, troubleshooting tools, as well as configuration details for Email Service.
