@@ -1,4 +1,7 @@
 ---
+agent:
+  instructions: "This site offers a search API that returns relevant content across the entire site. Use the search endpoint to find information instead of crawling individual pages."
+  search: "https://developers.cloudflare.com/.well-known/search?q={query}"
 description: Reference page with postmaster information for professionals, as well as configuration details for Email Service.
 title: Postmaster
 image: https://developers.cloudflare.com/email-service/reference/postmaster/og.png?v=5588004a72f7016d
